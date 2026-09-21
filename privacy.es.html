@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de privacidad — Your Zoo</title>
+<meta name="description" content="Your Zoo no recopila datos personales. La ubicación, la brújula y la tarjeta se procesan solo en el dispositivo.">
+<meta name="color-scheme" content="light dark">
+<meta name="robots" content="index, follow">
+<link rel="stylesheet" href="style.css">
+<link rel="alternate" hreflang="de" href="privacy.html">
+<link rel="alternate" hreflang="en" href="privacy.en.html">
+<link rel="alternate" hreflang="es" href="privacy.es.html">
+</head>
+<body>
+<a class="skip" href="#main">Saltar al contenido</a>
+<header class="site">
+  <a class="brand" href="index.es.html"><span class="mark" aria-hidden="true"></span>Your Zoo</a>
+  <nav class="langs" aria-label="Idioma"><a href="privacy.html" lang="de" hreflang="de">Deutsch</a><a href="privacy.en.html" lang="en" hreflang="en">English</a><a href="privacy.es.html" lang="es" hreflang="es" class="current" aria-current="true">Español</a></nav>
+</header>
+<nav class="tabs" aria-label="Páginas"><a href="index.es.html">Inicio</a><a href="privacy.es.html" class="current" aria-current="page">Privacidad</a><a href="support.es.html">Ayuda</a><a href="attribution.es.html">Créditos</a></nav>
+<main id="main">
+
+<h1>Política de privacidad</h1>
+<p class="meta">Your Zoo para iOS, versión 0.1.0 · En vigor desde el 21 de septiembre de 2026</p>
+
+<h2 id="kurz">En pocas palabras</h2>
+<ul>
+  <li>No hay cuenta, ni registro, ni identificador de usuario.</li>
+  <li>Sin analítica, sin informes de fallos, sin publicidad, sin rastreo, sin SDK de terceros.</li>
+  <li>Tu ubicación y la dirección de la brújula se procesan solo en el dispositivo y nunca se transmiten.</li>
+  <li>El acceso a la cámara y a las fotos existe para una sola cosa: leer tu propia tarjeta de socio. La tarjeta
+  permanece cifrada en el dispositivo y se borra en cuanto tú la borras.</li>
+  <li>La app hace peticiones de red únicamente para actualizar el paquete de contenidos del zoo — y el mapa base
+  de Apple en la pantalla del mapa carga datos cartográficos de Apple. Véase
+  <a href="#netz">Qué sale del dispositivo</a>.</li>
+  <li>El desarrollador no opera ningún servidor donde pudieran estar datos sobre ti.</li>
+</ul>
+
+<h2 id="verantwortlicher">Responsable del tratamiento</h2>
+<p>El responsable conforme al Reglamento General de Protección de Datos (RGPD) es el desarrollador de la app
+Your Zoo.</p>
+<p class="todo"><span class="todo-tag">TODO</span> Completar el nombre o razón social, la dirección postal y el correo de contacto del responsable. Apple exige ambos datos en App Store Connect y en esta página.</p>
+<p>Nombre: <span class="todo-inline">TODO: nombre / empresa</span><br>
+Dirección: <span class="todo-inline">TODO: calle, código postal, ciudad, país</span><br>
+Correo: <span class="todo-inline">TODO: direccion-contacto@dominio.tld</span></p>
+<p>No hay delegado de protección de datos; la app no trata datos personales de un modo que lo requiera.</p>
+
+<h2 id="standort">Ubicación, brújula y movimiento</h2>
+<p>La audioguía necesita saber ante qué recinto estás. Por eso la app pide el permiso de ubicación («Mientras se
+usa la app») en el primer inicio. Si lo rechazas, la app sigue funcionando: solo contará lo que tú toques en el
+mapa o en la lista.</p>
+<p>Se procesan, como mucho dos veces por segundo:</p>
+<ul>
+  <li>la coordenada y su precisión,</li>
+  <li>la dirección de la brújula y su precisión,</li>
+  <li>el rumbo y la velocidad de la localización,</li>
+  <li>la marca de tiempo.</li>
+</ul>
+<p>Estos valores se comparan <strong>solo en memoria</strong> con la geometría de los recintos incluida en la
+app. No se guardan, no se registran y no se transmiten, con la única excepción de las grabaciones voluntarias
+descritas más abajo. La app nunca busca una dirección para tu posición ni consulta ningún servicio de
+geocodificación.</p>
+<p>Mientras suena el audio, la app mantiene la localización activa con la pantalla apagada para que la historia
+continúe con el teléfono en el bolsillo; iOS muestra entonces su indicador azul de ubicación. Tras 90 segundos
+sin moverte, la app baja la precisión y apaga la brújula para ahorrar batería. En dispositivos con coprocesador
+de movimiento utiliza la clasificación de movimiento de iOS («andar, correr, ir en bici») para una sola cosa:
+salir de ese modo de ahorro cuando reanudas la marcha. Los datos de movimiento no se guardan.</p>
+
+<h2 id="karte">Tu tarjeta de socio</h2>
+<p>En la sección «Tu zoo» puedes fotografiar una sola vez tu tarjeta física del zoo o elegir una foto existente
+de tu fototeca. El acceso a la cámara y a las fotos no se usa para nada más.</p>
+<p>La imagen se analiza íntegramente en el dispositivo (Apple Vision, sin conexión de red). Se leen el código QR,
+el tipo de tarjeta, el tratamiento y el nombre, el número de tarjeta y el inicio y fin de validez. Antes de
+guardar ves todos los campos reconocidos y puedes corregirlos.</p>
+<p>Lo que se guarda después en el contenedor privado de la app: esos campos como un archivo pequeño y, si se
+detectó, un recorte de la foto del retrato. Ambos se escriben con la protección de archivos de iOS en el nivel
+«completo» (<code>FileProtectionType.complete</code>): están cifrados y solo son legibles mientras el dispositivo
+está desbloqueado. La foto original de la tarjeta no se conserva, y la app no añade ninguna foto a tu fototeca.</p>
+<p>Los datos de la tarjeta no salen del dispositivo. No se envían a nadie, tampoco al zoo. En el torno muestras
+el código QR en la pantalla; el lector del zoo lo lee igual que en la tarjeta de plástico.</p>
+<p>«Borrar tarjeta» elimina de inmediato el archivo y el retrato del dispositivo. Al desinstalar la app también
+desaparecen. Como cualquier archivo del contenedor de la app, se incluyen en la copia de seguridad de iCloud o
+del ordenador si tienes las copias activadas; esa copia está en Apple o en tu ordenador, no en manos del
+desarrollador.</p>
+
+<h2 id="traces">Grabaciones de referencia (voluntarias)</h2>
+<p>En los ajustes existe una función que graba las localizaciones para mejorar el reconocimiento. Está desactivada
+por defecto y solo se inicia si la activas expresamente.</p>
+<ul>
+  <li>Se graba una línea por localización con coordenada, precisión, brújula, velocidad, marca de tiempo y el
+  recinto que has marcado como correcto.</li>
+  <li>Las grabaciones son archivos de texto en el contenedor privado de la app.</li>
+  <li>Nunca se transmiten automáticamente. Un archivo solo sale del dispositivo si tú mismo lo compartes con
+  «Compartir», y entonces va a donde tú lo envíes.</li>
+  <li>Cada grabación puede borrarse por separado en los ajustes.</li>
+</ul>
+<p>Una grabación contiene tu recorrido por el zoo y es, por tanto, un dato personal. Activa la función solo si
+así lo quieres y borra los archivos cuando ya no los necesites.</p>
+
+<h2 id="einstellungen">Ajustes y progreso en el dispositivo</h2>
+<p>La app recuerda localmente (en sus propias preferencias, sin identificador y sin sincronización con iCloud):
+el idioma elegido, la velocidad de reproducción, la fuente de ubicación, qué recintos has marcado como
+favoritos, cuál de los cinco datos de cada especie tocó en último lugar, si el modo sin conexión está forzado,
+la dirección del servidor de actualizaciones y la hora de la última comprobación. Nada de esto te identifica y
+nada de esto se envía.</p>
+
+<h2 id="netz">Qué sale del dispositivo</h2>
+<p>La app contiene exactamente un cliente de red propio y, además, utiliza el componente de mapas de Apple. Estos
+son todos los casos:</p>
+
+<h3>1. Actualizaciones de contenido del paquete del zoo</h3>
+<p>Como mucho una vez por hora — y siempre que pulses «Buscar actualizaciones» en los ajustes — la app consulta
+un almacén de archivos, por defecto <code>raw.githubusercontent.com/andreseloysv/zoo</code>. Descarga el índice
+de zoos, el archivo de manifiesto y, solo si hay una versión más reciente, los archivos de contenido
+modificados.</p>
+<p><strong>No se envía nada salvo la propia petición:</strong> la dirección del archivo solicitado y una marca de
+la versión de la app (<code>User-Agent: Your Zoo/0.1.0</code>). No se incluyen identificadores,
+ni cookies (la conexión usa una sesión efímera sin almacenamiento de cookies ni caché), ni la ubicación, ni datos
+de la tarjeta. Técnicamente inevitable: el operador del almacén — con el ajuste por defecto, GitHub, Inc.
+(EE. UU.) — ve la dirección IP de tu dispositivo y puede registrarla según sus propias normas. Cada archivo
+descargado se verifica con su suma SHA-256 antes de usarse.</p>
+<p>El interruptor «Forzar modo sin conexión» de los ajustes suprime por completo esta petición. La app sigue
+funcionando igual, porque el paquete del zoo viaja dentro de la app.</p>
+
+<h3>2. El mapa base de la pantalla del mapa</h3>
+<p>Your Zoo dibuja sus recintos, caminos y símbolos sobre el mapa de Apple (MapKit). Mientras la pantalla del mapa
+está abierta, MapKit carga de Apple los datos cartográficos de la zona visible. Es decir: la información de que
+un dispositivo está mirando esa zona sí sale del teléfono. Estas peticiones las hace el sistema operativo, no la
+app; según Apple no se vinculan con tu cuenta de Apple. El interruptor «Forzar modo sin conexión» solo afecta a
+las actualizaciones de contenido y no detiene estas peticiones del mapa. Si quieres evitarlas, pon el dispositivo
+en modo avión: la ubicación, la audioguía y la tarjeta digital siguen funcionando; solo el mapa base gris bajo
+los recintos queda vacío o muestra únicamente las zonas ya almacenadas.</p>
+
+<h3>3. Enlaces que tú mismo pulsas</h3>
+<p>En «Créditos y licencias» y en el enlace al zoo, un toque abre la página en Safari. A partir de ese momento se
+aplica la política de privacidad del sitio visitado.</p>
+
+<h3>Fuera de la red: la voz</h3>
+<p>Las historias las lee el sintetizador de voz de iOS en el propio dispositivo. No se envía ningún texto a un
+servicio de voz. Las voces adicionales de mejor calidad se descargan, si quieres, desde los ajustes de iOS, no
+desde esta app.</p>
+
+<h2 id="nicht">Lo que la app no hace</h2>
+<ul>
+  <li>Sin cuentas, sin registro, sin dirección de correo, sin inicio de sesión.</li>
+  <li>Sin analítica, sin estadísticas de uso, sin servicios de fallos ni telemetría.</li>
+  <li>Sin publicidad, sin identificador publicitario (IDFA), sin la solicitud de App Tracking Transparency, sin
+  rastreo entre apps, dispositivos o empresas.</li>
+  <li>Sin SDK, bibliotecas ni servicios de terceros. La única dependencia es la biblioteca de código propia de la
+  app.</li>
+  <li>Sin notificaciones push, sin acceso a contactos, calendario o salud, sin grabación de audio.</li>
+  <li>Sin venta, cesión ni intercambio de datos: no hay datos que ceder.</li>
+</ul>
+<p class="small">En consecuencia, el manifiesto de privacidad de la app (<code>PrivacyInfo.xcprivacy</code>) no
+declara ningún tipo de dato recopilado ni dominio de rastreo; las únicas API protegidas declaradas son las
+preferencias de la propia app y la fecha de modificación de los archivos de contenido.</p>
+
+<h2 id="berechtigungen">Permisos de un vistazo</h2>
+<table>
+  <tr><th>Permiso</th><th>Para qué</th><th>¿Sale del dispositivo?</th></tr>
+  <tr><td>Ubicación (mientras se usa; en segundo plano durante la reproducción)</td>
+      <td>Reconocer ante qué recinto estás</td><td>No</td></tr>
+  <tr><td>Cámara</td><td>Fotografiar tu tarjeta de socio</td><td>No</td></tr>
+  <tr><td>Fotos</td><td>Elegir una foto existente de la tarjeta. Para esto la app no pide ningún permiso: iOS
+      muestra el selector fuera de la app y solo le entrega la imagen elegida. La app nunca ve tu fototeca.</td>
+      <td>No</td></tr>
+  <tr><td>Movimiento y forma física</td><td>Salir del modo de ahorro cuando reanudas la marcha</td><td>No</td></tr>
+  <tr><td>Micrófono</td><td>No se solicita. La app no graba audio.</td><td>—</td></tr>
+</table>
+<p class="small">Cualquier permiso concedido puede revocarse en los ajustes de iOS en cualquier momento. Sin
+ubicación solo pierdes el reconocimiento automático; sin cámara, solo la fotografía de la tarjeta.</p>
+
+<h2 id="kinder">Menores</h2>
+<p>Your Zoo está pensada para familias; los niños forman parte del público. La app no recopila datos de nadie,
+tampoco de menores. No hay cuenta, ni perfil, ni publicidad, ni chat o comentarios, ni contenidos aportados por
+los usuarios, ni compras dentro de la app. Como ningún dato personal llega al desarrollador ni a terceros, no
+surgen obligaciones de consentimiento conforme a la ley estadounidense COPPA ni al artículo 8 del RGPD. La
+tarjeta digital pertenece a quien usa el dispositivo; un menor solo debería importar la tarjeta de un adulto con
+el consentimiento de este.</p>
+
+<h2 id="rechtsgrundlagen">Bases jurídicas</h2>
+<p>En la medida en que el tratamiento ocurre exclusivamente en tu dispositivo, el desarrollador no tiene acceso
+alguno a él ni dispone de datos personales. Para el resto:</p>
+<ul>
+  <li><strong>Ubicación y brújula:</strong> tratamiento local sobre la base del permiso que concedes en iOS y
+  necesario para prestar la función de la app (art. 6.1.b RGPD). Puedes detenerlo en cualquier momento en los
+  ajustes de iOS.</li>
+  <li><strong>Tarjeta de socio:</strong> tratamiento local a petición expresa tuya para ofrecerte la tarjeta
+  digital (art. 6.1.b RGPD). Los datos de una tarjeta de socio pueden incluir nombre y tratamiento; permanecen en
+  tu dispositivo.</li>
+  <li><strong>Actualizaciones de contenido:</strong> interés legítimo en que los contenidos del zoo estén
+  actualizados y sean correctos (art. 6.1.f RGPD). La transmisión inevitable de tu dirección IP al operador del
+  almacén puede desactivarse con «Forzar modo sin conexión».</li>
+  <li><strong>Grabaciones:</strong> únicamente con tu consentimiento (art. 6.1.a RGPD), que retiras desactivando
+  la grabación y borrando los archivos.</li>
+</ul>
+<p><strong>Transferencias fuera de la UE:</strong> la comprobación de actualizaciones se dirige a GitHub, Inc.
+(EE. UU.) y las peticiones del mapa base a Apple Inc. (EE. UU.); en ambos casos se transmite la dirección IP de
+tu dispositivo. Ambas empresas están certificadas en el EU-US Data Privacy Framework. No se transmite ningún
+contenido de la app.</p>
+
+<h2 id="rechte">Tus derechos</h2>
+<p>Conforme al RGPD tienes derecho de acceso (art. 15), rectificación (art. 16), supresión (art. 17), limitación
+(art. 18), portabilidad (art. 20) y oposición (art. 21).</p>
+<p>Como el desarrollador no almacena datos sobre ti — no hay servidor, ni cuenta, ni identificador —, una
+solicitud de acceso solo puede responderse así: no se conservan datos sobre ti. Los datos en cuestión están
+únicamente en tu dispositivo, y allí ejerces los derechos de forma directa:</p>
+<ul>
+  <li><strong>Acceso y portabilidad:</strong> la tarjeta se muestra completa en «Tu zoo»; las grabaciones pueden
+  verse en los ajustes y compartirse como archivo.</li>
+  <li><strong>Rectificación:</strong> los campos de la tarjeta se corrigen al importarla y al volver a
+  escanearla.</li>
+  <li><strong>Supresión:</strong> «Borrar tarjeta» elimina la tarjeta y el retrato, «Borrar» en una grabación
+  elimina ese archivo, y desinstalar la app lo elimina todo.</li>
+  <li><strong>Retirada:</strong> los permisos de ubicación, cámara y fotos se revocan cuando quieras en los
+  ajustes de iOS.</li>
+</ul>
+<p>El responsable atiende las consultas en la dirección indicada arriba. Además, tienes derecho a presentar una
+reclamación ante una autoridad de control de protección de datos, en particular en el Estado miembro de tu
+residencia.</p>
+<p class="todo"><span class="todo-tag">TODO</span> Añadir la autoridad de control competente según el domicilio del responsable (en España, la AEPD; en Alemania, la autoridad del Land correspondiente).</p>
+
+<h2 id="speicherdauer">Plazos de conservación</h2>
+<ul>
+  <li>Valores de ubicación y brújula: solo mientras se calculan; no se guardan.</li>
+  <li>Tarjeta y retrato: hasta que los borres o desinstales la app.</li>
+  <li>Grabaciones: hasta que las borres o desinstales la app.</li>
+  <li>Ajustes: hasta que los cambies o desinstales la app.</li>
+  <li>En el desarrollador: nada, porque nada se transmite.</li>
+</ul>
+
+<h2 id="sicherheit">Seguridad</h2>
+<p>La tarjeta y el retrato se cifran con la protección de archivos de iOS en el nivel «completo». Todos los demás
+archivos están en el contenedor privado y aislado por el sistema operativo y no pueden ser leídos por otras
+apps. La app no ofrece compartición de archivos. Las peticiones de red van siempre por HTTPS, sin cookies y sin
+caché; el contenido descargado se verifica con sumas de comprobación antes de usarse.</p>
+
+<h2 id="aenderungen">Cambios en esta política</h2>
+<p>Si la app incorpora algo que trate datos de otra manera, esta página se actualizará antes y la fecha de arriba
+cambiará con ella. Las versiones anteriores pueden consultarse en el historial del repositorio público.</p>
+
+<h2 id="kontakt">Contacto</h2>
+<p>Consultas de privacidad, retiradas de consentimiento y solicitudes de acceso:
+<span class="todo-inline">TODO: direccion-contacto@dominio.tld</span></p>
+<p class="small">Your Zoo no está afiliada al Zoo de Fráncfort. Para la propia tarjeta de socio y para todo lo que
+ocurre en el torno se aplica la política de privacidad del zoo.</p>
+
+</main>
+<footer class="site">
+  <p>Your Zoo 0.1.0 · Audioguía sin conexión para el Zoo de Fráncfort · Sin cuentas, sin analítica, sin publicidad.</p>
+  <p class="small">Your Zoo es un proyecto independiente y no está afiliado al Zoo de Fráncfort.</p>
+</footer>
+</body>
+</html>

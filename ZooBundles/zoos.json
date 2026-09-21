@@ -1,0 +1,14 @@
+{
+ "zoos": [
+  {
+   "id": "frankfurt",
+   "name": {
+    "de": "Zoo Frankfurt",
+    "en": "Frankfurt Zoo",
+    "es": "Zoo de Fráncfort"
+   },
+   "version": 1,
+   "city": "Frankfurt am Main"
+  }
+ ]
+}

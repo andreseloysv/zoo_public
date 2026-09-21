@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy policy — Your Zoo</title>
+<meta name="description" content="Your Zoo collects no personal data. Location, compass and the membership card are processed on the device only.">
+<meta name="color-scheme" content="light dark">
+<meta name="robots" content="index, follow">
+<link rel="stylesheet" href="style.css">
+<link rel="alternate" hreflang="de" href="privacy.html">
+<link rel="alternate" hreflang="en" href="privacy.en.html">
+<link rel="alternate" hreflang="es" href="privacy.es.html">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site">
+  <a class="brand" href="index.en.html"><span class="mark" aria-hidden="true"></span>Your Zoo</a>
+  <nav class="langs" aria-label="Language"><a href="privacy.html" lang="de" hreflang="de">Deutsch</a><a href="privacy.en.html" lang="en" hreflang="en" class="current" aria-current="true">English</a><a href="privacy.es.html" lang="es" hreflang="es">Español</a></nav>
+</header>
+<nav class="tabs" aria-label="Pages"><a href="index.en.html">Home</a><a href="privacy.en.html" class="current" aria-current="page">Privacy</a><a href="support.en.html">Support</a><a href="attribution.en.html">Credits</a></nav>
+<main id="main">
+
+<h1>Privacy policy</h1>
+<p class="meta">Your Zoo for iOS, version 0.1.0 · Effective 21 September 2026</p>
+
+<h2 id="kurz">In short</h2>
+<ul>
+  <li>There is no account, no sign-in and no user identifier.</li>
+  <li>No analytics, no crash reporting, no advertising, no tracking, no third-party SDKs.</li>
+  <li>Your location and compass heading are processed on the device only and are never transmitted.</li>
+  <li>Camera and photo access exist for one purpose: reading your own membership card. The card stays
+  encrypted on the device and is deleted the moment you delete it.</li>
+  <li>The app makes network requests only to fetch content updates for the zoo bundle — and the Apple base map
+  on the map screen loads map data from Apple. See <a href="#netz">What leaves the device</a>.</li>
+  <li>The developer runs no server on which data about you could sit.</li>
+</ul>
+
+<h2 id="verantwortlicher">Data controller</h2>
+<p>The controller under the General Data Protection Regulation (GDPR) is the developer of the Your Zoo app.</p>
+<p class="todo"><span class="todo-tag">TODO</span> Fill in the full legal name, postal address and contact email of the controller. Apple requires both the address and the email in App Store Connect and on this page.</p>
+<p>Name: <span class="todo-inline">TODO: name / company</span><br>
+Address: <span class="todo-inline">TODO: street, postcode, city, country</span><br>
+Email: <span class="todo-inline">TODO: contact-address@domain.tld</span></p>
+<p>There is no data protection officer; the app does not process personal data in a way that would require one.</p>
+
+<h2 id="standort">Location, compass and motion</h2>
+<p>The audio guide has to know which enclosure you are facing. The app therefore asks for location access
+(“While Using the App”) on first launch. If you refuse, the app keeps working — it then only tells you about
+enclosures you tap yourself on the map or in the list.</p>
+<p>What is processed, at most twice a second:</p>
+<ul>
+  <li>the coordinate and its accuracy,</li>
+  <li>the compass heading and its accuracy,</li>
+  <li>course and speed from the location fix,</li>
+  <li>the timestamp.</li>
+</ul>
+<p>These values are scored against the enclosure geometry shipped inside the app <strong>in memory only</strong>.
+They are not stored, not logged and not transmitted — the one exception being the voluntary recordings described
+below. The app never looks up an address for your position and contacts no geocoding service.</p>
+<p>While audio is playing the app keeps location updates running with the screen off, so the story continues
+while the phone is in your pocket; iOS shows its blue location indicator while it does. After 90 seconds of
+standing still the app drops to coarser accuracy and switches the compass off to save battery. On devices with a
+motion coprocessor it uses the iOS motion classification (“walking, running, cycling”) for one thing only:
+leaving that battery-saving state when you move on. Motion data is not stored.</p>
+
+<h2 id="karte">Your membership card</h2>
+<p>In the “Your Zoo” section you can photograph your physical zoo card once, or pick an existing photo from your
+photo library. Camera and photo access are used for nothing else.</p>
+<p>The image is analysed entirely on the device (Apple Vision, no network connection). What is read: the QR
+code, the card type, salutation and name, the card number, and the start and end of validity. You see every
+recognised field before saving and can correct it.</p>
+<p>What is then stored in the app's private container: those fields as a small file and, if one was found, a crop
+of the portrait photo. Both are written with iOS file protection at the “complete” level
+(<code>FileProtectionType.complete</code>): the files are encrypted and readable only while the device is
+unlocked. The original photo of the card is not kept, and the app does not add any photo to your photo library.</p>
+<p>The card data never leaves the device. It is sent to nobody — not to the zoo either. At the turnstile you
+hold up the QR code on the screen; the zoo's reader reads it exactly as it reads the plastic card.</p>
+<p>“Delete card” removes the file and the portrait from the device immediately. Deleting the app removes them
+too. Like every file in the app container they are included in an iCloud or computer backup of your device if
+you have backups enabled; that backup sits with Apple or on your computer, not with the developer.</p>
+
+<h2 id="traces">Ground-truth recordings (opt-in)</h2>
+<p>Settings contain a function that records location fixes in order to improve the recognition. It is off by
+default and starts only when you explicitly switch it on.</p>
+<ul>
+  <li>What is recorded: one line per fix with coordinate, accuracy, compass, speed, timestamp and the enclosure
+  you marked as the correct one.</li>
+  <li>The recordings are plain text files in the app's private container.</li>
+  <li>They are never transmitted automatically. A file leaves the device only if you hand it on yourself via
+  “Share” — and then it goes wherever you send it.</li>
+  <li>Every recording can be deleted individually in Settings.</li>
+</ul>
+<p>A recording contains your path through the zoo and is therefore personal data. Switch the function on only if
+you want to, and delete the files when you no longer need them.</p>
+
+<h2 id="einstellungen">Settings and progress on the device</h2>
+<p>The app remembers locally (in the app's own preferences, with no identifier and no iCloud sync): the chosen
+language, the playback speed, the location source, which enclosures you marked as favourites, which of the five
+facts per species came last, whether offline mode is forced, the address of the update server and the time of
+the last update check. None of this identifies you, and none of it is sent anywhere.</p>
+
+<h2 id="netz">What leaves the device</h2>
+<p>The app contains exactly one network client of its own and additionally uses Apple's map component. These are
+all the cases:</p>
+
+<h3>1. Content updates for the zoo bundle</h3>
+<p>At most once an hour — and whenever you tap “Check for updates” in Settings — the app queries a plain file
+store, by default <code>raw.githubusercontent.com/andreseloysv/zoo</code>. It fetches the zoo index, the
+manifest file and, only if a newer version exists, the changed content files.</p>
+<p><strong>Nothing is sent but the request itself:</strong> the address of the wanted file and a marker of the
+app version (<code>User-Agent: Your Zoo/0.1.0</code>). No identifiers, no cookies (the
+connection uses an ephemeral session with no cookie or cache storage), no location and no card data are
+included. Technically unavoidable: the operator of the file store — GitHub, Inc. (USA) with the default setting
+— sees your device's IP address and may log it under its own rules. Every downloaded file is verified against
+its SHA-256 checksum before it is used.</p>
+<p>The “Force offline mode” switch in Settings stops this request entirely. The app keeps working exactly as
+before, because the zoo bundle ships inside the app.</p>
+
+<h3>2. The base map on the map screen</h3>
+<p>Your Zoo draws its enclosures, paths and symbols on top of Apple's map (MapKit). While the map screen is open,
+MapKit loads map data for the visible region from Apple. That means the information that a device is currently
+looking at this region does leave the phone. These requests are made by the operating system, not by the app;
+according to Apple they are not tied to your Apple Account. The “Force offline mode” switch covers only the
+content updates and does not stop these map requests. If you want to avoid them, put the device in airplane
+mode — location, audio guide and the digital card keep working, only the grey base map under the enclosures
+stays empty or shows just the regions already cached.</p>
+
+<h3>3. Links you tap yourself</h3>
+<p>In “Credits &amp; licences” and on the zoo link, a tap opens the page in Safari. From that moment the privacy
+policy of the site you visit applies.</p>
+
+<h3>Not on the network: the speech</h3>
+<p>The stories are read out by the iOS speech synthesiser on the device. No text is sent to a speech service.
+Additional, better-sounding voices are downloaded through iOS Settings if you want them, not through this app.</p>
+
+<h2 id="nicht">What the app does not do</h2>
+<ul>
+  <li>No accounts, no registration, no email address, no login.</li>
+  <li>No analytics, no usage statistics, no crash or telemetry services.</li>
+  <li>No advertising, no advertising identifier (IDFA), no App Tracking Transparency prompt, no tracking across
+  apps, devices or companies.</li>
+  <li>No third-party SDKs, libraries or services. The only dependency is the app's own code library.</li>
+  <li>No push notifications, no contacts, calendar or health access, no audio recording.</li>
+  <li>No selling, sharing or exchanging of data — there is no data to pass on.</li>
+</ul>
+<p class="small">Accordingly, the app's privacy manifest (<code>PrivacyInfo.xcprivacy</code>) lists no collected
+data type and no tracking domain; the only declared protected APIs are the app's own preferences and the
+modification date of the content files.</p>
+
+<h2 id="berechtigungen">Permissions at a glance</h2>
+<table>
+  <tr><th>Permission</th><th>Used for</th><th>Leaves the device?</th></tr>
+  <tr><td>Location (while using; in the background during playback)</td>
+      <td>Working out which enclosure you are facing</td><td>No</td></tr>
+  <tr><td>Camera</td><td>Photographing your membership card</td><td>No</td></tr>
+  <tr><td>Photos</td><td>Choosing an existing photo of the card. The app asks for no permission to do this:
+      iOS shows the picker outside the app and hands over only the one picture you chose. The app never sees
+      your library.</td><td>No</td></tr>
+  <tr><td>Motion &amp; Fitness</td><td>Waking from battery-saving mode when you walk on</td><td>No</td></tr>
+  <tr><td>Microphone</td><td>Never requested. The app records no audio.</td><td>—</td></tr>
+</table>
+<p class="small">Every permission you grant can be withdrawn at any time in iOS Settings. Without location you
+only lose the automatic recognition; without the camera, only photographing the card.</p>
+
+<h2 id="kinder">Children</h2>
+<p>Your Zoo is made for families; children are part of the audience. The app collects data from nobody — children
+included. There is no account, no profile, no advertising, no chat or comment function, no user-generated
+content and no in-app purchase. Because no personal data reaches the developer or any third party, no consent
+mechanics arise under the US COPPA rules or under Article 8 GDPR. The digital card belongs to the person using
+the device; a child should import an adult's card only with that adult's agreement.</p>
+
+<h2 id="rechtsgrundlagen">Legal bases</h2>
+<p>Where processing happens exclusively on your device, the developer has no access to it whatsoever and holds
+no personal data. For the remaining points:</p>
+<ul>
+  <li><strong>Location and compass:</strong> processed locally on the basis of the permission you grant in iOS
+  and necessary to provide the app's function (Art. 6(1)(b) GDPR). You can end it at any time in iOS Settings.</li>
+  <li><strong>Membership card:</strong> processed locally at your explicit request in order to provide you with
+  the digital card (Art. 6(1)(b) GDPR). The data on a membership card can include a name and a salutation; it
+  stays on your device.</li>
+  <li><strong>Content updates:</strong> legitimate interest in current and correct zoo content (Art. 6(1)(f)
+  GDPR). The unavoidable transmission of your IP address to the operator of the file store can be switched off
+  with “Force offline mode”.</li>
+  <li><strong>Recordings:</strong> your consent alone (Art. 6(1)(a) GDPR), which you withdraw by switching the
+  recording off and deleting the files.</li>
+</ul>
+<p><strong>Transfers outside the EU:</strong> update checks are addressed to GitHub, Inc. (USA) and base map
+requests to Apple Inc. (USA); each transmits your device's IP address. Both companies are certified under the
+EU-US Data Privacy Framework. No content data from the app is transmitted.</p>
+
+<h2 id="rechte">Your rights</h2>
+<p>Under the GDPR you have the right of access (Art. 15), rectification (Art. 16), erasure (Art. 17),
+restriction (Art. 18), data portability (Art. 20) and objection (Art. 21).</p>
+<p>Because the developer stores no data about you — there is no server, no account and no identifier — an access
+request can only be answered with: no data about you is held. The data in question sits solely on your device,
+and you exercise the rights there directly:</p>
+<ul>
+  <li><strong>Access and portability:</strong> the card is shown in full in “Your Zoo”; recordings can be viewed
+  in Settings and shared as a file.</li>
+  <li><strong>Rectification:</strong> card fields can be corrected while importing and when you scan again.</li>
+  <li><strong>Erasure:</strong> “Delete card” removes the card and the portrait, “Delete” on a recording removes
+  that file, deleting the app removes everything.</li>
+  <li><strong>Withdrawal:</strong> location, camera and photo permissions can be revoked in iOS Settings at any
+  time.</li>
+</ul>
+<p>The controller answers questions at the address above. You also have the right to lodge a complaint with a
+data protection supervisory authority, in particular in the member state where you live.</p>
+<p class="todo"><span class="todo-tag">TODO</span> Add the competent supervisory authority for the controller's registered address (in Germany, the data protection authority of the relevant federal state).</p>
+
+<h2 id="speicherdauer">Retention</h2>
+<ul>
+  <li>Location and compass values: only while they are being computed; they are not stored.</li>
+  <li>Card and portrait: until you delete them or remove the app.</li>
+  <li>Recordings: until you delete them or remove the app.</li>
+  <li>Settings: until you change them or remove the app.</li>
+  <li>At the developer: nothing, because nothing is transmitted.</li>
+</ul>
+
+<h2 id="sicherheit">Security</h2>
+<p>The card and the portrait are encrypted with iOS file protection at the “complete” level. All other files sit
+in the app's private, OS-isolated container and cannot be read by other apps. The app offers no file sharing.
+Network requests run over HTTPS only, without cookies and without a cache; downloaded content is verified
+against checksums before it is used.</p>
+
+<h2 id="aenderungen">Changes to this policy</h2>
+<p>If the app gains something that processes data differently, this page is updated first and the date at the top
+changes with it. Earlier versions can be traced through the history of the public repository.</p>
+
+<h2 id="kontakt">Contact</h2>
+<p>Privacy questions, withdrawals and access requests: <span class="todo-inline">TODO: contact-address@domain.tld</span></p>
+<p class="small">Your Zoo is not affiliated with Frankfurt Zoo. For the membership card itself and for everything
+that happens at the turnstile, the zoo's own privacy policy applies.</p>
+
+</main>
+<footer class="site">
+  <p>Your Zoo 0.1.0 · Offline audio guide for Frankfurt Zoo · No accounts, no analytics, no advertising.</p>
+  <p class="small">Your Zoo is an independent project and is not affiliated with Frankfurt Zoo.</p>
+</footer>
+</body>
+</html>

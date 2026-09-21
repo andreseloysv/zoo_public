@@ -1,0 +1,369 @@
+{
+ "id": "frankfurt",
+ "version": 1,
+ "name": {
+  "de": "Zoo Frankfurt",
+  "en": "Frankfurt Zoo",
+  "es": "Zoo de Fráncfort"
+ },
+ "city": "Frankfurt am Main",
+ "center": {
+  "latitude": 50.11566515,
+  "longitude": 8.70286385
+ },
+ "bounds": {
+  "minLatitude": 50.1139375,
+  "minLongitude": 8.6988234,
+  "maxLatitude": 50.1173928,
+  "maxLongitude": 8.7069043
+ },
+ "defaultLanguage": "de",
+ "languages": [
+  "de",
+  "en",
+  "es"
+ ],
+ "files": {
+  "features.geojson": {
+   "sha256": "b1dd0e199378127293a2cc0e4dccc495d674365f919ffd730cb98f116fcd3cc0",
+   "bytes": 37079
+  },
+  "species.json": {
+   "sha256": "a1b2016de496757173b45423c9bc002193991ec34e255654242a9d13b029bfad",
+   "bytes": 585957
+  },
+  "paths.geojson": {
+   "sha256": "42232576caf6e8d351c93babd833bed9a0c158c4bd7a442e376c7518844676aa",
+   "bytes": 26486
+  },
+  "enclosures.geojson": {
+   "sha256": "bfbe6cb6a2e95f522388bda3dae2646dade82bee3d227b4b186bc0f712fe1820",
+   "bytes": 84299
+  },
+  "images/north-island-brown-kiwi.jpg": {
+   "sha256": "f26571e0adc389bc7ce66f1c62edec7fb8f42659b64e02c57b1c4441681f952f",
+   "bytes": 317791
+  },
+  "images/rusty-spotted-cat.jpg": {
+   "sha256": "dfb2335031137816489279cf7c2c545bd8e6aa9e325fb0084c5301f00e1086c0",
+   "bytes": 360127
+  },
+  "images/bateleur.jpg": {
+   "sha256": "1721a4f3d9100e65cddc5447aa8619195a58bb6b2d49d113de26777ac4df01a5",
+   "bytes": 366395
+  },
+  "images/aye-aye.jpg": {
+   "sha256": "c4f85e2f4ffe77d126677515dcb1c364bc92f923a769b8959827a2bc808ff8a5",
+   "bytes": 340234
+  },
+  "images/brown-spider-monkey.jpg": {
+   "sha256": "576a55e1fa790a8ab402284d742129f5f74fc73db3096686835f9ab88e991e40",
+   "bytes": 534547
+  },
+  "images/tufted-deer.jpg": {
+   "sha256": "4d32c2cd9bacc12e2dba294521e82a38bf31b9ef51ac0d8b33ed82618418decd",
+   "bytes": 71847
+  },
+  "images/red-capped-mangabey.jpg": {
+   "sha256": "3a9f4e02c0b65cfe86f0de73487d59e14cb11ceb30acb691906c15c8a213937e",
+   "bytes": 382203
+  },
+  "images/panther-chameleon.jpg": {
+   "sha256": "4eca4b2a1183b020a3c86d178a7c1a3241a28088cef06d9f3d274c9f18202874",
+   "bytes": 214336
+  },
+  "images/snowy-owl.jpg": {
+   "sha256": "db9ded1d0b84fcf6f87995f982a348dd134cae581bb7c39f54ef5712538bfdc4",
+   "bytes": 187093
+  },
+  "images/kirks-dik-dik.jpg": {
+   "sha256": "676b3eaa2bc97ff82d20fa1ca59b47e27218d121152f95178367f6534ef20cf6",
+   "bytes": 263174
+  },
+  "images/indian-peafowl.jpg": {
+   "sha256": "a815cc12660e6f1e2639314f136c9db41490752cd53f03e47909329e359e1a83",
+   "bytes": 275035
+  },
+  "images/indian-crested-porcupine.jpg": {
+   "sha256": "1d8ab70c243541c155feec8615331c369782390519767efd738e26ee98e4d96d",
+   "bytes": 571258
+  },
+  "images/spectacled-bear.jpg": {
+   "sha256": "371463699d9dcc1da248097d2da5d767e56f3e40fb726f844a9c3ab0d3c3499e",
+   "bytes": 502518
+  },
+  "images/giant-anteater.jpg": {
+   "sha256": "7825325ee43990f1b194ca5d12d90ea5b0940d52af82baaee8cf8d54c79e17cf",
+   "bytes": 794856
+  },
+  "images/grey-winged-trumpeter.jpg": {
+   "sha256": "ae30f611abe86e39d1489f1179e32bff30390a0f3814b7131904af2d88058708",
+   "bytes": 897820
+  },
+  "images/european-roller.jpg": {
+   "sha256": "2e13083b2fd08dd5437ec733119f86d3f163accfa5c179953f9324cd586845ad",
+   "bytes": 101909
+  },
+  "images/linnaeus-two-toed-sloth.jpg": {
+   "sha256": "fe8c701b1fec0daba8168d309a97a80c7204735bc2cf16ed147ea5d63ee984a8",
+   "bytes": 420996
+  },
+  "images/pygmy-goat.jpg": {
+   "sha256": "240a2ace0974e9de64ab184ecc0d1430e53442b3bc5bb83603895030dc8a61d3",
+   "bytes": 353332
+  },
+  "images/scarlet-ibis.jpg": {
+   "sha256": "b17acaff16992a123544da00ca749b1786cbce1c968eab732ab64a6cd333eb57",
+   "bytes": 330020
+  },
+  "images/edwards-pheasant.jpg": {
+   "sha256": "947c26880c28939600f23fd030de3ffd2eee0eb4e6a86e78e0950554554f4913",
+   "bytes": 314644
+  },
+  "images/parma-wallaby.jpg": {
+   "sha256": "59a80f16e3b0404dbee423b35e5951366e4a7969fa80a1bdc0dbdb7fcdf420ef",
+   "bytes": 1903583
+  },
+  "images/okapi.jpg": {
+   "sha256": "6270c6d0df2756a2cefdc986a96ac75efa6dbbc6d125f979396dacdce76ebd13",
+   "bytes": 337124
+  },
+  "images/egyptian-vulture.jpg": {
+   "sha256": "153cee60815f3a17817c7d577548f16ab580bae9d9f299ca36e7aabd6ff11469",
+   "bytes": 1024899
+  },
+  "images/capybara.jpg": {
+   "sha256": "2e820a5406984f3143ac9435194109c58588bb4ad5ad6862a285f0dda4e81fd5",
+   "bytes": 427278
+  },
+  "images/aardvark.jpg": {
+   "sha256": "16d160fb0cfd7f29fc4958f636be8f5f61669c83f2d5825b40ffc60870b509ec",
+   "bytes": 451981
+  },
+  "images/victoria-crowned-pigeon.jpg": {
+   "sha256": "bf30e048c47b300a08e74b96025598df2a1531154078413a7a480a18bba9abb2",
+   "bytes": 983109
+  },
+  "images/sumatran-tiger.jpg": {
+   "sha256": "55f3800dc92a08817ee533c75660f14a37131b1c14c59f8f9f9893d557d2aac5",
+   "bytes": 405791
+  },
+  "images/hamadryas-baboon.jpg": {
+   "sha256": "d3671ec210a906e9e7ac77c641efd6e2fc037c44d837de3c02d8312a94198015",
+   "bytes": 486392
+  },
+  "images/red-legged-seriema.jpg": {
+   "sha256": "5cd9108ac7b95d0c89a6273c292072816a36b40bdb214ed38680560b3b481174",
+   "bytes": 224603
+  },
+  "images/humboldt-penguin.jpg": {
+   "sha256": "fe1abb3ace286f375ea897b26b5337ea6326387b8fd2f0de9cc61143a967e389",
+   "bytes": 543247
+  },
+  "images/mhorr-gazelle.jpg": {
+   "sha256": "0e11b5f09bb7da93925eaadbd6ddfbbaf55934b1e2afdc4a3dc7401011e2d3c3",
+   "bytes": 197058
+  },
+  "images/patagonian-mara.jpg": {
+   "sha256": "da7aa2595e01a4652fe808fd7e04e1c7aaf147d81a2170a7797bea47caa2f655",
+   "bytes": 120916
+  },
+  "images/western-lowland-gorilla.jpg": {
+   "sha256": "6976269056944d5299fd9ffaaf88bd4b083bd147fbe9ed3c932547342879611f",
+   "bytes": 758924
+  },
+  "images/yellow-breasted-capuchin.jpg": {
+   "sha256": "e2083bb3d2c10d685aee0be7fbe4221991c78578036f9e615936bfa3c3ca9d79",
+   "bytes": 382592
+  },
+  "images/gaboon-viper.jpg": {
+   "sha256": "d87ffb13317297b56231c7c20c3b0403a60658783d196a4ad15f11cfd098b25a",
+   "bytes": 233591
+  },
+  "images/sumatran-orangutan.jpg": {
+   "sha256": "97f095e1f615dd3e1edc07b89508484ec599b8bd2637c407153dab59e6c4f7d0",
+   "bytes": 261899
+  },
+  "images/bonobo.jpg": {
+   "sha256": "2817b0adce89255616637965b4fc100055853e52b849771484c5eecd50942bd7",
+   "bytes": 651570
+  },
+  "images/asiatic-lion.jpg": {
+   "sha256": "80da201f7e2b5a02e147c11148a776164b278c850a0194e07a044292877bccde",
+   "bytes": 1722057
+  },
+  "images/harbour-seal.jpg": {
+   "sha256": "89622eb8c10ff6748335d8f75bb8f16fa47391bf803b0aa0adde6d4e4d1e0af2",
+   "bytes": 229447
+  },
+  "images/western-honey-bee.jpg": {
+   "sha256": "02ae7296805af43fb237e6790132ac8d3b5f9d043a506b75619c43caf92f1437",
+   "bytes": 220247
+  },
+  "images/pied-avocet.jpg": {
+   "sha256": "e3b64490ee81b319aa5d850ea0c6b2fef21962ed3b941b03ea5c1962f3707b5d",
+   "bytes": 155517
+  },
+  "images/emden-goose.jpg": {
+   "sha256": "b188675fd9f01560d07414e1d79be1a92b928b54e1bea76e1acee58f8a7a14e8",
+   "bytes": 358370
+  },
+  "images/clownfish.jpg": {
+   "sha256": "971d63596300aeae53529b5e9391f63921b7dfc6c51129e3b6dc5a082da0c0ce",
+   "bytes": 132987
+  },
+  "images/sebas-short-tailed-bat.jpg": {
+   "sha256": "796795378e7d55780c239b46d01e78ccc98cfe6c3754b71009344df2f80eb180",
+   "bytes": 261149
+  },
+  "images/hamerkop.jpg": {
+   "sha256": "b39457b1f9a04002b073b69239d5c5597cd22073ba7bf522702f04f8e568bbea",
+   "bytes": 240087
+  },
+  "images/south-african-fur-seal.jpg": {
+   "sha256": "64be44210ce88fa0c81ae1aa892ce017a0d0fb5430630bce27148c301afa1bff",
+   "bytes": 586910
+  },
+  "images/grevys-zebra.jpg": {
+   "sha256": "4ae8c56196714e575c460fe538aa9763a2e00177889881c0cb6f6272569ca92a",
+   "bytes": 230831
+  },
+  "images/komodo-dragon.jpg": {
+   "sha256": "660240cff02dbe7105393173830eb62174a95cd140f8f105a275843947cfb6d6",
+   "bytes": 623184
+  },
+  "images/bush-dog.jpg": {
+   "sha256": "6ac8b46b46fa37c361cb4e0dafb5061d96447a9622234c978de88e659eb0f918",
+   "bytes": 350199
+  },
+  "images/red-river-hog.jpg": {
+   "sha256": "3fc1118f09c64f84eb84df092162da70ab681e49d97a7abb8849fd21ddbf5ab7",
+   "bytes": 418919
+  },
+  "images/meerkat.jpg": {
+   "sha256": "b6e64cb707851bba3dd09651c92b7b16ee4e643c5768f9a219d1c05273f86af5",
+   "bytes": 681530
+  },
+  "images/boat-billed-heron.jpg": {
+   "sha256": "7ff0da4f4786ef07dbc6f81e85618bac07a5c4358c905e615fce98142dcbaad5",
+   "bytes": 100510
+  },
+  "images/northern-white-cheeked-gibbon.jpg": {
+   "sha256": "77590277697f5d7d4b0ecf6aff97fb18f8285430d41caf232756679173e13aa7",
+   "bytes": 366833
+  },
+  "images/naked-mole-rat.jpg": {
+   "sha256": "1bf2380cb89745296f932d09f1619697dd5a0f070feabe71e6f3106737eafc4f",
+   "bytes": 296284
+  },
+  "images/leafcutter-ant.jpg": {
+   "sha256": "9b032ab563e1795a5c515f9fd9e431e677a6c496e880860aff694bf3ff87de28",
+   "bytes": 89587
+  },
+  "images/king-vulture.jpg": {
+   "sha256": "4005b84e48df6dff91fb41b0674e3638cab43f0a84b3cda6e03c28c643edd446",
+   "bytes": 514858
+  },
+  "images/bali-myna.jpg": {
+   "sha256": "64a62b8f6d8cf94745e2c65b4e46bd77e1ee81fead08154f7efc258437b619d7",
+   "bytes": 91071
+  },
+  "images/hippopotamus.jpg": {
+   "sha256": "3231cdbb3e72962fbc566677f84c735159670e10db072840f90b572b28ce4079",
+   "bytes": 430638
+  },
+  "images/yellow-backed-duiker.jpg": {
+   "sha256": "68d2da4eb160795c4cde5f245c03eec13001e540c802ba79ac01baebb5f11716",
+   "bytes": 442618
+  },
+  "images/european-bee-eater.jpg": {
+   "sha256": "d39dbad25790028e28f20763243c6ac24942218b52ef22c7f6e2230460b4930a",
+   "bytes": 107395
+  },
+  "images/greater-rhea.jpg": {
+   "sha256": "9c817f4fbad536f68f43bd48ad4e2c8c3047c899719158508864fb6842cc0e47",
+   "bytes": 817337
+  },
+  "images/chinese-softshell-turtle.jpg": {
+   "sha256": "e3ea3b252aeaa4b8a95aa43581833cfc3eefbe208bf71f844e31eecf5c4745a1",
+   "bytes": 333361
+  },
+  "images/giraffe.jpg": {
+   "sha256": "4edaa4fa42cd92a618c0ffe7be709fa876aa4f45589d6c33f30cde881f6325a8",
+   "bytes": 325853
+  },
+  "images/addax.jpg": {
+   "sha256": "71e8c031df113dee1881fdd1e2a6dcd44631f3ef4c53ba9b05f17148294a3f13",
+   "bytes": 340786
+  },
+  "images/snapping-turtle.jpg": {
+   "sha256": "bbc334f1fb6983159b5345ff0e2f612bf65436e39f5448aa5b0545c87cc98a0c",
+   "bytes": 488969
+  },
+  "images/eastern-black-rhinoceros.jpg": {
+   "sha256": "71fdfd73d944b816c9a03be8da995d0d050b20c096782d26df9d8260ade36977",
+   "bytes": 426712
+  },
+  "images/bactrian-camel.jpg": {
+   "sha256": "15795da92a9c926dd4210a15605b2ff389aacad658bd5a3d0acd31d4192d1ee9",
+   "bytes": 396898
+  },
+  "images/alpaca.jpg": {
+   "sha256": "64ff9a1470d6d4841ef2df067c120fb449e757899bb4825752f98caa7b69039e",
+   "bytes": 346688
+  },
+  "images/goodfellows-tree-kangaroo.jpg": {
+   "sha256": "15356b4b7509d54462105b985598723044c0e3b2b928ea1a252abd13c35a31b3",
+   "bytes": 230972
+  },
+  "images/southern-cassowary.jpg": {
+   "sha256": "f95ad680ca25b22233c7577f258248d1cffcd0bae01f6fedd8926fea2bb8e55f",
+   "bytes": 411052
+  },
+  "images/fossa.jpg": {
+   "sha256": "d04ab9c2d683ea88a7022e16f62941bd7c907b34aae94ca5d04cd1d15b1c9525",
+   "bytes": 378333
+  },
+  "images/vicuna.jpg": {
+   "sha256": "cf5f0b5f648decdcb6791a2f52c0ee957252e5a5c1a3f938455d80186c69d0f3",
+   "bytes": 254171
+  },
+  "images/eastern-bongo.jpg": {
+   "sha256": "62f7725e6d47af87a90f34b207683b35dab04e0777e074995bb3e5d0a8a23923",
+   "bytes": 619267
+  },
+  "images/leopard-tortoise.jpg": {
+   "sha256": "fb5e0cdfa452a711cbeeae7f09dc542cacc379c1c10c5159784f28b07f896c41",
+   "bytes": 307510
+  },
+  "images/chilean-flamingo.jpg": {
+   "sha256": "9b20d736d31bc51112ce18f56616ce2586ded96f35edc672169239d6398865f8",
+   "bytes": 573630
+  },
+  "images/blue-crowned-hanging-parrot.jpg": {
+   "sha256": "cbce241d860223d29049af541d6634998422964639674a7003a66f9f6c2431ce",
+   "bytes": 215051
+  },
+  "images/hooded-vulture.jpg": {
+   "sha256": "6526b9cb93da87dd12f1df5b436386b647d2fb8bfcb1e3f54850b0a40a8eeda8",
+   "bytes": 601450
+  }
+ },
+ "counts": {
+  "enclosures": 31,
+  "species": 77,
+  "speciesReferenced": 77,
+  "paths": 104,
+  "features": 76,
+  "viewpoints": 112,
+  "images": 77,
+  "audio": 0
+ },
+ "attribution": [
+  "Map data © OpenStreetMap contributors, ODbL 1.0 (openstreetmap.org/copyright)",
+  "Enclosure and species information based on zoo-frankfurt.de; texts written for this guide",
+  "Fonts: Epilogue and Plus Jakarta Sans, SIL Open Font License 1.1"
+ ],
+ "updatedAt": "2026-09-20T17:07:24Z",
+ "website": "https://www.zoo-frankfurt.de"
+}
