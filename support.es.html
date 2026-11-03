@@ -23,7 +23,7 @@
 
 <h1>Ayuda</h1>
 <p class="lede">Todo lo que puede salir mal en el zoo y cómo resolverlo. Si esta página no responde a tu duda,
-escríbenos: <span class="todo-inline">TODO: direccion-soporte@dominio.tld</span></p>
+escríbenos: <a href="mailto:andreslaley@msn.com">andreslaley@msn.com</a></p>
 
 <h2 id="guide">La audioguía</h2>
 <dl class="faq">
@@ -68,7 +68,7 @@ a que el siguiente recinto sea igual de inequívoco; una duda breve nunca cambia
 
 <dt>¿Funciona sin cobertura?</dt>
 <dd>Sí. Todos los textos, imágenes, caminos y la propia voz están dentro de la app. El GPS viene de los satélites
-y no necesita red móvil. Una excepción: el mapa base gris bajo los recintos es de Apple y necesita conexión la
+y no necesita red móvil. Una excepción, solo en iOS: el mapa base gris bajo los recintos es de Apple y necesita conexión la
 primera vez que se muestra. Sin conexión siguen viéndose los recintos, los caminos y tu posición; el mapa base
 puede quedar vacío.</dd>
 
@@ -81,12 +81,12 @@ puede quedar vacío.</dd>
 mostrarse y avanza a la vez que la voz.</dd>
 
 <dt>¿Por qué la voz suena artificial?</dt>
-<dd>Las historias las lee el dispositivo; en esta versión todavía no hay narración grabada. En los ajustes de iOS,
+<dd>Las historias las lee el dispositivo; en esta versión todavía no hay narración grabada. En iOS, en los ajustes,
 en <em>Accesibilidad → Contenido hablado → Voces</em>, puedes descargar una voz de mejor calidad en alemán,
 inglés o español: la app la usará automáticamente.</dd>
 
 <dt>¿Sigue sonando con la pantalla apagada?</dt>
-<dd>Sí, mientras hay un recorrido activo. iOS muestra entonces su indicador azul de ubicación. Si te quedas
+<dd>Sí, mientras hay un recorrido activo. iOS muestra entonces su indicador azul de ubicación; Android, una notificación con un botón de parar. Si te quedas
 quieto 90 segundos, la app pasa a una localización más económica y despierta en cuanto reanudas la marcha.</dd>
 </dl>
 
@@ -142,14 +142,36 @@ conexión</em> suprime cualquier petición.</dd>
 escuchar.</dd>
 </dl>
 
+<h2 id="android">Android</h2>
+<dl class="faq">
+<dt>¿Por qué aparece la notificación «Tu zoo te guía» y cómo la termino?</dt>
+<dd>Mientras hay una visita en marcha (desde la primera historia hasta que pulsas «Detener», o 15 minutos después de la última historia), la app mantiene la guía con la pantalla apagada mediante un servicio en primer plano de Android, y Android exige para ello una notificación visible. Pulsa <strong>Detener</strong> en la notificación y el servicio termina. En Android 13 y posteriores debes permitir las notificaciones una vez para que el aviso pueda aparecer; la app no envía ninguna otra.</dd>
+
+<dt>¿Dónde permito la ubicación?</dt>
+<dd>Ajustes de Android → Aplicaciones → Your Zoo → Permisos → Ubicación → <em>Permitir solo mientras se usa la app</em>, con <em>Usar ubicación precisa</em> activada. La app nunca pide «todo el tiempo» y no tiene permiso de ubicación en segundo plano.</dd>
+
+<dt>¿Puedo probar la app lejos del zoo?</dt>
+<dd>Sí. Ajustes → Avanzado → <em>Recorrido de demostración</em>: la guía sigue entonces una ruta de ejemplo grabada en lugar de tu posición real. Un toque vuelve al GPS real.</dd>
+
+<dt>¿Cómo funciona la foto de la tarjeta en Android?</dt>
+<dd><em>Hacer una foto</em> abre la app de cámara del móvil y <em>Elegir</em> abre el selector de fotos del sistema. Your Zoo no pide permiso de cámara ni de fotos y nunca ve el resto de tu galería. La tarjeta se guarda cifrada en el dispositivo y no se incluye en la copia de seguridad en la nube de Android.</dd>
+
+<dt>¿Por qué la voz suena artificial en Android?</dt>
+<dd>Las historias las lee el motor de texto a voz de tu móvil. Para instalar una voz mejor, abre Ajustes de Android → Sistema → Idiomas → Salida de texto a voz (la ruta varía según el fabricante).</dd>
+
+<dt>¿Funciona el mapa sin cobertura?</dt>
+<dd>Sí, por completo. En Android la app dibuja caminos, recintos y símbolos con los datos incluidos en la app; no hay un mapa base que cargar.</dd>
+
+</dl>
+
 <h2 id="melden">Avisar de un animal equivocado</h2>
 <p>Este es el error que más nos importa: si la app te contó el animal equivocado, queremos saberlo.</p>
-<p>Escribe a <span class="todo-inline">TODO: direccion-soporte@dominio.tld</span> e incluye lo que sepas:</p>
+<p>Escribe a <a href="mailto:andreslaley@msn.com">andreslaley@msn.com</a> e incluye lo que sepas:</p>
 <ul>
   <li>¿Qué se contó y ante qué recinto estabas realmente?</li>
   <li>¿Dónde exactamente? ¿Qué mirador, qué lado del recinto?</li>
   <li>Fecha y hora aproximada, y el tiempo que hacía (nubes densas y follaje mojado empeoran el GPS).</li>
-  <li>Modelo del dispositivo, versión de iOS y versión de la app (en los ajustes, en <em>Créditos y
+  <li>Modelo del dispositivo, versión de iOS o Android y versión de la app (en los ajustes, en <em>Créditos y
   licencias</em>).</li>
   <li>¿Estaba la brújula recién calibrada? ¿El teléfono iba en una funda magnética?</li>
 </ul>
@@ -160,14 +182,13 @@ contiene tu recorrido por el zoo: envíala solo si te parece bien y bórrala des
 pasaje.</p>
 
 <h2 id="kontakt">Contacto</h2>
-<p><span class="todo-inline">TODO: direccion-soporte@dominio.tld</span> — respondemos en alemán, inglés y español.</p>
-<p class="todo"><span class="todo-tag">TODO</span> Indicar la dirección de correo de soporte (la misma que se registre en App Store Connect) y, si se desea, el tiempo de respuesta previsto.</p>
+<p><a href="mailto:andreslaley@msn.com">andreslaley@msn.com</a> — respondemos en alemán, inglés y español.</p>
 <p class="small">Your Zoo es un proyecto independiente. Las preguntas sobre precios, horarios, abonos o los
 propios animales las responde el Zoo de Fráncfort, no esta app.</p>
 
 </main>
 <footer class="site">
-  <p>Your Zoo 0.1.0 · Audioguía sin conexión para el Zoo de Fráncfort · Sin cuentas, sin analítica, sin publicidad.</p>
+  <p>Your Zoo 1.2 · Audioguía sin conexión para el Zoo de Fráncfort · Sin cuentas, sin analítica, sin publicidad.</p>
   <p class="small">Your Zoo es un proyecto independiente y no está afiliado al Zoo de Fráncfort.</p>
 </footer>
 </body>

@@ -23,7 +23,7 @@
 
 <h1>Support</h1>
 <p class="lede">Everything that can go wrong in the zoo — and what helps. If this page does not answer it, write
-to us: <span class="todo-inline">TODO: support-address@domain.tld</span></p>
+to us: <a href="mailto:andreslaley@msn.com">andreslaley@msn.com</a></p>
 
 <h2 id="guide">The audio guide</h2>
 <dl class="faq">
@@ -70,7 +70,7 @@ waits until the next enclosure is just as unambiguous; a brief wobble never swit
 
 <dt>Does it work without a signal?</dt>
 <dd>Yes. Every text, image, path and the speech itself are inside the app. GPS comes from satellites and needs no
-mobile network. One exception: the grey base map under the enclosures comes from Apple and needs a connection
+mobile network. One exception, on iOS only: the grey base map under the enclosures comes from Apple and needs a connection
 the first time it is shown. Offline, the enclosures, paths and your own position stay visible; the base map
 underneath may be blank.</dd>
 
@@ -83,12 +83,12 @@ even on your tenth visit you hear something new.</dd>
 follows along as it is spoken.</dd>
 
 <dt>Why does the voice sound artificial?</dt>
-<dd>The stories are read out by the device; recorded narration is not in this version yet. In iOS Settings under
+<dd>The stories are read out by the device; recorded narration is not in this version yet. On iOS, in Settings under
 <em>Accessibility → Spoken Content → Voices</em> you can download a higher-quality voice for German, English or
 Spanish — the app then uses it automatically.</dd>
 
 <dt>Does playback continue with the screen off?</dt>
-<dd>Yes, while a tour is running. iOS shows its blue location indicator while it does. After 90 seconds of
+<dd>Yes, while a tour is running. iOS shows its blue location indicator while it does; Android shows a notification with a Stop button. After 90 seconds of
 standing still the app switches to economical positioning and wakes up as soon as you walk on.</dd>
 </dl>
 
@@ -144,14 +144,36 @@ every such request.</dd>
 list.</dd>
 </dl>
 
+<h2 id="android">Android</h2>
+<dl class="faq">
+<dt>Why does a notification “Your Zoo is guiding you” appear, and how do I end it?</dt>
+<dd>While a tour is running (from the first story until you tap Stop, or 15 minutes after the last story) the app keeps the guide alive with the screen off through an Android foreground service, and Android requires a visible notification for that. Tap <strong>Stop</strong> on the notification and the service ends. On Android 13 and later you must allow notifications once so the notice can appear; the app sends no other notifications.</dd>
+
+<dt>Where do I allow location?</dt>
+<dd>Android Settings → Apps → Your Zoo → Permissions → Location → <em>Allow only while using the app</em>, with <em>Use precise location</em> switched on. The app never asks for “all the time” and has no background-location permission.</dd>
+
+<dt>Can I try the app away from the zoo?</dt>
+<dd>Yes. Settings → Advanced → <em>Demo walk</em>: the guide then follows a recorded sample path instead of your real position. Tap to switch back to real GPS.</dd>
+
+<dt>How does the card photo work on Android?</dt>
+<dd><em>Take a photo</em> opens your phone's camera app and <em>Choose</em> opens the system photo picker. Your Zoo asks for no camera or photo permission and never sees the rest of your gallery. The card is stored encrypted on the device and is not included in Android's cloud backup.</dd>
+
+<dt>Why does the voice sound artificial on Android?</dt>
+<dd>The stories are read by your phone's text-to-speech engine. To install a better voice, open Android Settings → System → Languages → Text-to-speech output (the path varies by manufacturer).</dd>
+
+<dt>Does the map work without a signal?</dt>
+<dd>Yes, completely. On Android the app draws paths, enclosures and symbols itself from the data shipped inside the app; there is no base map to load.</dd>
+
+</dl>
+
 <h2 id="melden">Reporting a wrong animal</h2>
 <p>This is the one bug that matters most: if the app told you about the wrong animal, we want to know.</p>
-<p>Write to <span class="todo-inline">TODO: support-address@domain.tld</span> and include whatever you know:</p>
+<p>Write to <a href="mailto:andreslaley@msn.com">andreslaley@msn.com</a> and include whatever you know:</p>
 <ul>
   <li>What was played, and which enclosure were you really standing at?</li>
   <li>Where exactly were you — which viewpoint, which side of the enclosure?</li>
   <li>Date and rough time, and the weather (heavy cloud and wet foliage degrade GPS).</li>
-  <li>Device model, iOS version, app version (shown in Settings under <em>Credits &amp; licences</em>).</li>
+  <li>Device model, iOS or Android version, app version (shown in Settings under <em>Credits &amp; licences</em>).</li>
   <li>Was the compass freshly calibrated? Was the phone in a magnetic case?</li>
 </ul>
 <p>If you want to help make it reproducible: Settings → <em>Ground-truth recording</em> lets you record for a
@@ -162,14 +184,13 @@ the device afterwards.</p>
 enough.</p>
 
 <h2 id="kontakt">Contact</h2>
-<p><span class="todo-inline">TODO: support-address@domain.tld</span> — we answer in German, English and Spanish.</p>
-<p class="todo"><span class="todo-tag">TODO</span> Fill in the support email address (the same one entered in App Store Connect) and, if you want, the response time people can expect.</p>
+<p><a href="mailto:andreslaley@msn.com">andreslaley@msn.com</a> — we answer in German, English and Spanish.</p>
 <p class="small">Your Zoo is an independent project. Questions about ticket prices, opening hours, membership
 cards or the animals themselves are answered by Frankfurt Zoo, not by this app.</p>
 
 </main>
 <footer class="site">
-  <p>Your Zoo 0.1.0 · Offline audio guide for Frankfurt Zoo · No accounts, no analytics, no advertising.</p>
+  <p>Your Zoo 1.2 · Offline audio guide for Frankfurt Zoo · No accounts, no analytics, no advertising.</p>
   <p class="small">Your Zoo is an independent project and is not affiliated with Frankfurt Zoo.</p>
 </footer>
 </body>

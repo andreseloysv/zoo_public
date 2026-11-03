@@ -22,26 +22,24 @@
 <main id="main">
 
 <h1>Datenschutzerklärung</h1>
-<p class="meta">Your Zoo für iOS, Version 0.1.0 · Stand: 21. September 2026</p>
+<p class="meta">Your Zoo für iOS und Android, Version 1.2 · Stand: 3. November 2026</p>
 
 <h2 id="kurz">Kurz gesagt</h2>
 <ul>
   <li>Es gibt kein Konto, keine Anmeldung und keine Nutzerkennung.</li>
-  <li>Keine Analyse, keine Absturzberichte, keine Werbung, kein Tracking, keine SDKs von Dritten.</li>
+  <li>Keine Analyse, keine Absturzberichte, keine Werbung, kein Tracking. Die App meldet nichts über dich an irgendjemanden.</li>
   <li>Dein Standort und die Kompassrichtung werden nur im Gerät verarbeitet und nie übertragen.</li>
   <li>Kamera und Fotos werden ausschließlich dafür benutzt, deine eigene Zoo-Karte einzulesen. Die Karte bleibt
   verschlüsselt auf dem Gerät und wird gelöscht, sobald du sie löschst.</li>
-  <li>Netzanfragen stellt die App nur für Inhalts-Updates des Zoo-Pakets — und die Apple-Grundkarte im
-  Karten-Screen lädt Kartendaten von Apple. Mehr dazu unter <a href="#netz">Was das Gerät verlässt</a>.</li>
+  <li>Netzanfragen stellt die App nur für Inhalts-Updates des Zoo-Pakets. Unter iOS lädt zusätzlich die
+  Apple-Grundkarte im Karten-Screen Kartendaten von Apple; unter Android zeichnet die App die Karte aus den eigenen
+  Zoo-Daten und lädt nichts nach. Mehr dazu unter <a href="#netz">Was das Gerät verlässt</a>.</li>
   <li>Der Entwickler betreibt keinen Server, auf dem Daten über dich liegen könnten.</li>
 </ul>
 
 <h2 id="verantwortlicher">Verantwortlicher</h2>
 <p>Verantwortlich im Sinne der Datenschutz-Grundverordnung (DSGVO) ist der Entwickler der App Your Zoo.</p>
-<p class="todo"><span class="todo-tag">TODO</span> Vollständigen Namen bzw. Firma, Postanschrift und Kontakt-E-Mail des Verantwortlichen eintragen. Apple verlangt beide Angaben in App Store Connect und auf dieser Seite.</p>
-<p>Name: <span class="todo-inline">TODO: Name / Firma</span><br>
-Anschrift: <span class="todo-inline">TODO: Straße, PLZ, Ort, Land</span><br>
-E-Mail: <span class="todo-inline">TODO: kontakt-adresse@domain.tld</span></p>
+<p>Verantwortlich: Andrés Eloy Sánchez Vargas. E-Mail: <a href="mailto:andreslaley@msn.com">andreslaley@msn.com</a>.</p>
 <p>Einen Datenschutzbeauftragten gibt es nicht; die App verarbeitet keine personenbezogenen Daten in einer
 Weise, die das erfordern würde.</p>
 
@@ -60,11 +58,21 @@ dann nur noch, was du selbst auf der Karte oder in der Liste antippst.</p>
 gerechnet. Sie werden nicht gespeichert, nicht protokolliert und nicht übertragen — mit der einzigen Ausnahme
 der freiwilligen Aufzeichnungen weiter unten. Die App kennt keine Adresse zu deiner Position und fragt keinen
 Geocoding-Dienst.</p>
-<p>Solange Audio läuft, hält die App die Ortung auch bei ausgeschaltetem Display aktiv, damit die Geschichte
+<p>Unter iOS hält die App, solange Audio läuft, die Ortung auch bei ausgeschaltetem Display aktiv, damit die Geschichte
 weiterläuft, während das Telefon in der Tasche steckt; iOS zeigt dabei die blaue Standortanzeige. Stehst du 90
 Sekunden still, schaltet die App auf grobere Genauigkeit um und schaltet den Kompass ab, um Akku zu sparen. Auf
 Geräten mit Bewegungs­koprozessor nutzt sie die Bewegungs­erkennung von iOS („gehen, laufen, radfahren“) nur
 dafür, diesen Sparmodus wieder zu verlassen. Bewegungsdaten werden nicht gespeichert.</p>
+
+<p><strong>Unter Android</strong> fragt die App nach dem genauen Standort „während der Nutzung der App“ (nie nach „immer“;
+eine Hintergrund-Standortberechtigung hat sie nicht). Für die Positionsdaten nutzt sie den Standortdienst des Systems,
+den kombinierten Standortanbieter in den Google Play-Diensten; die Werte werden auf dem Handy mit den Gehegeumrissen
+in der App bewertet und von der App weder gespeichert noch protokolliert noch übertragen. Solange eine Tour läuft (ab
+der ersten Geschichte, bis du auf „Stopp“ tippst, oder 15 Minuten nach der letzten Geschichte), hält die App die
+Standortaktualisierung über einen Android-Vordergrunddienst auch bei ausgeschaltetem Bildschirm am Laufen. Android
+zeigt dann eine dauerhafte Benachrichtigung „Dein Zoo führt dich“ mit einer Stopp-Taste; ein Tipp auf „Stopp“ beendet
+den Dienst. Die Benachrichtigungsberechtigung (ab Android 13) erlaubt nur, dass dieser Hinweis erscheint. Eine
+Bewegungs- oder Aktivitätserkennung gibt es unter Android nicht.</p>
 
 <h2 id="karte">Deine Zoo-Karte</h2>
 <p>Im Bereich „Dein Zoo“ kannst du deine physische Zoo-Karte einmalig abfotografieren oder ein vorhandenes Foto
@@ -80,9 +88,16 @@ Fotomediathek an.</p>
 <p>Die Kartendaten verlassen das Gerät nicht. Sie werden an niemanden gesendet — auch nicht an den Zoo. Am
 Drehkreuz zeigst du den QR-Code auf dem Display; das Lesegerät des Zoos liest ihn wie von der Plastikkarte.</p>
 <p>Über „Karte löschen“ werden Datei und Porträt sofort vom Gerät entfernt. Beim Löschen der App verschwinden
-sie ebenfalls. Wie alle Dateien im App-Container werden sie in ein iCloud- oder Computer-Backup deines Geräts
+sie ebenfalls. Unter iOS werden sie wie alle Dateien im App-Container in ein iCloud- oder Computer-Backup deines Geräts
 aufgenommen, wenn du solche Backups eingeschaltet hast; dieses Backup liegt bei Apple bzw. auf deinem Computer,
 nicht beim Entwickler.</p>
+
+<p><strong>Unter Android</strong> wird das Foto mit der Kamera-App deines Handys aufgenommen oder mit der
+Systemfotoauswahl gewählt; Your Zoo verlangt weder Kamera- noch Fotoberechtigung. QR-Code, Name und Daten werden auf
+dem Handy von Erkennungsmodellen gelesen, die Teil der App sind, ohne Netzverbindung. Kartendaten und Porträt liegen
+im privaten Speicher der App, verschlüsselt mit AES-256-GCM und einem Schlüssel, der den Android-Keystore des Handys
+nie verlässt; sie sind von der Android-Cloud-Sicherung und der Geräteübertragung ausgeschlossen. „Karte löschen“
+entfernt sie sofort, ebenso das Deinstallieren der App.</p>
 
 <h2 id="traces">Ground-Truth-Aufzeichnungen (freiwillig)</h2>
 <p>In den Einstellungen gibt es eine Funktion, mit der die Ortung zum Verbessern der Erkennung mitgeschnitten
@@ -103,11 +118,11 @@ Funktion nur ein, wenn du das möchtest, und lösche die Dateien, wenn du sie ni
 gewählte Sprache, die Wiedergabegeschwindigkeit, die Standortquelle, welche Gehege du als Favoriten markiert
 hast, welcher der fünf Fakten je Art zuletzt dran war, ob der Offline-Modus erzwungen ist, die Adresse des
 Update-Servers und der Zeitpunkt der letzten Update-Prüfung. Nichts davon identifiziert dich, und nichts davon
-wird versendet.</p>
+wird versendet. Unter Android sind diese Einstellungen von der Cloud-Sicherung ausgeschlossen.</p>
 
 <h2 id="netz">Was das Gerät verlässt</h2>
-<p>Die App enthält genau einen eigenen Netzwerk-Client und nutzt darüber hinaus die Karten-Komponente von Apple.
-Das sind alle Fälle:</p>
+<p>Die App enthält genau einen eigenen Netzwerk-Client und nutzt unter iOS darüber hinaus die Karten-Komponente
+von Apple. Das sind alle Fälle:</p>
 
 <h3>1. Inhalts-Updates für das Zoo-Paket</h3>
 <p>Höchstens einmal pro Stunde — und immer, wenn du in den Einstellungen „Nach Updates suchen“ antippst — fragt
@@ -115,7 +130,7 @@ die App eine Datei-Ablage ab, standardmäßig
 <code>raw.githubusercontent.com/andreseloysv/zoo</code>. Geladen werden der Zoo-Index, die Manifest-Datei und,
 nur wenn eine neuere Version vorliegt, die geänderten Inhalts­dateien.</p>
 <p><strong>Gesendet wird dabei nichts außer der Anfrage selbst:</strong> die Adresse der gewünschten Datei und
-eine Kennzeichnung der App-Version (<code>User-Agent: Your Zoo/0.1.0</code>). Es werden keine
+eine Kennzeichnung der App-Version (<code>User-Agent: Your Zoo/&lt;Version&gt;</code> unter iOS, <code>Wildnis/&lt;Version&gt;</code> unter Android). Es werden keine
 Kennungen, keine Cookies (die Verbindung nutzt eine flüchtige Sitzung ohne Cookie- und Cache-Speicher), kein
 Standort und keine Kartendaten mitgeschickt. Technisch unvermeidbar ist, dass der Betreiber der Ablage — bei der
 Voreinstellung GitHub, Inc. (USA) — die IP-Adresse deines Geräts sieht und nach seinen eigenen Regeln
@@ -124,7 +139,9 @@ protokollieren kann. Jede geladene Datei wird über ihre SHA-256-Prüfsumme gepr
 App funktioniert dann unverändert weiter, weil das Zoo-Paket in der App enthalten ist.</p>
 
 <h3>2. Die Grundkarte im Karten-Screen</h3>
-<p>Die Gehege, Wege und Symbole von Your Zoo werden über die Karte von Apple (MapKit) gezeichnet. Ist der
+<p><strong>Unter Android</strong> gibt es keine Grundkarte von einem Dienst: Die App zeichnet Wege, Gehege und Symbole
+selbst aus den im App-Paket enthaltenen Zoo-Daten. Der Flugmodus ändert an der Karte nichts.</p>
+<p><strong>Unter iOS</strong> werden die Gehege, Wege und Symbole von Your Zoo werden über die Karte von Apple (MapKit) gezeichnet. Ist der
 Karten-Screen geöffnet, lädt MapKit die Kartendaten für den angezeigten Ausschnitt von Apple. Damit verlässt die
 Information, dass ein Gerät gerade diesen Ausschnitt betrachtet, das Telefon. Diese Anfragen stellt das
 Betriebssystem, nicht die App; nach Apples Angaben werden sie nicht mit deiner Apple-Account-ID verknüpft.
@@ -133,49 +150,62 @@ nicht. Wenn du sie vermeiden willst, schalte das Gerät in den Flugmodus — Ort
 funktionieren weiter, nur die graue Grundkarte unter den Gehegen bleibt leer bzw. zeigt nur bereits geladene
 Bereiche.</p>
 
-<h3>3. Links, die du selbst antippst</h3>
-<p>In „Quellen &amp; Lizenzen“ und beim Zoo-Link öffnet ein Fingertipp die jeweilige Seite in Safari. Ab diesem
+<h3>3. Deine Position unter Android (Google Play-Dienste)</h3>
+<p>Unter Android liefert der kombinierte Standortanbieter von Google in den Google Play-Diensten deine Position; er ist
+Teil von Android und arbeitet nach Googles eigenen Datenschutzbestimmungen. Die App sendet die Position nirgendwohin.</p>
+
+<h3>4. Links, die du selbst antippst</h3>
+<p>In „Quellen &amp; Lizenzen“ und beim Zoo-Link öffnet ein Fingertipp die jeweilige Seite im Browser (unter iOS Safari). Ab diesem
 Moment gilt die Datenschutzerklärung der besuchten Seite.</p>
 
 <h3>Nicht im Netz: die Sprachausgabe</h3>
-<p>Die Geschichten werden von der Sprachsynthese von iOS auf dem Gerät vorgelesen. Es wird kein Text an einen
-Sprachdienst gesendet. Zusätzliche, besser klingende Stimmen lädst du bei Bedarf über die iOS-Einstellungen
-herunter, nicht über diese App.</p>
+<p>Die Geschichten werden von der Sprachsynthese deines Handys vorgelesen (unter iOS die von iOS, unter Android die
+Sprachausgabe des Systems). Die App sendet keinen Text an einen eigenen Sprachdienst. Zusätzliche, besser klingende
+Stimmen lädst du bei Bedarf über die Systemeinstellungen herunter, nicht über diese App. Welche Sprachausgabe
+verwendet wird und ob sie offline arbeitet, hängt von den Einstellungen deines Handys ab.</p>
 
 <h2 id="nicht">Was die App nicht tut</h2>
 <ul>
   <li>Keine Konten, keine Registrierung, keine E-Mail-Adresse, kein Login.</li>
-  <li>Keine Analyse, keine Nutzungsstatistik, keine Absturz- oder Telemetriedienste.</li>
-  <li>Keine Werbung, keine Werbe-ID (IDFA), keine App-Tracking-Transparency-Abfrage, kein geräte- oder
+  <li>Keine Analyse, keine Nutzungsstatistik, keine Absturz- oder Telemetriedienste – auf keiner der beiden Plattformen.</li>
+  <li>Keine Werbung, keine Werbe-ID (IDFA unter iOS; unter Android fragt die App die Werbe-ID nicht an), keine App-Tracking-Transparency-Abfrage, kein geräte- oder
   anbieter­übergreifendes Tracking.</li>
-  <li>Keine SDKs, Bibliotheken oder Dienste von Dritten. Die einzige Abhängigkeit ist die zur App gehörende
-  eigene Programmbibliothek.</li>
-  <li>Keine Push-Mitteilungen, kein Adressbuch-, Kalender- oder Gesundheitszugriff, keine Audioaufnahme.</li>
+  <li>Unter iOS: keine SDKs, Bibliotheken oder Dienste von Dritten. Unter Android ist die einzige Komponente von
+  Dritten, die mit Google spricht, die Google Play-Dienste (Standort), die Teil des Systems sind; es gibt kein
+  Firebase, keine Werbe- oder Attributionsbibliothek und keine Komponente, die Daten über dich irgendwohin sendet.</li>
+  <li>Keine Push-Mitteilungen (die einzige Benachrichtigung ist die lokale, die unter Android während einer Tour angezeigt wird), kein Adressbuch-, Kalender- oder Gesundheitszugriff, keine Audioaufnahme.</li>
   <li>Kein Verkauf, keine Weitergabe und kein Austausch von Daten — es gibt keine Daten, die weiterzugeben wären.</li>
 </ul>
-<p class="small">Entsprechend führt das Privacy-Manifest der App (<code>PrivacyInfo.xcprivacy</code>) keine
+<p class="small">Unter iOS führt entsprechend das Privacy-Manifest der App (<code>PrivacyInfo.xcprivacy</code>) keine
 erhobene Datenart und keine Tracking-Domain auf; als geschützte Programmierschnittstellen sind nur die
-App-Einstellungen und das Änderungsdatum der Inhaltsdateien deklariert.</p>
+App-Einstellungen und das Änderungsdatum der Inhaltsdateien deklariert. Unter Android gibt das Datensicherheits-Formular in Google Play
+entsprechend an, dass keine Daten erhoben und keine weitergegeben werden.</p>
 
 <h2 id="berechtigungen">Berechtigungen im Überblick</h2>
 <table>
   <tr><th>Berechtigung</th><th>Wofür</th><th>Verlässt das Gerät?</th></tr>
-  <tr><td>Standort (beim Verwenden, im Hintergrund während der Wiedergabe)</td>
+  <tr><td>iOS: Standort (beim Verwenden, im Hintergrund während der Wiedergabe)</td>
       <td>Erkennen, vor welchem Gehege du stehst</td><td>Nein</td></tr>
-  <tr><td>Kamera</td><td>Deine Zoo-Karte abfotografieren</td><td>Nein</td></tr>
-  <tr><td>Fotos</td><td>Ein vorhandenes Foto der Zoo-Karte auswählen. Dafür fragt die App keine Berechtigung
+  <tr><td>iOS: Kamera</td><td>Deine Zoo-Karte abfotografieren</td><td>Nein</td></tr>
+  <tr><td>iOS: Fotos</td><td>Ein vorhandenes Foto der Zoo-Karte auswählen. Dafür fragt die App keine Berechtigung
       an: iOS zeigt die Auswahl außerhalb der App und reicht nur das eine gewählte Bild herein. Die App sieht
       deine Mediathek nie.</td><td>Nein</td></tr>
-  <tr><td>Bewegung &amp; Fitness</td><td>Aus dem Akku-Sparmodus aufwachen, wenn du weitergehst</td><td>Nein</td></tr>
+  <tr><td>iOS: Bewegung &amp; Fitness</td><td>Aus dem Akku-Sparmodus aufwachen, wenn du weitergehst</td><td>Nein</td></tr>
   <tr><td>Mikrofon</td><td>Wird nicht angefragt. Die App nimmt keinen Ton auf.</td><td>—</td></tr>
+  <tr><td>Android: Standort, genau/ungefähr (während der Nutzung der App)</td><td>Erkennen, vor welchem Gehege du stehst</td><td>Nein</td></tr>
+  <tr><td>Android: Vordergrunddienst (Standort) und Benachrichtigungen</td><td>Den Guide bei ausgeschaltetem Bildschirm am Laufen halten; zeigt den Hinweis „Dein Zoo führt dich“ mit Stopp-Taste</td><td>Nein</td></tr>
+  <tr><td>Android: Vordergrunddienst (Medienwiedergabe)</td><td>Wiedergabe der Geschichten bei ausgeschaltetem Bildschirm, Steuerung auf dem Sperrbildschirm</td><td>Nein</td></tr>
+  <tr><td>Android: Internet</td><td>Inhalts-Updates für das Zoo-Paket</td><td>Ja, siehe oben</td></tr>
+  <tr><td>Android: Kamera / Fotos</td><td>Nicht angefordert (Kamera-App und Fotoauswahl des Systems werden genutzt)</td><td>—</td></tr>
 </table>
-<p class="small">Jede erteilte Berechtigung kannst du in den iOS-Einstellungen jederzeit widerrufen. Ohne
+<p class="small">Jede erteilte Berechtigung kannst du in den Systemeinstellungen (iOS-Einstellungen; Android-Einstellungen &gt; Apps &gt; Your Zoo &gt; Berechtigungen) jederzeit widerrufen. Ohne
 Standort entfällt nur die automatische Erkennung, ohne Kamera nur das Abfotografieren der Zoo-Karte.</p>
 
 <h2 id="kinder">Kinder</h2>
-<p>Your Zoo richtet sich an Familien; Kinder gehören zur Zielgruppe. Die App erhebt von niemandem Daten — auch
-nicht von Kindern. Es gibt kein Konto, kein Profil, keine Werbung, keine Chat- oder Kommentarfunktion, keine
-Inhalte, die Nutzer beitragen können, und keinen Kauf in der App. Da keine personenbezogenen Daten an den
+<p>Your Zoo richtet sich an Menschen ab 13 Jahren und ist nicht speziell für Kinder gemacht. Die App erhebt von niemandem
+personenbezogene Daten — auch nicht von Kindern, die sie gemeinsam mit ihrer Familie nutzen. Es gibt kein Konto, kein Profil, keine Werbung, kein Tracking, keine Chat- oder
+Kommentarfunktion, keine Inhalte, die Nutzer beitragen können, und keinen Kauf in der App; dein Standort wird nur auf
+dem Gerät verarbeitet. Da keine personenbezogenen Daten an den
 Entwickler oder an Dritte übermittelt werden, entstehen keine Einwilligungs­pflichten nach dem US-amerikanischen
 COPPA oder nach Art. 8 DSGVO. Die digitale Zoo-Karte gehört der Person, die das Gerät bedient; ein Kind sollte
 die Karte eines Erwachsenen nur mit dessen Einverständnis einlesen.</p>
@@ -185,8 +215,8 @@ die Karte eines Erwachsenen nur mit dessen Einverständnis einlesen.</p>
 darauf; es liegen ihm keine personenbezogenen Daten vor. Für die verbleibenden Punkte gilt:</p>
 <ul>
   <li><strong>Standort und Kompass:</strong> Die Verarbeitung erfolgt lokal auf Grundlage der Freigabe, die du in
-  iOS erteilst, und ist zur Erbringung der App-Funktion erforderlich (Art. 6 Abs. 1 lit. b DSGVO). Du kannst sie
-  jederzeit in den iOS-Einstellungen beenden.</li>
+  iOS oder Android erteilst, und ist zur Erbringung der App-Funktion erforderlich (Art. 6 Abs. 1 lit. b DSGVO). Du kannst sie
+  jederzeit in den Systemeinstellungen beenden.</li>
   <li><strong>Zoo-Karte:</strong> lokale Verarbeitung auf deine ausdrückliche Veranlassung hin, um dir die
   digitale Karte bereitzustellen (Art. 6 Abs. 1 lit. b DSGVO). Die Daten auf einer Mitgliedskarte können
   Name und Anrede enthalten; sie bleiben auf deinem Gerät.</li>
@@ -197,7 +227,7 @@ darauf; es liegen ihm keine personenbezogenen Daten vor. Für die verbleibenden 
   die du durch Ausschalten der Aufzeichnung und Löschen der Dateien widerrufen kannst.</li>
 </ul>
 <p><strong>Drittlandübermittlung:</strong> Bei der Update-Prüfung wird die Anfrage an GitHub, Inc. (USA)
-gerichtet, bei der Grundkarte an Apple Inc. (USA); dabei wird jeweils die IP-Adresse deines Geräts übertragen.
+gerichtet, bei der Grundkarte (nur iOS) an Apple Inc. (USA); dabei wird jeweils die IP-Adresse deines Geräts übertragen.
 Beide Unternehmen sind unter dem EU-US Data Privacy Framework zertifiziert. Inhaltliche Daten aus der App werden
 nicht übermittelt.</p>
 
@@ -213,15 +243,13 @@ ausschließlich auf deinem Gerät, und du übst die Rechte dort unmittelbar aus:
   <li><strong>Berichtigung:</strong> Felder der Zoo-Karte lassen sich beim Einlesen und beim erneuten Scannen
   korrigieren.</li>
   <li><strong>Löschung:</strong> „Karte löschen“ entfernt Karte und Porträt, „Löschen“ bei einer Aufzeichnung
-  entfernt diese Datei, das Löschen der App entfernt alles.</li>
-  <li><strong>Widerruf:</strong> Standort-, Kamera- und Fotofreigabe kannst du in den iOS-Einstellungen jederzeit
+  entfernt diese Datei, das Löschen der App entfernt alles. Unter Android genügt auch „Daten löschen“ in den Android-Einstellungen.</li>
+  <li><strong>Widerruf:</strong> Standort-, Kamera- und Fotofreigabe kannst du in den Systemeinstellungen jederzeit
   zurücknehmen.</li>
 </ul>
-<p>Fragen beantwortet der Verantwortliche unter der oben genannten Adresse. Außerdem steht dir ein
+<p>Fragen beantwortet der Verantwortliche über die oben genannten Kontaktdaten. Außerdem steht dir ein
 Beschwerderecht bei einer Datenschutz-Aufsichtsbehörde zu, insbesondere in dem Mitgliedstaat deines
 Aufenthaltsorts.</p>
-<p class="todo"><span class="todo-tag">TODO</span> Zuständige Aufsichtsbehörde nach dem Sitz des Verantwortlichen ergänzen (in Deutschland die Landesdatenschutzbehörde des Bundeslandes).</p>
-
 <h2 id="speicherdauer">Speicherdauer</h2>
 <ul>
   <li>Standort- und Kompasswerte: nur so lange, wie sie berechnet werden; sie werden nicht gespeichert.</li>
@@ -232,7 +260,7 @@ Aufenthaltsorts.</p>
 </ul>
 
 <h2 id="sicherheit">Sicherheit</h2>
-<p>Zoo-Karte und Porträt werden mit dem iOS-Dateischutz „vollständig“ verschlüsselt. Alle anderen Dateien liegen
+<p>Zoo-Karte und Porträt werden unter iOS mit dem Dateischutz „vollständig“ verschlüsselt, unter Android mit AES-256-GCM, wobei der Schlüssel im Android-Keystore liegt. Alle anderen Dateien liegen
 im privaten, vom Betriebssystem abgeschotteten Datenbereich der App und sind für andere Apps nicht lesbar. Die
 App bietet keine Dateifreigabe an. Netzanfragen laufen ausschließlich über HTTPS, ohne Cookies und ohne
 Zwischenspeicher; heruntergeladene Inhalte werden über Prüfsummen verifiziert, bevor sie eingesetzt werden.</p>
@@ -243,13 +271,13 @@ Datum oben angepasst. Ältere Fassungen lassen sich über die Versionsgeschichte
 nachvollziehen.</p>
 
 <h2 id="kontakt">Kontakt</h2>
-<p>Fragen zum Datenschutz, Widerrufe und Auskunftsersuchen: <span class="todo-inline">TODO: kontakt-adresse@domain.tld</span></p>
+<p>Fragen zum Datenschutz, Widerrufe und Auskunftsersuchen: <a href="mailto:andreslaley@msn.com">andreslaley@msn.com</a></p>
 <p class="small">Your Zoo steht in keiner Verbindung zum Zoo Frankfurt. Für die Mitgliedskarte selbst und für alles,
 was am Drehkreuz passiert, gilt die Datenschutzerklärung des Zoos.</p>
 
 </main>
 <footer class="site">
-  <p>Your Zoo 0.1.0 · Offline-Audioguide für den Zoo Frankfurt · Keine Konten, keine Analyse, keine Werbung.</p>
+  <p>Your Zoo 1.2 · Offline-Audioguide für den Zoo Frankfurt · Keine Konten, keine Analyse, keine Werbung.</p>
   <p class="small">Your Zoo ist ein unabhängiges Projekt und steht in keiner Verbindung zum Zoo Frankfurt.</p>
 </footer>
 </body>

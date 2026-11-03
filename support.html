@@ -23,7 +23,7 @@
 
 <h1>Hilfe</h1>
 <p class="lede">Alles, was im Zoo schiefgehen kann — und was dagegen hilft. Kommst du hier nicht weiter, schreib
-uns: <span class="todo-inline">TODO: support-adresse@domain.tld</span></p>
+uns: <a href="mailto:andreslaley@msn.com">andreslaley@msn.com</a></p>
 
 <h2 id="guide">Der Audioguide</h2>
 <dl class="faq">
@@ -70,7 +70,7 @@ wartet die App, bis das nächste Gehege genauso eindeutig ist; kurzes Hin und He
 
 <dt>Funktioniert das ohne Netz?</dt>
 <dd>Ja. Alle Texte, Bilder, Wege und die Sprachausgabe sind in der App. GPS kommt vom Satelliten und braucht
-keinen Mobilfunk. Eine Ausnahme: die graue Grundkarte unter den Gehegen kommt von Apple und braucht beim ersten
+keinen Mobilfunk. Eine Ausnahme, nur unter iOS: die graue Grundkarte unter den Gehegen kommt von Apple und braucht beim ersten
 Anzeigen eine Verbindung. Ohne Netz bleiben die Gehege, Wege und dein Standort sichtbar, die Grundkarte darunter
 kann leer sein.</dd>
 
@@ -83,12 +83,12 @@ Mal einen neuen — auch beim zehnten Besuch hörst du also etwas Neues.</dd>
 einblenden und läuft beim Vorlesen mit.</dd>
 
 <dt>Warum klingt die Stimme so künstlich?</dt>
-<dd>Die Geschichten werden vom Gerät vorgelesen; aufgenommene Sprecher gibt es in dieser Version noch nicht. In
-den iOS-Einstellungen unter <em>Bedienungshilfen → Gesprochene Inhalte → Stimmen</em> kannst du eine
+<dd>Die Geschichten werden vom Gerät vorgelesen; aufgenommene Sprecher gibt es in dieser Version noch nicht. Unter iOS findest du in
+den Einstellungen unter <em>Bedienungshilfen → Gesprochene Inhalte → Stimmen</em> kannst du eine
 hochwertigere Stimme für Deutsch, Englisch oder Spanisch herunterladen — die App benutzt sie dann automatisch.</dd>
 
 <dt>Läuft die Wiedergabe mit ausgeschaltetem Display weiter?</dt>
-<dd>Ja, solange eine Führung aktiv ist. iOS zeigt dabei die blaue Standortanzeige. Stehst du 90 Sekunden still,
+<dd>Ja, solange eine Führung aktiv ist. iOS zeigt dabei die blaue Standortanzeige, Android eine Benachrichtigung mit Stopp-Taste. Stehst du 90 Sekunden still,
 schaltet die App auf sparsame Ortung um und wacht auf, sobald du weitergehst.</dd>
 </dl>
 
@@ -144,15 +144,37 @@ dann, wenn sich etwas geändert hat. Manuell geht das mit <em>Nach Updates suche
 hören willst.</dd>
 </dl>
 
+<h2 id="android">Android</h2>
+<dl class="faq">
+<dt>Warum erscheint die Benachrichtigung „Dein Zoo führt dich“, und wie beende ich sie?</dt>
+<dd>Solange eine Tour läuft (ab der ersten Geschichte, bis du auf „Stopp“ tippst, oder 15 Minuten nach der letzten Geschichte), hält die App den Guide über einen Android-Vordergrunddienst bei ausgeschaltetem Bildschirm am Laufen, und Android verlangt dafür eine sichtbare Benachrichtigung. Tippe in der Benachrichtigung auf <strong>Stopp</strong>, dann endet der Dienst. Ab Android 13 musst du Benachrichtigungen einmal erlauben, damit der Hinweis erscheinen kann; weitere Benachrichtigungen sendet die App nicht.</dd>
+
+<dt>Wo erlaube ich den Standort?</dt>
+<dd>Android-Einstellungen → Apps → Your Zoo → Berechtigungen → Standort → <em>Nur während der Nutzung der App zulassen</em>, mit eingeschaltetem <em>Genauen Standort verwenden</em>. Die App fragt nie nach „immer“ und hat keine Hintergrund-Standortberechtigung.</dd>
+
+<dt>Kann ich die App auch außerhalb des Zoos ausprobieren?</dt>
+<dd>Ja. Einstellungen → Erweitert → <em>Demo-Rundgang</em>: Der Guide folgt dann einem aufgezeichneten Beispielweg statt deiner echten Position. Ein Tipp schaltet zurück auf echtes GPS.</dd>
+
+<dt>Wie funktioniert das Kartenfoto unter Android?</dt>
+<dd><em>Foto aufnehmen</em> öffnet die Kamera-App deines Handys, <em>Auswählen</em> die Systemfotoauswahl. Your Zoo verlangt weder Kamera- noch Fotoberechtigung und sieht den Rest deiner Galerie nie. Die Karte liegt verschlüsselt auf dem Gerät und ist nicht in der Android-Cloud-Sicherung enthalten.</dd>
+
+<dt>Warum klingt die Stimme unter Android künstlich?</dt>
+<dd>Die Geschichten liest die Sprachausgabe deines Handys vor. Eine bessere Stimme installierst du in den Android-Einstellungen unter System → Sprachen → Sprachausgabe (der Pfad hängt vom Hersteller ab).</dd>
+
+<dt>Funktioniert die Karte ohne Netz?</dt>
+<dd>Ja, vollständig. Unter Android zeichnet die App Wege, Gehege und Symbole selbst aus den Daten im App-Paket; eine Grundkarte, die geladen werden müsste, gibt es nicht.</dd>
+
+</dl>
+
 <h2 id="melden">Ein falsches Tier melden</h2>
 <p>Das ist der wichtigste Fehler, den es zu beheben gilt: Wenn die App das falsche Tier erzählt hat, wollen wir
 davon wissen.</p>
-<p>Schreib an <span class="todo-inline">TODO: support-adresse@domain.tld</span> und nimm, soweit du es weißt, mit auf:</p>
+<p>Schreib an <a href="mailto:andreslaley@msn.com">andreslaley@msn.com</a> und nimm, soweit du es weißt, mit auf:</p>
 <ul>
   <li>Was wurde erzählt, und vor welchem Gehege standest du wirklich?</li>
   <li>Wo genau standest du — welcher Aussichtspunkt, welche Seite der Anlage?</li>
   <li>Datum und ungefähre Uhrzeit, Wetter (dichte Wolken und nasses Laub verschlechtern GPS).</li>
-  <li>Gerätemodell, iOS-Version, App-Version (steht in den Einstellungen unter <em>Quellen &amp; Lizenzen</em>).</li>
+  <li>Gerätemodell, iOS- oder Android-Version, App-Version (steht in den Einstellungen unter <em>Quellen &amp; Lizenzen</em>).</li>
   <li>War der Kompass frisch kalibriert? Steckte das Telefon in einer Magnethülle?</li>
 </ul>
 <p>Wenn du helfen willst, den Fehler reproduzierbar zu machen: In den Einstellungen unter
@@ -162,14 +184,13 @@ deinen Weg durch den Zoo — schick sie nur, wenn dir das recht ist, und lösche
 <p>Fehler im Text, im Bild oder im Fakt selbst gerne genauso melden: Art, Sprache und die Stelle genügen.</p>
 
 <h2 id="kontakt">Kontakt</h2>
-<p><span class="todo-inline">TODO: support-adresse@domain.tld</span> — wir antworten auf Deutsch, Englisch und Spanisch.</p>
-<p class="todo"><span class="todo-tag">TODO</span> Support-E-Mail-Adresse eintragen (dieselbe, die in App Store Connect hinterlegt wird), und ggf. eine erwartbare Antwortzeit nennen.</p>
+<p><a href="mailto:andreslaley@msn.com">andreslaley@msn.com</a> — wir antworten auf Deutsch, Englisch und Spanisch.</p>
 <p class="small">Your Zoo ist ein unabhängiges Projekt. Fragen zu Eintrittspreisen, Öffnungszeiten,
 Jahreskarten oder Tieren beantwortet der Zoo Frankfurt selbst — nicht diese App.</p>
 
 </main>
 <footer class="site">
-  <p>Your Zoo 0.1.0 · Offline-Audioguide für den Zoo Frankfurt · Keine Konten, keine Analyse, keine Werbung.</p>
+  <p>Your Zoo 1.2 · Offline-Audioguide für den Zoo Frankfurt · Keine Konten, keine Analyse, keine Werbung.</p>
   <p class="small">Your Zoo ist ein unabhängiges Projekt und steht in keiner Verbindung zum Zoo Frankfurt.</p>
 </footer>
 </body>
