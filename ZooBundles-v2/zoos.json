@@ -1,0 +1,204 @@
+{
+ "zoos": [
+  {
+   "id": "berlin",
+   "name": {
+    "de": "Zoo Berlin",
+    "en": "Berlin Zoo",
+    "es": "Zoo de Berlín"
+   },
+   "version": 2,
+   "city": "Berlin"
+  },
+  {
+   "id": "tierpark-berlin",
+   "name": {
+    "de": "Tierpark Berlin",
+    "en": "Tierpark Berlin",
+    "es": "Tierpark Berlin"
+   },
+   "version": 2,
+   "city": "Berlin"
+  },
+  {
+   "id": "leipzig",
+   "name": {
+    "de": "Zoo Leipzig",
+    "en": "Leipzig Zoo",
+    "es": "Zoo de Leipzig"
+   },
+   "version": 2,
+   "city": "Leipzig"
+  },
+  {
+   "id": "hellabrunn",
+   "name": {
+    "de": "Tierpark Hellabrunn",
+    "en": "Hellabrunn Zoo",
+    "es": "Zoo Hellabrunn de Múnich"
+   },
+   "version": 2,
+   "city": "München"
+  },
+  {
+   "id": "hagenbeck",
+   "name": {
+    "de": "Tierpark Hagenbeck",
+    "en": "Hagenbeck Zoo",
+    "es": "Zoo Hagenbeck"
+   },
+   "version": 2,
+   "city": "Hamburg"
+  },
+  {
+   "id": "wilhelma",
+   "name": {
+    "de": "Wilhelma",
+    "en": "Wilhelma",
+    "es": "Wilhelma"
+   },
+   "version": 2,
+   "city": "Stuttgart"
+  },
+  {
+   "id": "hannover",
+   "name": {
+    "de": "Erlebnis-Zoo Hannover",
+    "en": "Erlebnis-Zoo Hannover",
+    "es": "Erlebnis-Zoo Hannover"
+   },
+   "version": 2,
+   "city": "Hannover"
+  },
+  {
+   "id": "cologne",
+   "name": {
+    "de": "Kölner Zoo",
+    "en": "Cologne Zoo",
+    "es": "Zoo de Colonia"
+   },
+   "version": 2,
+   "city": "Köln"
+  },
+  {
+   "id": "zoom",
+   "name": {
+    "de": "ZOOM Erlebniswelt",
+    "en": "ZOOM Erlebniswelt",
+    "es": "ZOOM Erlebniswelt"
+   },
+   "version": 2,
+   "city": "Gelsenkirchen"
+  },
+  {
+   "id": "nuremberg",
+   "name": {
+    "de": "Tiergarten Nürnberg",
+    "en": "Tiergarten Nürnberg",
+    "es": "Tiergarten Nürnberg"
+   },
+   "version": 2,
+   "city": "Nürnberg"
+  },
+  {
+   "id": "rostock",
+   "name": {
+    "de": "Zoo Rostock",
+    "en": "Zoo Rostock",
+    "es": "Zoo Rostock"
+   },
+   "version": 2,
+   "city": "Rostock"
+  },
+  {
+   "id": "muenster",
+   "name": {
+    "de": "Allwetterzoo Münster",
+    "en": "Allwetterzoo Münster",
+    "es": "Allwetterzoo Münster"
+   },
+   "version": 2,
+   "city": "Münster"
+  },
+  {
+   "id": "frankfurt",
+   "name": {
+    "de": "Zoo Frankfurt",
+    "en": "Frankfurt Zoo",
+    "es": "Zoo de Fráncfort"
+   },
+   "version": 1,
+   "city": "Frankfurt am Main"
+  },
+  {
+   "id": "duisburg",
+   "name": {
+    "de": "Zoo Duisburg",
+    "en": "Zoo Duisburg",
+    "es": "Zoo Duisburg"
+   },
+   "version": 2,
+   "city": "Duisburg"
+  },
+  {
+   "id": "osnabrueck",
+   "name": {
+    "de": "Zoo Osnabrück",
+    "en": "Zoo Osnabrück",
+    "es": "Zoo Osnabrück"
+   },
+   "version": 2,
+   "city": "Osnabrück"
+  },
+  {
+   "id": "walsrode",
+   "name": {
+    "de": "Weltvogelpark Walsrode",
+    "en": "Weltvogelpark Walsrode",
+    "es": "Weltvogelpark Walsrode"
+   },
+   "version": 2,
+   "city": "Walsrode"
+  },
+  {
+   "id": "karlsruhe",
+   "name": {
+    "de": "Zoologischer Stadtgarten Karlsruhe",
+    "en": "Karlsruhe Zoo",
+    "es": "Zoo de Karlsruhe"
+   },
+   "version": 2,
+   "city": "Karlsruhe"
+  },
+  {
+   "id": "wuppertal",
+   "name": {
+    "de": "Der Grüne Zoo Wuppertal",
+    "en": "Green Zoo Wuppertal",
+    "es": "Zoo Verde de Wuppertal"
+   },
+   "version": 2,
+   "city": "Wuppertal"
+  },
+  {
+   "id": "tripsdrill",
+   "name": {
+    "de": "Wildparadies Tripsdrill",
+    "en": "Wildparadies Tripsdrill",
+    "es": "Wildparadies Tripsdrill"
+   },
+   "version": 2,
+   "city": "Cleebronn"
+  },
+  {
+   "id": "augsburg",
+   "name": {
+    "de": "Zoo Augsburg",
+    "en": "Zoo Augsburg",
+    "es": "Zoo Augsburg"
+   },
+   "version": 2,
+   "city": "Augsburg"
+  }
+ ]
+}

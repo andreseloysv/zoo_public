@@ -1,0 +1,839 @@
+{
+ "id": "zoom",
+ "version": 2,
+ "name": {
+  "de": "ZOOM Erlebniswelt",
+  "en": "ZOOM Erlebniswelt",
+  "es": "ZOOM Erlebniswelt"
+ },
+ "city": "Gelsenkirchen",
+ "center": {
+  "latitude": 51.54444085,
+  "longitude": 7.11214595
+ },
+ "bounds": {
+  "minLatitude": 51.54194,
+  "minLongitude": 7.1061294,
+  "maxLatitude": 51.5469417,
+  "maxLongitude": 7.1181625
+ },
+ "defaultLanguage": "de",
+ "languages": [
+  "de",
+  "en",
+  "es"
+ ],
+ "files": {
+  "features.geojson": {
+   "sha256": "31d84c28490d8ae9bf3eec02264028c1e4b1e0ea4f099a9a529d795702890463",
+   "bytes": 84135
+  },
+  "species.json": {
+   "sha256": "65c1d568f102f83bcc7a083336cec955ab607317dc000768d4e3ca40e3be6ede",
+   "bytes": 425537
+  },
+  "paths.geojson": {
+   "sha256": "48bc3497b0642791b86769afe5231bc70be528a8ff5d9338c59f3271f85c8742",
+   "bytes": 158922
+  },
+  "catalogue.json": {
+   "sha256": "95a88b4e49b09485d7a9a7ded11f3ab044c8da89bb1f19cc8e61cccad9aa1dbe",
+   "bytes": 14287
+  },
+  "animal-locations.json": {
+   "sha256": "d801aa1fb7ddcc330a5e3173372ea6af4a3d08ec58074478e85aa5603e926658",
+   "bytes": 14
+  },
+  "enclosures.geojson": {
+   "sha256": "5912d530a5f09c6497f0364866aaf1fdc1bbaa55d63607c4a30237f70b9f0e5c",
+   "bytes": 41137
+  },
+  "images/taxon-lynx-lynx.jpg": {
+   "sha256": "0da57a19518d4b3b2661df8f50c618f0f3946148c59d860dc3839a398a84976c",
+   "bytes": 232528
+  },
+  "images/taxon-helogale-parvula.jpg": {
+   "sha256": "a0bce9931bce3daa3aea3b6d04eb1548427ab2cfb8d4ac97a32c018d7aa8316f",
+   "bytes": 222881
+  },
+  "images/taxon-phloeomys-pallidus.jpg": {
+   "sha256": "8f474360467b524784e6117670f19e0c636010264d3874ca99c0d4e9f3b5fa59",
+   "bytes": 853655
+  },
+  "images/taxon-branta-ruficollis.jpg": {
+   "sha256": "71e8eabf719ed32a62db1fcaaf9e09142efe476c113f2300d34584b839d886cd",
+   "bytes": 280152
+  },
+  "images/taxon-hippotragus-niger.jpg": {
+   "sha256": "e3dfb42800f3dee0ea73b7cf406fea5d950e774f849026e3707517ed2256e077",
+   "bytes": 211940
+  },
+  "images/taxon-tragelaphus-oryx.jpg": {
+   "sha256": "b9c8dcc29ad4c2d25a94cd0515e02aaa65ca7cc409dc170137f9872940b393f1",
+   "bytes": 185905
+  },
+  "images/taxon-crocuta-crocuta.jpg": {
+   "sha256": "cb672eb1cac4a13f90659d14f0a813f8854a16dba8e614fafefc4ec689078831",
+   "bytes": 277291
+  },
+  "images/taxon-scopus-umbretta.jpg": {
+   "sha256": "b39457b1f9a04002b073b69239d5c5597cd22073ba7bf522702f04f8e568bbea",
+   "bytes": 240087
+  },
+  "images/taxon-panthera-leo.jpg": {
+   "sha256": "c0ef6a292c4e86490292268d34ff0cbae5df25773a75af60b1e7d8fc81eeb170",
+   "bytes": 242373
+  },
+  "images/taxon-crocodylus-mindorensis.jpg": {
+   "sha256": "77c3817729a5801632022da6967185ca1394ea3a2095af837828228893bf5529",
+   "bytes": 281460
+  },
+  "images/taxon-varecia-rubra.jpg": {
+   "sha256": "b8b8db290051f143e0cf04d432989e9f3bd5198126910da0aa872e3609d329a5",
+   "bytes": 695486
+  },
+  "images/taxon-mephitis-mephitis.jpg": {
+   "sha256": "212e4590a84b333dea6ccfe63e8163d41b5dcf1217b6364c451c9ecdc70f5c2b",
+   "bytes": 2924639
+  },
+  "images/taxon-panthera-tigris-altaica.jpg": {
+   "sha256": "5ea485d4aba4de3b83a2ac98e46d63871ab2e826a4aa89bc39f1484c9ad5e2b0",
+   "bytes": 298559
+  },
+  "images/taxon-bos-primigenius-taurus--dahomeyzwergrind.jpg": {
+   "sha256": "ba67585f474e7cd2ab9a4efcd71c5a06fd096300ab872cd020c38a15945ac9a9",
+   "bytes": 287941
+  },
+  "images/taxon-procyon-lotor.jpg": {
+   "sha256": "52522c7f4ac6723ff005e68e299672f1064b88b536618a2f64c9d820c6720d80",
+   "bytes": 405258
+  },
+  "images/taxon-ursus-arctos-beringianus.jpg": {
+   "sha256": "3428998fe4701d29513509411f68d21f77feb34b173116611ff75d60dcdbb21b",
+   "bytes": 250604
+  },
+  "images/taxon-ailurus-fulgens.jpg": {
+   "sha256": "226fc52fd22c8276f9b8f3f67ecbdba345902eadb5f9a9077b59329a30cea506",
+   "bytes": 632292
+  },
+  "images/taxon-aonyx-cinereus.jpg": {
+   "sha256": "99c829bf4dd3311a777ecffde2f719c020f377f9327a64d386a41f4736b0b53f",
+   "bytes": 368055
+  },
+  "images/taxon-python-regius.jpg": {
+   "sha256": "47fcc112e2d98514b6e0e559fd91ac66ceabe2ffab6f42ac8e2d9297db01f40b",
+   "bytes": 232530
+  },
+  "images/taxon-castor-fiber-canadensis.jpg": {
+   "sha256": "34806c8e5b4ef5843d9a1e002bf5dc93ee344dc2746f4428edb0f70b17f6fa14",
+   "bytes": 197621
+  },
+  "images/taxon-antidorcas-marsupialis.jpg": {
+   "sha256": "757a72019a3ff2cb1ecb33527784bdb588233a4e9d3473d00c14139518564977",
+   "bytes": 131542
+  },
+  "images/taxon-canis-lupus-lycaon.jpg": {
+   "sha256": "e259df764797be8a1594b400ca9f4486c9ad564ff42752a14a56d3f1abc2ca8a",
+   "bytes": 64163
+  },
+  "images/taxon-ovis-aries--somalischaf.jpg": {
+   "sha256": "da9cc336c1a509433ea81c0f63a50bea3f9171071329b8e63768624a467a9657",
+   "bytes": 406482
+  },
+  "images/taxon-bucorvus-abyssinicus.jpg": {
+   "sha256": "2953b080eae69aaba0e62387ce3046ca7965bfc5d671670b60eb128d01672cd0",
+   "bytes": 371095
+  },
+  "images/taxon-ceratotherium-simum-simum.jpg": {
+   "sha256": "9639ea50b42bd140c6a39cd639aa8608bd27b78e24df4e66f01cfe3374101b8c",
+   "bytes": 323509
+  },
+  "images/taxon-cavia-porcellus-dom--hausmeerschweinchen.jpg": {
+   "sha256": "e9edcb5828638da956001b00791c8b2bd1d2a48eda97fd07f09c1bdd15efd087",
+   "bytes": 287366
+  },
+  "images/taxon-pongo-abelii.jpg": {
+   "sha256": "97f095e1f615dd3e1edc07b89508484ec599b8bd2637c407153dab59e6c4f7d0",
+   "bytes": 261899
+  },
+  "images/taxon-pan-troglodytes-verus.jpg": {
+   "sha256": "5bd046f4c077f179f2e2a39378ce29104064ea80d0a71b9a8cf14d6f2ac74749",
+   "bytes": 238244
+  },
+  "images/taxon-astrochelys-radiata.jpg": {
+   "sha256": "73f5465ea617d20b99fa25d3a192bcaaf8afafc01b7a62261df4df3b70f7532a",
+   "bytes": 286917
+  },
+  "images/taxon-ursus-maritimus.jpg": {
+   "sha256": "cf1b2a1d892da11f581a19ff0025e095dad21a83e688712cd78cce2d88635614",
+   "bytes": 155069
+  },
+  "images/taxon-suricata-suricatta.jpg": {
+   "sha256": "b6e64cb707851bba3dd09651c92b7b16ee4e643c5768f9a219d1c05273f86af5",
+   "bytes": 681530
+  },
+  "images/taxon-rangifer-tarandus-f-domestica--hausrentier.jpg": {
+   "sha256": "cda50350c76b68d4c3d5b03d3c44e1365651b31b2d18ead6831ae8ff9d8249f6",
+   "bytes": 271897
+  },
+  "images/taxon-procavia-capensis.jpg": {
+   "sha256": "fb1f4dcdbd24db3ea870d42aa640637a12860b5b019ce5d0c471d3113fc3c855",
+   "bytes": 257051
+  },
+  "images/taxon-papio-anubis.jpg": {
+   "sha256": "4d140fa91106fd0922a459bede97e7d3aebd4589854785e906c612b87e2e9b2c",
+   "bytes": 263331
+  },
+  "images/taxon-macaca-nemestrina.jpg": {
+   "sha256": "69eaacabe8f9654663bcf99e57204102c773a8599842a4e35fba275e47246405",
+   "bytes": 204780
+  },
+  "images/taxon-ursus-arctos-arctos.jpg": {
+   "sha256": "006c1c398accfa01f358a099d5b8d4f9a164b85a5a4c437105edaee5e8706009",
+   "bytes": 308377
+  },
+  "images/taxon-tragelaphus-spekii.jpg": {
+   "sha256": "d5e95669911b8bcd910f6f737c0dd37cacc80275d9f451b5b458cb89ca5c99ba",
+   "bytes": 261110
+  },
+  "images/taxon-bubo-scandiacus.jpg": {
+   "sha256": "db9ded1d0b84fcf6f87995f982a348dd134cae581bb7c39f54ef5712538bfdc4",
+   "bytes": 187093
+  },
+  "images/taxon-eulemur-coronatus.jpg": {
+   "sha256": "25fbe1906a54ff673ce676e5b5aeeef0718941abeaf9aa2986a9d098771cda2c",
+   "bytes": 119216
+  },
+  "images/taxon-indotestudo-elongata.jpg": {
+   "sha256": "7f8fb42ce9be0df38435e9fe9adab257c30b017d5f89603c84df05e98c091b8f",
+   "bytes": 369804
+  },
+  "images/taxon-hippopotamus-amphibius.jpg": {
+   "sha256": "3231cdbb3e72962fbc566677f84c735159670e10db072840f90b572b28ce4079",
+   "bytes": 430638
+  },
+  "images/taxon-equus-asinus.jpg": {
+   "sha256": "bccfb1c0ef09e7905035a5d74ea0d904b5d9f104132cdf01a1a9f9abc9ef7a40",
+   "bytes": 99271
+  },
+  "images/taxon-macroscelides-proboscideus.jpg": {
+   "sha256": "0fca0fa406520b30f9ec969b0036ff1fbb758bdf82a1956f8feebc9a69f1a6c8",
+   "bytes": 327831
+  },
+  "images/taxon-struthio-camelus-camelus.jpg": {
+   "sha256": "5040b9718bd0093e776270910b5ed56b31af4d8a35ea6eb72a24010fb63ad4fe",
+   "bytes": 257164
+  },
+  "images/taxon-pteropus-vampyrus.jpg": {
+   "sha256": "2b4bd20770ad4b819e4bcb3882ae942fa11a696a77072b6cb2831c2d97a911c3",
+   "bytes": 151234
+  },
+  "images/taxon-tragelaphus-strepsiceros.jpg": {
+   "sha256": "3e691bd49c15ba176a7736309fc7a38e80b27d6c6a063d5e2d7651c95f27f1af",
+   "bytes": 548704
+  },
+  "images/taxon-lemur-catta.jpg": {
+   "sha256": "5d4d9abc6e626a08e723f925d11d2eb14f9d04c476eb2a6e6f87c7e4215fbe41",
+   "bytes": 266011
+  },
+  "images/taxon-alces-alces.jpg": {
+   "sha256": "3d5b4958b37ecbc4fecdb9718e83bc13c739470d8763cc09b4bf559c17d69821",
+   "bytes": 154537
+  },
+  "images/taxon-semnopithecus-entellus.jpg": {
+   "sha256": "3676352e48f21326276139d8211181d8798b854d4544652416bb773ea65d9f43",
+   "bytes": 130102
+  },
+  "images/taxon-dendrocygna-viduata.jpg": {
+   "sha256": "7e9668f1fa7d156759defaec56917115216984275f24648259470ffc746890a1",
+   "bytes": 234997
+  },
+  "images/taxon-leptailurus-serval.jpg": {
+   "sha256": "b0260fd7376fbdc4b60d97523d4545062a7e38a8622f965ad8b4820b79a50fdb",
+   "bytes": 388501
+  },
+  "images/taxon-centrochelys-sulcata.jpg": {
+   "sha256": "7fc719b832ba8025d2d9b8ec08a48b02d9e5acd73e648ed7e80f65f67e075aa5",
+   "bytes": 298684
+  },
+  "images/taxon-spheniscus-demersus.jpg": {
+   "sha256": "8bda729420189ec17f871f72695f133f26f8bfa4f1084fe0032271efce300713",
+   "bytes": 299701
+  },
+  "images/taxon-tragelaphus-angasii.jpg": {
+   "sha256": "1412a8c522303cf0902fedef839ef5007b000e7ee5003aeddc2dd46760c6ab4e",
+   "bytes": 582689
+  },
+  "images/taxon-equus-quagga-boehmi.jpg": {
+   "sha256": "e1d0b0bc8dbdb92350df30d24f56caf35153a7748e38ef035f8abfa473ea728d",
+   "bytes": 178139
+  },
+  "images/taxon-loris-lydekkerianus-nordicus.jpg": {
+   "sha256": "00fc691aa18686c643fd47080b257ad905377210ddd7e671c5cc01886578a022",
+   "bytes": 144199
+  },
+  "images/taxon-lontra-canadensis.jpg": {
+   "sha256": "5b3e73c52ce983168df412557a6bb24440136f6572789848736a46770677d5ea",
+   "bytes": 88978
+  },
+  "images/taxon-agapornis-nigrigenis.jpg": {
+   "sha256": "11238317c32eadb14ac1bab56593bc073e097129021d7846ece3b823750718b5",
+   "bytes": 194296
+  },
+  "images/taxon-giraffa-camelopardalis-camelopardalis.jpg": {
+   "sha256": "8dc6cd39362ed08650a84c6032835087ffac66589f615c892086cca622d3d27b",
+   "bytes": 282515
+  },
+  "images/taxon-damaliscus-pygargus-phillipsi.jpg": {
+   "sha256": "e6e4766b1fbfce4aeb3b2255103e06c8c9bfe07ade80bad0dd051cd572e6c2be",
+   "bytes": 192853
+  },
+  "images/taxon-lamprotornis-superbus.jpg": {
+   "sha256": "abae949dc161781a6b4a53338fba10b1f2d2bea80550645b8a334633ff1dbb64",
+   "bytes": 90082
+  },
+  "images/taxon-zalophus-californianus.jpg": {
+   "sha256": "d3b83c06eac251016d8bf6fff5d5541aa710a27b5f96002e94930b3b594caca0",
+   "bytes": 349702
+  },
+  "images/taxon-erethizon-dorsatum.jpg": {
+   "sha256": "49a9c59c78070c9c24df16cd4b4d804d2cb95d0c5f00cda95f6ed71d26c84ab8",
+   "bytes": 370869
+  },
+  "images/taxon-pelecanus-rufescens.jpg": {
+   "sha256": "1917cc00e850c54c46328e3075dc63ddb73c70a8964ab6d0b005d1ef26acc939",
+   "bytes": 207549
+  },
+  "images/taxon-bos-taurus--hinterwalderrind.jpg": {
+   "sha256": "badf87c14a8289c54600c27e6cac7b62bcea55ae5650cbf09b1731827b6c5213",
+   "bytes": 140901
+  },
+  "images/taxon-ovis-aries--moorschnucke.jpg": {
+   "sha256": "3f2c5bd6cf175a25351844725e6d14e918fa1030ee180079baf29d110663d41f",
+   "bytes": 262854
+  },
+  "images/taxon-capra-hircus--zwergziege.jpg": {
+   "sha256": "240a2ace0974e9de64ab184ecc0d1430e53442b3bc5bb83603895030dc8a61d3",
+   "bytes": 353332
+  },
+  "audio/sumatra-orang-utan_de_fact3.m4a": {
+   "sha256": "99b7e8024a96f5321f74b44111887357a237febe14dbd5db94966b2eb503ed9e",
+   "bytes": 45675
+  },
+  "audio/waschbaer_es_fact2.m4a": {
+   "sha256": "db10e9d8ac9c806e8fb18e033d002883ec9f2d1c4b9ad9a83b03aa566e7f252a",
+   "bytes": 22469
+  },
+  "audio/erdmaennchen_de_fact3.m4a": {
+   "sha256": "dd1ff242d75acf557a0e844642e9ea32ff42215c96a8ec06e704048fb1ac7b6f",
+   "bytes": 36630
+  },
+  "audio/amurtiger_de_fact2.m4a": {
+   "sha256": "8a396c554cce2c9720ce9a933bfeed1558f1281f6430fc3295e58c5379215e6e",
+   "bytes": 37537
+  },
+  "audio/hammerkopf_es_fact4.m4a": {
+   "sha256": "88ab07bf3fa7c98d2ec3ab1adb7177ff48359272354a14b456ce3a44686668c5",
+   "bytes": 47324
+  },
+  "audio/waschbaer_es_fact1.m4a": {
+   "sha256": "263bde715d023b8483f0f3aaa2e87e9c60587f9c17cc610dba5d92a54e165e71",
+   "bytes": 32787
+  },
+  "audio/erdmaennchen_de_fact1.m4a": {
+   "sha256": "7cfc8081014392f267b04e78dec83bd3c1630da3fc30bfcea7aa046a5d4d77e0",
+   "bytes": 43068
+  },
+  "audio/sumatra-orang-utan_es.m4a": {
+   "sha256": "374b9f2af2fa82dd3990d210cfd6a5184ffbf9a8226ad6a01626b40e87571636",
+   "bytes": 267757
+  },
+  "audio/asiatischer-zwergotter_en_fact2.m4a": {
+   "sha256": "339a926c6c244c405f55081c683af20f8747c44af4069a03d7c523a1e5a954eb",
+   "bytes": 37728
+  },
+  "audio/flusspferd_en_fact4.m4a": {
+   "sha256": "d62fbe1698e12b832b9230bc4095961a7e1673db3402cc1038131d2b6beb72a9",
+   "bytes": 32302
+  },
+  "audio/eisbaer_es_fact3.m4a": {
+   "sha256": "c845350ebc279fb3312f49025ff175d3e945e0ff8f7066ad4f2f6f6b29647284",
+   "bytes": 25854
+  },
+  "audio/sumatra-orang-utan_de_fact1.m4a": {
+   "sha256": "305babbf8a984aab9f0439eb6e50fc7ce228519075f408c462a478ad6a1dee75",
+   "bytes": 39127
+  },
+  "audio/amurtiger_de_fact1.m4a": {
+   "sha256": "fb29afc8be118b7bc83eb757724e317000b91c9d1f4045482975f5f203aee60f",
+   "bytes": 37426
+  },
+  "audio/loewe_en_fact3.m4a": {
+   "sha256": "31e1f05f1ec951ebffd9034fd370c1cf85fcb428e3e7c2fc277d4c2ca0ec14ca",
+   "bytes": 24404
+  },
+  "audio/sumatra-orang-utan_de_fact5.m4a": {
+   "sha256": "500c95b4ea555a09cb07e9dbd37b051edbc8cfcd5c1b04b09d3bee00a3d8376a",
+   "bytes": 35463
+  },
+  "audio/nordamerikanischer-baumstachler_en_fact2.m4a": {
+   "sha256": "8a01b040fb91c552ba88937d6d87c5f64440c526a28224ecc3e99a5ab505bea9",
+   "bytes": 17121
+  },
+  "audio/erdmaennchen_de_fact4.m4a": {
+   "sha256": "dcd99f2f2b231710a43214292057ec1a59acc20cf9098145756928e53856f035",
+   "bytes": 18524
+  },
+  "audio/erdmaennchen_de_fact5.m4a": {
+   "sha256": "3aca2c13b4d5e7e964276b85a167f17dfcb58713bf447a7e0c1e572d44231c8c",
+   "bytes": 35236
+  },
+  "audio/waschbaer_es_fact5.m4a": {
+   "sha256": "a21c1a5df91691e98091a37da80e8de818cff1c9bd8d9a402f34f044d39aabf4",
+   "bytes": 29041
+  },
+  "audio/nordamerikanischer-baumstachler_en_fact3.m4a": {
+   "sha256": "c2eec089efa4b5c73c5acba874e12fbb35c0cae32107baa5aaa46b3b0524b830",
+   "bytes": 15884
+  },
+  "audio/sumatra-orang-utan_de_fact4.m4a": {
+   "sha256": "1ba3963950c2ca1b3671e2e59965c47bd81572a8b8cda098720609ef07d6b0f9",
+   "bytes": 45345
+  },
+  "audio/loewe_en_fact2.m4a": {
+   "sha256": "71af1fa6f1cec0d3298f0fbe93b59e6a027b04a541d7714e49531ad4b1fa83fd",
+   "bytes": 26423
+  },
+  "audio/hammerkopf_es_fact2.m4a": {
+   "sha256": "0335b1b94d8121b56b385170abf8bd84d21b3d942ac7fb062ca1be6b78b2f5cf",
+   "bytes": 43306
+  },
+  "audio/eisbaer_es_fact4.m4a": {
+   "sha256": "48669a830c02bc3c54a50a5b3649cf381e9256e7f29f47abd1ca8f8b2b4d24bd",
+   "bytes": 26957
+  },
+  "audio/asiatischer-zwergotter_en_fact4.m4a": {
+   "sha256": "aa1720725ca5b2e2dbf34875bacbfeb82232cb810fb787ac3a03fe6c9bd966f7",
+   "bytes": 48607
+  },
+  "audio/flusspferd_en_fact3.m4a": {
+   "sha256": "b5241f1cc4bf563f2a5dbb1f00d79f72a1e79e3d29cc2fc4591750f518f38c4e",
+   "bytes": 28513
+  },
+  "audio/asiatischer-zwergotter_en_fact5.m4a": {
+   "sha256": "663a91f0dd7c36f5ffb5416b0cbb85853380277907893c5e8d65f09c61a93cac",
+   "bytes": 31934
+  },
+  "audio/zwergziege_es_fact1.m4a": {
+   "sha256": "a743191db060d30fb584c4d32f1f0d50dd520b9e9b568938918e603427082f84",
+   "bytes": 62706
+  },
+  "audio/hammerkopf_es_fact3.m4a": {
+   "sha256": "749d8dae81897c064c318b760906748b1090af565d23add13e975a75246659af",
+   "bytes": 35581
+  },
+  "audio/loewe_en_fact1.m4a": {
+   "sha256": "a72236179320a8f3595000eb757f3c71881b99cdb2c7cddd4b9ca9a683c5f436",
+   "bytes": 26485
+  },
+  "audio/sumatra-orang-utan_es_fact5.m4a": {
+   "sha256": "7a13e6fa7e42e88750f8e758d0872d57ce93a0ed19c4d4986676b5ec1e604588",
+   "bytes": 40057
+  },
+  "audio/strahlenschildkroete_en_fact1.m4a": {
+   "sha256": "cadb6256718f0168ab743451b5566cb4930f141801234aa9c8036db58f5850ea",
+   "bytes": 23038
+  },
+  "audio/erdmaennchen_es_fact4.m4a": {
+   "sha256": "821a93ab8d30694de5d8377e92f177057584817dcfc7884dd08dbb659882a05b",
+   "bytes": 19271
+  },
+  "audio/waschbaer_de_fact5.m4a": {
+   "sha256": "613812d15a904c5b6addabaa5a519bfc4e8b91240e5ca3e537e848b99c83c2c6",
+   "bytes": 30572
+  },
+  "audio/kleiner-panda_de.m4a": {
+   "sha256": "605b535f0c6f1c9c3f39d8175a3e6ab2ee839c7b9fa131df9d50bb2bd9511dd6",
+   "bytes": 263167
+  },
+  "audio/erdmaennchen_es_fact5.m4a": {
+   "sha256": "acb4d4aa005e2680dbd45d7f4d7aef1012fe38615b6cd28550e7014750b90dc4",
+   "bytes": 37419
+  },
+  "audio/sumatra-orang-utan_es_fact4.m4a": {
+   "sha256": "e7a43bbe77812e49b44c971047ab3cf425f926197c34cc1bcfb48b60b7af1dec",
+   "bytes": 42418
+  },
+  "audio/eisbaer_de_fact4.m4a": {
+   "sha256": "c105948e9ca59c61df98b9d13866e7812a50277d0989e17534adfceda4c0d410",
+   "bytes": 25684
+  },
+  "audio/hammerkopf_de_fact2.m4a": {
+   "sha256": "7cd8d5e566f6d7fca0c7f71e5e07ac04b02421d422000733a47be4f2285c35cf",
+   "bytes": 29571
+  },
+  "audio/amurtiger_de.m4a": {
+   "sha256": "35e6a03654733ee6c18dd75c45b44a18f268132f208d65997b8db0b178e6d859",
+   "bytes": 266435
+  },
+  "audio/hammerkopf_de.m4a": {
+   "sha256": "9d79d72f7ab410f93729a574fa3aecf4de83662227baccbf4182ded0df6d4af5",
+   "bytes": 226447
+  },
+  "audio/zwergziege_de_fact1.m4a": {
+   "sha256": "22d5f2c1a6e477a64ee8887c0ff3b4fd9015cdc521e4149aa4e3398f6bac719c",
+   "bytes": 45705
+  },
+  "audio/hammerkopf_de_fact3.m4a": {
+   "sha256": "eb9541165ad0153c03ff594bba80b3e42501e9dc6de2d669b72853b8b1f2b496",
+   "bytes": 35530
+  },
+  "audio/sumatra-orang-utan_es_fact3.m4a": {
+   "sha256": "1809360e2f0acbb087b5441922b85ecc8dd7d0fa67178aa23540bbed1817bfd1",
+   "bytes": 50364
+  },
+  "audio/kleiner-panda_en_fact1.m4a": {
+   "sha256": "20c974ec8eb739245b1db8279091127d1a0c54c740cf204c1ff058f85748e26c",
+   "bytes": 30676
+  },
+  "audio/amurtiger_es.m4a": {
+   "sha256": "c068b18d007c64dd26b56833cd5d30a7fc5105d14ded47dde15a6ce6cb168b7c",
+   "bytes": 248983
+  },
+  "audio/waschbaer_de_fact2.m4a": {
+   "sha256": "97d4452009d58ba7e294bcf534c53d893a0b9c6199009a77fc91174f66dc9da5",
+   "bytes": 21445
+  },
+  "audio/philippinenkrokodil_en_fact1.m4a": {
+   "sha256": "6da3233261d0c72e7bc11b21be8a4548fa5e2ab2f198d867b06550ae8af51239",
+   "bytes": 18615
+  },
+  "audio/hammerkopf_es.m4a": {
+   "sha256": "ccde59796dea569df5edc6ab05a9359280b2f2d03d79a28c3eafae3e682c20a4",
+   "bytes": 263876
+  },
+  "audio/erdmaennchen_es_fact3.m4a": {
+   "sha256": "a286174f70627a352f983f13c39ca75c7aa2c477ce28337f0bb28be581a8cec3",
+   "bytes": 37084
+  },
+  "audio/amurtiger_es_fact2.m4a": {
+   "sha256": "a4608a031d1d10770b8c3d276ff6cfd4f33561abf0a81864d935c66fe5bfb377",
+   "bytes": 39043
+  },
+  "audio/hammerkopf_de_fact4.m4a": {
+   "sha256": "fc3f0774f1dacb9b4d82b681211dfa2d1def2d02e3bbed85ef676c0c62d1ee4b",
+   "bytes": 40874
+  },
+  "audio/schnee-eule_en_fact4.m4a": {
+   "sha256": "1fb16e8eba4344bfc2106383740c10e6b136ebce514ae0628629858f373a0635",
+   "bytes": 25607
+  },
+  "audio/erdmaennchen_es_fact1.m4a": {
+   "sha256": "468625ead533c6c4403b76db7b1da14ed38ceba5adcd9eb29d7c497cc31a2148",
+   "bytes": 42770
+  },
+  "audio/kleiner-panda_en_fact2.m4a": {
+   "sha256": "be33dbe1ba161ad73c6fa65d0527fbed089ea0158fbb5408e43e9249b37f6f9e",
+   "bytes": 24100
+  },
+  "audio/waschbaer_de_fact1.m4a": {
+   "sha256": "911013b5baed2e4f36ffc1d3677d250af07eca2a9a868c25c7d02836fefcba61",
+   "bytes": 37377
+  },
+  "audio/kleiner-panda_es.m4a": {
+   "sha256": "96490a722e888300940ee138ff4624c0fed3ee26387493da3572e7f99873d55b",
+   "bytes": 271675
+  },
+  "audio/kleiner-panda_en_fact3.m4a": {
+   "sha256": "79dd8f267ff95a1c49608c0293d4c8413c42e051686d83fc5fb38ba21b1c7dd9",
+   "bytes": 40172
+  },
+  "audio/strahlenschildkroete_en_fact5.m4a": {
+   "sha256": "75eea7fe13948a43e58800db5e1ece26082c549171d8950b31c5b8f4d45ed8a5",
+   "bytes": 16473
+  },
+  "audio/schnee-eule_en_fact5.m4a": {
+   "sha256": "0ba284fe7ac7aee37430edb2f7f67d3d09ff089a2a54a45145e40c70cd3b2d2d",
+   "bytes": 47998
+  },
+  "audio/eisbaer_de_fact3.m4a": {
+   "sha256": "009e207a564fc23b425064bffe51cf7f42d88b8fa34c9be45868658653c54146",
+   "bytes": 24612
+  },
+  "audio/amurtiger_es_fact1.m4a": {
+   "sha256": "aa4a34c9903d03fc497a5c499f9a190b1772caca7ca7303fd00c2d08f119ffc4",
+   "bytes": 33651
+  },
+  "audio/sumatra-orang-utan_es_fact1.m4a": {
+   "sha256": "ba4cd0164dfc42085a7967989aeb58b828a547c956ab53f92888c6f2626e8b8b",
+   "bytes": 39664
+  },
+  "audio/brillenpinguin_en_fact1.m4a": {
+   "sha256": "35bbdaf2e36e75bcef7e1bab824b47f2364f3ab14e45542f467e7b41a3e5cbe4",
+   "bytes": 24404
+  },
+  "audio/strahlenschildkroete_es_fact5.m4a": {
+   "sha256": "3f889fade6444116bdabda0c16bfd005d510d88b11ff68824f585ea8d7f99c3a",
+   "bytes": 24981
+  },
+  "audio/schnee-eule_es_fact5.m4a": {
+   "sha256": "022b703f7ce9dc861bed1c36d3680e1997007a3f07248e01a1c0c4111b84b271",
+   "bytes": 50015
+  },
+  "audio/sumatra-orang-utan_en_fact1.m4a": {
+   "sha256": "b17f5a93a9e33b5e53ead6db2cf20d7e49a13405a23a992f90ccd9f8347d3cc8",
+   "bytes": 40835
+  },
+  "audio/amurtiger_en_fact1.m4a": {
+   "sha256": "e087fe3371bcf3eeaddb2a87cf6c7020b1c3af6e8a4b1da7762aa291a8bcba37",
+   "bytes": 31660
+  },
+  "audio/brillenpinguin_es_fact1.m4a": {
+   "sha256": "2335b3e88749f6396ddb8bc5dd679071979f28c1534f47794503c8262eded190",
+   "bytes": 31561
+  },
+  "audio/kleiner-panda_es_fact3.m4a": {
+   "sha256": "a56d3995c54ce94a84e036fbadc8ccf6284fcc2114166fb6520f18413faa7a7b",
+   "bytes": 40841
+  },
+  "audio/flusspferd_de_fact4.m4a": {
+   "sha256": "8e118f208e507276e61891e31680dc6e791a94437f545ed059e0f8e8bb454c99",
+   "bytes": 31605
+  },
+  "audio/asiatischer-zwergotter_de_fact2.m4a": {
+   "sha256": "55481d7db312eb728875683b5f4e7e235f818a0ae6d16e3a986e51c036b39175",
+   "bytes": 46951
+  },
+  "audio/erdmaennchen_en_fact1.m4a": {
+   "sha256": "7fba32b7c9d25f173ea20466bec6909c72648daecd8f153f5a506e541b17fd3c",
+   "bytes": 40355
+  },
+  "audio/kleiner-panda_es_fact2.m4a": {
+   "sha256": "c8bc7261332cb88af66e2b0c8a6545b13e061246ec780669442b0be4ba0049f1",
+   "bytes": 34210
+  },
+  "audio/schnee-eule_es_fact4.m4a": {
+   "sha256": "18c9b81a260838f04d5a5498574e6b9ace020343e8ffb8956f71f73e1a6eccda",
+   "bytes": 22581
+  },
+  "audio/amurtiger_en_fact2.m4a": {
+   "sha256": "ed81af3bf48054f7f6fc678cf83d361b43a17346e2ecd0ed87db5c4b47875a37",
+   "bytes": 37358
+  },
+  "audio/erdmaennchen_en_fact3.m4a": {
+   "sha256": "745ea9c4261f42c87e8740242fd71d54a6ccef19a73e8a2fb3f0064400ef5cac",
+   "bytes": 35106
+  },
+  "audio/kleiner-panda_es_fact1.m4a": {
+   "sha256": "97b91c8d99fe86078be4b4718a8483ba6075245f67da66277a3a7563b3714c9b",
+   "bytes": 39302
+  },
+  "audio/philippinenkrokodil_es_fact1.m4a": {
+   "sha256": "5748815e778ca75d77e46b88c8b94ee347576845aa9f0068e5852b10ba432878",
+   "bytes": 18304
+  },
+  "audio/sumatra-orang-utan_en_fact3.m4a": {
+   "sha256": "0396fc940579325283ca4f0c82fd00bb89a3a736381703e1c298275b2fc9368c",
+   "bytes": 47355
+  },
+  "audio/loewe_de_fact1.m4a": {
+   "sha256": "aa62c41390424ccd4ec6107524551cc7840765122d7bd6ecadf887f9b51c682e",
+   "bytes": 32585
+  },
+  "audio/asiatischer-zwergotter_de_fact5.m4a": {
+   "sha256": "cd6ff20b7d32b9d65428bbff9af3c029328fe2d81f546c9ea977051944350bef",
+   "bytes": 33546
+  },
+  "audio/asiatischer-zwergotter_de_fact4.m4a": {
+   "sha256": "4f79933d44a0a59b6b0436b93b405886d3a02ad57da5588f47b4bf6b6bbc508a",
+   "bytes": 50611
+  },
+  "audio/kleiner-panda_en.m4a": {
+   "sha256": "ca25504089b055d951f818eeab72c3e8f6cd0e30eaa5c6f97741729e0639ae67",
+   "bytes": 239156
+  },
+  "audio/flusspferd_de_fact3.m4a": {
+   "sha256": "4b9a45cd9d27955f455128eed0aca320476d4cdc92f9fdcca2e3dd3d43408c19",
+   "bytes": 38379
+  },
+  "audio/loewe_de_fact2.m4a": {
+   "sha256": "24eae7109cd0900bd38663a1b084fc1d6885aec43e8035960dbfccbbf8dea8cc",
+   "bytes": 32952
+  },
+  "audio/sumatra-orang-utan_en_fact4.m4a": {
+   "sha256": "edd37082ea729ac1df4c3d876300030ed692cf578e9a44ad3006a899a66eaee9",
+   "bytes": 44846
+  },
+  "audio/erdmaennchen_en_fact5.m4a": {
+   "sha256": "d16905eced28651b6b835c9c6ea3ae583095536a920cb23e6c42c71aef6b58cc",
+   "bytes": 36803
+  },
+  "audio/amurtiger_en.m4a": {
+   "sha256": "7c6a7a81df75f1f348205b9800842b8c6d6978f41143d22d2cd656874c2394de",
+   "bytes": 234038
+  },
+  "audio/hammerkopf_en.m4a": {
+   "sha256": "22edb4a969349c40942f954f209daef7245a20f6461b0f98fb8914578c45081f",
+   "bytes": 248093
+  },
+  "audio/erdmaennchen_en_fact4.m4a": {
+   "sha256": "b65e35f1145a5fa35881700e482c8a481f282c569773626d6a6d225f496208bd",
+   "bytes": 19045
+  },
+  "audio/nordamerikanischer-baumstachler_de_fact2.m4a": {
+   "sha256": "4d130567b69fff69d6ffcbffc7be20212327894257d728e42e6226cee1a6327c",
+   "bytes": 21185
+  },
+  "audio/sumatra-orang-utan_en_fact5.m4a": {
+   "sha256": "30df6a91c1180eada8012ca671a524d18cd0ab7fb2179aa0fe9774fde6055be0",
+   "bytes": 36832
+  },
+  "audio/loewe_de_fact3.m4a": {
+   "sha256": "f57a063fe282f5f4f0403698ed51fcfffdf2e0edef00aaf1eb008fca9afdf42d",
+   "bytes": 28885
+  },
+  "audio/strahlenschildkroete_es_fact1.m4a": {
+   "sha256": "10e8e5c7f47d7037592b7c821e186541975acb7a26381f1035d4073ef8d61ee0",
+   "bytes": 23972
+  },
+  "audio/hammerkopf_en_fact3.m4a": {
+   "sha256": "546e673b7ba42dbd745be545cc091655107971ace88f5b7fe82db142d84eab87",
+   "bytes": 47917
+  },
+  "audio/loewe_es_fact1.m4a": {
+   "sha256": "049974d4376e723bbd673b60b41c521ce199c234c8bd73e892d1e49d02daa7a7",
+   "bytes": 28914
+  },
+  "audio/zwergziege_en_fact1.m4a": {
+   "sha256": "da09a5f00d2f98d5bcb626b2c1e9ab227498dae49811e6021d3968f192af2498",
+   "bytes": 44525
+  },
+  "audio/asiatischer-zwergotter_es_fact5.m4a": {
+   "sha256": "90944e714faadd7a92acf42b9c99ad5886ddbe2f9b56f92db48091840b92c887",
+   "bytes": 43771
+  },
+  "audio/sumatra-orang-utan_en.m4a": {
+   "sha256": "da5bb8ea13ef0fbddd2d750e0bc8aca7ae3200d9b497b006a7779bc413767c96",
+   "bytes": 258238
+  },
+  "audio/asiatischer-zwergotter_es_fact4.m4a": {
+   "sha256": "228934a8efdd127508a85e8333c0d20cd91eb5ff9d84c95178d96a01c365156e",
+   "bytes": 61214
+  },
+  "audio/flusspferd_es_fact3.m4a": {
+   "sha256": "4c54fc2f4085955c7a3747a2007d9f28f8b0f67d610983b5d3cc8397324e3d21",
+   "bytes": 33985
+  },
+  "audio/hammerkopf_en_fact2.m4a": {
+   "sha256": "07854a93075825fd135408282272426c1d903704a086f0fb78d109f85b131b02",
+   "bytes": 33289
+  },
+  "audio/eisbaer_en_fact4.m4a": {
+   "sha256": "9e7b6ab3641bc86894ecb107b21771fcb0b8692d3fa3811d9c3acca3c3adcc85",
+   "bytes": 28101
+  },
+  "audio/nordamerikanischer-baumstachler_es_fact3.m4a": {
+   "sha256": "992080fda022cd4dce47f86e9e63f307d08070bf39710e12e044e5d7ac0459e2",
+   "bytes": 20308
+  },
+  "audio/loewe_es_fact2.m4a": {
+   "sha256": "7e5e76ba37aa7849a08997049b69ae0f6a1310ce4dd683040e0a229a91a2352d",
+   "bytes": 31304
+  },
+  "audio/waschbaer_en_fact5.m4a": {
+   "sha256": "9fc7efc9564726af1bbc7cbc5a95b0e54c601fed40e724f0fa14300da3c643d5",
+   "bytes": 23806
+  },
+  "audio/strahlenschildkroete_de_fact1.m4a": {
+   "sha256": "f0b2abeddef871833784620d4b34f5e103f06d7653c4f865d7828018ad9033e4",
+   "bytes": 20201
+  },
+  "audio/loewe_es_fact3.m4a": {
+   "sha256": "475710f3fb317fd623409ec49f1feecea630e632a95f12a63a4ca73d1ca787d7",
+   "bytes": 31025
+  },
+  "audio/nordamerikanischer-baumstachler_es_fact2.m4a": {
+   "sha256": "52775ce827fc4974acbc0bbd1d394889ccb4939b135fc4acff912d3935490db8",
+   "bytes": 18238
+  },
+  "audio/brillenpinguin_de_fact1.m4a": {
+   "sha256": "b7c901a1fe589231d408823dc837c1df597c8b07d4ef415a3bf675a336bf1aa0",
+   "bytes": 33010
+  },
+  "audio/eisbaer_en_fact3.m4a": {
+   "sha256": "3705af8c77cf98784d8eb4ceca41969c239c298f0ea274680842e47426325f02",
+   "bytes": 25738
+  },
+  "audio/strahlenschildkroete_de_fact5.m4a": {
+   "sha256": "5c0d2c71343325e162310f91d66564cb33615a601733d131d9c7d04448160169",
+   "bytes": 21407
+  },
+  "audio/schnee-eule_de_fact5.m4a": {
+   "sha256": "3933702a7b11965e48575556edd5e4bace4b69ed341e8f0de0cabd503bcb815a",
+   "bytes": 51059
+  },
+  "audio/flusspferd_es_fact4.m4a": {
+   "sha256": "fe60dc565b82e4058f22ec0988199a2d3d49062e09ed3eead42b1c698a9fbb7d",
+   "bytes": 33697
+  },
+  "audio/kleiner-panda_de_fact3.m4a": {
+   "sha256": "676e4b1df038117919e40e3b691d9911ee3ad76b85c50db455b504e9764515f3",
+   "bytes": 36050
+  },
+  "audio/waschbaer_en_fact1.m4a": {
+   "sha256": "2e04b6989b7e074d6c82e8462f400364780d5f2fc97e89100a514b07ae55c5f2",
+   "bytes": 28100
+  },
+  "audio/kleiner-panda_de_fact2.m4a": {
+   "sha256": "d5711476d3ce8b1763a6909e7c6e9dbea13c2847f460b0c169f9b13f5723fa55",
+   "bytes": 31516
+  },
+  "audio/asiatischer-zwergotter_es_fact2.m4a": {
+   "sha256": "881f7080f68bbacef36d7df7c8ee1e7ab3162d3777a7aaa57d45fb9f43587e3e",
+   "bytes": 44412
+  },
+  "audio/schnee-eule_de_fact4.m4a": {
+   "sha256": "779bced274ebdf8f3daecc97c2b55ca90be29003ebd0cfa794bf5b61455a5c3a",
+   "bytes": 26896
+  },
+  "audio/hammerkopf_en_fact4.m4a": {
+   "sha256": "50a0465ca49212dbe6539673889cf3f667e58a21d2d497b0433be1066f4d13ed",
+   "bytes": 36268
+  },
+  "audio/waschbaer_en_fact2.m4a": {
+   "sha256": "0b9498a0a0e4a57c95f796e4e4548452a8a3abfb01bcfbd3dc06774349d4ccea",
+   "bytes": 16498
+  },
+  "audio/philippinenkrokodil_de_fact1.m4a": {
+   "sha256": "508c48f155a42623fbb660431e145b4f372b476f2b4d1c96def8c47271f3cfad",
+   "bytes": 18994
+  },
+  "audio/kleiner-panda_de_fact1.m4a": {
+   "sha256": "af0dce4c40351dd5be268bdc63fa5b2859adb2b1943692211df49f552b6cc3fc",
+   "bytes": 35932
+  }
+ },
+ "counts": {
+  "enclosures": 33,
+  "species": 68,
+  "speciesReferenced": 50,
+  "paths": 269,
+  "features": 189,
+  "viewpoints": 134,
+  "images": 67,
+  "animalLocations": 0,
+  "catalogueEntries": 77,
+  "audio": 124
+ },
+ "attribution": [
+  "Map data © OpenStreetMap contributors, ODbL 1.0 — https://www.openstreetmap.org/copyright",
+  "Animal presence checked against the current public catalogue on 2026-11-05. This selection is not a full live stock inventory or guarantee of display.",
+  "Independent Your Zoo guide; not an official app or zoo partnership.",
+  "Original biological profiles and audio are maintained once per exact taxon in the shared central library. No local research/text/synthesis duplication.",
+  "Images from Wikimedia Commons; individual author, source and licence shown on each profile.",
+  "Fonts: Epilogue and Plus Jakarta Sans, SIL Open Font License 1.1"
+ ],
+ "updatedAt": "2026-11-08T10:47:59Z",
+ "website": "https://www.zoom-erlebniswelt.de/",
+ "ticketShop": "https://shop.zoom-erlebniswelt.de/"
+}

@@ -1,0 +1,1453 @@
+{
+ "id": "hagenbeck",
+ "version": 2,
+ "name": {
+  "de": "Tierpark Hagenbeck",
+  "en": "Hagenbeck Zoo",
+  "es": "Zoo Hagenbeck"
+ },
+ "city": "Hamburg",
+ "center": {
+  "latitude": 53.59684535,
+  "longitude": 9.938092900000001
+ },
+ "bounds": {
+  "minLatitude": 53.5946671,
+  "minLongitude": 9.9338863,
+  "maxLatitude": 53.5990236,
+  "maxLongitude": 9.9422995
+ },
+ "defaultLanguage": "de",
+ "languages": [
+  "de",
+  "en",
+  "es"
+ ],
+ "files": {
+  "features.geojson": {
+   "sha256": "80bb837ae4f7f2e69efdff38b56c9b65067982f77ce5d3ed95d50797576f1f9c",
+   "bytes": 130481
+  },
+  "species.json": {
+   "sha256": "a56f8e8237ba4fbbcdefb87d03f02d69d5bcefced3c12cc3b2e10a7a6c9a21d9",
+   "bytes": 451991
+  },
+  "paths.geojson": {
+   "sha256": "a19c357059c7645a5a443c9000e8ae5172f6d373ebfba41f78f1a354eab7b84c",
+   "bytes": 39766
+  },
+  "catalogue.json": {
+   "sha256": "8a2d9b4ab557d158d3aa09e6672389d3dbb39648aaab0ecd1e982ee949998cee",
+   "bytes": 16752
+  },
+  "animal-locations.json": {
+   "sha256": "415cf51737563601d13d87c7c475ea8a8d30147d0b4d93cecfc2bcf1e482d14d",
+   "bytes": 6711
+  },
+  "enclosures.geojson": {
+   "sha256": "c2399aa98778aaaba2a71a6fb6c9e304b09078fcc48c472d7bbe1dc7da32cf30",
+   "bytes": 36618
+  },
+  "images/taxon-antigone-vipio.jpg": {
+   "sha256": "32be6bdc73298c9499c53cf39f8a8d7a894a7b67870cf184230d04e273192238",
+   "bytes": 170057
+  },
+  "images/taxon-alca-torda.jpg": {
+   "sha256": "9ccf850b7aad69fd7998957627b227005b67171e117007d08ad0a6b2353902fa",
+   "bytes": 265143
+  },
+  "images/taxon-cynomys-ludovicianus.jpg": {
+   "sha256": "68503e966679ab305a8241e9da5b78fd66c097e6cc69372e3cb54693c271b95d",
+   "bytes": 506538
+  },
+  "images/taxon-aptenodytes-patagonicus.jpg": {
+   "sha256": "6ed8a1d46600780c53e603f35751329cff53869bd71572f0ba036bb232c65977",
+   "bytes": 323152
+  },
+  "images/taxon-cervus-canadensis.jpg": {
+   "sha256": "7be63c9860ccd0cc99050cb13223e8c2b7685837899d19b30bb6665224e7bd01",
+   "bytes": 538678
+  },
+  "images/taxon-bos-taurus-indicus--miniaturezebudomesticform.jpg": {
+   "sha256": "5126151259f7c9ee47aea316820dd9d67596a78681105a129ffc7f2717034ee8",
+   "bytes": 234415
+  },
+  "images/taxon-taeniura-lymma.jpg": {
+   "sha256": "678a3dce911296071e8b2b9afb3df00ddbaeb966dc662278403f7938916e0dff",
+   "bytes": 225916
+  },
+  "images/taxon-equus-asinus-f-asinus--thuringerwaldeseldomesticbreed.jpg": {
+   "sha256": "16b1c7a89290e74f2284338fee39c64db343bb9761d7487d30c4f0d719c3985b",
+   "bytes": 203415
+  },
+  "images/taxon-camelus-bactrianus.jpg": {
+   "sha256": "15795da92a9c926dd4210a15605b2ff389aacad658bd5a3d0acd31d4192d1ee9",
+   "bytes": 396898
+  },
+  "images/taxon-mandrillus-sphinx.jpg": {
+   "sha256": "0bcd8376e100f49b6d2c43bb7ea9df3989b2d7c3f94bb36006bf5f76993a32cd",
+   "bytes": 547281
+  },
+  "images/taxon-panthera-tigris-altaica.jpg": {
+   "sha256": "5ea485d4aba4de3b83a2ac98e46d63871ab2e826a4aa89bc39f1484c9ad5e2b0",
+   "bytes": 298559
+  },
+  "images/taxon-ursus-arctos-beringianus.jpg": {
+   "sha256": "3428998fe4701d29513509411f68d21f77feb34b173116611ff75d60dcdbb21b",
+   "bytes": 250604
+  },
+  "images/taxon-odobenus-rosmarus-divergens.jpg": {
+   "sha256": "aed76df07ec85cb93112ab60cd564f105aabfb96b7f3d7420f8d7fba21467ff4",
+   "bytes": 270149
+  },
+  "images/taxon-pithecia-pithecia.jpg": {
+   "sha256": "f16048dc44d45e5adf9437fbb5bc7f94271e7e8ce104b10bbd43d7eff9be4846",
+   "bytes": 227331
+  },
+  "images/taxon-euphractus-sexcinctus.jpg": {
+   "sha256": "4c8c3d2db97d8df86964617f660cb761bc8341b735efb2c2436b29dc7b7bc6f6",
+   "bytes": 640835
+  },
+  "images/taxon-bucorvus-abyssinicus.jpg": {
+   "sha256": "2953b080eae69aaba0e62387ce3046ca7965bfc5d671670b60eb128d01672cd0",
+   "bytes": 371095
+  },
+  "images/taxon-heloderma-suspectum.jpg": {
+   "sha256": "13c5d58005fd7610e85e4a701d65d0ca4913fe21dc27da497e3bd8295c0272b8",
+   "bytes": 424242
+  },
+  "images/taxon-pongo-abelii.jpg": {
+   "sha256": "97f095e1f615dd3e1edc07b89508484ec599b8bd2637c407153dab59e6c4f7d0",
+   "bytes": 261899
+  },
+  "images/taxon-egernia-stokesii.jpg": {
+   "sha256": "7038a682a6faea88d760ed2bbb3ed141ec2f62bb83e932599f88818d51668f61",
+   "bytes": 141519
+  },
+  "images/taxon-phoenicopterus-ruber.jpg": {
+   "sha256": "051eee2bfeef5bf6fded1f5b1a6a5ed503029d722461a7ea7649ba7200e28e2d",
+   "bytes": 293366
+  },
+  "images/taxon-pteronura-brasiliensis.jpg": {
+   "sha256": "d8496719fbcba8c7bd48b193efa28d622b4593ceade98dca5684ec412549b0d7",
+   "bytes": 268932
+  },
+  "images/taxon-astrochelys-radiata.jpg": {
+   "sha256": "73f5465ea617d20b99fa25d3a192bcaaf8afafc01b7a62261df4df3b70f7532a",
+   "bytes": 286917
+  },
+  "images/taxon-crocodylus-niloticus.jpg": {
+   "sha256": "024168830e33b10a1a3cb35671218266c4386f98f7b8915272b4c3b6b57b9e4e",
+   "bytes": 1064762
+  },
+  "images/taxon-rhea-americana.jpg": {
+   "sha256": "9c817f4fbad536f68f43bd48ad4e2c8c3047c899719158508864fb6842cc0e47",
+   "bytes": 817337
+  },
+  "images/taxon-phacochoerus-africanus.jpg": {
+   "sha256": "0c7b400ff5662866e643a5efa2610043cf944db51909ea206f1d9f73197e1857",
+   "bytes": 175635
+  },
+  "images/taxon-ursus-maritimus.jpg": {
+   "sha256": "cf1b2a1d892da11f581a19ff0025e095dad21a83e688712cd78cce2d88635614",
+   "bytes": 155069
+  },
+  "images/taxon-panthera-pardus-japonensis.jpg": {
+   "sha256": "41cd97ea9a2fd91d2654c20a01eb1a8f339f2de55ac14fc2ead638907e6f480b",
+   "bytes": 352533
+  },
+  "images/taxon-arctocephalus-australis.jpg": {
+   "sha256": "b91aea09f5bdbe7f05790da738986e2c32aaabddc0a571896e46397e7778ffce",
+   "bytes": 133504
+  },
+  "images/taxon-cervus-nippon-pseudaxis.jpg": {
+   "sha256": "0810d0d92a70f6e2105f943549bcaf5dd8e0c946514f99a34ed0b40c970242f8",
+   "bytes": 340556
+  },
+  "images/taxon-aepyceros-melampus.jpg": {
+   "sha256": "6ccba96ddb820778e64af0e57f7da2086ab7aa3d54b93af1c34070fbb546337f",
+   "bytes": 378299
+  },
+  "images/taxon-phoenicopterus-chilensis.jpg": {
+   "sha256": "4cc6fc206b92296ccef3203627622220a8211bb57c526205004d603d170a4480",
+   "bytes": 157292
+  },
+  "images/taxon-ara-chloropterus.jpg": {
+   "sha256": "fe15917212c5757b2a1b3acd4062af4163ace5ad52e2ec2f8e57a8686e5fab1f",
+   "bytes": 120310
+  },
+  "images/taxon-bubo-scandiacus.jpg": {
+   "sha256": "db9ded1d0b84fcf6f87995f982a348dd134cae581bb7c39f54ef5712538bfdc4",
+   "bytes": 187093
+  },
+  "images/taxon-hypanus-americanus.jpg": {
+   "sha256": "88fbaff300698c4ad0f9795da64470ee412139d0e322ed47856e3a7efec1dae2",
+   "bytes": 229263
+  },
+  "images/taxon-malayopython-reticulatus.jpg": {
+   "sha256": "99231b9e28f2cd31d3cb4ea64d0ff9ea24bb2ef57dae234e37c5aba995185e09",
+   "bytes": 300895
+  },
+  "images/taxon-phoenicopterus-roseus.jpg": {
+   "sha256": "b495f5dd17d809a9855e2d1df6505b9b8ce7991153068a098c1e8ef7a50ab6c9",
+   "bytes": 336070
+  },
+  "images/taxon-trichoglossus-moluccanus.jpg": {
+   "sha256": "a80ebd3c3c8083eb7bd5439bb674b7c8c7bc5eb85ecc95b1432b724dc06cbcac",
+   "bytes": 108869
+  },
+  "images/taxon-aldabrachelys-gigantea.jpg": {
+   "sha256": "b6ccb318aff197b8d9a5d8f2bc834d6013a063a67a50dc7b5152eb2eaa551ccb",
+   "bytes": 343562
+  },
+  "images/taxon-carollia-perspicillata.jpg": {
+   "sha256": "796795378e7d55780c239b46d01e78ccc98cfe6c3754b71009344df2f80eb180",
+   "bytes": 261149
+  },
+  "images/taxon-elephas-maximus.jpg": {
+   "sha256": "a6069d5da91896d625f0f9b9777b3481951945a420d46a286dc9f4e4b40c7ca9",
+   "bytes": 424874
+  },
+  "images/taxon-equus-quagga-chapmani.jpg": {
+   "sha256": "8a17b5d0760cfc12a0fa6c42676a9be498d5856a9ba93dce7571ef88bf3f8e71",
+   "bytes": 418275
+  },
+  "images/taxon-tragelaphus-strepsiceros.jpg": {
+   "sha256": "3e691bd49c15ba176a7736309fc7a38e80b27d6c6a063d5e2d7651c95f27f1af",
+   "bytes": 548704
+  },
+  "images/taxon-papio-hamadryas.jpg": {
+   "sha256": "d3671ec210a906e9e7ac77c641efd6e2fc037c44d837de3c02d8312a94198015",
+   "bytes": 486392
+  },
+  "images/taxon-lactoria-cornuta.jpg": {
+   "sha256": "5f6e74395d9249cd2ea7eb1eb069d7437a42c372f6a848b178616bc86fe569df",
+   "bytes": 199317
+  },
+  "images/taxon-lemur-catta.jpg": {
+   "sha256": "5d4d9abc6e626a08e723f925d11d2eb14f9d04c476eb2a6e6f87c7e4215fbe41",
+   "bytes": 266011
+  },
+  "images/taxon-hydrochoerus-hydrochaeris.jpg": {
+   "sha256": "2e820a5406984f3143ac9435194109c58588bb4ad5ad6862a285f0dda4e81fd5",
+   "bytes": 427278
+  },
+  "images/taxon-antilope-cervicapra.jpg": {
+   "sha256": "c15a574ebfaec631d5b2ed641233da2d7dfbb5d4862851ff8423136721fb8407",
+   "bytes": 320634
+  },
+  "images/taxon-hystrix-indica.jpg": {
+   "sha256": "1d8ab70c243541c155feec8615331c369782390519767efd738e26ee98e4d96d",
+   "bytes": 571258
+  },
+  "images/taxon-corallus-hortulanus.jpg": {
+   "sha256": "f695daf99823d18a8f63e7a5b9101cf3644d86e3aa7619e22f73c76f308c9c61",
+   "bytes": 230233
+  },
+  "images/taxon-pygoscelis-papua.jpg": {
+   "sha256": "c87a6d674f747bf4f6455b26c8c2fd6515157e47999fc1452d07b24c956102ad",
+   "bytes": 322533
+  },
+  "images/taxon-osphranter-rufus.jpg": {
+   "sha256": "2d9af2ecb46864922cf85ffaef558273e1f4854c559f24e8d242535ab29e4b89",
+   "bytes": 253869
+  },
+  "images/taxon-tapirus-terrestris.jpg": {
+   "sha256": "c8ddaf042aa3859cbcd41f44b0042f51df2df14ba01dc3392a249b1d4c782bac",
+   "bytes": 74654
+  },
+  "images/taxon-bison-bison-bison.jpg": {
+   "sha256": "a8972ab25be12c56b6f01322811f5f9349fcb363765a8b08d107a8ab076185e2",
+   "bytes": 339748
+  },
+  "images/taxon-eudocimus-ruber.jpg": {
+   "sha256": "b17acaff16992a123544da00ca749b1786cbce1c968eab732ab64a6cd333eb57",
+   "bytes": 330020
+  },
+  "images/taxon-pomacanthus-maculosus.jpg": {
+   "sha256": "8710fdf6a55fdaa2ea3b4a21c834af34307f0602dcc9323d07711bccfc61ce84",
+   "bytes": 157362
+  },
+  "images/taxon-grus-japonensis.jpg": {
+   "sha256": "fea83ed266b67b744d07a313ac3c810250ecffc3cfc879896a8a3477cd8a8e7e",
+   "bytes": 369420
+  },
+  "images/taxon-atta-cephalotes.jpg": {
+   "sha256": "9b032ab563e1795a5c515f9fd9e431e677a6c496e880860aff694bf3ff87de28",
+   "bytes": 89587
+  },
+  "images/taxon-incilius-alvarius.jpg": {
+   "sha256": "a1d719aeb42780b46b3061f3e6fe62f5cda8ba34367a10824ab751cf0fe4da84",
+   "bytes": 68473
+  },
+  "images/taxon-pelecanus-onocrotalus.jpg": {
+   "sha256": "463e031d159c61a1a67216b312cb2d20c4a5c1e3afa0367153e93006b7db8138",
+   "bytes": 163844
+  },
+  "images/taxon-dendrobates-tinctorius.jpg": {
+   "sha256": "af0a6f8066bef85962a9d5e1e9017655e6e2557e4eb7ae68161fb61e72eaf5bf",
+   "bytes": 189941
+  },
+  "images/taxon-erethizon-dorsatum.jpg": {
+   "sha256": "49a9c59c78070c9c24df16cd4b4d804d2cb95d0c5f00cda95f6ed71d26c84ab8",
+   "bytes": 370869
+  },
+  "images/taxon-potamochoerus-porcus.jpg": {
+   "sha256": "3fc1118f09c64f84eb84df092162da70ab681e49d97a7abb8849fd21ddbf5ab7",
+   "bytes": 418919
+  },
+  "images/taxon-spheniscus-humboldti.jpg": {
+   "sha256": "fe1abb3ace286f375ea897b26b5337ea6326387b8fd2f0de9cc61143a967e389",
+   "bytes": 543247
+  },
+  "images/taxon-ammotragus-lervia.jpg": {
+   "sha256": "686b2cb383b508ffc2423c545853167ae5e86a5195a049bb018eb2541c35e2a0",
+   "bytes": 413392
+  },
+  "images/taxon-tockus-deckeni.jpg": {
+   "sha256": "97564c92bbbb252c0bb87c49d52efc8a6dfa8c2c997bcb89b57615f6be932458",
+   "bytes": 254908
+  },
+  "images/taxon-equus-hemionus-onager.jpg": {
+   "sha256": "313f9b45a1042185c066d2f062b8e1b3f0a93885c48c9048ef553194f914433e",
+   "bytes": 465390
+  },
+  "images/taxon-chelus-fimbriatus.jpg": {
+   "sha256": "6446346993d28308a5f42d8d5953a2177b98488b397d848ffcaf0f87f407462e",
+   "bytes": 282559
+  },
+  "images/taxon-nasua-narica.jpg": {
+   "sha256": "f7e4ef7a78a61ebf40b6c9e5d5c328c54200fe7afe73cc37a794b7b0735ba2cf",
+   "bytes": 297462
+  },
+  "images/taxon-platalea-ajaja.jpg": {
+   "sha256": "49145070ecd775acd10701873d49cffa1fd6844caf40e0c732676b5e8e34416d",
+   "bytes": 399340
+  },
+  "images/taxon-aetobatus-ocellatus.jpg": {
+   "sha256": "f5d5bc2d12b2037936d130b5c57a5fb1fc0738a275cfbe69ccb3e8bd8880d759",
+   "bytes": 143309
+  },
+  "images/taxon-hemitragus-jemlahicus.jpg": {
+   "sha256": "57eaf3af38da35dfc6b275fc6d1ba088bf30be5b575b63c607cf7478cc748134",
+   "bytes": 84704
+  },
+  "images/taxon-astyanax-mexicanus.jpg": {
+   "sha256": "0d84fc3fed8b5856e06fc3f6a44cf48e10bdadbc7ac8167888d5e67ad1174d14",
+   "bytes": 240810
+  },
+  "audio/taxon-grus-japonensis_de_fact2.m4a": {
+   "sha256": "d85c4f3949302b7943e7774f568dc12cc8e4323f0ee2bce9205f8b3c4d3a0165",
+   "bytes": 24213
+  },
+  "audio/taxon-potamochoerus-porcus_en_fact2.m4a": {
+   "sha256": "a5dcd6abaf31f7bdb6dcbefead64d0d0568cc5738fe7157d13f472df7d06ee90",
+   "bytes": 26707
+  },
+  "audio/taxon-phoenicopterus-roseus_en_fact2.m4a": {
+   "sha256": "38969e82d75dfbc492f4cf03729855f5bfa55cccd1c4175a3cd4fd2c5ab709d2",
+   "bytes": 39862
+  },
+  "audio/taxon-atta-cephalotes_de_fact2.m4a": {
+   "sha256": "daf8b3f438f2ef8c97834e6408b492f02a41b191f063e22ab1ed6e4a408bb41c",
+   "bytes": 36571
+  },
+  "audio/taxon-tapirus-terrestris_de_fact5.m4a": {
+   "sha256": "39f14d84fe2011d320ca0934fbcb87f7145992f152f383cf10ff6fb4318c7c3a",
+   "bytes": 32774
+  },
+  "audio/taxon-erethizon-dorsatum_es_fact3.m4a": {
+   "sha256": "992080fda022cd4dce47f86e9e63f307d08070bf39710e12e044e5d7ac0459e2",
+   "bytes": 20308
+  },
+  "audio/taxon-hydrochoerus-hydrochaeris_es_fact4.m4a": {
+   "sha256": "8583cef12dfbd5c64dbfbc891807cef9dead3768ac8d4d05e550c2e56d38f8dc",
+   "bytes": 36378
+  },
+  "audio/taxon-erethizon-dorsatum_es_fact2.m4a": {
+   "sha256": "52775ce827fc4974acbc0bbd1d394889ccb4939b135fc4acff912d3935490db8",
+   "bytes": 18238
+  },
+  "audio/taxon-aptenodytes-patagonicus_es_fact1.m4a": {
+   "sha256": "93575162c735407191df283bb962c3b1933dfc61057fb48210d59d49a78cc5ab",
+   "bytes": 25139
+  },
+  "audio/taxon-tapirus-terrestris_de_fact4.m4a": {
+   "sha256": "164d50afc60086ec9fd88bba388d4f8636db570c159c21370b3fb28f476bbc18",
+   "bytes": 33168
+  },
+  "audio/taxon-atta-cephalotes_de_fact3.m4a": {
+   "sha256": "6634ee4487dac0c60aaf7f965c4a236ecbbbb92547e5dc1db9a1c4dc78354c89",
+   "bytes": 41266
+  },
+  "audio/taxon-phoenicopterus-roseus_en_fact3.m4a": {
+   "sha256": "854e9c36fe40ae364f2ef8d9f4861cf85f39ac8051fb755a860ec3cb62d2f639",
+   "bytes": 32118
+  },
+  "audio/taxon-potamochoerus-porcus_en_fact3.m4a": {
+   "sha256": "89206d860c9e971c48a2a5ecd49c31e1fa98f7709edeee575ca94341a5a45cec",
+   "bytes": 24729
+  },
+  "audio/taxon-ursus-maritimus_en_fact3.m4a": {
+   "sha256": "3705af8c77cf98784d8eb4ceca41969c239c298f0ea274680842e47426325f02",
+   "bytes": 25738
+  },
+  "audio/taxon-pongo-abelii_es_fact1.m4a": {
+   "sha256": "ba4cd0164dfc42085a7967989aeb58b828a547c956ab53f92888c6f2626e8b8b",
+   "bytes": 39664
+  },
+  "audio/taxon-panthera-tigris-altaica_en_fact1.m4a": {
+   "sha256": "e087fe3371bcf3eeaddb2a87cf6c7020b1c3af6e8a4b1da7762aa291a8bcba37",
+   "bytes": 31660
+  },
+  "audio/taxon-crocodylus-niloticus_es_fact2.m4a": {
+   "sha256": "15cc9828d80a08fefe69b50dede34f7a17e116c05262d8fb2734ef540858ab36",
+   "bytes": 30766
+  },
+  "audio/taxon-grus-japonensis_de_fact3.m4a": {
+   "sha256": "a4c671de7962afe202152db899cad5298868c647d248b09a8ac6941b0e49d108",
+   "bytes": 22116
+  },
+  "audio/taxon-pithecia-pithecia_de_fact3.m4a": {
+   "sha256": "dd379bbc03e94cdebec41cec3c0bc9c230c3fcc797c108b6355a223b096c2012",
+   "bytes": 26135
+  },
+  "audio/taxon-bubo-scandiacus_es_fact5.m4a": {
+   "sha256": "022b703f7ce9dc861bed1c36d3680e1997007a3f07248e01a1c0c4111b84b271",
+   "bytes": 50015
+  },
+  "audio/taxon-pithecia-pithecia_de_fact1.m4a": {
+   "sha256": "9b4ee9c57901a96a198454a719e331fa495a1201308a0c53dc94b96604e3039d",
+   "bytes": 24320
+  },
+  "audio/taxon-phoenicopterus-ruber_de_fact4.m4a": {
+   "sha256": "c2a0196a7a799ff63e2ced50e332f0a9d4d09dd991911e307a0457f72c456888",
+   "bytes": 17946
+  },
+  "audio/taxon-equus-hemionus-onager_en_fact5.m4a": {
+   "sha256": "e2a7fa1390986fd8782aa1c62099e967da777414d1acefe4f25855d6f334fac4",
+   "bytes": 20853
+  },
+  "audio/taxon-ammotragus-lervia_de_fact4.m4a": {
+   "sha256": "0dd7995aac4cfe0f5769152925e605d79a820928e5f7e118338ead23dbe8ffa4",
+   "bytes": 36058
+  },
+  "audio/taxon-papio-hamadryas_de_fact5.m4a": {
+   "sha256": "fc08641f6ea9666fa65b7e03e6ea2b7c0689cc8369c6032b1c2a068b0ffee58f",
+   "bytes": 38270
+  },
+  "audio/taxon-grus-japonensis_de_fact1.m4a": {
+   "sha256": "e23214cd3a7cea4e1aaffb6facb4e2a0a8c1d59f7ae35d85c5b1f47110d845a7",
+   "bytes": 24268
+  },
+  "audio/taxon-elephas-maximus_en_fact2.m4a": {
+   "sha256": "ff6b7ca51ac618c524a31c154b70c2cdc15a2232e4fccd01d8676b2d29e2f41a",
+   "bytes": 36408
+  },
+  "audio/taxon-pongo-abelii_es_fact3.m4a": {
+   "sha256": "1809360e2f0acbb087b5441922b85ecc8dd7d0fa67178aa23540bbed1817bfd1",
+   "bytes": 50364
+  },
+  "audio/taxon-potamochoerus-porcus_en_fact1.m4a": {
+   "sha256": "b126c866ba74890a78a9e733ab4d6c62b3f13e8624e665021ba4e2800ad27a96",
+   "bytes": 27124
+  },
+  "audio/taxon-aptenodytes-patagonicus_es_fact3.m4a": {
+   "sha256": "61993ba4d638789a5227de7991f45cff35a68ada620cb95bc524ef2b2f7bba4f",
+   "bytes": 26577
+  },
+  "audio/taxon-atta-cephalotes_de_fact1.m4a": {
+   "sha256": "39bc092d5ff89c64e7719d8a9c5fba0c00804a795d4e6b1b45a3a4b54e4b7fbd",
+   "bytes": 37513
+  },
+  "audio/taxon-astrochelys-radiata_en_fact1.m4a": {
+   "sha256": "cadb6256718f0168ab743451b5566cb4930f141801234aa9c8036db58f5850ea",
+   "bytes": 23038
+  },
+  "audio/taxon-panthera-tigris-altaica_en_fact2.m4a": {
+   "sha256": "ed81af3bf48054f7f6fc678cf83d361b43a17346e2ecd0ed87db5c4b47875a37",
+   "bytes": 37358
+  },
+  "audio/taxon-eudocimus-ruber_de_fact5.m4a": {
+   "sha256": "67b7c28aec2354c67aebf5623481c5ea6e0af916b04bc4a18b2aa48a421c9cfe",
+   "bytes": 32555
+  },
+  "audio/taxon-crocodylus-niloticus_es_fact1.m4a": {
+   "sha256": "cb35572d9117125a7b9cb0cb5aec2b3b270f636576fb11e70dee34d0e3ffe53e",
+   "bytes": 22287
+  },
+  "audio/taxon-papio-hamadryas_de_fact4.m4a": {
+   "sha256": "3e468ceda846ee0f1a5c5d2a320b9b0dc4a48849329a29a0d0f108fa4e4df40c",
+   "bytes": 36624
+  },
+  "audio/taxon-equus-hemionus-onager_en_fact4.m4a": {
+   "sha256": "4c5025ae18f4d12a0e657f26f769845dde51d2a421e2c28fff349bafd7a0e1ed",
+   "bytes": 21781
+  },
+  "audio/taxon-phoenicopterus-ruber_de_fact5.m4a": {
+   "sha256": "16355071eb0ae6d3c9882a8e34e8ecdbd3dfe9f56866d6838d315c0442fa718d",
+   "bytes": 24529
+  },
+  "audio/taxon-pongo-abelii_en.m4a": {
+   "sha256": "da5bb8ea13ef0fbddd2d750e0bc8aca7ae3200d9b497b006a7779bc413767c96",
+   "bytes": 258238
+  },
+  "audio/taxon-bubo-scandiacus_es_fact4.m4a": {
+   "sha256": "18c9b81a260838f04d5a5498574e6b9ace020343e8ffb8956f71f73e1a6eccda",
+   "bytes": 22581
+  },
+  "audio/taxon-camelus-bactrianus_es_fact2.m4a": {
+   "sha256": "b5b84a23edcfc712d9024a0f4fd6a780f58ca029619511e01d8e71e7698fe3a9",
+   "bytes": 62064
+  },
+  "audio/taxon-phoenicopterus-ruber_de_fact1.m4a": {
+   "sha256": "666177cc705413d7256d842d81079c78594317ccb949252c063b0164d434c73e",
+   "bytes": 22916
+  },
+  "audio/taxon-pithecia-pithecia_de_fact4.m4a": {
+   "sha256": "0236fd169fe81aaa3cc7c602bb720e39cd137de24499944eb74b64c911f113fc",
+   "bytes": 40069
+  },
+  "audio/taxon-hystrix-indica_es_fact3.m4a": {
+   "sha256": "97100b2f3f7bbe8f95fa8ef41ce5a82283eb0b1340bf214fd350f1fc8c7fcec7",
+   "bytes": 46518
+  },
+  "audio/taxon-eudocimus-ruber_de_fact1.m4a": {
+   "sha256": "167e26f3bb8ba50d6535510113261b507a002402deeccf503ea21b441a492924",
+   "bytes": 27346
+  },
+  "audio/taxon-crocodylus-niloticus_es_fact5.m4a": {
+   "sha256": "6c1137b7f5c9b18fc78574a6c17caf3fdb8b8364d82f71a116c2442067a173af",
+   "bytes": 27270
+  },
+  "audio/taxon-grus-japonensis_de_fact4.m4a": {
+   "sha256": "64eecdde422fcd15b185876f9a7f8ae3fa85b58bb311ea080fb7124f67d51995",
+   "bytes": 19288
+  },
+  "audio/taxon-astrochelys-radiata_en_fact5.m4a": {
+   "sha256": "75eea7fe13948a43e58800db5e1ece26082c549171d8950b31c5b8f4d45ed8a5",
+   "bytes": 16473
+  },
+  "audio/taxon-potamochoerus-porcus_en_fact4.m4a": {
+   "sha256": "548561e98048369501d99b1c817a75beaade49b9f0dfdb6e54f52101aa9dd522",
+   "bytes": 31396
+  },
+  "audio/taxon-phoenicopterus-roseus_en_fact4.m4a": {
+   "sha256": "f29f7365b2df231aab151f8063bfbc1c6d988546ec3543e8afa311cfd0692fc8",
+   "bytes": 29087
+  },
+  "audio/taxon-rhea-americana_de_fact2.m4a": {
+   "sha256": "0213a39b10414db18d565562aa2d2134b4af7445b95b77e4e26a32a7c3129006",
+   "bytes": 38306
+  },
+  "audio/taxon-ursus-maritimus_en_fact4.m4a": {
+   "sha256": "9e7b6ab3641bc86894ecb107b21771fcb0b8692d3fa3811d9c3acca3c3adcc85",
+   "bytes": 28101
+  },
+  "audio/taxon-hydrochoerus-hydrochaeris_es_fact3.m4a": {
+   "sha256": "673795717b0a82e27a1b989edddc27fe275ef2c74c09b07a976b4b710c7d73d3",
+   "bytes": 36198
+  },
+  "audio/taxon-tapirus-terrestris_de_fact3.m4a": {
+   "sha256": "2f3077b09c2b387a3c8b3b4d3aa98b128f23d31ea11a92ae560b26813fc7403f",
+   "bytes": 24013
+  },
+  "audio/taxon-atta-cephalotes_de_fact5.m4a": {
+   "sha256": "d7b5900f34089de79d40f0cf4a2d5c128b874c3b704b79e08b943d15d351c397",
+   "bytes": 33494
+  },
+  "audio/taxon-tapirus-terrestris_de_fact2.m4a": {
+   "sha256": "fba9fea67658bbd8047488be8a28f332ae09a2cad9f28b9e0984090136caa6ed",
+   "bytes": 29038
+  },
+  "audio/taxon-hydrochoerus-hydrochaeris_es_fact2.m4a": {
+   "sha256": "18e2739edc5ba10066f896027b11327d1f81d2cce2e02358a333e5d5f9dd8d13",
+   "bytes": 45099
+  },
+  "audio/taxon-rhea-americana_de_fact3.m4a": {
+   "sha256": "6791630b82da58848058524ee1a6a98605189df2d9aaba3b26453d55eb2a8605",
+   "bytes": 37955
+  },
+  "audio/taxon-potamochoerus-porcus_en_fact5.m4a": {
+   "sha256": "821bf5f44268169e8d99dd3422f7dfa628db1e8768558d12085c5769f88889c1",
+   "bytes": 28263
+  },
+  "audio/taxon-hystrix-indica_es_fact2.m4a": {
+   "sha256": "ddd6af85c724cae7e24e360894b6ced9070cb3e0ec2d548a010e2eab71a98664",
+   "bytes": 31630
+  },
+  "audio/taxon-pithecia-pithecia_de_fact5.m4a": {
+   "sha256": "3f75ae6d14943d71f717f43462f88727e9fd0f5e63e1bc219c77dacdf4473b42",
+   "bytes": 30620
+  },
+  "audio/taxon-phoenicopterus-ruber_de_fact2.m4a": {
+   "sha256": "bac36ca70c8c7787437df829a44c57a97c0975b0ddef93546ed1d94bb90d743f",
+   "bytes": 18852
+  },
+  "audio/taxon-papio-hamadryas_de_fact3.m4a": {
+   "sha256": "b800deac2d91bba5f3677c1a7c15203cc967bee9a29d8c23c774ec7774c1dbf2",
+   "bytes": 31877
+  },
+  "audio/taxon-aldabrachelys-gigantea_en_fact2.m4a": {
+   "sha256": "9a62ee010ac39dc5245a8f994dd448de616da04902bc7ffd9756f2dc2ef63fbd",
+   "bytes": 32954
+  },
+  "audio/taxon-eudocimus-ruber_de_fact2.m4a": {
+   "sha256": "77b8bc80ffc58753362e05e3ace579ef42e50e67249b9f3983c6cc23f77987f4",
+   "bytes": 36949
+  },
+  "audio/taxon-pongo-abelii_es_fact5.m4a": {
+   "sha256": "7a13e6fa7e42e88750f8e758d0872d57ce93a0ed19c4d4986676b5ec1e604588",
+   "bytes": 40057
+  },
+  "audio/taxon-rhea-americana_de_fact1.m4a": {
+   "sha256": "eacd680e28dffa3673cfd521756371a4585cd90ab6f3dcc48ec0882b28859b8a",
+   "bytes": 34562
+  },
+  "audio/taxon-tapirus-terrestris_de_fact1.m4a": {
+   "sha256": "35aa2eae407df88a6675acd66bea76e7f7948fa05f0b9959f117f2b0b5c1f4c7",
+   "bytes": 28749
+  },
+  "audio/taxon-hydrochoerus-hydrochaeris_es_fact1.m4a": {
+   "sha256": "6a9c54bb785cd5b1a1379efad66a1ed82e3bd83d007fc74a5464acd070c8bef6",
+   "bytes": 35780
+  },
+  "audio/taxon-pongo-abelii_es_fact4.m4a": {
+   "sha256": "e7a43bbe77812e49b44c971047ab3cf425f926197c34cc1bcfb48b60b7af1dec",
+   "bytes": 42418
+  },
+  "audio/taxon-spheniscus-humboldti_es_fact3.m4a": {
+   "sha256": "df73e99530c1232424543b22d26950124634809c2511380668adc8206943fb9e",
+   "bytes": 26157
+  },
+  "audio/taxon-eudocimus-ruber_de_fact3.m4a": {
+   "sha256": "de246b44998a6a0e687f77a6512c37b1c274d518ab01eee4fbb5221f1f9d69e3",
+   "bytes": 44473
+  },
+  "audio/taxon-equus-hemionus-onager_en_fact2.m4a": {
+   "sha256": "5640ec011642e9aeced17a84ccc5ea1d492145994bfbda7e675545f7e16c73ac",
+   "bytes": 23424
+  },
+  "audio/taxon-hystrix-indica_es_fact1.m4a": {
+   "sha256": "0b623dc3f7d73f52d1c50a5357cda7eeb830cccb7890276d75cd80e0acafda6e",
+   "bytes": 34758
+  },
+  "audio/taxon-aldabrachelys-gigantea_en_fact3.m4a": {
+   "sha256": "c0bbefeb555bc7daf03d0b61523f95673857e0c44a7451127b6dd13777c13a3d",
+   "bytes": 31957
+  },
+  "audio/taxon-papio-hamadryas_de_fact2.m4a": {
+   "sha256": "b23582cb02dfe5fd24f8f0fb2f7a450873f422e0a71c800fb097789a67726945",
+   "bytes": 36280
+  },
+  "audio/taxon-phoenicopterus-ruber_de_fact3.m4a": {
+   "sha256": "5074496308070a434ac84e2501f9ca2e890628e1b57c0e183a67717e324c00f5",
+   "bytes": 19667
+  },
+  "audio/taxon-platalea-ajaja_de_fact1.m4a": {
+   "sha256": "8320a1c39329025a2a1fa2fcbbc2809979c2887f67cda2044aebee03b6120040",
+   "bytes": 31472
+  },
+  "audio/taxon-eudocimus-ruber_es_fact1.m4a": {
+   "sha256": "c6bc9e859b25058fb48defa266d3a0efa059e030f528cb5eb6a5567bd8d6551f",
+   "bytes": 26147
+  },
+  "audio/taxon-panthera-tigris-altaica_de.m4a": {
+   "sha256": "35e6a03654733ee6c18dd75c45b44a18f268132f208d65997b8db0b178e6d859",
+   "bytes": 266435
+  },
+  "audio/taxon-crocodylus-niloticus_de_fact5.m4a": {
+   "sha256": "060a3f3f0b4d33dd7b3c0f4554ad999bc7e459d4836aa135a2e44103ad7469c6",
+   "bytes": 25545
+  },
+  "audio/taxon-grus-japonensis_es_fact4.m4a": {
+   "sha256": "ebc89b1afbfeda108d44ab9166170c42389571fede743efdde8cecd20081a3fe",
+   "bytes": 16791
+  },
+  "audio/taxon-hystrix-indica_de_fact3.m4a": {
+   "sha256": "7f783f0d96b74dc6ce48872c106a0539c2bbf88a4ac438d309e79e6c78adb0d2",
+   "bytes": 42239
+  },
+  "audio/taxon-phoenicopterus-ruber_es_fact1.m4a": {
+   "sha256": "6db7650a42c677d9d2dfd8649a5b20203ebb99d2caea729b13a8eae03699906e",
+   "bytes": 21389
+  },
+  "audio/taxon-pithecia-pithecia_es_fact4.m4a": {
+   "sha256": "c638d4634e70a64a659028bbf4cba34009e0c32d5829b1d012c8fdd9b549c203",
+   "bytes": 35858
+  },
+  "audio/taxon-hydrochoerus-hydrochaeris_de_fact3.m4a": {
+   "sha256": "b21ac36b734d2a98e1f1dd9dcf9f3da6a891bb3499fc898ddc5f638af3063d14",
+   "bytes": 35526
+  },
+  "audio/taxon-tapirus-terrestris_es_fact3.m4a": {
+   "sha256": "fac2a0e47906487e8ec3899ae90dc5c2c6b5724e99382277104fe25e8d152d4e",
+   "bytes": 27268
+  },
+  "audio/taxon-rhea-americana_es_fact2.m4a": {
+   "sha256": "79bb1b45c90e3e17391c71d1c703ab7a55ac4381c1958ef265de21291adf8a86",
+   "bytes": 34876
+  },
+  "audio/taxon-phoenicopterus-chilensis_en_fact4.m4a": {
+   "sha256": "fe4d86b784405d0d9d95b616bdd579c570b47d44f0bee19eba37127d82242b63",
+   "bytes": 27233
+  },
+  "audio/taxon-pelecanus-onocrotalus_en_fact3.m4a": {
+   "sha256": "a7dc460577f7f290c59aedd697d75725d31fd1d357e9573eb6143612da9961a2",
+   "bytes": 25522
+  },
+  "audio/taxon-pelecanus-onocrotalus_en_fact2.m4a": {
+   "sha256": "4adb75ffcf6094e3d0a41a3f980b5f3beafe520e9164bd2d6438c48464197fae",
+   "bytes": 17272
+  },
+  "audio/taxon-rhea-americana_es_fact3.m4a": {
+   "sha256": "dd82d0198c06b456c0b9e0452cbfcb93702e0f08324dc9dce6fcee9b0fbc7f04",
+   "bytes": 38536
+  },
+  "audio/taxon-atta-cephalotes_es_fact5.m4a": {
+   "sha256": "dad33a6b839b3041b62678ee43c6967b1ae3016e58922adfdb21bf1f263b094c",
+   "bytes": 35562
+  },
+  "audio/taxon-tapirus-terrestris_es_fact2.m4a": {
+   "sha256": "83781a250f38893cc3d4cf7312d4774b70b218e9cc7c41ce837357cfb6f51b12",
+   "bytes": 32684
+  },
+  "audio/taxon-hydrochoerus-hydrochaeris_de_fact2.m4a": {
+   "sha256": "3c897141ace13a70589009a46d8015b0667a88c4d32b9b565a5e17314b928c02",
+   "bytes": 42089
+  },
+  "audio/taxon-rhea-americana_de.m4a": {
+   "sha256": "6337a253de9dadb5f95636d3a6640fc06a97acf46f1140bd780d0be79f22bdbe",
+   "bytes": 253229
+  },
+  "audio/taxon-pithecia-pithecia_es_fact5.m4a": {
+   "sha256": "6020b2a056e71c5e9565e9f75c1cf1eec3c76691f11a79c330c0f65f21009ba3",
+   "bytes": 39848
+  },
+  "audio/taxon-hystrix-indica_de_fact2.m4a": {
+   "sha256": "4f83c31a0fa552ec2752962190c7feafcba8b11eba057f26ff26fbc03214e350",
+   "bytes": 35298
+  },
+  "audio/taxon-eudocimus-ruber_es_fact2.m4a": {
+   "sha256": "5f1f1f828cedcd54025b113fe0d5dedba091fccd200e038d6c9b404eec45b030",
+   "bytes": 36480
+  },
+  "audio/taxon-papio-hamadryas_es_fact3.m4a": {
+   "sha256": "390ac9bdd0f7fb2d7b401f4a493b2567f507f6c4002698cd03179aaaa481d0c2",
+   "bytes": 35719
+  },
+  "audio/taxon-phoenicopterus-ruber_es_fact2.m4a": {
+   "sha256": "30db2670030fdaed34d84e0a360aefe999ca385247e4a3f83e504d3e30e146fc",
+   "bytes": 25787
+  },
+  "audio/taxon-rhea-americana_es_fact1.m4a": {
+   "sha256": "1e054b344bb8f1087ba226a7016a88495b1d46b63e50d3c00f27f37d65972349",
+   "bytes": 33300
+  },
+  "audio/taxon-pongo-abelii_de_fact5.m4a": {
+   "sha256": "500c95b4ea555a09cb07e9dbd37b051edbc8cfcd5c1b04b09d3bee00a3d8376a",
+   "bytes": 35463
+  },
+  "audio/taxon-pongo-abelii_de_fact4.m4a": {
+   "sha256": "1ba3963950c2ca1b3671e2e59965c47bd81572a8b8cda098720609ef07d6b0f9",
+   "bytes": 45345
+  },
+  "audio/taxon-phoenicopterus-ruber_en.m4a": {
+   "sha256": "530d8b4048061d051f6d99fecde6da7615dfff1875caec82251dba7efc181c6c",
+   "bytes": 206541
+  },
+  "audio/taxon-pelecanus-onocrotalus_en_fact1.m4a": {
+   "sha256": "eb1f6207450346b2a62d532e9699e249cec2f2aa35879cafacab0795d0b50c1d",
+   "bytes": 27775
+  },
+  "audio/taxon-tapirus-terrestris_es_fact1.m4a": {
+   "sha256": "e327bba7aa76a54d50a4987f828eacf0aac075820e31f22244ca998703bd9707",
+   "bytes": 29386
+  },
+  "audio/taxon-hydrochoerus-hydrochaeris_de_fact1.m4a": {
+   "sha256": "96ed69b6f6ecaeee712f032c06f45dad5b10e5bb5985816c579f94b6dbe00a83",
+   "bytes": 29556
+  },
+  "audio/taxon-platalea-ajaja_es_fact1.m4a": {
+   "sha256": "77abfa092e3b5186ab8e90952e77ac3133d25c00b8573e8c0a5ae4f2bbafbeb3",
+   "bytes": 28549
+  },
+  "audio/taxon-phoenicopterus-ruber_es_fact3.m4a": {
+   "sha256": "966f6c70a8e406ea40bca41a891fb12e2bbe03aa1579b4d7243524cc9092b109",
+   "bytes": 21600
+  },
+  "audio/taxon-hystrix-indica_de_fact1.m4a": {
+   "sha256": "62d25b6651264e1d48fbe2e406600f0c75e6ec8e8b3b6c7ec8a5124c1aa7e550",
+   "bytes": 35609
+  },
+  "audio/taxon-papio-hamadryas_es_fact2.m4a": {
+   "sha256": "04e7c1b8d3129d585efd61dfbd935578cbd3bbc540b856bd250e10ae9ed7db50",
+   "bytes": 37623
+  },
+  "audio/taxon-spheniscus-humboldti_de_fact3.m4a": {
+   "sha256": "00cefd8a063b124ba05a11a066ff42fbeb13855e35bad13e5d8167b41ad16192",
+   "bytes": 27613
+  },
+  "audio/taxon-eudocimus-ruber_es_fact3.m4a": {
+   "sha256": "26f9c1586aa332b03c2ac7b56b2551b8c3286048bb8ce9ab1769326335738fba",
+   "bytes": 42761
+  },
+  "audio/taxon-grus-japonensis_es_fact2.m4a": {
+   "sha256": "e791ad7bfaf0647805de33981c3ffbe5b2b7cada3affb7aa5036be431999d0fe",
+   "bytes": 24039
+  },
+  "audio/taxon-atta-cephalotes_es_fact2.m4a": {
+   "sha256": "4e62fddd366868aa411428a29ba0bb4dab6b1e8e30df087edc0c943aa12628fb",
+   "bytes": 42288
+  },
+  "audio/taxon-tapirus-terrestris_es_fact5.m4a": {
+   "sha256": "853330ca67da525bff0e4032ab9523ae5bc84786728bbded8acd72e3bec7dbcd",
+   "bytes": 36642
+  },
+  "audio/taxon-antilope-cervicapra_en_fact3.m4a": {
+   "sha256": "9d036b7bf2bcc1029dc25d22877cbf2809d9e1ba148148c1e515f0cbb63a618d",
+   "bytes": 22905
+  },
+  "audio/taxon-hydrochoerus-hydrochaeris_de_fact5.m4a": {
+   "sha256": "0ba8e617572096527220d9c02b27ce37d9d991f70415a82af23a720a9ccac45a",
+   "bytes": 43392
+  },
+  "audio/taxon-phoenicopterus-chilensis_en_fact2.m4a": {
+   "sha256": "f8b80c9fa4dfd174f7794a5dd979f287822d6ac23ccd543d22441a666c876ba1",
+   "bytes": 32390
+  },
+  "audio/taxon-pelecanus-onocrotalus_en_fact4.m4a": {
+   "sha256": "4a53543593f3b45647e21acd4fd12356dce71bb3f223f3a0ec17ddf047cea6d9",
+   "bytes": 11836
+  },
+  "audio/taxon-pongo-abelii_de_fact1.m4a": {
+   "sha256": "305babbf8a984aab9f0439eb6e50fc7ce228519075f408c462a478ad6a1dee75",
+   "bytes": 39127
+  },
+  "audio/taxon-hydrochoerus-hydrochaeris_de_fact4.m4a": {
+   "sha256": "6ab162d6777cd5c2014d52d1ae2c1367b3991751ddad2fc8116db0fc7f0523c2",
+   "bytes": 34351
+  },
+  "audio/taxon-antilope-cervicapra_en_fact2.m4a": {
+   "sha256": "5d894c3aa087c347b0f4706c454ae94cc9d5b260ce531d6a7036a7300aba6142",
+   "bytes": 24843
+  },
+  "audio/taxon-erethizon-dorsatum_de_fact2.m4a": {
+   "sha256": "4d130567b69fff69d6ffcbffc7be20212327894257d728e42e6226cee1a6327c",
+   "bytes": 21185
+  },
+  "audio/taxon-tapirus-terrestris_es_fact4.m4a": {
+   "sha256": "2015c9c66e35fccb5346ab01f683bbee9ec54b3d02ca540fdc7e29e6dfd0c378",
+   "bytes": 33055
+  },
+  "audio/taxon-aptenodytes-patagonicus_de_fact1.m4a": {
+   "sha256": "180f2d7ae481f27f930c39911941598c80afbebef5aba8080353c5d68d5d8e01",
+   "bytes": 28099
+  },
+  "audio/taxon-atta-cephalotes_es_fact3.m4a": {
+   "sha256": "d382f9c4f14bd17b6606d9ca0cd7346c37c46789d2f5aeecd319d83ffc81bf90",
+   "bytes": 33748
+  },
+  "audio/taxon-pithecia-pithecia_es_fact3.m4a": {
+   "sha256": "632d7d7091fb21bdd29c9bf0f8475afa6c6af5026a357d72b42c43b0800cfa8b",
+   "bytes": 34420
+  },
+  "audio/taxon-crocodylus-niloticus_de_fact2.m4a": {
+   "sha256": "5ddea80b034a69ad65ced6e3da07f341b8dfc1bd35539c3958be12c272d66e7a",
+   "bytes": 37102
+  },
+  "audio/taxon-grus-japonensis_es_fact3.m4a": {
+   "sha256": "3045a391bdaa86100e1326a1e917fc56778a2ed98afb2a42285f0d242051ad37",
+   "bytes": 21625
+  },
+  "audio/taxon-panthera-tigris-altaica_es.m4a": {
+   "sha256": "c068b18d007c64dd26b56833cd5d30a7fc5105d14ded47dde15a6ce6cb168b7c",
+   "bytes": 248983
+  },
+  "audio/taxon-grus-japonensis_es_fact1.m4a": {
+   "sha256": "8745683ccf4cb003826963c63c53c190160d647d207ec7261ca88b9e9ec6c3a8",
+   "bytes": 19027
+  },
+  "audio/taxon-ara-chloropterus_en_fact3.m4a": {
+   "sha256": "53b4abdb0cdfa3a3bdf8822def32f58f0cde9797eeb6f20c6fe26f44c9908c3b",
+   "bytes": 27705
+  },
+  "audio/taxon-ammotragus-lervia_es_fact4.m4a": {
+   "sha256": "50ef2b47fb1e4f99813fd064c2d9023ce0edfa2e13a95714021043321092caae",
+   "bytes": 33100
+  },
+  "audio/taxon-papio-hamadryas_es_fact5.m4a": {
+   "sha256": "befd0f52f4517d97e1ba478d9ee7d2cee906d5eb6034f718ee78d931a8fa0fbf",
+   "bytes": 35652
+  },
+  "audio/taxon-pithecia-pithecia_es_fact1.m4a": {
+   "sha256": "349e88863b0b00001041d9c873240ed8ca854e090be51da7bb249470c7b347fa",
+   "bytes": 21460
+  },
+  "audio/taxon-phoenicopterus-ruber_es_fact4.m4a": {
+   "sha256": "877b9b937c2ef668303ca9ea30821c722ef3a8aaa46c862ca14395f5403ca75b",
+   "bytes": 18331
+  },
+  "audio/taxon-bubo-scandiacus_de_fact5.m4a": {
+   "sha256": "3933702a7b11965e48575556edd5e4bace4b69ed341e8f0de0cabd503bcb815a",
+   "bytes": 51059
+  },
+  "audio/taxon-aptenodytes-patagonicus_de_fact3.m4a": {
+   "sha256": "5968d235f4eb961f1e65b95227a4a7fd4656f72f0ac2d82a6b4bd00f23ffadc8",
+   "bytes": 30327
+  },
+  "audio/taxon-atta-cephalotes_es_fact1.m4a": {
+   "sha256": "d0b5804f19d695c072564f6bedf046ae7fb4c95fd2ce088862c07ba3243482b4",
+   "bytes": 46937
+  },
+  "audio/taxon-pongo-abelii_de_fact3.m4a": {
+   "sha256": "99b7e8024a96f5321f74b44111887357a237febe14dbd5db94966b2eb503ed9e",
+   "bytes": 45675
+  },
+  "audio/taxon-antilope-cervicapra_en_fact1.m4a": {
+   "sha256": "4e6db659cdfe2a7121a1d0030a9ba8d82f5575f9956d36e3751474edfa11d173",
+   "bytes": 25822
+  },
+  "audio/taxon-bubo-scandiacus_de_fact4.m4a": {
+   "sha256": "779bced274ebdf8f3daecc97c2b55ca90be29003ebd0cfa794bf5b61455a5c3a",
+   "bytes": 26896
+  },
+  "audio/taxon-camelus-bactrianus_de_fact2.m4a": {
+   "sha256": "d87de19e9bc80102a41616841e448d2686d240ac75dd76839968135580df6a56",
+   "bytes": 49767
+  },
+  "audio/taxon-rhea-americana_es.m4a": {
+   "sha256": "f2411a3990b50fafc9bdf95e2e83eb697040c67d5c8796fc4ed4616047618191",
+   "bytes": 263520
+  },
+  "audio/taxon-phoenicopterus-ruber_es_fact5.m4a": {
+   "sha256": "3c4edd5f2cdef8b59cde409ac66307df7a5760663de2b268ee4b1b202ecff165",
+   "bytes": 26581
+  },
+  "audio/taxon-papio-hamadryas_es_fact4.m4a": {
+   "sha256": "3b9bdcb115658ad8fc311ff8310aa03abc5701a9743b8ffaf512ec6ee019d688",
+   "bytes": 38299
+  },
+  "audio/taxon-eudocimus-ruber_es_fact5.m4a": {
+   "sha256": "26c06057a19ec7e4428efb6a3503780bd984e97361b9c76adf48b85bcdf6a62b",
+   "bytes": 28328
+  },
+  "audio/taxon-crocodylus-niloticus_de_fact1.m4a": {
+   "sha256": "630dab253eddc0334faa4e6b412e8c4eee9d1376fe5e3e2b45fbb8df739c3b28",
+   "bytes": 22539
+  },
+  "audio/taxon-phoenicopterus-ruber_en_fact5.m4a": {
+   "sha256": "9086e5b1e0f3490a713a627e7d8c9ffde9be3a51b32066278fe3e019bf4ae71a",
+   "bytes": 25235
+  },
+  "audio/taxon-papio-hamadryas_en_fact4.m4a": {
+   "sha256": "a5119f8c508a1aa01ed9a146811384b2644aeeb622beb32da738bef1e5e090ca",
+   "bytes": 34907
+  },
+  "audio/taxon-equus-hemionus-onager_de_fact4.m4a": {
+   "sha256": "821046a5e1b9e47cce778026815d7fc250b955e96758ed81702ca35b95d3f433",
+   "bytes": 29742
+  },
+  "audio/taxon-eudocimus-ruber_en_fact5.m4a": {
+   "sha256": "9ca8a99fab6e64b963339a0e349fe1238e30aeeea8ae2f6bca73343891065dae",
+   "bytes": 24833
+  },
+  "audio/taxon-panthera-tigris-altaica_de_fact2.m4a": {
+   "sha256": "8a396c554cce2c9720ce9a933bfeed1558f1281f6430fc3295e58c5379215e6e",
+   "bytes": 37537
+  },
+  "audio/taxon-astrochelys-radiata_de_fact1.m4a": {
+   "sha256": "f0b2abeddef871833784620d4b34f5e103f06d7653c4f865d7828018ad9033e4",
+   "bytes": 20201
+  },
+  "audio/taxon-antilope-cervicapra_es_fact1.m4a": {
+   "sha256": "88c416d2f57ff06b54e4fc5f344e31098a8a481a4e54caae141454e6033fcf0e",
+   "bytes": 30960
+  },
+  "audio/taxon-atta-cephalotes_en_fact1.m4a": {
+   "sha256": "88bfe90da08869c143481415322f89edd20fa34f92bcefa1a9c3c93fda96b237",
+   "bytes": 37100
+  },
+  "audio/taxon-potamochoerus-porcus_de_fact1.m4a": {
+   "sha256": "16d18957d60145f9082e7a5474d5eb2fbe67e755794a685fad95426130ac53da",
+   "bytes": 33380
+  },
+  "audio/taxon-phoenicopterus-ruber_es.m4a": {
+   "sha256": "8f38e749a8cc4ed8ea1b9841c4c76f06f1e25f62bfb24d23dcc395d39ffc08fa",
+   "bytes": 238043
+  },
+  "audio/taxon-elephas-maximus_de_fact2.m4a": {
+   "sha256": "dcfe3efc93cc722850d7d6e4502002fe4d77b95802708b2ce713b47de0030ee5",
+   "bytes": 39471
+  },
+  "audio/taxon-grus-japonensis_en_fact1.m4a": {
+   "sha256": "2adf3a3e7bb8f55a356e3ef8fcfecf202fa2f0e3eaac79004e1eec508fefa5ea",
+   "bytes": 19210
+  },
+  "audio/taxon-equus-hemionus-onager_de_fact5.m4a": {
+   "sha256": "6791d48484c7a7d62a107d131371ce0508cf07dbc56686b052525238de6fff4e",
+   "bytes": 25511
+  },
+  "audio/taxon-ara-chloropterus_es_fact3.m4a": {
+   "sha256": "56ebb86604a9c055786268ea4ee56e88528060babf28b452ee6753cc9403298b",
+   "bytes": 26162
+  },
+  "audio/taxon-papio-hamadryas_en_fact5.m4a": {
+   "sha256": "6d65a2b20b7bc2d9344b1bf9e4122d0fcbdad8fd62d6d266b955ca9b5234b80c",
+   "bytes": 34880
+  },
+  "audio/taxon-ammotragus-lervia_en_fact4.m4a": {
+   "sha256": "5d5c802916d83d6bc571436764fea7e50ec4b635fe5a6c40edf5c5b71533fb68",
+   "bytes": 30234
+  },
+  "audio/taxon-pithecia-pithecia_en_fact1.m4a": {
+   "sha256": "9e1e5dd62b77cb12840b52cffa3f8afc0c75f42b8575a3279a01bc6c20aef56e",
+   "bytes": 20909
+  },
+  "audio/taxon-phoenicopterus-ruber_en_fact4.m4a": {
+   "sha256": "2e42d6041c479f49d453476865089cf66c8a8161f517792aa646426c1d472fed",
+   "bytes": 14270
+  },
+  "audio/taxon-pithecia-pithecia_en_fact3.m4a": {
+   "sha256": "84118c7e33f7939af6932cc78cffae9feafca6925c4ea44ebe55420589012556",
+   "bytes": 34490
+  },
+  "audio/taxon-grus-japonensis_en_fact3.m4a": {
+   "sha256": "983fcca227688905c1434cc91ef50bebe0e38c752581f1574d579a67d18dd110",
+   "bytes": 20175
+  },
+  "audio/taxon-panthera-tigris-altaica_de_fact1.m4a": {
+   "sha256": "fb29afc8be118b7bc83eb757724e317000b91c9d1f4045482975f5f203aee60f",
+   "bytes": 37426
+  },
+  "audio/taxon-pelecanus-onocrotalus_es_fact4.m4a": {
+   "sha256": "f7fe852ea7b9e9f73160943aa04d7cbd94af23662803583fea266034b151f514",
+   "bytes": 21671
+  },
+  "audio/taxon-phoenicopterus-roseus_de_fact3.m4a": {
+   "sha256": "4905187733bf2f98b9f46291c83406ba667f3df29cb9144041ce9ce846ae3ec3",
+   "bytes": 30460
+  },
+  "audio/taxon-potamochoerus-porcus_de_fact3.m4a": {
+   "sha256": "1a10de78775fa1cb2215d297bdb6a9aa7362c4755d5e849d491330d40f18a00c",
+   "bytes": 23110
+  },
+  "audio/taxon-ursus-maritimus_de_fact3.m4a": {
+   "sha256": "009e207a564fc23b425064bffe51cf7f42d88b8fa34c9be45868658653c54146",
+   "bytes": 24612
+  },
+  "audio/taxon-antilope-cervicapra_es_fact2.m4a": {
+   "sha256": "da1aa61ce2956c42e5e622b024a2abf0b1d39f1eb025af8b0254ce3bd5949730",
+   "bytes": 30665
+  },
+  "audio/taxon-tapirus-terrestris_en_fact4.m4a": {
+   "sha256": "56024d4c8316a46c907054e21f3965fa1fc194b92f2df48aa87dbb478e851a77",
+   "bytes": 30144
+  },
+  "audio/taxon-atta-cephalotes_en_fact3.m4a": {
+   "sha256": "22cc68717750f090f2d026058dbce5cddb5e660c2426111223ea363510e693cf",
+   "bytes": 31061
+  },
+  "audio/taxon-atta-cephalotes_en_fact2.m4a": {
+   "sha256": "e5500b4d0f8b02d7cf60b7df86df6fcf84c5fa7672f5b44a14d04ff5aff5fc23",
+   "bytes": 44439
+  },
+  "audio/taxon-tapirus-terrestris_en_fact5.m4a": {
+   "sha256": "c1b2de35df3149488d5645df70faf30dd03d7fe334a4494722ef80d56a3e93d9",
+   "bytes": 27618
+  },
+  "audio/taxon-antilope-cervicapra_es_fact3.m4a": {
+   "sha256": "a0a388f2828aa4631aa98fdc7456a1599c0a18d49399fa31d0a4d97fa0486175",
+   "bytes": 30910
+  },
+  "audio/taxon-phoenicopterus-chilensis_es_fact2.m4a": {
+   "sha256": "8edf9ad7777a79afa5a67a849380ec8542e74de732663bbb51b6695f1fc1bc25",
+   "bytes": 39958
+  },
+  "audio/taxon-potamochoerus-porcus_de_fact2.m4a": {
+   "sha256": "cef397d2c2f3736689479d81c4bdbb6d8cef71b5a0c9493c4874b39b4e83677a",
+   "bytes": 37662
+  },
+  "audio/taxon-phoenicopterus-roseus_de_fact2.m4a": {
+   "sha256": "dcb15db2cdc4d66a3a2275b7568ab781e66ff6b9bdda6895c9544e3d592092f5",
+   "bytes": 37221
+  },
+  "audio/taxon-grus-japonensis_en_fact2.m4a": {
+   "sha256": "227f992f020c03ffd5f2b530b6679f065631c588e097d510ff276e8c00497da1",
+   "bytes": 21038
+  },
+  "audio/taxon-panthera-tigris-altaica_en.m4a": {
+   "sha256": "7c6a7a81df75f1f348205b9800842b8c6d6978f41143d22d2cd656874c2394de",
+   "bytes": 234038
+  },
+  "audio/taxon-platalea-ajaja_en_fact1.m4a": {
+   "sha256": "ad96b5d8068f77108017460697fb689458f0d30e44be8c97e0956eb1d0d36790",
+   "bytes": 33580
+  },
+  "audio/taxon-phoenicopterus-ruber_en_fact3.m4a": {
+   "sha256": "d5dac029f663c7a028c8450651eff0b9ac01e5ae931584b59ec0a4ad962a0a84",
+   "bytes": 20596
+  },
+  "audio/taxon-equus-hemionus-onager_de_fact2.m4a": {
+   "sha256": "dbca9571ff7136cbded24d9912a47d9a870fa7d0c7369fbd8330cf218d3b55ab",
+   "bytes": 27390
+  },
+  "audio/taxon-aldabrachelys-gigantea_de_fact3.m4a": {
+   "sha256": "420b630dde2e15c2fcbb1713c8f63abb605ad9c6c8ca3e46507e61a86e4c9f16",
+   "bytes": 31128
+  },
+  "audio/taxon-papio-hamadryas_en_fact2.m4a": {
+   "sha256": "d87bafc3258d38c23827b5e3fdcc677aae9670e52fc01db7dee7f358cd5c8273",
+   "bytes": 37442
+  },
+  "audio/taxon-eudocimus-ruber_en_fact3.m4a": {
+   "sha256": "4df80cd9b7c658f3392abfc4660c18cd4b85a809cb1314aed487f45f9222e35e",
+   "bytes": 43112
+  },
+  "audio/taxon-pelecanus-onocrotalus_es_fact1.m4a": {
+   "sha256": "6ffa27f175a01982c23ef8575ca595db72889f0a5fbcd9622acca10a7476b080",
+   "bytes": 30323
+  },
+  "audio/taxon-tapirus-terrestris_en_fact1.m4a": {
+   "sha256": "d7922651cd2c18c3503bd52759ed86b8050b706da786bf0af20e9e933b5f2d0e",
+   "bytes": 23268
+  },
+  "audio/taxon-rhea-americana_en_fact1.m4a": {
+   "sha256": "3e89f5482e27bee036f554c67bd168bc375475bc750c5e9b9b7201d265c9e409",
+   "bytes": 32403
+  },
+  "audio/taxon-eudocimus-ruber_en_fact2.m4a": {
+   "sha256": "104df344a41825b730f191cb32f4890e689356d127333edf7c66aa4cd80d5cd1",
+   "bytes": 33807
+  },
+  "audio/taxon-rhea-americana_en.m4a": {
+   "sha256": "e02d303781cb78079979457472b8734c40b35ebcdcc731a5abb0a25679916143",
+   "bytes": 235488
+  },
+  "audio/taxon-papio-hamadryas_en_fact3.m4a": {
+   "sha256": "3d3a6bb95b7046428bf250c9d6528a87d472bf7d155a0c8838c70fa90f007273",
+   "bytes": 30472
+  },
+  "audio/taxon-aldabrachelys-gigantea_de_fact2.m4a": {
+   "sha256": "93093032f9a6ac00ea4f11b1cf09baebe42216c2d6f3c07df24c9c034fbfe524",
+   "bytes": 33239
+  },
+  "audio/taxon-phoenicopterus-ruber_en_fact2.m4a": {
+   "sha256": "273ea4579c713cfcc99070b34db7dcb7ec32205e7dc8f21a3fb57e866f08d939",
+   "bytes": 16832
+  },
+  "audio/taxon-pithecia-pithecia_en_fact5.m4a": {
+   "sha256": "fe8e66123b1ec7e44adb83d014fdbe2b75fe5e15a8f3ac256ca7738a2e0dbb4a",
+   "bytes": 31424
+  },
+  "audio/taxon-pelecanus-onocrotalus_es_fact2.m4a": {
+   "sha256": "77ab77d142499bb577eee5e213d844621938abab12c46227c5923983424746d4",
+   "bytes": 18676
+  },
+  "audio/taxon-rhea-americana_en_fact3.m4a": {
+   "sha256": "ad504674ce50af1d68bf8d551f6a4e3b24f3aa787c62568a2b9295970fa2f97c",
+   "bytes": 34422
+  },
+  "audio/taxon-potamochoerus-porcus_de_fact5.m4a": {
+   "sha256": "fd666ae7700b0d7ff48977f51c3e867627f8a0ebcec1a43bc7ecd4435ed06b7f",
+   "bytes": 42539
+  },
+  "audio/taxon-atta-cephalotes_en_fact5.m4a": {
+   "sha256": "a6d87a1964ec2d899e493f94e06004ed267a6ea26f112e27b7176e7dd27dc4cc",
+   "bytes": 31457
+  },
+  "audio/taxon-tapirus-terrestris_en_fact2.m4a": {
+   "sha256": "f3bf1e6a72fd70bf195c08fb6404009529df130a344b255ec08309c51408ac4d",
+   "bytes": 25645
+  },
+  "audio/taxon-tapirus-terrestris_en_fact3.m4a": {
+   "sha256": "985e7b21ca247dca19e2c597ddf5ce952440a8c677bd54bb4736c68514e7444f",
+   "bytes": 24094
+  },
+  "audio/taxon-potamochoerus-porcus_de_fact4.m4a": {
+   "sha256": "6c6957bfb7c3f410d97313ae84545c29bed31ba39997fdf6661fd09949411459",
+   "bytes": 39182
+  },
+  "audio/taxon-phoenicopterus-roseus_de_fact4.m4a": {
+   "sha256": "bb3162e86bcc3763ec2497527c4dfe118bcad6b93c26cbf95e6771c713bbf02d",
+   "bytes": 36464
+  },
+  "audio/taxon-phoenicopterus-ruber_de.m4a": {
+   "sha256": "9d32327818efbb734be263a8ae545203502619b3cf103bb3c72108499a27041f",
+   "bytes": 226940
+  },
+  "audio/taxon-rhea-americana_en_fact2.m4a": {
+   "sha256": "e2916015f65b64fb688bbc8b9e71f24df7c85eb3ba629bca6a5d608531cd4b04",
+   "bytes": 29655
+  },
+  "audio/taxon-ursus-maritimus_de_fact4.m4a": {
+   "sha256": "c105948e9ca59c61df98b9d13866e7812a50277d0989e17534adfceda4c0d410",
+   "bytes": 25684
+  },
+  "audio/taxon-phoenicopterus-chilensis_es_fact4.m4a": {
+   "sha256": "2c7eb415dbc942eb8a3244ab644302043cbe71af0db6b20be1b1234773ceae18",
+   "bytes": 35011
+  },
+  "audio/taxon-pelecanus-onocrotalus_es_fact3.m4a": {
+   "sha256": "8302cfee84be679418478530e4aa17fdfe7378c9e2595c6e7139292ff9a0f045",
+   "bytes": 24536
+  },
+  "audio/taxon-astrochelys-radiata_de_fact5.m4a": {
+   "sha256": "5c0d2c71343325e162310f91d66564cb33615a601733d131d9c7d04448160169",
+   "bytes": 21407
+  },
+  "audio/taxon-eudocimus-ruber_en_fact1.m4a": {
+   "sha256": "d940d0f23d56cb22edce4e06c53b11c94ad6c46218c7a49a35bbf53cae4d7078",
+   "bytes": 28944
+  },
+  "audio/taxon-grus-japonensis_en_fact4.m4a": {
+   "sha256": "ea7dd6911c438e0a98b0981b21d93956e5920c576f3ebabb4a324341cb395878",
+   "bytes": 17504
+  },
+  "audio/taxon-phoenicopterus-ruber_en_fact1.m4a": {
+   "sha256": "3efec56fe9afd6c1f07416df7c986ea01b4081e7394480e69913964d6721f062",
+   "bytes": 19122
+  },
+  "audio/taxon-pithecia-pithecia_en_fact4.m4a": {
+   "sha256": "412920eec7af49ac90d652c7898684077b2ba74d494db97d2c1a29e2527bfa4d",
+   "bytes": 38456
+  },
+  "audio/taxon-spheniscus-humboldti_en_fact3.m4a": {
+   "sha256": "8a80a44376f7aa832617c65cdf90c7491d2b2919eb3481885d53fea937ca324c",
+   "bytes": 25110
+  },
+  "audio/taxon-equus-hemionus-onager_es_fact2.m4a": {
+   "sha256": "24517720866ea913dc7c5c04636ebc11f3ba503ae3f7fa6d6e07898465605e00",
+   "bytes": 32216
+  },
+  "audio/taxon-hystrix-indica_en_fact1.m4a": {
+   "sha256": "4063ff06ef41fc916962202f5d159ac9254670a108505fcf42c7cc29564fad75",
+   "bytes": 28871
+  },
+  "audio/taxon-aldabrachelys-gigantea_es_fact3.m4a": {
+   "sha256": "5e35d8780dc40d9e710f5231e0aea9f9c2285f07f776033a73d12a4c99c9bf15",
+   "bytes": 31432
+  },
+  "audio/taxon-hydrochoerus-hydrochaeris_en_fact1.m4a": {
+   "sha256": "7a68db7dd0a2a2fdf8e0faa196db9da24935a35d9ab0907297074ba47f97fe99",
+   "bytes": 33297
+  },
+  "audio/taxon-pongo-abelii_en_fact4.m4a": {
+   "sha256": "edd37082ea729ac1df4c3d876300030ed692cf578e9a44ad3006a899a66eaee9",
+   "bytes": 44846
+  },
+  "audio/taxon-pelecanus-onocrotalus_de_fact1.m4a": {
+   "sha256": "cd117cac7ec3cbb725140519043bd9026ce65fb20583065c4969a5b96bdc05f5",
+   "bytes": 27499
+  },
+  "audio/taxon-pongo-abelii_en_fact5.m4a": {
+   "sha256": "30df6a91c1180eada8012ca671a524d18cd0ab7fb2179aa0fe9774fde6055be0",
+   "bytes": 36832
+  },
+  "audio/taxon-pongo-abelii_es.m4a": {
+   "sha256": "374b9f2af2fa82dd3990d210cfd6a5184ffbf9a8226ad6a01626b40e87571636",
+   "bytes": 267757
+  },
+  "audio/taxon-hystrix-indica_en_fact2.m4a": {
+   "sha256": "9a9e5568658a8eb8ce72b69c59cf469367c647b072e475d74d95109d48ef961d",
+   "bytes": 32579
+  },
+  "audio/taxon-hydrochoerus-hydrochaeris_en_fact2.m4a": {
+   "sha256": "5680da874fb8e3fffd38389ead872dd0a9e570d69308721e0bdd0175e2822717",
+   "bytes": 46672
+  },
+  "audio/taxon-potamochoerus-porcus_es_fact5.m4a": {
+   "sha256": "b959b79d515fa2c2c5076a31814ec2a2346ffda310fa1b438fe594fb211ebbdf",
+   "bytes": 38480
+  },
+  "audio/taxon-pelecanus-onocrotalus_de_fact2.m4a": {
+   "sha256": "8eeb2a477c7612cb0075512a67331945ddaa7027d9317a82dc25018719a8fa90",
+   "bytes": 18697
+  },
+  "audio/taxon-pelecanus-onocrotalus_de_fact3.m4a": {
+   "sha256": "42b4664c827709080f9e02b6c899d9648a9574f71e7521049def3dd95bbd6831",
+   "bytes": 24486
+  },
+  "audio/taxon-astrochelys-radiata_es_fact5.m4a": {
+   "sha256": "3f889fade6444116bdabda0c16bfd005d510d88b11ff68824f585ea8d7f99c3a",
+   "bytes": 24981
+  },
+  "audio/taxon-potamochoerus-porcus_es_fact4.m4a": {
+   "sha256": "9fd27860dcda0a8d03f9ab19f83449c9cb36d6ab9ede3939dd874a4443760ad1",
+   "bytes": 48495
+  },
+  "audio/taxon-phoenicopterus-roseus_es_fact4.m4a": {
+   "sha256": "aa59ab97cc546cc23210c11a8a70709f23d19e377ee173ec4b07d790fc084de2",
+   "bytes": 37194
+  },
+  "audio/taxon-ursus-maritimus_es_fact4.m4a": {
+   "sha256": "48669a830c02bc3c54a50a5b3649cf381e9256e7f29f47abd1ca8f8b2b4d24bd",
+   "bytes": 26957
+  },
+  "audio/taxon-phoenicopterus-chilensis_de_fact4.m4a": {
+   "sha256": "01c8f6f015ea5aeddaab03aaeb7af8662ec8d335068cf252389c44e06980fe38",
+   "bytes": 31246
+  },
+  "audio/taxon-hydrochoerus-hydrochaeris_en_fact3.m4a": {
+   "sha256": "92f15ddc8958495fa321cf6bae3abac30e5ff0c00f7f296cbb52f9b9ae0847ae",
+   "bytes": 29162
+  },
+  "audio/taxon-hystrix-indica_en_fact3.m4a": {
+   "sha256": "87ee9411bd656b45b95626af96fbcfa940f84731d1b7585634876b8e9911acb2",
+   "bytes": 33512
+  },
+  "audio/taxon-crocodylus-niloticus_en_fact5.m4a": {
+   "sha256": "36c06c1efb70dc9bbe897d51c18173c0d61d7094a0cca81bb8e247df21fa31ca",
+   "bytes": 25695
+  },
+  "audio/taxon-crocodylus-niloticus_en_fact1.m4a": {
+   "sha256": "44067c0583e80a466b000888f7458032c01e1c4888ee56cba491918d7bd652ba",
+   "bytes": 20393
+  },
+  "audio/taxon-equus-hemionus-onager_es_fact4.m4a": {
+   "sha256": "855c761b69cf3b40e1a71c3e1686655d9ff68e9cb4465aaf76d6ce530e5351c1",
+   "bytes": 24410
+  },
+  "audio/taxon-camelus-bactrianus_en_fact2.m4a": {
+   "sha256": "fac8dbab221b742ce65f3e7bc9adbf9900f3dbed465a0d1c8638fba7a404136c",
+   "bytes": 46265
+  },
+  "audio/taxon-bubo-scandiacus_en_fact4.m4a": {
+   "sha256": "1fb16e8eba4344bfc2106383740c10e6b136ebce514ae0628629858f373a0635",
+   "bytes": 25607
+  },
+  "audio/taxon-antilope-cervicapra_de_fact1.m4a": {
+   "sha256": "2345d10feb4e1285f173c8d3c23c949914ab7d86d0291447367ed49b632c6b0a",
+   "bytes": 35000
+  },
+  "audio/taxon-astrochelys-radiata_es_fact1.m4a": {
+   "sha256": "10e8e5c7f47d7037592b7c821e186541975acb7a26381f1035d4073ef8d61ee0",
+   "bytes": 23972
+  },
+  "audio/taxon-panthera-tigris-altaica_es_fact2.m4a": {
+   "sha256": "a4608a031d1d10770b8c3d276ff6cfd4f33561abf0a81864d935c66fe5bfb377",
+   "bytes": 39043
+  },
+  "audio/taxon-elephas-maximus_es_fact2.m4a": {
+   "sha256": "d72f90b354f289f3b48118898017e8e491d241170e9ca0affbe290230ddfc7c8",
+   "bytes": 41534
+  },
+  "audio/taxon-pongo-abelii_en_fact3.m4a": {
+   "sha256": "0396fc940579325283ca4f0c82fd00bb89a3a736381703e1c298275b2fc9368c",
+   "bytes": 47355
+  },
+  "audio/taxon-potamochoerus-porcus_es_fact1.m4a": {
+   "sha256": "d2192abc7b3632f8c7dc2f1498ed2dd3d8efa4bdf6ffa260e79b6f4865794fd4",
+   "bytes": 40689
+  },
+  "audio/taxon-aptenodytes-patagonicus_en_fact3.m4a": {
+   "sha256": "9fd35a7a311f3680783ffb8244ecadd1e4aa447c4488ebfeba809ea63bf950ca",
+   "bytes": 22173
+  },
+  "audio/taxon-bubo-scandiacus_en_fact5.m4a": {
+   "sha256": "0ba284fe7ac7aee37430edb2f7f67d3d09ff089a2a54a45145e40c70cd3b2d2d",
+   "bytes": 47998
+  },
+  "audio/taxon-equus-hemionus-onager_es_fact5.m4a": {
+   "sha256": "4b628211e333da87b1b6517e41e57fc1ed1d55486ea0068906a1f269ec21b287",
+   "bytes": 26403
+  },
+  "audio/taxon-ara-chloropterus_de_fact3.m4a": {
+   "sha256": "df504437068ffd445ad2ce3024b2929407b69fd2049edbcc802d4601b6d16889",
+   "bytes": 32030
+  },
+  "audio/taxon-crocodylus-niloticus_en_fact2.m4a": {
+   "sha256": "d26f80fe7758d30cb97e00b2b8ba401adb3c91d8a4d2ed882aa9774b28450a89",
+   "bytes": 33683
+  },
+  "audio/taxon-hydrochoerus-hydrochaeris_en_fact4.m4a": {
+   "sha256": "931fabfaeeb57c27226aff80ea9b2a0c386023c38ea549fbb5c97eb180a37480",
+   "bytes": 33879
+  },
+  "audio/taxon-antilope-cervicapra_de_fact2.m4a": {
+   "sha256": "440628d807a4e1a66dcf6c2b27b368ac151960eff5970610a0a10f8e8c3680fe",
+   "bytes": 25441
+  },
+  "audio/taxon-erethizon-dorsatum_en_fact2.m4a": {
+   "sha256": "8a01b040fb91c552ba88937d6d87c5f64440c526a28224ecc3e99a5ab505bea9",
+   "bytes": 17121
+  },
+  "audio/taxon-aptenodytes-patagonicus_en_fact1.m4a": {
+   "sha256": "b4388427afbe5b01639cc0fe9ebcb9b66ebe4f21adaf44b29ba484f757894737",
+   "bytes": 21495
+  },
+  "audio/taxon-phoenicopterus-roseus_es_fact3.m4a": {
+   "sha256": "245b0f3d11440df04ced27fcd0db7571266ac44745170d4292219453fdd719e7",
+   "bytes": 32129
+  },
+  "audio/taxon-potamochoerus-porcus_es_fact3.m4a": {
+   "sha256": "5bd2026b4aa837ee150417e849b1fa4e8836e68eb9855b0702ae8f28fcb36a38",
+   "bytes": 27639
+  },
+  "audio/taxon-ursus-maritimus_es_fact3.m4a": {
+   "sha256": "c845350ebc279fb3312f49025ff175d3e945e0ff8f7066ad4f2f6f6b29647284",
+   "bytes": 25854
+  },
+  "audio/taxon-pelecanus-onocrotalus_de_fact4.m4a": {
+   "sha256": "25d9e01f2a824c5b94a179ce421d6ff40168015bed0023b25f114bf0396aaedf",
+   "bytes": 19419
+  },
+  "audio/taxon-pongo-abelii_en_fact1.m4a": {
+   "sha256": "b17f5a93a9e33b5e53ead6db2cf20d7e49a13405a23a992f90ccd9f8347d3cc8",
+   "bytes": 40835
+  },
+  "audio/taxon-panthera-tigris-altaica_es_fact1.m4a": {
+   "sha256": "aa4a34c9903d03fc497a5c499f9a190b1772caca7ca7303fd00c2d08f119ffc4",
+   "bytes": 33651
+  },
+  "audio/taxon-phoenicopterus-chilensis_de_fact2.m4a": {
+   "sha256": "9382776d7ced870296054e5b6279671583031fcd7b57eb75759e58f18d64cca1",
+   "bytes": 30489
+  },
+  "audio/taxon-potamochoerus-porcus_es_fact2.m4a": {
+   "sha256": "18659f7bf97e579811e4842789bb960964b01791e3ce21db3d907e8327040346",
+   "bytes": 43415
+  },
+  "audio/taxon-phoenicopterus-roseus_es_fact2.m4a": {
+   "sha256": "5ea88c637d26473bc71cb36750f55cab0822b466349daeadd707c793a12e72f0",
+   "bytes": 38774
+  },
+  "audio/taxon-erethizon-dorsatum_en_fact3.m4a": {
+   "sha256": "c2eec089efa4b5c73c5acba874e12fbb35c0cae32107baa5aaa46b3b0524b830",
+   "bytes": 15884
+  },
+  "audio/taxon-antilope-cervicapra_de_fact3.m4a": {
+   "sha256": "a5f5484ae7bf9a581cfaf558eaece2f2fef0c365cf35e643abd1808bd285f3e7",
+   "bytes": 24311
+  },
+  "audio/taxon-hydrochoerus-hydrochaeris_en_fact5.m4a": {
+   "sha256": "fc936b6ddd2ae9fe7b5267bcad0661d71889985194d95e7a3955b02a5267a80d",
+   "bytes": 37926
+  }
+ },
+ "counts": {
+  "enclosures": 35,
+  "species": 72,
+  "speciesReferenced": 60,
+  "paths": 135,
+  "features": 262,
+  "viewpoints": 131,
+  "images": 72,
+  "animalLocations": 8,
+  "catalogueEntries": 73,
+  "audio": 272
+ },
+ "attribution": [
+  "Map data © OpenStreetMap contributors, ODbL 1.0 — https://www.openstreetmap.org/copyright",
+  "Animal presence checked against Hagenbeck public animal lexicon and official 2026 Tierpark plan on 2026-11-05. This is selected public catalogue coverage, not a live or complete stock inventory.",
+  "Tierpark and Tropen-Aquarium are separately ticketed; official shop linked.",
+  "Independent Your Zoo guide. Not an official app or partnership of Tierpark Hagenbeck.",
+  "Original trilingual texts; exact-taxon general text and permitted recordings reused from Frankfurt and Cologne where provenance matches.",
+  "Photographs from Wikimedia Commons; individual author, licence and source shown per species.",
+  "Some OSM animal labels, translations and taxon identifiers conflict with official profiles. Official source taxonomy takes precedence; approximate point-based enclosures have automatic guide disabled pending on-site verification.",
+  "Fonts: Epilogue and Plus Jakarta Sans, SIL Open Font License 1.1"
+ ],
+ "updatedAt": "2026-11-08T10:52:47Z",
+ "website": "https://www.hagenbeck.de/",
+ "ticketShop": "https://shop.hagenbeck.de/"
+}

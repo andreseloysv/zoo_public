@@ -1,0 +1,2884 @@
+{
+ "id": "hellabrunn",
+ "version": 2,
+ "name": {
+  "de": "Tierpark Hellabrunn",
+  "en": "Hellabrunn Zoo",
+  "es": "Zoo Hellabrunn de Múnich"
+ },
+ "city": "München",
+ "center": {
+  "latitude": 48.09643855,
+  "longitude": 11.5551877
+ },
+ "bounds": {
+  "minLatitude": 48.0922928,
+  "minLongitude": 11.5506213,
+  "maxLatitude": 48.1005843,
+  "maxLongitude": 11.5597541
+ },
+ "defaultLanguage": "de",
+ "languages": [
+  "de",
+  "en",
+  "es"
+ ],
+ "files": {
+  "features.geojson": {
+   "sha256": "d7e80dd76637523003fce3909a6b7fde032b8fa55136a1697bf76fecb1115308",
+   "bytes": 85248
+  },
+  "species.json": {
+   "sha256": "0564f9bf1f2f9faf91e4e39e6eb9e1458573d885ae71c03dab56683fd9cb0932",
+   "bytes": 1043143
+  },
+  "paths.geojson": {
+   "sha256": "393eabf71ceaab25e2fb0b82d999f3ecb41315a64fadfb1fd6546a651ce8da0e",
+   "bytes": 53376
+  },
+  "catalogue.json": {
+   "sha256": "67110335b48a524f3d1b6d7c210ed9d2147aa43149240d1a3d0ac7278e63e9e6",
+   "bytes": 35910
+  },
+  "animal-locations.json": {
+   "sha256": "d801aa1fb7ddcc330a5e3173372ea6af4a3d08ec58074478e85aa5603e926658",
+   "bytes": 14
+  },
+  "enclosures.geojson": {
+   "sha256": "d2448a329e944aa969280f133e6b58c02c2d76c32687e5427b73e45e154c91f0",
+   "bytes": 62829
+  },
+  "images/taxon-loriculus-galgulus.jpg": {
+   "sha256": "cbce241d860223d29049af541d6634998422964639674a7003a66f9f6c2431ce",
+   "bytes": 215051
+  },
+  "images/taxon-rhinoceros-unicornis.jpg": {
+   "sha256": "667e496ace4cb65d6988e453b637b95fe8472c64c1f06ead435fac40f3e379cd",
+   "bytes": 356914
+  },
+  "images/taxon-saguinus-bicolor.jpg": {
+   "sha256": "9361218060f5c120f5bb87a0bdd2773381af22b7cd58a623c57b9c29dd4bb571",
+   "bytes": 285484
+  },
+  "images/taxon-capra-aegagrus-hircus--westafrikanischezwergziege.jpg": {
+   "sha256": "b06636aa42c4641f784cdebe6336569d069c2d5fc7f1ffc94c770049d973d9ca",
+   "bytes": 204146
+  },
+  "images/taxon-atelopus-barbotini.jpg": {
+   "sha256": "082bcbde658599354e775b1cdee354081348f562fcffd5c4a2fbe05431a123d3",
+   "bytes": 628122
+  },
+  "images/taxon-trichoglossus-forsteni-mitchellii.jpg": {
+   "sha256": "eb282d4475f2607f5f462af9675b885c370f84c27b422505d7c1b67816263ace",
+   "bytes": 141801
+  },
+  "images/taxon-bos-grunniens.jpg": {
+   "sha256": "5e7efb3f2b51f0bd56354b85a581170e246bf8a2f263e549ce799472d1b987c3",
+   "bytes": 216516
+  },
+  "images/taxon-rhea-pennata.jpg": {
+   "sha256": "9092b186742f7112ed8caec1fd063fba3eaecf167a7f1dcd2cfc6236a4f7114a",
+   "bytes": 615456
+  },
+  "images/taxon-capra-ibex.jpg": {
+   "sha256": "b5d1c6a7eae7120487567783da85a171f9012d85731901129c32c1ae0ea5fe4e",
+   "bytes": 357480
+  },
+  "images/taxon-aptenodytes-patagonicus.jpg": {
+   "sha256": "6ed8a1d46600780c53e603f35751329cff53869bd71572f0ba036bb232c65977",
+   "bytes": 323152
+  },
+  "images/taxon-bos-primigenius-taurus--murnauwerdenfelserrind.jpg": {
+   "sha256": "c68e0b8d6d8da4fa2edde30a07892631fd7761c8d20f47ab08120b0c4b431cd9",
+   "bytes": 318719
+  },
+  "images/taxon-aythya-nyroca.jpg": {
+   "sha256": "02e75280aaed851fc719cb7f091ffe458600c3ffb1fb9056b04676b4e23b0d58",
+   "bytes": 291706
+  },
+  "images/taxon-budorcas-taxicolor-taxicolor.jpg": {
+   "sha256": "bfd389ba75e220834ce3143a92345ff553582ec514e9cc24dc2fa9c2e4a71e2c",
+   "bytes": 472526
+  },
+  "images/taxon-spatula-clypeata.jpg": {
+   "sha256": "0dcc4b1282e9ab1d4ff30deb8a328ae084e98369efa30c9dd40aa2b0c78e025a",
+   "bytes": 217339
+  },
+  "images/taxon-giraffa-reticulata.jpg": {
+   "sha256": "4edaa4fa42cd92a618c0ffe7be709fa876aa4f45589d6c33f30cde881f6325a8",
+   "bytes": 325853
+  },
+  "images/taxon-plegadis-falcinellus.jpg": {
+   "sha256": "e391e2e12781cc799ec66917a6765c59c0b2082effc03a4d3419bf2fbe61f619",
+   "bytes": 411339
+  },
+  "images/taxon-psammobates-oculiferus.jpg": {
+   "sha256": "10a46172a3779e65fc8eee22dc1d2f5ac89448b956802a59e90d11624a01f49d",
+   "bytes": 252567
+  },
+  "images/taxon-branta-ruficollis.jpg": {
+   "sha256": "71e8eabf719ed32a62db1fcaaf9e09142efe476c113f2300d34584b839d886cd",
+   "bytes": 280152
+  },
+  "images/taxon-equus-przewalskii.jpg": {
+   "sha256": "d055ed8c18588d6f7adaecac45e5f4702d3026fe8332fa5862f26fb9adfa4e40",
+   "bytes": 261087
+  },
+  "images/taxon-rhynchocyon-petersi.jpg": {
+   "sha256": "58fdc9d8a70eedcc98f0dd9c69c23d68260a3b863c61146239529b502fcc527b",
+   "bytes": 197575
+  },
+  "images/taxon-tolypeutes-matacus.jpg": {
+   "sha256": "7a8d919c0adbb7445749a48741942b3c5fe19e3140a217d65c9c74c71c627c55",
+   "bytes": 278519
+  },
+  "images/taxon-sus-cebifrons-negrinus.jpg": {
+   "sha256": "cf372a184f91132be0f85e48d052ac987340e98ce2ae78cf48a8049b914b6da4",
+   "bytes": 219278
+  },
+  "images/taxon-myrmecophaga-tridactyla.jpg": {
+   "sha256": "7825325ee43990f1b194ca5d12d90ea5b0940d52af82baaee8cf8d54c79e17cf",
+   "bytes": 794856
+  },
+  "images/taxon-lophura-nycthemera.jpg": {
+   "sha256": "2622a7467527e2d90bd4cffa86957aea5271719dc417ac1351c9713eb1945b74",
+   "bytes": 1410432
+  },
+  "images/taxon-camelus-bactrianus.jpg": {
+   "sha256": "15795da92a9c926dd4210a15605b2ff389aacad658bd5a3d0acd31d4192d1ee9",
+   "bytes": 396898
+  },
+  "images/taxon-axis-porcinus.jpg": {
+   "sha256": "cbda2af13c52741a569355b2564131f63869607d01753a748ba4391423dc048f",
+   "bytes": 204757
+  },
+  "images/taxon-aspidelaps-lubricus.jpg": {
+   "sha256": "5d6ad060da7217e44d7551edb93a770f357ef8ad89ac9fb147cb0365d254cb20",
+   "bytes": 123408
+  },
+  "images/taxon-capra-falconeri.jpg": {
+   "sha256": "ced65e98eb6010ab3809f89e77db69546926a169f63e62d6e7fc543231863eb9",
+   "bytes": 631245
+  },
+  "images/taxon-gallus-gallus-dom--augsburgerhuhn.jpg": {
+   "sha256": "71d1c5c09c5557cb1a17b4fecefb0fd02b9340279ef6f33a8b96d6a519dcf90a",
+   "bytes": 72324
+  },
+  "images/taxon-panthera-leo.jpg": {
+   "sha256": "c0ef6a292c4e86490292268d34ff0cbae5df25773a75af60b1e7d8fc81eeb170",
+   "bytes": 242373
+  },
+  "images/taxon-gastropholis-prasina.jpg": {
+   "sha256": "5214654558238ba1ee82ccaa6fb042860a691043e5720462ecc6db12cb62a790",
+   "bytes": 290440
+  },
+  "images/taxon-vicugna-vicugna.jpg": {
+   "sha256": "cf5f0b5f648decdcb6791a2f52c0ee957252e5a5c1a3f938455d80186c69d0f3",
+   "bytes": 254171
+  },
+  "images/taxon-varecia-rubra.jpg": {
+   "sha256": "b8b8db290051f143e0cf04d432989e9f3bd5198126910da0aa872e3609d329a5",
+   "bytes": 695486
+  },
+  "images/taxon-goura-victoria.jpg": {
+   "sha256": "bf30e048c47b300a08e74b96025598df2a1531154078413a7a480a18bba9abb2",
+   "bytes": 983109
+  },
+  "images/taxon-panthera-tigris-altaica.jpg": {
+   "sha256": "5ea485d4aba4de3b83a2ac98e46d63871ab2e826a4aa89bc39f1484c9ad5e2b0",
+   "bytes": 298559
+  },
+  "images/taxon-bos-primigenius-taurus--dahomeyzwergrind.jpg": {
+   "sha256": "ba67585f474e7cd2ab9a4efcd71c5a06fd096300ab872cd020c38a15945ac9a9",
+   "bytes": 287941
+  },
+  "images/taxon-procyon-lotor.jpg": {
+   "sha256": "52522c7f4ac6723ff005e68e299672f1064b88b536618a2f64c9d820c6720d80",
+   "bytes": 405258
+  },
+  "images/taxon-oryctolagus-cuniculus-dom--marderkaninchen.jpg": {
+   "sha256": "140e80b6e0ccb0db5265ab70234cb43cf90589b2bd10e95c7286acc17c006b69",
+   "bytes": 394728
+  },
+  "images/taxon-athene-noctua.jpg": {
+   "sha256": "ee7073894e6b1b48ad42b1f745d35a2ed40a73c09fa0170af05f63f2e0928a1e",
+   "bytes": 236370
+  },
+  "images/taxon-leucopsar-rothschildi.jpg": {
+   "sha256": "64a62b8f6d8cf94745e2c65b4e46bd77e1ee81fead08154f7efc258437b619d7",
+   "bytes": 91071
+  },
+  "images/taxon-rhyticeros-plicatus.jpg": {
+   "sha256": "8ec6b2a0c506df74989047e6da59c0e984eccb0054bcf8a2de038f4bca6396b9",
+   "bytes": 386070
+  },
+  "images/taxon-anas-bahamensis.jpg": {
+   "sha256": "6889ca71e37a42189bfb58b7c972a37a9e8f1d83f60cdbc8d7fb2b102310942d",
+   "bytes": 246922
+  },
+  "images/taxon-ailurus-fulgens.jpg": {
+   "sha256": "226fc52fd22c8276f9b8f3f67ecbdba345902eadb5f9a9077b59329a30cea506",
+   "bytes": 632292
+  },
+  "images/taxon-aonyx-cinereus.jpg": {
+   "sha256": "99c829bf4dd3311a777ecffde2f719c020f377f9327a64d386a41f4736b0b53f",
+   "bytes": 368055
+  },
+  "images/taxon-notamacropus-agilis.jpg": {
+   "sha256": "2cffb149d956b53e1aea07eb96ded093015f0b5e929cfdcaab6dcf77bf2f03ae",
+   "bytes": 300492
+  },
+  "images/taxon-suncus-etruscus.jpg": {
+   "sha256": "bd922e6e5dfc7c1557d68e5a1454d84651b5e24ee98344152785511d40af51f0",
+   "bytes": 37933
+  },
+  "images/taxon-struthio-camelus-australis.jpg": {
+   "sha256": "13e117a884da063e732cfd10586c97a710999e93e8588aad53ba814a85fd3af0",
+   "bytes": 571625
+  },
+  "images/taxon-tadorna-tadorna.jpg": {
+   "sha256": "fc5b29fb443493835b7eb62fd42cc632f30c8c9fcc80b002ac61e2bdbf4ab1b2",
+   "bytes": 411577
+  },
+  "images/taxon-agkistrodon-contortrix.jpg": {
+   "sha256": "6671b218c320551fd6142ba73890a7c03c7d8bde8e4747a28ac664094c552082",
+   "bytes": 215240
+  },
+  "images/taxon-boselaphus-tragocamelus.jpg": {
+   "sha256": "367a5bf0bb06e2d0515b6d0a7abf5e5fb0ab69e6c947138b01de34487dc93c6b",
+   "bytes": 338969
+  },
+  "images/taxon-geokichla-dohertyi.jpg": {
+   "sha256": "4241891c8c029e8cef8c2079d61c43f63bb157ee1e1a5182f601dc2e763204e1",
+   "bytes": 182324
+  },
+  "images/taxon-agkistrodon-taylori.jpg": {
+   "sha256": "20efec0138a6c7bd6949a6c70d71d9c667afc3f85bf26223902a1ba621101092",
+   "bytes": 109902
+  },
+  "images/taxon-buceros-rhinoceros.jpg": {
+   "sha256": "d270801c77a611652a25fe900c068a822b94c9ebef3cf979671b818da18389c5",
+   "bytes": 290543
+  },
+  "images/taxon-cavia-porcellus-dom--hausmeerschweinchen.jpg": {
+   "sha256": "e9edcb5828638da956001b00791c8b2bd1d2a48eda97fd07f09c1bdd15efd087",
+   "bytes": 287366
+  },
+  "images/taxon-otocolobus-manul.jpg": {
+   "sha256": "042ac48ada0fd68d31e474ba78143c160dcb12b6dcfcfc28b86cf46bc7e3c124",
+   "bytes": 318171
+  },
+  "images/taxon-pongo-abelii.jpg": {
+   "sha256": "97f095e1f615dd3e1edc07b89508484ec599b8bd2637c407153dab59e6c4f7d0",
+   "bytes": 261899
+  },
+  "images/taxon-equus-zebra-hartmannae.jpg": {
+   "sha256": "5445cbd95660db1792425c41274d36cd79d22ad1c0864e6df6d135be7544d363",
+   "bytes": 221218
+  },
+  "images/taxon-canis-lupus-lupus.jpg": {
+   "sha256": "79454d1deed5c163c56bce2dee4d6e5c22092ded7fdd8b2fb42de8fa06595e38",
+   "bytes": 338972
+  },
+  "images/taxon-microtus-bavaricus.jpg": {
+   "sha256": "215e6ed445cf55073a3a8b06a9b658fe6ec73fef0b75deb84ef2d31d8ba804db",
+   "bytes": 231837
+  },
+  "images/taxon-cercocebus-torquatus.jpg": {
+   "sha256": "3a9f4e02c0b65cfe86f0de73487d59e14cb11ceb30acb691906c15c8a213937e",
+   "bytes": 382203
+  },
+  "images/taxon-phyllobates-terribilis.jpg": {
+   "sha256": "cce12a77ff8a046483ca0f9eb707fb33788d5cbae4dacc1e07b3a1120043f7c1",
+   "bytes": 34560
+  },
+  "images/taxon-gallicolumba-crinigera.jpg": {
+   "sha256": "c72caa84d50e39201788c20f47d0688367746e7300a1d7c09c7ad5684204b430",
+   "bytes": 246566
+  },
+  "images/taxon-arctictis-binturong.jpg": {
+   "sha256": "c47a0948e0c6e3b16d5ac943fc3fbcf13a0481fe763f83d1c88f3353bdaebc43",
+   "bytes": 121363
+  },
+  "images/taxon-leucophaeus-modestus.jpg": {
+   "sha256": "82a3ffb2c9dabd695551d369317c7fcaf97344acab51191bd0bd86babd520eb1",
+   "bytes": 329835
+  },
+  "images/taxon-mandrillus-leucophaeus.jpg": {
+   "sha256": "c08c09165e03343e372e02dee2f76da4a46dd876b35ba1b36299ee0e37f3cc64",
+   "bytes": 509966
+  },
+  "images/taxon-astrochelys-radiata.jpg": {
+   "sha256": "73f5465ea617d20b99fa25d3a192bcaaf8afafc01b7a62261df4df3b70f7532a",
+   "bytes": 286917
+  },
+  "images/taxon-ursus-maritimus.jpg": {
+   "sha256": "cf1b2a1d892da11f581a19ff0025e095dad21a83e688712cd78cce2d88635614",
+   "bytes": 155069
+  },
+  "images/taxon-mergellus-albellus.jpg": {
+   "sha256": "537b669e4b35ec1ff2ad36cf9094a9474adec86599dbed81740f876673d74751",
+   "bytes": 152628
+  },
+  "images/taxon-suricata-suricatta.jpg": {
+   "sha256": "b6e64cb707851bba3dd09651c92b7b16ee4e643c5768f9a219d1c05273f86af5",
+   "bytes": 681530
+  },
+  "images/taxon-hypocharmosyna-placentis.jpg": {
+   "sha256": "85e096efccdf1d6511776d9682d8adb9509d313ed86c208ed4747e5102fe0f23",
+   "bytes": 269193
+  },
+  "images/taxon-hylobates-moloch.jpg": {
+   "sha256": "a7a01bbdaebcec32868cc806220a870c6c6518539a3038c85a9e0132f4c7c03c",
+   "bytes": 372046
+  },
+  "images/taxon-bucephala-clangula.jpg": {
+   "sha256": "734d863a900277dfb05d41969190c28e30804b576f1a7b6aefb726a157a87bf6",
+   "bytes": 235666
+  },
+  "images/taxon-pteropus-giganteus.jpg": {
+   "sha256": "ea3f5cbd8e2cbe47ac14d3be769ac014f44fc6bed88838197f724000647e7dda",
+   "bytes": 501111
+  },
+  "images/taxon-lophodytes-cucullatus.jpg": {
+   "sha256": "85a2fae5877f088bb5f33455a2a6be6b655ad263375efb8da54d2e568d0b0cbc",
+   "bytes": 262446
+  },
+  "images/taxon-lama-glama.jpg": {
+   "sha256": "0c8d3e405f9633e4e36f47eaad92f090c7f8e67bd557e5cfa1d1c5c7e6eb38d2",
+   "bytes": 213852
+  },
+  "images/taxon-chenonetta-jubata.jpg": {
+   "sha256": "6df8090cb42ddb04a6803e9a4434b84af4e24a9e80ad3f0f6a54912e9eb10f3d",
+   "bytes": 181091
+  },
+  "images/taxon-crotalus-vegrandis.jpg": {
+   "sha256": "d1d1bc4c129d5415ceadccc6cff026fdd23fed2cecb6b19518e93513aa976e71",
+   "bytes": 147539
+  },
+  "images/taxon-choloepus-didactylus.jpg": {
+   "sha256": "fe8c701b1fec0daba8168d309a97a80c7204735bc2cf16ed147ea5d63ee984a8",
+   "bytes": 420996
+  },
+  "images/taxon-cercopithecus-cephus.jpg": {
+   "sha256": "ec617634085c584bedb11b556d1d65356881377f000c79839b3f9bbb3332792a",
+   "bytes": 321140
+  },
+  "images/taxon-caloenas-nicobarica.jpg": {
+   "sha256": "9cb944b26aae10417656a4bba362528cec19f974aa35a52f9452e89cd6bf0a56",
+   "bytes": 297305
+  },
+  "images/taxon-tyto-alba.jpg": {
+   "sha256": "e0f5a7b0ee5ee480ab2a464ff779f80a7ad563aa9c51af068284544732838bb0",
+   "bytes": 297759
+  },
+  "images/taxon-coracopsis-vasa.jpg": {
+   "sha256": "388e6fec8de483d85ceedb77e909af8f47a3e3762177920e989135474937432d",
+   "bytes": 160177
+  },
+  "images/taxon-chelodina-mccordi.jpg": {
+   "sha256": "6a7b6286d8576070d16c0d8f85824e2b53f72d85ca0122f20d11fc2af6afd4b0",
+   "bytes": 295942
+  },
+  "images/taxon-ara-ararauna.jpg": {
+   "sha256": "029e1589348f440a7d7f4f6c773e665192599c1648592329ad9af0f08bdaf225",
+   "bytes": 196358
+  },
+  "images/taxon-lorius-garrulus.jpg": {
+   "sha256": "e11428896beb8ee76da021dab89c2790fd88cabf11b84093f929ad54c6202729",
+   "bytes": 126284
+  },
+  "images/taxon-chrysocyon-brachyurus.jpg": {
+   "sha256": "949e60e9edbaa57aa1b866f6b4aa33315d11172ea33f0e56b61beabeb41a6320",
+   "bytes": 260922
+  },
+  "images/taxon-testudo-kleinmanni.jpg": {
+   "sha256": "e0040f329d9fffe31d0d4146fcd95e8afce15755236d2b255e2f74d94f7e1fa0",
+   "bytes": 643678
+  },
+  "images/taxon-lacerta-agilis.jpg": {
+   "sha256": "41baa29048e9c8d992742ddbf19611e882e504fd7bbecc0e7c98840f509df805",
+   "bytes": 418243
+  },
+  "images/taxon-anthropoides-paradiseus.jpg": {
+   "sha256": "75418bf52b493338c6679f354aad061c8dbd3636404e147c864417a66a37c086",
+   "bytes": 342304
+  },
+  "images/taxon-eudyptes-moseleyi.jpg": {
+   "sha256": "1191a09e5f40a8abb927daaa8b74dc3ccd9495945c32cf45fe342750f61d8fab",
+   "bytes": 276893
+  },
+  "images/taxon-geronticus-eremita.jpg": {
+   "sha256": "14683c595d98077bfc84771f2bd768d78b028227a3973c1184df2714e9cc23ca",
+   "bytes": 409687
+  },
+  "images/taxon-bubo-scandiacus.jpg": {
+   "sha256": "db9ded1d0b84fcf6f87995f982a348dd134cae581bb7c39f54ef5712538bfdc4",
+   "bytes": 187093
+  },
+  "images/taxon-gulo-gulo.jpg": {
+   "sha256": "08759549eb926d664ac2afab297bfad6016b48ca8adf6294f80596808812883a",
+   "bytes": 346917
+  },
+  "images/taxon-smaug-depressus.jpg": {
+   "sha256": "14199cd83ffd51843511e4a1b180af15bdc9a8c722d8536e3a629b16877b3f38",
+   "bytes": 274172
+  },
+  "images/taxon-sus-scrofa-dom--kunekune.jpg": {
+   "sha256": "1c9f2c26199defbfec31895c751fc2cbb409ecd3e5e6906f496e4b0c00557c78",
+   "bytes": 278597
+  },
+  "images/taxon-oxyura-jamaicensis.jpg": {
+   "sha256": "25324fc1d22661c93d32330e354959d2cc29ae5aeff7af9d1e25a482fcdccd91",
+   "bytes": 220536
+  },
+  "images/taxon-phoenicopterus-roseus.jpg": {
+   "sha256": "b495f5dd17d809a9855e2d1df6505b9b8ce7991153068a098c1e8ef7a50ab6c9",
+   "bytes": 336070
+  },
+  "images/taxon-aldabrachelys-gigantea.jpg": {
+   "sha256": "b6ccb318aff197b8d9a5d8f2bc834d6013a063a67a50dc7b5152eb2eaa551ccb",
+   "bytes": 343562
+  },
+  "images/taxon-nanger-dama-mhorr.jpg": {
+   "sha256": "0e11b5f09bb7da93925eaadbd6ddfbbaf55934b1e2afdc4a3dc7401011e2d3c3",
+   "bytes": 197058
+  },
+  "images/taxon-lynx-lynx-lynx.jpg": {
+   "sha256": "e45ddbb82da7ca2d2f8667cb2be6c899eaa35e11b4c52fc2bbc58a338da112e3",
+   "bytes": 148547
+  },
+  "images/taxon-elephas-maximus.jpg": {
+   "sha256": "a6069d5da91896d625f0f9b9777b3481951945a420d46a286dc9f4e4b40c7ca9",
+   "bytes": 424874
+  },
+  "images/taxon-mareca-penelope.jpg": {
+   "sha256": "d153a324e36e458057cf1b54dbfc2eb1d4b43a80994a081ef6a2ec4d9675508c",
+   "bytes": 251888
+  },
+  "images/taxon-erythrura-tricolor.jpg": {
+   "sha256": "903699a04fd0aade4b3492c5b8f4e875139459442a6b6bd3f25a7ffc5329dce5",
+   "bytes": 1888223
+  },
+  "images/taxon-rupicapra-rupicapra.jpg": {
+   "sha256": "c2bc47a0831e7796cf2a59ec4c6edd182d6cc309b4131f93b2a5bc923ba204ee",
+   "bytes": 134825
+  },
+  "images/taxon-ranitomeya-fantastica.jpg": {
+   "sha256": "93d6aae4910b823527d80d3a1ea424cf0a4126a9c18aeb318687ee496f70160e",
+   "bytes": 109889
+  },
+  "images/taxon-lophura-edwardsi.jpg": {
+   "sha256": "947c26880c28939600f23fd030de3ffd2eee0eb4e6a86e78e0950554554f4913",
+   "bytes": 314644
+  },
+  "images/taxon-anthropoides-virgo.jpg": {
+   "sha256": "1fc6a127b1ec79083dee8b47603c972e5307e5f40cd2901de27ffaaadab01965",
+   "bytes": 123946
+  },
+  "images/taxon-argusianus-argus.jpg": {
+   "sha256": "97415807db6c390e483ee09d67958074ded771f432f15b11b9a50fa8fd2ea5e0",
+   "bytes": 459676
+  },
+  "images/taxon-pteropus-vampyrus.jpg": {
+   "sha256": "2b4bd20770ad4b819e4bcb3882ae942fa11a696a77072b6cb2831c2d97a911c3",
+   "bytes": 151234
+  },
+  "images/taxon-pan-troglodytes.jpg": {
+   "sha256": "c56cde11710ed991eaf943e2235d995e8a89f45149cfa1ef1b926a134fa04c57",
+   "bytes": 349045
+  },
+  "images/taxon-capra-aegagrus-hircus--girgentanaziege.jpg": {
+   "sha256": "ce352aa2380704874ba3d7bc123cca391a1d4553b779bfa71154e01ec1ca5cd5",
+   "bytes": 438001
+  },
+  "images/taxon-madoqua-kirkii.jpg": {
+   "sha256": "676b3eaa2bc97ff82d20fa1ca59b47e27218d121152f95178367f6534ef20cf6",
+   "bytes": 263174
+  },
+  "images/taxon-tragelaphus-strepsiceros.jpg": {
+   "sha256": "3e691bd49c15ba176a7736309fc7a38e80b27d6c6a063d5e2d7651c95f27f1af",
+   "bytes": 548704
+  },
+  "images/taxon-symphalangus-syndactylus.jpg": {
+   "sha256": "f07bb628e0cf23d58f27c2de6eb28ff6f9bb3c40d4c7277c7145a7644de7bc3e",
+   "bytes": 304324
+  },
+  "images/taxon-prionailurus-viverrinus.jpg": {
+   "sha256": "2e245d25fb78df4ff8193b2e2298159c963928b3974fe2afaf18d06887767f4b",
+   "bytes": 112162
+  },
+  "images/taxon-bison-bison-athabascae.jpg": {
+   "sha256": "e34fc31357ae8ac90ec85e773df74c9f4b116a2cf6a1bac99cb217d13f1b5eef",
+   "bytes": 504280
+  },
+  "images/taxon-copsychus-malabaricus.jpg": {
+   "sha256": "70899bee0283a82cf25d8166ec20671bfe0d78b450020ca747d0bfb660faafc0",
+   "bytes": 147070
+  },
+  "images/taxon-lemur-catta.jpg": {
+   "sha256": "5d4d9abc6e626a08e723f925d11d2eb14f9d04c476eb2a6e6f87c7e4215fbe41",
+   "bytes": 266011
+  },
+  "images/taxon-lorius-domicella.jpg": {
+   "sha256": "29443dc5c6a538f9c2409b358bc9c3c1c0c962a711c42fb61fd50a9d1dc8062b",
+   "bytes": 260426
+  },
+  "images/taxon-hydrochoerus-hydrochaeris.jpg": {
+   "sha256": "2e820a5406984f3143ac9435194109c58588bb4ad5ad6862a285f0dda4e81fd5",
+   "bytes": 427278
+  },
+  "images/taxon-antilope-cervicapra.jpg": {
+   "sha256": "c15a574ebfaec631d5b2ed641233da2d7dfbb5d4862851ff8423136721fb8407",
+   "bytes": 320634
+  },
+  "images/taxon-psittacula-derbiana.jpg": {
+   "sha256": "f4d2e1415894403796a69e027a8721f6b5fe1ccc49b455be316808fec9c2d724",
+   "bytes": 321394
+  },
+  "images/taxon-hystrix-indica.jpg": {
+   "sha256": "1d8ab70c243541c155feec8615331c369782390519767efd738e26ee98e4d96d",
+   "bytes": 571258
+  },
+  "images/taxon-bos-primigenius-taurus--auerochsenruckzuchtung.jpg": {
+   "sha256": "aabbedc8ea853ff81affcc6d24481cb5e27b0f0069fb247619cf4fc3d58885cb",
+   "bytes": 246764
+  },
+  "images/taxon-dendrocygna-viduata.jpg": {
+   "sha256": "7e9668f1fa7d156759defaec56917115216984275f24648259470ffc746890a1",
+   "bytes": 234997
+  },
+  "images/taxon-gallus-gallus-dom--ayamcemani.jpg": {
+   "sha256": "89e58f9fe9b1b99d70101949a52ca3c786115db1678bf5838a6da485c13c1022",
+   "bytes": 188421
+  },
+  "images/taxon-emys-orbicularis.jpg": {
+   "sha256": "7c2d524f9b8e698fe2d131691b3d1ac4f0f590ab32c0249cf15b8e010109faa0",
+   "bytes": 474789
+  },
+  "images/taxon-ateles-fusciceps-rufiventris.jpg": {
+   "sha256": "f8f99e9bb5cb008a1bb2704d402ecf3f35a06bd2b02d64e8dcb456d26c952d2a",
+   "bytes": 272007
+  },
+  "images/taxon-bitis-rhinoceros.jpg": {
+   "sha256": "f73e0139b311295cd64f5b864d143c89e504b1715a8c2522624161759a7f1132",
+   "bytes": 267953
+  },
+  "images/taxon-equus-caballus-caballus--shetlandpony.jpg": {
+   "sha256": "a9b4690570bd788191771abe0e06c690072964ec0d645a6a3b8afe3a64308f8b",
+   "bytes": 82595
+  },
+  "images/taxon-ptilinopus-melanospilus.jpg": {
+   "sha256": "e5862a7a489e64f21400f563e4cb74fc3434320f59c38cb3ce2920b60509b886",
+   "bytes": 267853
+  },
+  "images/taxon-pteropus-rodricensis.jpg": {
+   "sha256": "0795ab1ae064520aeef2b4e1fab6fd491b17b4823a23a5caace96019844a665b",
+   "bytes": 526051
+  },
+  "images/taxon-sibirionetta-formosa.jpg": {
+   "sha256": "119eb87aeb86fa86e6364569010716718a712311f0d5a373ce9077eee54218df",
+   "bytes": 947943
+  },
+  "images/taxon-dromaius-novaehollandiae.jpg": {
+   "sha256": "4ee3e21a751558aa089e9af2ec89054cd75973f7b3ce5053574fe196a63fe109",
+   "bytes": 311478
+  },
+  "images/taxon-osphranter-rufus.jpg": {
+   "sha256": "2d9af2ecb46864922cf85ffaef558273e1f4854c559f24e8d242535ab29e4b89",
+   "bytes": 253869
+  },
+  "images/taxon-eudocimus-ruber.jpg": {
+   "sha256": "b17acaff16992a123544da00ca749b1786cbce1c968eab732ab64a6cd333eb57",
+   "bytes": 330020
+  },
+  "images/taxon-urocissa-erythroryncha.jpg": {
+   "sha256": "b7defb874f2266f7e490b9b56b5f2ed896b2980f807af1fd18caf3d57148aa7a",
+   "bytes": 239529
+  },
+  "images/taxon-capra-aegagrus-hircus--bulgarischelanghaarziege.jpg": {
+   "sha256": "b38b13dd2b223a1f83984c75f2616a7c6f35ad2e2cde653759df338b3a51733c",
+   "bytes": 290670
+  },
+  "images/taxon-ciconia-ciconia.jpg": {
+   "sha256": "b260c3ab57095d586e6073e2959a41a7a8c41d8b4700fbd812516deb8afbe71f",
+   "bytes": 89057
+  },
+  "images/taxon-vicugna-pacos.jpg": {
+   "sha256": "64ff9a1470d6d4841ef2df067c120fb449e757899bb4825752f98caa7b69039e",
+   "bytes": 346688
+  },
+  "images/taxon-tragelaphus-angasii.jpg": {
+   "sha256": "1412a8c522303cf0902fedef839ef5007b000e7ee5003aeddc2dd46760c6ab4e",
+   "bytes": 582689
+  },
+  "images/taxon-gallus-gallus-dom--appenzellerspitzhaube.jpg": {
+   "sha256": "e0383c70edb16ccf54aa1bd2650adf00f1be50f7c73a3dadabed2852887efca7",
+   "bytes": 273305
+  },
+  "images/taxon-ciconia-nigra.jpg": {
+   "sha256": "bf90911f53b319b074b08aea7971bbf6c6e60e8badf97a95955511f2623d9ff9",
+   "bytes": 889497
+  },
+  "images/taxon-anser-anser-dom--frankischelandgans.jpg": {
+   "sha256": "1ee97e0624dd05606202c91ef2d0ffbe9eaab1eb617d44db73cf660390572fef",
+   "bytes": 172222
+  },
+  "images/taxon-larus-argentatus.jpg": {
+   "sha256": "52c21213f7b800d657732fd10836e53573686582c7b19634b492b071d08747fe",
+   "bytes": 139969
+  },
+  "images/taxon-netta-rufina.jpg": {
+   "sha256": "79ecb569f23cc872033bc0bd09a3512e7d52c6ffa4a084eb105bbd446c2fcde7",
+   "bytes": 220559
+  },
+  "images/taxon-dolichotis-patagonum.jpg": {
+   "sha256": "da7aa2595e01a4652fe808fd7e04e1c7aaf147d81a2170a7797bea47caa2f655",
+   "bytes": 120916
+  },
+  "images/taxon-tragopan-temminckii.jpg": {
+   "sha256": "3989cd9318d9d07cb10a8d1e5ca7dbd2ff44a399ab7be6455fd5485b133e7355",
+   "bytes": 561202
+  },
+  "images/taxon-rollulus-rouloul.jpg": {
+   "sha256": "e6c605c394458277d20aac40b423ae978af99bd1c6e7586c7a425aebfd6ec026",
+   "bytes": 288893
+  },
+  "images/taxon-osteolaemus-tetraspis.jpg": {
+   "sha256": "2a0e32fe25505a16b0ecf05c48f5a596772062222d28824fda6e92f970d50a3f",
+   "bytes": 362409
+  },
+  "images/taxon-gorilla-gorilla-gorilla.jpg": {
+   "sha256": "6976269056944d5299fd9ffaaf88bd4b083bd147fbe9ed3c932547342879611f",
+   "bytes": 758924
+  },
+  "images/taxon-scissirostrum-dubium.jpg": {
+   "sha256": "e44af7648508fe034d09b997dc82704f6cdac5349a42927783a82344949b649a",
+   "bytes": 182643
+  },
+  "images/taxon-tapirus-bairdii.jpg": {
+   "sha256": "8cba056628f8e5e54552626852fcf7b7e995fda608dfb02143ac6d19d637691e",
+   "bytes": 568891
+  },
+  "images/taxon-atta-cephalotes.jpg": {
+   "sha256": "9b032ab563e1795a5c515f9fd9e431e677a6c496e880860aff694bf3ff87de28",
+   "bytes": 89587
+  },
+  "images/taxon-muntiacus-reevesi.jpg": {
+   "sha256": "7d7bbe58b63457a42a3c45de6ea285ea1d958162a8d8d0f9727b98d5853cdbd0",
+   "bytes": 807715
+  },
+  "images/taxon-pelecanus-onocrotalus.jpg": {
+   "sha256": "463e031d159c61a1a67216b312cb2d20c4a5c1e3afa0367153e93006b7db8138",
+   "bytes": 163844
+  },
+  "images/taxon-equus-caballus-ferus-re-creation--tarpanruckzuchtung.jpg": {
+   "sha256": "d763454bc38b770df63816f9eb968789875ad17701dee6d696b0f10d6d3ac55f",
+   "bytes": 327063
+  },
+  "images/taxon-apis-mellifera.jpg": {
+   "sha256": "02ae7296805af43fb237e6790132ac8d3b5f9d043a506b75619c43caf92f1437",
+   "bytes": 220247
+  },
+  "images/taxon-alces-alces-alces.jpg": {
+   "sha256": "ec3c1c50237e6154cdc9004781d6abd566acfa22681e327c9fc74ed13e7f6ec0",
+   "bytes": 340702
+  },
+  "images/taxon-dendrobates-tinctorius.jpg": {
+   "sha256": "af0a6f8066bef85962a9d5e1e9017655e6e2557e4eb7ae68161fb61e72eaf5bf",
+   "bytes": 189941
+  },
+  "images/taxon-erethizon-dorsatum.jpg": {
+   "sha256": "49a9c59c78070c9c24df16cd4b4d804d2cb95d0c5f00cda95f6ed71d26c84ab8",
+   "bytes": 370869
+  },
+  "images/taxon-potamochoerus-porcus.jpg": {
+   "sha256": "3fc1118f09c64f84eb84df092162da70ab681e49d97a7abb8849fd21ddbf5ab7",
+   "bytes": 418919
+  },
+  "images/taxon-bufotes-viridis.jpg": {
+   "sha256": "dbfd970f63bbfea9e46f6fdc9375e5c18c49fb8f8ed3328fbc40e559be50a5c8",
+   "bytes": 189713
+  },
+  "images/taxon-dasyprocta-azarae.jpg": {
+   "sha256": "c718bbfc35b1c1a669ecafd8ade6d3d8082d110a5b22a8d84193c2fd7fc85767",
+   "bytes": 331282
+  },
+  "images/taxon-spheniscus-humboldti.jpg": {
+   "sha256": "fe1abb3ace286f375ea897b26b5337ea6326387b8fd2f0de9cc61143a967e389",
+   "bytes": 543247
+  },
+  "images/taxon-micromys-minutus.jpg": {
+   "sha256": "fc48222c6659c0d3d7722e9094ffed3909807d21e4b394313642ec36a27d1f88",
+   "bytes": 422900
+  },
+  "images/taxon-bos-javanicus-javanicus.jpg": {
+   "sha256": "0d8f296a4da75f8d0f4b6b892fd64993c3653e3410d89b6ecffed1648049c6f8",
+   "bytes": 324885
+  },
+  "images/taxon-dendrocygna-autumnalis.jpg": {
+   "sha256": "d89873b3661a0494583e995edba7a1e3b9578efebeece9112e573a447e72af57",
+   "bytes": 441362
+  },
+  "images/taxon-tragulus-javanicus.jpg": {
+   "sha256": "d356c16d45e591b3ab2ec50ba5337c78152d65cbe5b1835bb888f3b9f93747bc",
+   "bytes": 256436
+  },
+  "images/taxon-garrulax-bicolor.jpg": {
+   "sha256": "c47a12b137c378af229b85f390802ee30cdf00b9c05bee68e6c99d3b5274e9e8",
+   "bytes": 210195
+  },
+  "images/taxon-dama-mesopotamica.jpg": {
+   "sha256": "22b8652b745344c82bea7c616b4be1b162ff8043eed9c547eee44a36a5226a14",
+   "bytes": 317705
+  },
+  "images/taxon-cavia-aperea.jpg": {
+   "sha256": "b4693ca0aa45b276655ed15532037b6efacbc2763b8fd5d525a47dae7d1f9a3b",
+   "bytes": 355256
+  },
+  "images/taxon-copsychus-saularis.jpg": {
+   "sha256": "37afb85118d7e5d5c7d9e60087f754581a77607de4bf75b8dc9c0067d001cb4c",
+   "bytes": 326947
+  },
+  "images/taxon-threskiornis-spinicollis.jpg": {
+   "sha256": "e1d25dc373bc24a02929357de2b8f45d941f8d5fc85690ff4eb4300a45a13a4a",
+   "bytes": 224846
+  },
+  "audio/taxon-gallicolumba-crinigera_en_fact1.m4a": {
+   "sha256": "738735b9de37de8cd213825d2b4ab806e2d6d2875a03d006a4672fc72b563747",
+   "bytes": 23986
+  },
+  "audio/taxon-ciconia-ciconia_en_fact3.m4a": {
+   "sha256": "afd5b9fab760c8a214cad9b792f002c5e665d94899df7ce22a99392605871fee",
+   "bytes": 26459
+  },
+  "audio/taxon-arctictis-binturong_en_fact2.m4a": {
+   "sha256": "8265f2da73fd7691782ef632f2c5981f115b68be0cb366655abd5826270bb961",
+   "bytes": 27361
+  },
+  "audio/taxon-dromaius-novaehollandiae_es_fact1.m4a": {
+   "sha256": "5e000f9d1f12ad6f43f7c2487679265fcc22b090ed60f45015c2d52a370236df",
+   "bytes": 27706
+  },
+  "audio/indian-crested-porcupine_de_fact2.m4a": {
+   "sha256": "4f83c31a0fa552ec2752962190c7feafcba8b11eba057f26ff26fbc03214e350",
+   "bytes": 35298
+  },
+  "audio/great-argus_de_fact1.m4a": {
+   "sha256": "363852b628a0f37b4e08a9c172d3ffdabd266ef012ea692bf8927fb383167df0",
+   "bytes": 27126
+  },
+  "audio/taxon-equus-przewalskii_en_fact2.m4a": {
+   "sha256": "bd3bde895f2ea466def8c9329440a1875216002401de0633f6c55200f74e624b",
+   "bytes": 17073
+  },
+  "audio/sumatran-orangutan_en_fact1.m4a": {
+   "sha256": "b17f5a93a9e33b5e53ead6db2cf20d7e49a13405a23a992f90ccd9f8347d3cc8",
+   "bytes": 40835
+  },
+  "audio/patagonian-mara_de_fact5.m4a": {
+   "sha256": "a54d86beab6268113092c5e2f0e6536aaa0063f8b9d1e45b1a4edd05355adb9d",
+   "bytes": 36882
+  },
+  "audio/taxon-rhinoceros-unicornis_en_fact5.m4a": {
+   "sha256": "7b91a7b9ba459aced26c280978af1ae1b15385e806236d495f3cf60f081f4054",
+   "bytes": 27977
+  },
+  "audio/western-lowland-gorilla_es_fact4.m4a": {
+   "sha256": "9a1508f79265af3dfcfc3561ad53df942b4fd6ec2c2f58ab44b14e93e9795816",
+   "bytes": 59202
+  },
+  "audio/red-capped-mangabey_es_fact5.m4a": {
+   "sha256": "a211c242a80b35a55049862830f2e5e43a70cf9137a27703f86c42974012f404",
+   "bytes": 39859
+  },
+  "audio/great-white-pelican_de_fact1.m4a": {
+   "sha256": "cd117cac7ec3cbb725140519043bd9026ce65fb20583065c4969a5b96bdc05f5",
+   "bytes": 27499
+  },
+  "audio/taxon-phoenicopterus-roseus_en_fact2.m4a": {
+   "sha256": "38969e82d75dfbc492f4cf03729855f5bfa55cccd1c4175a3cd4fd2c5ab709d2",
+   "bytes": 39862
+  },
+  "audio/capybara_en_fact5.m4a": {
+   "sha256": "fc936b6ddd2ae9fe7b5267bcad0661d71889985194d95e7a3955b02a5267a80d",
+   "bytes": 37926
+  },
+  "audio/taxon-erethizon-dorsatum_es_fact3.m4a": {
+   "sha256": "992080fda022cd4dce47f86e9e63f307d08070bf39710e12e044e5d7ac0459e2",
+   "bytes": 20308
+  },
+  "audio/red-river-hog_es_fact3.m4a": {
+   "sha256": "5bd2026b4aa837ee150417e849b1fa4e8836e68eb9855b0702ae8f28fcb36a38",
+   "bytes": 27639
+  },
+  "audio/red-river-hog_es_fact2.m4a": {
+   "sha256": "18659f7bf97e579811e4842789bb960964b01791e3ce21db3d907e8327040346",
+   "bytes": 43415
+  },
+  "audio/taxon-erethizon-dorsatum_es_fact2.m4a": {
+   "sha256": "52775ce827fc4974acbc0bbd1d394889ccb4939b135fc4acff912d3935490db8",
+   "bytes": 18238
+  },
+  "audio/taxon-aptenodytes-patagonicus_es_fact1.m4a": {
+   "sha256": "93575162c735407191df283bb962c3b1933dfc61057fb48210d59d49a78cc5ab",
+   "bytes": 25139
+  },
+  "audio/capybara_en_fact4.m4a": {
+   "sha256": "931fabfaeeb57c27226aff80ea9b2a0c386023c38ea549fbb5c97eb180a37480",
+   "bytes": 33879
+  },
+  "audio/taxon-phoenicopterus-roseus_en_fact3.m4a": {
+   "sha256": "854e9c36fe40ae364f2ef8d9f4861cf85f39ac8051fb755a860ec3cb62d2f639",
+   "bytes": 32118
+  },
+  "audio/taxon-rhinoceros-unicornis_en_fact4.m4a": {
+   "sha256": "5d604744724c56e5e61ea3169e42f19dfe262be8d4c6a466e5e602624f208567",
+   "bytes": 26568
+  },
+  "audio/western-lowland-gorilla_es_fact5.m4a": {
+   "sha256": "a6c7f533a9ae44958e48667d05e69ab0ccabb06fab3549711a99be44df53b246",
+   "bytes": 38053
+  },
+  "audio/taxon-ursus-maritimus_en_fact3.m4a": {
+   "sha256": "3705af8c77cf98784d8eb4ceca41969c239c298f0ea274680842e47426325f02",
+   "bytes": 25738
+  },
+  "audio/linnaeus-two-toed-sloth_de_fact1.m4a": {
+   "sha256": "27e53a729be181fc1e6be990d3d36b41bd68bf128be6a80e11aa6c9a6a3c7fb2",
+   "bytes": 41076
+  },
+  "audio/black-stork_es_fact3.m4a": {
+   "sha256": "199436d6357ca189c952cdbf48e084e0d017d1f1752f82fb7c88e707454085f6",
+   "bytes": 24124
+  },
+  "audio/vicuna_en_fact4.m4a": {
+   "sha256": "a92cffdefda289fe622d454b8b371b56744efd25934e8fe3966a3084aed1e6c4",
+   "bytes": 53376
+  },
+  "audio/taxon-equus-przewalskii_en_fact3.m4a": {
+   "sha256": "cc4f3be8de1cfaaad77a5465dccca66fe5b158f13c88ea6701076b284a0a1ebd",
+   "bytes": 16355
+  },
+  "audio/humboldt-penguin_de_fact3.m4a": {
+   "sha256": "00cefd8a063b124ba05a11a066ff42fbeb13855e35bad13e5d8167b41ad16192",
+   "bytes": 27613
+  },
+  "audio/taxon-bison-bison-athabascae_en_fact1.m4a": {
+   "sha256": "cc690a3560e42778e3717ec9bb882b3796f3c04c1b589c86780dbacd389b8758",
+   "bytes": 23813
+  },
+  "audio/indian-crested-porcupine_de_fact3.m4a": {
+   "sha256": "7f783f0d96b74dc6ce48872c106a0539c2bbf88a4ac438d309e79e6c78adb0d2",
+   "bytes": 42239
+  },
+  "audio/raccoon_es_fact1.m4a": {
+   "sha256": "263bde715d023b8483f0f3aaa2e87e9c60587f9c17cc610dba5d92a54e165e71",
+   "bytes": 32787
+  },
+  "audio/taxon-arctictis-binturong_en_fact3.m4a": {
+   "sha256": "f25d2b0ada6ff7d042f509da3f6d35ef44d81fa9832fb54d2b9897744c223ec0",
+   "bytes": 30094
+  },
+  "audio/mhorr-gazelle_en_fact5.m4a": {
+   "sha256": "807e99a97999c835a6b7728d62181719e25ed86e5b597126cb76858a4fc83069",
+   "bytes": 44464
+  },
+  "audio/radiated-tortoise_es_fact1.m4a": {
+   "sha256": "10e8e5c7f47d7037592b7c821e186541975acb7a26381f1035d4073ef8d61ee0",
+   "bytes": 23972
+  },
+  "audio/red-panda_es_fact1.m4a": {
+   "sha256": "97b91c8d99fe86078be4b4718a8483ba6075245f67da66277a3a7563b3714c9b",
+   "bytes": 39302
+  },
+  "audio/edwards-pheasant_de_fact4.m4a": {
+   "sha256": "cb72c1be9712f99e5123a455da43556fd7e3dd351d4d10cd2d1c5606f030505f",
+   "bytes": 62209
+  },
+  "audio/asian-elephant_es_fact2.m4a": {
+   "sha256": "d72f90b354f289f3b48118898017e8e491d241170e9ca0affbe290230ddfc7c8",
+   "bytes": 41534
+  },
+  "audio/blue-crowned-hanging-parrot_en_fact4.m4a": {
+   "sha256": "d6b963092c6d0a0b25207d1c57282119731a06ec50fea534b999dc65b1ce8752",
+   "bytes": 33084
+  },
+  "audio/taxon-gallicolumba-crinigera_en_fact2.m4a": {
+   "sha256": "7d0b7801265789d2745049b617ed07e840900a88452c7ea253d3d9f5fed61a59",
+   "bytes": 25549
+  },
+  "audio/red-panda_es_fact3.m4a": {
+   "sha256": "a56d3995c54ce94a84e036fbadc8ccf6284fcc2114166fb6520f18413faa7a7b",
+   "bytes": 40841
+  },
+  "audio/taxon-aythya-nyroca_en_fact3.m4a": {
+   "sha256": "777334909e76e39875452a6c1dc36dd5d71b4625f9e8cacab27cd3d9e7739c50",
+   "bytes": 19802
+  },
+  "audio/taxon-arctictis-binturong_en_fact1.m4a": {
+   "sha256": "c7abefaabc894a7c18d4f38514fe6479d2638d7875b6f3ba2e4c7043f4a7baa3",
+   "bytes": 29166
+  },
+  "audio/kirks-dik-dik_en.m4a": {
+   "sha256": "8bdeeaa86efcca72786d2c922ffdc1e5c28ca2f598b6f310032f1a931a491066",
+   "bytes": 225667
+  },
+  "audio/indian-crested-porcupine_de_fact1.m4a": {
+   "sha256": "62d25b6651264e1d48fbe2e406600f0c75e6ec8e8b3b6c7ec8a5124c1aa7e550",
+   "bytes": 35609
+  },
+  "audio/taxon-equus-przewalskii_en_fact1.m4a": {
+   "sha256": "bc72e40f2ca16987cc9b7969d5d12b318327c4a2cd6abfdd02d3ee12c56954c6",
+   "bytes": 16417
+  },
+  "audio/black-stork_es_fact1.m4a": {
+   "sha256": "e020b4a91809d291607d44a2ce5afd120739edf1c2ba5f1bbd7aaac170418bcf",
+   "bytes": 18942
+  },
+  "audio/javan-mouse-deer_en_fact2.m4a": {
+   "sha256": "3e53c8fa096fcb626fdbf3612428c7a3a730c8b50be870f24ba9297c2468375f",
+   "bytes": 35067
+  },
+  "audio/taxon-geochelone-gigantea_es_fact3.m4a": {
+   "sha256": "5e35d8780dc40d9e710f5231e0aea9f9c2285f07f776033a73d12a4c99c9bf15",
+   "bytes": 31432
+  },
+  "audio/linnaeus-two-toed-sloth_de_fact3.m4a": {
+   "sha256": "6cc7994cb70fe9e5286fed5ddbced389e56276c12b3bec36aa0e6a1c0d8af841",
+   "bytes": 24525
+  },
+  "audio/great-white-pelican_de_fact2.m4a": {
+   "sha256": "8eeb2a477c7612cb0075512a67331945ddaa7027d9317a82dc25018719a8fa90",
+   "bytes": 18697
+  },
+  "audio/taxon-aptenodytes-patagonicus_es_fact3.m4a": {
+   "sha256": "61993ba4d638789a5227de7991f45cff35a68ada620cb95bc524ef2b2f7bba4f",
+   "bytes": 26577
+  },
+  "audio/taxon-anthropoides-paradisea_en_fact3.m4a": {
+   "sha256": "0f7a944000b75c7aed5e9ada499e33fb65cab7c74225333bf1248ecd5bc7f46d",
+   "bytes": 20052
+  },
+  "audio/leafcutter-ant_es_fact5.m4a": {
+   "sha256": "dad33a6b839b3041b62678ee43c6967b1ae3016e58922adfdb21bf1f263b094c",
+   "bytes": 35562
+  },
+  "audio/red-river-hog_es_fact1.m4a": {
+   "sha256": "d2192abc7b3632f8c7dc2f1498ed2dd3d8efa4bdf6ffa260e79b6f4865794fd4",
+   "bytes": 40689
+  },
+  "audio/taxon-anthropoides-paradisea_en_fact2.m4a": {
+   "sha256": "517d8a8a457a0fd25771e021e2bd7f1f195de2d7e722f35099cfced92bfaf177",
+   "bytes": 19918
+  },
+  "audio/great-white-pelican_de_fact3.m4a": {
+   "sha256": "42b4664c827709080f9e02b6c899d9648a9574f71e7521049def3dd95bbd6831",
+   "bytes": 24486
+  },
+  "audio/sumatran-orangutan_en_fact3.m4a": {
+   "sha256": "0396fc940579325283ca4f0c82fd00bb89a3a736381703e1c298275b2fc9368c",
+   "bytes": 47355
+  },
+  "audio/great-argus_de_fact3.m4a": {
+   "sha256": "e2d3c124fd4a0a7ee2f5134a3e9f6f5eef1dc5dd70d7656b71da1c6c89682574",
+   "bytes": 28356
+  },
+  "audio/taxon-bison-bison-athabascae_en_fact2.m4a": {
+   "sha256": "77d2a7738c40facc2496fd6e76cfac4253311b12fd81c763a232a45e3a4d51b3",
+   "bytes": 23092
+  },
+  "audio/taxon-dromaius-novaehollandiae_es_fact3.m4a": {
+   "sha256": "c6c38bd3572b4d4fa1bac1381e583fbc2617337245b6112c1ec72cc98d6a1aa3",
+   "bytes": 24473
+  },
+  "audio/raccoon_es_fact2.m4a": {
+   "sha256": "db10e9d8ac9c806e8fb18e033d002883ec9f2d1c4b9ad9a83b03aa566e7f252a",
+   "bytes": 22469
+  },
+  "audio/red-panda_es_fact2.m4a": {
+   "sha256": "c8bc7261332cb88af66e2b0c8a6545b13e061246ec780669442b0be4ba0049f1",
+   "bytes": 34210
+  },
+  "audio/taxon-gallicolumba-crinigera_en_fact3.m4a": {
+   "sha256": "5eba4dcb6f5847041c392aea07ae0701164954c5533dd760f0266cafebffdf77",
+   "bytes": 23550
+  },
+  "audio/blue-crowned-hanging-parrot_en_fact5.m4a": {
+   "sha256": "ef7b804675022656a947092eede1818519cc74edaa0188c8ee9028c0a79acb64",
+   "bytes": 44700
+  },
+  "audio/blue-crowned-hanging-parrot_en_fact1.m4a": {
+   "sha256": "54ac879a73c879cb1c7aba1612b4803344ebd905ecf1bd13898ca7a27623b244",
+   "bytes": 35277
+  },
+  "audio/edwards-pheasant_de_fact3.m4a": {
+   "sha256": "424c6a799714372290897a9a7d8c52cefeacffa7eb646a91912eb84a7154434d",
+   "bytes": 37511
+  },
+  "audio/taxon-ciconia-ciconia_en_fact5.m4a": {
+   "sha256": "7793439a2997473e1fcbf1df4b15af9189ea997f34f7b3d24ea1bfcd07fce46c",
+   "bytes": 24619
+  },
+  "audio/taxon-panthera-leo_de_fact3.m4a": {
+   "sha256": "f57a063fe282f5f4f0403698ed51fcfffdf2e0edef00aaf1eb008fca9afdf42d",
+   "bytes": 28885
+  },
+  "audio/black-stork_es_fact4.m4a": {
+   "sha256": "1cb03979c04d48b9bad7059d18f01e307c9a858a0ef8ee3be451ed99d393d905",
+   "bytes": 22149
+  },
+  "audio/vicuna_en_fact3.m4a": {
+   "sha256": "b0803ca03dc9247e84666a9673876dfa67692bc326fd29422ef49e79e5e177a2",
+   "bytes": 39854
+  },
+  "audio/taxon-phoenicopterus-roseus_en_fact4.m4a": {
+   "sha256": "f29f7365b2df231aab151f8063bfbc1c6d988546ec3543e8afa311cfd0692fc8",
+   "bytes": 29087
+  },
+  "audio/red-capped-mangabey_es_fact3.m4a": {
+   "sha256": "c4b7c64b499d91205d2c76462042efd8deb3fbbf492bfce950c3799db9782c39",
+   "bytes": 46325
+  },
+  "audio/taxon-rhinoceros-unicornis_en_fact3.m4a": {
+   "sha256": "16631351962bea197cadf85b2ea3be710b55c1f7239cbfe5e30e607e2fb5cb1d",
+   "bytes": 25358
+  },
+  "audio/taxon-ursus-maritimus_en_fact4.m4a": {
+   "sha256": "9e7b6ab3641bc86894ecb107b21771fcb0b8692d3fa3811d9c3acca3c3adcc85",
+   "bytes": 28101
+  },
+  "audio/western-lowland-gorilla_es_fact2.m4a": {
+   "sha256": "a9b348c4ad0c0b75d3020f37ae45d24981e0287aec174cfc784940e1a89781d2",
+   "bytes": 40865
+  },
+  "audio/red-river-hog_es_fact5.m4a": {
+   "sha256": "b959b79d515fa2c2c5076a31814ec2a2346ffda310fa1b438fe594fb211ebbdf",
+   "bytes": 38480
+  },
+  "audio/leafcutter-ant_es_fact1.m4a": {
+   "sha256": "d0b5804f19d695c072564f6bedf046ae7fb4c95fd2ce088862c07ba3243482b4",
+   "bytes": 46937
+  },
+  "audio/bactrian-camel_en_fact2.m4a": {
+   "sha256": "fac8dbab221b742ce65f3e7bc9adbf9900f3dbed465a0d1c8638fba7a404136c",
+   "bytes": 46265
+  },
+  "audio/capybara_en_fact3.m4a": {
+   "sha256": "92f15ddc8958495fa321cf6bae3abac30e5ff0c00f7f296cbb52f9b9ae0847ae",
+   "bytes": 29162
+  },
+  "audio/capybara_en_fact2.m4a": {
+   "sha256": "5680da874fb8e3fffd38389ead872dd0a9e570d69308721e0bdd0175e2822717",
+   "bytes": 46672
+  },
+  "audio/amur-tiger_en_fact2.m4a": {
+   "sha256": "ed81af3bf48054f7f6fc678cf83d361b43a17346e2ecd0ed87db5c4b47875a37",
+   "bytes": 37358
+  },
+  "audio/red-river-hog_es_fact4.m4a": {
+   "sha256": "9fd27860dcda0a8d03f9ab19f83449c9cb36d6ab9ede3939dd874a4443760ad1",
+   "bytes": 48495
+  },
+  "audio/taxon-rhinoceros-unicornis_en_fact2.m4a": {
+   "sha256": "ea05012b597fbf845bb66f45bfa7e7863840f905378430aedad587f567267a6f",
+   "bytes": 26441
+  },
+  "audio/patagonian-mara_de_fact2.m4a": {
+   "sha256": "a5293473199510bbf541eaed091987fcb8e95e1b32990e9a12e25c60749a1319",
+   "bytes": 38106
+  },
+  "audio/vicuna_en_fact2.m4a": {
+   "sha256": "0943970ce485adcef8b36f5be56a4bb2d085d2f792c4c4d6030758e4253c0fe8",
+   "bytes": 51866
+  },
+  "audio/black-stork_es_fact5.m4a": {
+   "sha256": "360f13ef2d699a6d3ed17af56ec3c2ef49535f7855f5ecac6d48b3153d29a7df",
+   "bytes": 21792
+  },
+  "audio/taxon-panthera-leo_de_fact2.m4a": {
+   "sha256": "24eae7109cd0900bd38663a1b084fc1d6885aec43e8035960dbfccbbf8dea8cc",
+   "bytes": 32952
+  },
+  "audio/taxon-equus-przewalskii_en_fact5.m4a": {
+   "sha256": "df66b1420aff5af167b8ebf2ece125fabb540e2452fd22762193856b906bc1b7",
+   "bytes": 18025
+  },
+  "audio/bali-myna_es_fact3.m4a": {
+   "sha256": "fb343f4482a12ab4f488929af589b12c028ed17927d90790d3c36c8d00e72ca3",
+   "bytes": 40515
+  },
+  "audio/taxon-micromys-minutus_en_fact1.m4a": {
+   "sha256": "0afd2be7eb9b05d8eb43106d54049bc330d9c17f8ffcc1b3b446b3f21dca963d",
+   "bytes": 29609
+  },
+  "audio/victoria-crowned-pigeon_de_fact1.m4a": {
+   "sha256": "8c3f2ee952b40413bb23c027cfa11c6641ba4831430014ce992801d39a8da9b1",
+   "bytes": 28571
+  },
+  "audio/taxon-gallicolumba-crinigera_en_fact4.m4a": {
+   "sha256": "1362136857c03d883c47f6daf8e1366f263293b82c00ae16c36511292125bd08",
+   "bytes": 25523
+  },
+  "audio/radiated-tortoise_es_fact5.m4a": {
+   "sha256": "3f889fade6444116bdabda0c16bfd005d510d88b11ff68824f585ea8d7f99c3a",
+   "bytes": 24981
+  },
+  "audio/mhorr-gazelle_en_fact1.m4a": {
+   "sha256": "39d2cfa328b10ea66da500b8e681cfb5d70acc325056c604d38fee0983469e38",
+   "bytes": 45742
+  },
+  "audio/taxon-dromaius-novaehollandiae_es_fact4.m4a": {
+   "sha256": "c64beab4e91abfab8f1ea726366763dbeaf81f76f46c182c26f6210dbc6bb01e",
+   "bytes": 29066
+  },
+  "audio/raccoon_es_fact5.m4a": {
+   "sha256": "a21c1a5df91691e98091a37da80e8de818cff1c9bd8d9a402f34f044d39aabf4",
+   "bytes": 29041
+  },
+  "audio/taxon-micromys-minutus_en_fact3.m4a": {
+   "sha256": "3af366c6c5f79e75efab5e5574c39d82d3e2b0ae4e0b5b6df53bd70863b6aac0",
+   "bytes": 22096
+  },
+  "audio/great-argus_de_fact4.m4a": {
+   "sha256": "f5a9367a93d95e4694bfa4395833d33bad90c1d9efe9d123ac9ff297e3e93b31",
+   "bytes": 30861
+  },
+  "audio/javan-mouse-deer_en_fact4.m4a": {
+   "sha256": "3986f29272bb4d3e6393df38e79ba247db025b4f0c5a6cabcb3a7b3bb2beaa60",
+   "bytes": 49196
+  },
+  "audio/sumatran-orangutan_en_fact4.m4a": {
+   "sha256": "edd37082ea729ac1df4c3d876300030ed692cf578e9a44ad3006a899a66eaee9",
+   "bytes": 44846
+  },
+  "audio/great-white-pelican_de_fact4.m4a": {
+   "sha256": "25d9e01f2a824c5b94a179ce421d6ff40168015bed0023b25f114bf0396aaedf",
+   "bytes": 19419
+  },
+  "audio/linnaeus-two-toed-sloth_de_fact5.m4a": {
+   "sha256": "e74356fe2865d63b6a11011d8bc64db7106f89108d3010847c9f9f055f294682",
+   "bytes": 30309
+  },
+  "audio/taxon-garrulax-bicolor_en_fact1.m4a": {
+   "sha256": "f7cb720a461fa762a4fbfe5689edcc2ea2fab40f19d0f4b72fc334f6e9105739",
+   "bytes": 24382
+  },
+  "audio/leafcutter-ant_es_fact2.m4a": {
+   "sha256": "4e62fddd366868aa411428a29ba0bb4dab6b1e8e30df087edc0c943aa12628fb",
+   "bytes": 42288
+  },
+  "audio/capybara_en_fact1.m4a": {
+   "sha256": "7a68db7dd0a2a2fdf8e0faa196db9da24935a35d9ab0907297074ba47f97fe99",
+   "bytes": 33297
+  },
+  "audio/amur-tiger_en_fact1.m4a": {
+   "sha256": "e087fe3371bcf3eeaddb2a87cf6c7020b1c3af6e8a4b1da7762aa291a8bcba37",
+   "bytes": 31660
+  },
+  "audio/taxon-anthropoides-paradisea_en_fact4.m4a": {
+   "sha256": "be9f8775f3f76dc104b10820df21e18a6facd4beca91ed452c519491014488c8",
+   "bytes": 16065
+  },
+  "audio/leafcutter-ant_es_fact3.m4a": {
+   "sha256": "d382f9c4f14bd17b6606d9ca0cd7346c37c46789d2f5aeecd319d83ffc81bf90",
+   "bytes": 33748
+  },
+  "audio/linnaeus-two-toed-sloth_de_fact4.m4a": {
+   "sha256": "ee06a6ee0b871d504fe7eba700063f3b28e3a2cc087644bba3b52aef9ea531c5",
+   "bytes": 39230
+  },
+  "audio/taxon-rhinoceros-unicornis_en_fact1.m4a": {
+   "sha256": "2bc26f423bbee10acd17c25ba9181fdb102fe0dd346c580920107c14dc00acd7",
+   "bytes": 30424
+  },
+  "audio/sumatran-orangutan_en_fact5.m4a": {
+   "sha256": "30df6a91c1180eada8012ca671a524d18cd0ab7fb2179aa0fe9774fde6055be0",
+   "bytes": 36832
+  },
+  "audio/taxon-panthera-leo_de_fact1.m4a": {
+   "sha256": "aa62c41390424ccd4ec6107524551cc7840765122d7bd6ecadf887f9b51c682e",
+   "bytes": 32585
+  },
+  "audio/great-argus_de_fact5.m4a": {
+   "sha256": "cc4d70598e83e8cbe52bb9dc2b9dd344db1be0bfd72854c18a1910030c991182",
+   "bytes": 27231
+  },
+  "audio/taxon-micromys-minutus_en_fact2.m4a": {
+   "sha256": "4996edddabf0109315d7e80ca3bdec33aefe198b54b24374b46b1d06a82d6082",
+   "bytes": 18657
+  },
+  "audio/victoria-crowned-pigeon_de_fact2.m4a": {
+   "sha256": "c46c1c0b067b5b03e68d11a6993e95f9f6f1409d20ed35be5458500abdbfa2c2",
+   "bytes": 52186
+  },
+  "audio/taxon-gallicolumba-crinigera_en_fact5.m4a": {
+   "sha256": "379af337e7ec5d2a980b319fa8a43a416d03697919a66b7a10ee03ec70f8c4c2",
+   "bytes": 23122
+  },
+  "audio/blue-crowned-hanging-parrot_en_fact3.m4a": {
+   "sha256": "7f559fd66070707ee8e75ba336943723672ec465f906cf2a33172b2486c6db1d",
+   "bytes": 31662
+  },
+  "audio/alpaca_en_fact2.m4a": {
+   "sha256": "0f83b77ca05fd3a26de1a2e80fe5da177750aaaec7385041f9e856d766f5b0df",
+   "bytes": 36158
+  },
+  "audio/giant-anteater_en_fact4.m4a": {
+   "sha256": "6b0be08d949234215901c4eb3f65dc51eacddbf06ffac87e88e55ebe494cbaf7",
+   "bytes": 36292
+  },
+  "audio/sumatran-orangutan_es.m4a": {
+   "sha256": "374b9f2af2fa82dd3990d210cfd6a5184ffbf9a8226ad6a01626b40e87571636",
+   "bytes": 267757
+  },
+  "audio/red-panda_es.m4a": {
+   "sha256": "96490a722e888300940ee138ff4624c0fed3ee26387493da3572e7f99873d55b",
+   "bytes": 271675
+  },
+  "audio/edwards-pheasant_es_fact3.m4a": {
+   "sha256": "d76a81d69d9febcd40326c9a17d9c49f8b6312e86c46bdbc5ba2b5e680dd5460",
+   "bytes": 37853
+  },
+  "audio/red-river-hog_de_fact5.m4a": {
+   "sha256": "fd666ae7700b0d7ff48977f51c3e867627f8a0ebcec1a43bc7ecd4435ed06b7f",
+   "bytes": 42539
+  },
+  "audio/amur-tiger_en.m4a": {
+   "sha256": "7c6a7a81df75f1f348205b9800842b8c6d6978f41143d22d2cd656874c2394de",
+   "bytes": 234038
+  },
+  "audio/leafcutter-ant_de_fact1.m4a": {
+   "sha256": "39bc092d5ff89c64e7719d8a9c5fba0c00804a795d4e6b1b45a3a4b54e4b7fbd",
+   "bytes": 37513
+  },
+  "audio/taxon-chrysocyon-brachyurus_en_fact4.m4a": {
+   "sha256": "6e441138ad4dcc584a26a9f4e68a50b31d1f2381cc243c7ab0c554d51eb9faa2",
+   "bytes": 30485
+  },
+  "audio/taxon-caloenas-nicobarica_en_fact2.m4a": {
+   "sha256": "4b176d7b3d90872dc12ed393a1ec4992d86f9b880c6c42f5d3255cadff00fc7b",
+   "bytes": 22712
+  },
+  "audio/northern-bald-ibis_en_fact3.m4a": {
+   "sha256": "1b3e4a18c1f8618bc5299088916882b3e9bc0bf0c0d815cc78d171b2d2335450",
+   "bytes": 19359
+  },
+  "audio/red-capped-mangabey_de_fact3.m4a": {
+   "sha256": "76a7618901ef1af421c0b0e81638b8c0b33dbffaf5dcff4083693ea254a8f898",
+   "bytes": 39644
+  },
+  "audio/western-lowland-gorilla_de_fact2.m4a": {
+   "sha256": "8266fa691ce582e168f9b2ab2b43053c5fbef7b4edc7fc5fae136b4740dd9886",
+   "bytes": 37827
+  },
+  "audio/black-stork_de_fact4.m4a": {
+   "sha256": "ccb2b0c5d75e6fd50d4e7a635a366df8973d08360cb226522ef8fc34b6c8cc08",
+   "bytes": 21529
+  },
+  "audio/taxon-panthera-leo_es_fact3.m4a": {
+   "sha256": "475710f3fb317fd623409ec49f1feecea630e632a95f12a63a4ca73d1ca787d7",
+   "bytes": 31025
+  },
+  "audio/taxon-panthera-leo_es_fact2.m4a": {
+   "sha256": "7e5e76ba37aa7849a08997049b69ae0f6a1310ce4dd683040e0a229a91a2352d",
+   "bytes": 31304
+  },
+  "audio/bali-myna_de_fact3.m4a": {
+   "sha256": "0809d476afca9fbe700a0a18b29040b8d1810844479ccfc3cb15ea8c4c3eb25e",
+   "bytes": 39752
+  },
+  "audio/patagonian-mara_es_fact2.m4a": {
+   "sha256": "d8357d80d84ea5ac99fdc7fc8ad029cf6c19bb01bf95057dae00e407f28deeeb",
+   "bytes": 33827
+  },
+  "audio/black-stork_de_fact5.m4a": {
+   "sha256": "0e4328179676ff8a42bf0ec0ade5c946d9916284785de3299aeb9373ab77e34b",
+   "bytes": 20388
+  },
+  "audio/taxon-chrysocyon-brachyurus_en_fact5.m4a": {
+   "sha256": "5a1269aba9ef31808dd2dbe31e94498e24747eca22f995a37ed702e34eafd975",
+   "bytes": 25679
+  },
+  "audio/kirks-dik-dik_en_fact1.m4a": {
+   "sha256": "7e403662c06b717ea36430e1401c6d6fe2025321f9ea55c79b1d48edf1bc11af",
+   "bytes": 29206
+  },
+  "audio/red-river-hog_de_fact4.m4a": {
+   "sha256": "6c6957bfb7c3f410d97313ae84545c29bed31ba39997fdf6661fd09949411459",
+   "bytes": 39182
+  },
+  "audio/victoria-crowned-pigeon_es_fact1.m4a": {
+   "sha256": "36042ac3432bc23c553264f57adda51df5200fa2726dcf6983027461644b27eb",
+   "bytes": 29880
+  },
+  "audio/asian-small-clawed-otter_en_fact2.m4a": {
+   "sha256": "339a926c6c244c405f55081c683af20f8747c44af4069a03d7c523a1e5a954eb",
+   "bytes": 37728
+  },
+  "audio/taxon-emys-orbicularis_en_fact4.m4a": {
+   "sha256": "1b8ce3bce5036ab649808346ee48ee5f08c5b531f41f1b4c3ccc4a94bbe5d65a",
+   "bytes": 30912
+  },
+  "audio/taxon-ara-ararauna_en_fact1.m4a": {
+   "sha256": "622759fd430ba2d975f70bce98278004e43046f58640aca84fabf598848008f9",
+   "bytes": 18779
+  },
+  "audio/giant-anteater_en_fact5.m4a": {
+   "sha256": "25a807831f41a0b24ad9be9f2672b9fb7f6738fb84622cfe96fb502a3780e738",
+   "bytes": 39745
+  },
+  "audio/alpaca_en_fact3.m4a": {
+   "sha256": "a5df8d28df618d6067a77c2169f085b9ad5d26501e950f61f9b4008d64f914be",
+   "bytes": 24667
+  },
+  "audio/scarlet-ibis_en_fact1.m4a": {
+   "sha256": "d940d0f23d56cb22edce4e06c53b11c94ad6c46218c7a49a35bbf53cae4d7078",
+   "bytes": 28944
+  },
+  "audio/alpaca_en_fact1.m4a": {
+   "sha256": "eff471c4a3ed02d0c11ab71388a5a4e795f8b0a6496919541cc1540ca9c923c7",
+   "bytes": 52570
+  },
+  "audio/taxon-dromaius-novaehollandiae_de_fact4.m4a": {
+   "sha256": "e3474e25b466554423b0db9760249bb35d2e9675290631ab2ab83285b166272a",
+   "bytes": 24753
+  },
+  "audio/raccoon_de_fact5.m4a": {
+   "sha256": "613812d15a904c5b6addabaa5a519bfc4e8b91240e5ca3e537e848b99c83c2c6",
+   "bytes": 30572
+  },
+  "audio/scarlet-ibis_en_fact3.m4a": {
+   "sha256": "4df80cd9b7c658f3392abfc4660c18cd4b85a809cb1314aed487f45f9222e35e",
+   "bytes": 43112
+  },
+  "audio/taxon-ara-ararauna_en_fact3.m4a": {
+   "sha256": "dc3ac1fb92019f98a0713a7b589a36bab0c62eb2a86a00d721974a1a4fa23bb1",
+   "bytes": 16647
+  },
+  "audio/meerkat_en_fact5.m4a": {
+   "sha256": "d16905eced28651b6b835c9c6ea3ae583095536a920cb23e6c42c71aef6b58cc",
+   "bytes": 36803
+  },
+  "audio/radiated-tortoise_de_fact5.m4a": {
+   "sha256": "5c0d2c71343325e162310f91d66564cb33615a601733d131d9c7d04448160169",
+   "bytes": 21407
+  },
+  "audio/leafcutter-ant_de_fact2.m4a": {
+   "sha256": "daf8b3f438f2ef8c97834e6408b492f02a41b191f063e22ab1ed6e4a408bb41c",
+   "bytes": 36571
+  },
+  "audio/giraffe_en_fact4.m4a": {
+   "sha256": "6ebc56c6e0e4a6bc84e421d6cffb72016c7b85c359e82ad217b63d65ad1fa5c1",
+   "bytes": 40814
+  },
+  "audio/great-white-pelican_es_fact4.m4a": {
+   "sha256": "f7fe852ea7b9e9f73160943aa04d7cbd94af23662803583fea266034b151f514",
+   "bytes": 21671
+  },
+  "audio/linnaeus-two-toed-sloth_es_fact5.m4a": {
+   "sha256": "6f866a4d3a6d9c46091067b98e8b87bf64994ebb9d516a23295abdb83e1931f0",
+   "bytes": 30384
+  },
+  "audio/great-argus_es_fact4.m4a": {
+   "sha256": "e96e1134d1c89781a43f5f17e37ce5cb862996de4bb3f3eb29667211769aa260",
+   "bytes": 27418
+  },
+  "audio/taxon-panthera-leo_es_fact1.m4a": {
+   "sha256": "049974d4376e723bbd673b60b41c521ce199c234c8bd73e892d1e49d02daa7a7",
+   "bytes": 28914
+  },
+  "audio/great-argus_es_fact5.m4a": {
+   "sha256": "14f56084a89d0ffd85986bf6c2d726efc6ced06f5048ddf9038e35be8a65d327",
+   "bytes": 23069
+  },
+  "audio/linnaeus-two-toed-sloth_es_fact4.m4a": {
+   "sha256": "79dc15c8dbdc8cc56f309a4dad4387d34652a2d28afbfb7d208b4b0d7bfde6be",
+   "bytes": 36767
+  },
+  "audio/southern-three-banded-armadillo_en_fact4.m4a": {
+   "sha256": "214b7e31fb9ce9551cb1f1a68e6ee3bd613153e86133e76455204827fc8cfecf",
+   "bytes": 32769
+  },
+  "audio/northern-bald-ibis_en_fact1.m4a": {
+   "sha256": "b9d82a49879b5af7f15f64fc5a2429059d77fd0f77ab35c4901d73531da64779",
+   "bytes": 14480
+  },
+  "audio/giraffe_en_fact5.m4a": {
+   "sha256": "a2f3a0c77e50d2e0dd09d04543d6d9957fbed44b1d7e212d62fab7bdbda5c620",
+   "bytes": 34171
+  },
+  "audio/kirks-dik-dik_en_fact2.m4a": {
+   "sha256": "01e06ed58a47c329b91240dd7419ecd1d287006a15a3c68e4a9bccda1ed25754",
+   "bytes": 27016
+  },
+  "audio/leafcutter-ant_de_fact3.m4a": {
+   "sha256": "6634ee4487dac0c60aaf7f965c4a236ecbbbb92547e5dc1db9a1c4dc78354c89",
+   "bytes": 41266
+  },
+  "audio/victoria-crowned-pigeon_es_fact2.m4a": {
+   "sha256": "a1ee7d05956f1c35ba25f26da672e4a00ff0e153f507283a8a83e57a0b77ca2f",
+   "bytes": 51539
+  },
+  "audio/meerkat_en_fact4.m4a": {
+   "sha256": "b65e35f1145a5fa35881700e482c8a481f282c569773626d6a6d225f496208bd",
+   "bytes": 19045
+  },
+  "audio/taxon-ara-ararauna_en_fact2.m4a": {
+   "sha256": "cb2abf9efb7dc62a0e7a168f2944428a1a8ab84cc0573381625cf21d364f8378",
+   "bytes": 18172
+  },
+  "audio/scarlet-ibis_en_fact2.m4a": {
+   "sha256": "104df344a41825b730f191cb32f4890e689356d127333edf7c66aa4cd80d5cd1",
+   "bytes": 33807
+  },
+  "audio/black-and-rufous-elephant-shrew_en_fact1.m4a": {
+   "sha256": "1e70f21ddb6ebe4fae8ab5c7dfbcb137e725d04b249283441983bfbe386bf2b2",
+   "bytes": 49604
+  },
+  "audio/taxon-dromaius-novaehollandiae_de_fact5.m4a": {
+   "sha256": "768778bc5a6d02b9f7400319fe70c3dda42fa3e078185e9be8da34e14935726a",
+   "bytes": 24704
+  },
+  "audio/taxon-emys-orbicularis_en_fact3.m4a": {
+   "sha256": "cd9b73d3240ddd1924a8749a50705bcef3b94c8ea45945a20467f0915c654295",
+   "bytes": 19640
+  },
+  "audio/alpaca_en_fact4.m4a": {
+   "sha256": "c5436d0f967fa33dd138a2468aacea2f77813a96ddfd434b17135b011dd99615",
+   "bytes": 27435
+  },
+  "audio/taxon-dromaius-novaehollandiae_de_fact1.m4a": {
+   "sha256": "503b6e304d1ba99d1fc1d60c83a071bcec1ef01b2bbb089c6540cdd7f3bebbd8",
+   "bytes": 25388
+  },
+  "audio/giant-anteater_en_fact2.m4a": {
+   "sha256": "85c8787b6f985a21920e9d205da857397857094e63be376eb02c6cff2d84381c",
+   "bytes": 42035
+  },
+  "audio/black-and-rufous-elephant-shrew_en_fact5.m4a": {
+   "sha256": "8069ee4502cf054d20121416365fb54f42b54b5b904b6c2bbf29ba28debdb20b",
+   "bytes": 43393
+  },
+  "audio/asian-small-clawed-otter_en_fact5.m4a": {
+   "sha256": "663a91f0dd7c36f5ffb5416b0cbb85853380277907893c5e8d65f09c61a93cac",
+   "bytes": 31934
+  },
+  "audio/taxon-chrysocyon-brachyurus_en_fact2.m4a": {
+   "sha256": "a3aa5159e17f6c732ea8a4cfd482cf1a645bf41c53ed43b14a0682d1684b8cf2",
+   "bytes": 32852
+  },
+  "audio/giraffe_en_fact1.m4a": {
+   "sha256": "9a4b864cec8d38a83d14aafaeccb2bd1d0d147e1b324140d48d68ca469c1a405",
+   "bytes": 29285
+  },
+  "audio/red-river-hog_de_fact3.m4a": {
+   "sha256": "1a10de78775fa1cb2215d297bdb6a9aa7362c4755d5e849d491330d40f18a00c",
+   "bytes": 23110
+  },
+  "audio/western-lowland-gorilla_de_fact4.m4a": {
+   "sha256": "69441a815211be89ac18b68f7a05edc89f8152fdb6554ea90a1ce25ce4d138ed",
+   "bytes": 56096
+  },
+  "audio/red-capped-mangabey_de_fact5.m4a": {
+   "sha256": "bb4a6b6944e72d55cfa906d0d1aabb447c5815f299628e16b647d9bec7c49514",
+   "bytes": 38414
+  },
+  "audio/great-white-pelican_es_fact1.m4a": {
+   "sha256": "6ffa27f175a01982c23ef8575ca595db72889f0a5fbcd9622acca10a7476b080",
+   "bytes": 30323
+  },
+  "audio/patagonian-mara_es_fact5.m4a": {
+   "sha256": "b94ecd05dfb30e8cbbacff6f74de0b71f3d6839ed6f05391cf173929309a480c",
+   "bytes": 43552
+  },
+  "audio/indian-crested-porcupine_es_fact2.m4a": {
+   "sha256": "ddd6af85c724cae7e24e360894b6ced9070cb3e0ec2d548a010e2eab71a98664",
+   "bytes": 31630
+  },
+  "audio/great-argus_es_fact1.m4a": {
+   "sha256": "f7b3c5bcd9deba6a3337226768604f3bbe0ba6a65f802292b362943c8e8d2707",
+   "bytes": 27684
+  },
+  "audio/snowy-owl_en_fact4.m4a": {
+   "sha256": "1fb16e8eba4344bfc2106383740c10e6b136ebce514ae0628629858f373a0635",
+   "bytes": 25607
+  },
+  "audio/snowy-owl_en_fact5.m4a": {
+   "sha256": "0ba284fe7ac7aee37430edb2f7f67d3d09ff089a2a54a45145e40c70cd3b2d2d",
+   "bytes": 47998
+  },
+  "audio/humboldt-penguin_es_fact3.m4a": {
+   "sha256": "df73e99530c1232424543b22d26950124634809c2511380668adc8206943fb9e",
+   "bytes": 26157
+  },
+  "audio/indian-crested-porcupine_es_fact3.m4a": {
+   "sha256": "97100b2f3f7bbe8f95fa8ef41ce5a82283eb0b1340bf214fd350f1fc8c7fcec7",
+   "bytes": 46518
+  },
+  "audio/black-stork_de_fact3.m4a": {
+   "sha256": "1b98013bf4b681cf10ec167fd56565417744cf47300a82ea81dada25c309a499",
+   "bytes": 22812
+  },
+  "audio/linnaeus-two-toed-sloth_es_fact1.m4a": {
+   "sha256": "5dace320827e71c3e511e15800d2e8e577a62fb28e8a62dad62909fc8c23a5ee",
+   "bytes": 47404
+  },
+  "audio/red-river-hog_de_fact2.m4a": {
+   "sha256": "cef397d2c2f3736689479d81c4bdbb6d8cef71b5a0c9493c4874b39b4e83677a",
+   "bytes": 37662
+  },
+  "audio/taxon-erethizon-dorsatum_de_fact2.m4a": {
+   "sha256": "4d130567b69fff69d6ffcbffc7be20212327894257d728e42e6226cee1a6327c",
+   "bytes": 21185
+  },
+  "audio/taxon-aptenodytes-patagonicus_de_fact1.m4a": {
+   "sha256": "180f2d7ae481f27f930c39911941598c80afbebef5aba8080353c5d68d5d8e01",
+   "bytes": 28099
+  },
+  "audio/northern-bald-ibis_en_fact4.m4a": {
+   "sha256": "55cfe28e22c68ade92e76db89c7808b76a688fdfb2d19d9a20e4e1417d7185e2",
+   "bytes": 21460
+  },
+  "audio/edwards-pheasant_es_fact4.m4a": {
+   "sha256": "31aa5b5626448eb8e68230d09f1db38a0f59559d33e15d006db693b74e309c03",
+   "bytes": 65043
+  },
+  "audio/red-panda_de_fact1.m4a": {
+   "sha256": "af0dce4c40351dd5be268bdc63fa5b2859adb2b1943692211df49f552b6cc3fc",
+   "bytes": 35932
+  },
+  "audio/meerkat_en_fact1.m4a": {
+   "sha256": "7fba32b7c9d25f173ea20466bec6909c72648daecd8f153f5a506e541b17fd3c",
+   "bytes": 40355
+  },
+  "audio/blackbuck_en_fact1.m4a": {
+   "sha256": "4e6db659cdfe2a7121a1d0030a9ba8d82f5575f9956d36e3751474edfa11d173",
+   "bytes": 25822
+  },
+  "audio/asian-small-clawed-otter_en_fact4.m4a": {
+   "sha256": "aa1720725ca5b2e2dbf34875bacbfeb82232cb810fb787ac3a03fe6c9bd966f7",
+   "bytes": 48607
+  },
+  "audio/radiated-tortoise_de_fact1.m4a": {
+   "sha256": "f0b2abeddef871833784620d4b34f5e103f06d7653c4f865d7828018ad9033e4",
+   "bytes": 20201
+  },
+  "audio/raccoon_de_fact1.m4a": {
+   "sha256": "911013b5baed2e4f36ffc1d3677d250af07eca2a9a868c25c7d02836fefcba61",
+   "bytes": 37377
+  },
+  "audio/giant-anteater_en_fact3.m4a": {
+   "sha256": "44edd42134a0a4b6cddb5f8b3541a4cfbb667537b8387e406f9f6c5caefb4c6c",
+   "bytes": 37844
+  },
+  "audio/alpaca_en_fact5.m4a": {
+   "sha256": "f5acb86630aa172146d53953ae0c5376258dace66d1e5c085d3793bd17f32614",
+   "bytes": 39049
+  },
+  "audio/taxon-ara-ararauna_en_fact5.m4a": {
+   "sha256": "6ed450b386fa4216fd54e7b6c64129e2615ab2996195ffc7f18fc90ef92db8e4",
+   "bytes": 21159
+  },
+  "audio/scarlet-ibis_en_fact5.m4a": {
+   "sha256": "9ca8a99fab6e64b963339a0e349fe1238e30aeeea8ae2f6bca73343891065dae",
+   "bytes": 24833
+  },
+  "audio/giant-anteater_en_fact1.m4a": {
+   "sha256": "c404c7c45814c70febf7619141c8903908a28c90eb281cfa985658cbee4c2b1c",
+   "bytes": 38620
+  },
+  "audio/red-panda_de.m4a": {
+   "sha256": "605b535f0c6f1c9c3f39d8175a3e6ab2ee839c7b9fa131df9d50bb2bd9511dd6",
+   "bytes": 263167
+  },
+  "audio/blackbuck_en_fact3.m4a": {
+   "sha256": "9d036b7bf2bcc1029dc25d22877cbf2809d9e1ba148148c1e515f0cbb63a618d",
+   "bytes": 22905
+  },
+  "audio/meerkat_en_fact3.m4a": {
+   "sha256": "745ea9c4261f42c87e8740242fd71d54a6ccef19a73e8a2fb3f0064400ef5cac",
+   "bytes": 35106
+  },
+  "audio/red-panda_de_fact3.m4a": {
+   "sha256": "676e4b1df038117919e40e3b691d9911ee3ad76b85c50db455b504e9764515f3",
+   "bytes": 36050
+  },
+  "audio/asian-elephant_de_fact2.m4a": {
+   "sha256": "dcfe3efc93cc722850d7d6e4502002fe4d77b95802708b2ce713b47de0030ee5",
+   "bytes": 39471
+  },
+  "audio/taxon-aptenodytes-patagonicus_de_fact3.m4a": {
+   "sha256": "5968d235f4eb961f1e65b95227a4a7fd4656f72f0ac2d82a6b4bd00f23ffadc8",
+   "bytes": 30327
+  },
+  "audio/kirks-dik-dik_en_fact5.m4a": {
+   "sha256": "11dd409ead4bf1d724378d146d834fd30ed656e41cc9889b6a31993bce551107",
+   "bytes": 21476
+  },
+  "audio/giraffe_en_fact2.m4a": {
+   "sha256": "06fbb19cccd15c493b45baf5f49018fac02a541a5bc8a113682f41497cab781e",
+   "bytes": 39523
+  },
+  "audio/taxon-chrysocyon-brachyurus_en_fact1.m4a": {
+   "sha256": "6fa5c1630fb452e05b0205d5d53714c1f843be7ff703285630c536eb65834a30",
+   "bytes": 28895
+  },
+  "audio/linnaeus-two-toed-sloth_es_fact3.m4a": {
+   "sha256": "a755664d9a69c15407c35bcd1862cff4e3d3c81e1361d197a464085f6aed2a85",
+   "bytes": 23465
+  },
+  "audio/great-white-pelican_es_fact2.m4a": {
+   "sha256": "77ab77d142499bb577eee5e213d844621938abab12c46227c5923983424746d4",
+   "bytes": 18676
+  },
+  "audio/black-stork_de_fact1.m4a": {
+   "sha256": "eea27594b6e7ae3e675adfa48ae3b51f0ba19987ee8bfb6f1a57caa10f764012",
+   "bytes": 21476
+  },
+  "audio/taxon-geochelone-gigantea_de_fact3.m4a": {
+   "sha256": "420b630dde2e15c2fcbb1713c8f63abb605ad9c6c8ca3e46507e61a86e4c9f16",
+   "bytes": 31128
+  },
+  "audio/indian-crested-porcupine_es_fact1.m4a": {
+   "sha256": "0b623dc3f7d73f52d1c50a5357cda7eeb830cccb7890276d75cd80e0acafda6e",
+   "bytes": 34758
+  },
+  "audio/great-argus_es_fact3.m4a": {
+   "sha256": "1d826e1110d18c78e833b0f7dbdf2667a0d02327514809a72ae826f89d94b99d",
+   "bytes": 25104
+  },
+  "audio/taxon-geochelone-gigantea_de_fact2.m4a": {
+   "sha256": "93093032f9a6ac00ea4f11b1cf09baebe42216c2d6f3c07df24c9c034fbfe524",
+   "bytes": 33239
+  },
+  "audio/great-white-pelican_es_fact3.m4a": {
+   "sha256": "8302cfee84be679418478530e4aa17fdfe7378c9e2595c6e7139292ff9a0f045",
+   "bytes": 24536
+  },
+  "audio/leafcutter-ant_de_fact5.m4a": {
+   "sha256": "d7b5900f34089de79d40f0cf4a2d5c128b874c3b704b79e08b943d15d351c397",
+   "bytes": 33494
+  },
+  "audio/red-river-hog_de_fact1.m4a": {
+   "sha256": "16d18957d60145f9082e7a5474d5eb2fbe67e755794a685fad95426130ac53da",
+   "bytes": 33380
+  },
+  "audio/giraffe_en_fact3.m4a": {
+   "sha256": "40accb4655b92d1322c954e4d172bb263c7bb1dd8de6ae3ae2184cd2d87a9d76",
+   "bytes": 28582
+  },
+  "audio/kirks-dik-dik_en_fact4.m4a": {
+   "sha256": "cb6a2410b77aa7fcfae260dda3d14fa73ee645d1a8d37ea430c04021c9bd01a6",
+   "bytes": 29888
+  },
+  "audio/red-panda_de_fact2.m4a": {
+   "sha256": "d5711476d3ce8b1763a6909e7c6e9dbea13c2847f460b0c169f9b13f5723fa55",
+   "bytes": 31516
+  },
+  "audio/blackbuck_en_fact2.m4a": {
+   "sha256": "5d894c3aa087c347b0f4706c454ae94cc9d5b260ce531d6a7036a7300aba6142",
+   "bytes": 24843
+  },
+  "audio/taxon-dromaius-novaehollandiae_de_fact3.m4a": {
+   "sha256": "582ebfea7195d06b7c0b82821c0f6e438f4d33b3e7b5438e2c57dd67abfed1b5",
+   "bytes": 22490
+  },
+  "audio/raccoon_de_fact2.m4a": {
+   "sha256": "97d4452009d58ba7e294bcf534c53d893a0b9c6199009a77fc91174f66dc9da5",
+   "bytes": 21445
+  },
+  "audio/taxon-gallicolumba-crinigera_de_fact3.m4a": {
+   "sha256": "50b56b07b9832dbf9081fc5dd33a5dc89bb9caef6fea6cf25a1d5e24416c4208",
+   "bytes": 22870
+  },
+  "audio/blue-crowned-hanging-parrot_de_fact5.m4a": {
+   "sha256": "0ef7ba18ac15803cafe2a1053fdaf658523fd50d6792a440cbb761cfb67e8cd8",
+   "bytes": 42880
+  },
+  "audio/taxon-rhinoceros-unicornis_de.m4a": {
+   "sha256": "142e6be9201bd6397cc03647e2361be9aae996cbdff43e8b1cd7775a42c6ed5d",
+   "bytes": 264449
+  },
+  "audio/blackbuck_es_fact2.m4a": {
+   "sha256": "da1aa61ce2956c42e5e622b024a2abf0b1d39f1eb025af8b0254ce3bd5949730",
+   "bytes": 30665
+  },
+  "audio/great-argus_en_fact3.m4a": {
+   "sha256": "e6872e1dde87fb70465059e50e97b01d81aeac3e189cb288aef58791007c5891",
+   "bytes": 22771
+  },
+  "audio/taxon-bison-bison-athabascae_de_fact2.m4a": {
+   "sha256": "a20d9905e5642eb256ee4c77c16ab0c40c2ff752e296b4d2cfea33b7c3991942",
+   "bytes": 21776
+  },
+  "audio/western-honey-bee_es_fact4.m4a": {
+   "sha256": "fbbabe6232f1a2f5628eff4ade063e683324f25557dfe6c6217bce114453d78c",
+   "bytes": 38001
+  },
+  "audio/sumatran-orangutan_de_fact3.m4a": {
+   "sha256": "99b7e8024a96f5321f74b44111887357a237febe14dbd5db94966b2eb503ed9e",
+   "bytes": 45675
+  },
+  "audio/great-white-pelican_en_fact3.m4a": {
+   "sha256": "a7dc460577f7f290c59aedd697d75725d31fd1d357e9573eb6143612da9961a2",
+   "bytes": 25522
+  },
+  "audio/kirks-dik-dik_es_fact4.m4a": {
+   "sha256": "739ccfca959c0651d535561058efe677cc690184a9c329cf742f01a825288fb0",
+   "bytes": 35796
+  },
+  "audio/giraffe_es_fact3.m4a": {
+   "sha256": "47820f3a558284391fcc339fd621ec0ebb7f0a984b5ed2406c3488981ca3cd01",
+   "bytes": 25662
+  },
+  "audio/taxon-anthropoides-paradisea_de_fact2.m4a": {
+   "sha256": "0503a0c52439fe877a79294ae7ce0476db97c2bb41acb70e07dce0ea1b17e29c",
+   "bytes": 21642
+  },
+  "audio/taxon-anthropoides-paradisea_de_fact3.m4a": {
+   "sha256": "16276e69897fedfc4efc0762e433c023493077eaf1b4cf35cdb05a42a8fa48b3",
+   "bytes": 21679
+  },
+  "audio/giraffe_es_fact2.m4a": {
+   "sha256": "53e80f04e1c6eda7f7efdcd56edbd8ed53b1f30ffd6483c978c83ba2fd44a870",
+   "bytes": 44877
+  },
+  "audio/kirks-dik-dik_es_fact5.m4a": {
+   "sha256": "88772350a2d72d980582ecbe3bb86d4725cb06cdcd8f0c451451022e4e4d81c6",
+   "bytes": 26618
+  },
+  "audio/taxon-chrysocyon-brachyurus_es_fact1.m4a": {
+   "sha256": "64f34f872a63059d0a47171e74f55d415112fcf4b5fce23e89e7bbb1888bfabb",
+   "bytes": 32949
+  },
+  "audio/linnaeus-two-toed-sloth_en_fact3.m4a": {
+   "sha256": "0ed56bc8304f45bb4eb1e43267c512e314242c7f9ea4384d5155f5bea7016907",
+   "bytes": 28927
+  },
+  "audio/great-white-pelican_en_fact2.m4a": {
+   "sha256": "4adb75ffcf6094e3d0a41a3f980b5f3beafe520e9164bd2d6438c48464197fae",
+   "bytes": 17272
+  },
+  "audio/javan-mouse-deer_de_fact2.m4a": {
+   "sha256": "1f9d2d305b3d0d7db31b1a0fe7efcffcff31d7f9e5817cee45ecd9a3c4467273",
+   "bytes": 38223
+  },
+  "audio/indian-crested-porcupine_en_fact1.m4a": {
+   "sha256": "4063ff06ef41fc916962202f5d159ac9254670a108505fcf42c7cc29564fad75",
+   "bytes": 28871
+  },
+  "audio/taxon-equus-przewalskii_de_fact1.m4a": {
+   "sha256": "7774a5be4bbc1704ebc625dac9a5faffbfc26c075150bcdf4ea8a49da92323a6",
+   "bytes": 18295
+  },
+  "audio/taxon-arctictis-binturong_de_fact1.m4a": {
+   "sha256": "22da5933efc09686baec890645d221751ff9905a9d265f9980a8e0b2cfa0796f",
+   "bytes": 25237
+  },
+  "audio/taxon-ara-ararauna_es_fact5.m4a": {
+   "sha256": "a75523f6e396f2eeed74feb44655f95923a3ef9eb19076b18898b11c846e2a95",
+   "bytes": 24150
+  },
+  "audio/scarlet-ibis_es_fact5.m4a": {
+   "sha256": "26c06057a19ec7e4428efb6a3503780bd984e97361b9c76adf48b85bcdf6a62b",
+   "bytes": 28328
+  },
+  "audio/giant-anteater_es_fact1.m4a": {
+   "sha256": "473c40004cce6037cae211b44fda350c2b0b015cecf6083dc1e1ef11e8ba95d1",
+   "bytes": 41389
+  },
+  "audio/blackbuck_es_fact3.m4a": {
+   "sha256": "a0a388f2828aa4631aa98fdc7456a1599c0a18d49399fa31d0a4d97fa0486175",
+   "bytes": 30910
+  },
+  "audio/meerkat_es_fact3.m4a": {
+   "sha256": "a286174f70627a352f983f13c39ca75c7aa2c477ce28337f0bb28be581a8cec3",
+   "bytes": 37084
+  },
+  "audio/taxon-aythya-nyroca_de_fact3.m4a": {
+   "sha256": "3d490fb5271968e9756233e8c0fbd8262c34ab2aa023f8f92ed0ebfceb7bbb9e",
+   "bytes": 19287
+  },
+  "audio/blue-crowned-hanging-parrot_de_fact4.m4a": {
+   "sha256": "e05775b43da625e2173ee1b71c47ae58eab9a94a1423f9cf59b5d66c0a1d2208",
+   "bytes": 28801
+  },
+  "audio/taxon-gallicolumba-crinigera_de_fact2.m4a": {
+   "sha256": "40a6ce9870114e03a57835e129d38f1c1ce63b36769bda4e334a7dd7b15513b5",
+   "bytes": 25341
+  },
+  "audio/sumatran-orangutan_en.m4a": {
+   "sha256": "da5bb8ea13ef0fbddd2d750e0bc8aca7ae3200d9b497b006a7779bc413767c96",
+   "bytes": 258238
+  },
+  "audio/red-panda_en.m4a": {
+   "sha256": "ca25504089b055d951f818eeab72c3e8f6cd0e30eaa5c6f97741729e0639ae67",
+   "bytes": 239156
+  },
+  "audio/edwards-pheasant_en_fact4.m4a": {
+   "sha256": "b91fa61237f130599d3abc139dd10733a45792209e60a5fa2c5a2ed2ada640f1",
+   "bytes": 62103
+  },
+  "audio/meerkat_es_fact1.m4a": {
+   "sha256": "468625ead533c6c4403b76db7b1da14ed38ceba5adcd9eb29d7c497cc31a2148",
+   "bytes": 42770
+  },
+  "audio/asian-small-clawed-otter_es_fact4.m4a": {
+   "sha256": "228934a8efdd127508a85e8333c0d20cd91eb5ff9d84c95178d96a01c365156e",
+   "bytes": 61214
+  },
+  "audio/blackbuck_es_fact1.m4a": {
+   "sha256": "88c416d2f57ff06b54e4fc5f344e31098a8a481a4e54caae141454e6033fcf0e",
+   "bytes": 30960
+  },
+  "audio/mhorr-gazelle_de_fact5.m4a": {
+   "sha256": "55fd0388faff48d96fb0c6df9cc78678f4505a2657c6ddb9cbad4b03a269ddfa",
+   "bytes": 54909
+  },
+  "audio/alpaca_es_fact5.m4a": {
+   "sha256": "49423733fdc57e86a949db5b6b339de2649efc43cf3f4997b2cf9684abb277fd",
+   "bytes": 43275
+  },
+  "audio/giant-anteater_es_fact3.m4a": {
+   "sha256": "6bb0612809497d219641e2c10477f10e84dfef2aa623a36da00196f3086af6da",
+   "bytes": 45654
+  },
+  "audio/taxon-arctictis-binturong_de_fact3.m4a": {
+   "sha256": "8a2ac0a9decdc1c7313e781174232f46f7d4930d4b1ed270dbd1c78a332a0ed4",
+   "bytes": 23166
+  },
+  "audio/snowy-owl_es_fact5.m4a": {
+   "sha256": "022b703f7ce9dc861bed1c36d3680e1997007a3f07248e01a1c0c4111b84b271",
+   "bytes": 50015
+  },
+  "audio/amur-tiger_es.m4a": {
+   "sha256": "c068b18d007c64dd26b56833cd5d30a7fc5105d14ded47dde15a6ce6cb168b7c",
+   "bytes": 248983
+  },
+  "audio/taxon-equus-przewalskii_de_fact3.m4a": {
+   "sha256": "aee070b76e2d2e663d7bffff1287eef0233211655f44e91fb277eee6e6595144",
+   "bytes": 22351
+  },
+  "audio/humboldt-penguin_en_fact3.m4a": {
+   "sha256": "8a80a44376f7aa832617c65cdf90c7491d2b2919eb3481885d53fea937ca324c",
+   "bytes": 25110
+  },
+  "audio/taxon-bison-bison-athabascae_de_fact1.m4a": {
+   "sha256": "b507ecf3ba8bc874ea684c2a1d103c68435935e9419dc6bd53803cb0e7d8d05c",
+   "bytes": 24165
+  },
+  "audio/indian-crested-porcupine_en_fact3.m4a": {
+   "sha256": "87ee9411bd656b45b95626af96fbcfa940f84731d1b7585634876b8e9911acb2",
+   "bytes": 33512
+  },
+  "audio/vicuna_de_fact4.m4a": {
+   "sha256": "1e7f8b431501455c09315b4f65ebe39e903e83777ba017767ea63937f400896a",
+   "bytes": 58974
+  },
+  "audio/taxon-phoenicopterus-roseus_de_fact3.m4a": {
+   "sha256": "4905187733bf2f98b9f46291c83406ba667f3df29cb9144041ce9ce846ae3ec3",
+   "bytes": 30460
+  },
+  "audio/linnaeus-two-toed-sloth_en_fact1.m4a": {
+   "sha256": "c545c9b52450d1ef4d56af5b268a47cb54edc097a2fde3ccf8904ba060f35e27",
+   "bytes": 41846
+  },
+  "audio/taxon-ursus-maritimus_de_fact3.m4a": {
+   "sha256": "009e207a564fc23b425064bffe51cf7f42d88b8fa34c9be45868658653c54146",
+   "bytes": 24612
+  },
+  "audio/taxon-rhinoceros-unicornis_de_fact4.m4a": {
+   "sha256": "6a02e26bfe1c4b3c6a5019b71729eecc5bcf7ca4e3401c094404d2d37059bf3c",
+   "bytes": 29541
+  },
+  "audio/capybara_de_fact4.m4a": {
+   "sha256": "6ab162d6777cd5c2014d52d1ae2c1367b3991751ddad2fc8116db0fc7f0523c2",
+   "bytes": 34351
+  },
+  "audio/northern-bald-ibis_es_fact4.m4a": {
+   "sha256": "bd646ff16ce4874c5140932cfd3beee6e0aeb7350deb046e262bb7c5ea9e4c0b",
+   "bytes": 26024
+  },
+  "audio/capybara_de_fact5.m4a": {
+   "sha256": "0ba8e617572096527220d9c02b27ce37d9d991f70415a82af23a720a9ccac45a",
+   "bytes": 43392
+  },
+  "audio/taxon-chrysocyon-brachyurus_es_fact2.m4a": {
+   "sha256": "d5b9f2d87673e80cf4e81bb7668a0acaa78bcac79a6c78a3b7f4d3a6ba2ee451",
+   "bytes": 32097
+  },
+  "audio/giraffe_es_fact1.m4a": {
+   "sha256": "577b3a6f76a2fecab85411abc33213d93b0880f5816215c3e857e475dd20c295",
+   "bytes": 35145
+  },
+  "audio/taxon-rhinoceros-unicornis_de_fact5.m4a": {
+   "sha256": "32d873b5d371db7473cc4f985778d57f1a561ae38f5adb14795220d256f03d57",
+   "bytes": 26374
+  },
+  "audio/taxon-phoenicopterus-roseus_de_fact2.m4a": {
+   "sha256": "dcb15db2cdc4d66a3a2275b7568ab781e66ff6b9bdda6895c9544e3d592092f5",
+   "bytes": 37221
+  },
+  "audio/great-white-pelican_en_fact1.m4a": {
+   "sha256": "eb1f6207450346b2a62d532e9699e249cec2f2aa35879cafacab0795d0b50c1d",
+   "bytes": 27775
+  },
+  "audio/sumatran-orangutan_de_fact1.m4a": {
+   "sha256": "305babbf8a984aab9f0439eb6e50fc7ce228519075f408c462a478ad6a1dee75",
+   "bytes": 39127
+  },
+  "audio/patagonian-mara_en_fact5.m4a": {
+   "sha256": "aca4c60dd7e0c5318225b7b637cdf17f17e48b00a5aacfee6ded44819054b96b",
+   "bytes": 38535
+  },
+  "audio/indian-crested-porcupine_en_fact2.m4a": {
+   "sha256": "9a9e5568658a8eb8ce72b69c59cf469367c647b072e475d74d95109d48ef961d",
+   "bytes": 32579
+  },
+  "audio/great-argus_en_fact1.m4a": {
+   "sha256": "6f2e5bc1d64b3c05b2f8e47493aeb34511da4cd44684574c4c289fcd0fa262ac",
+   "bytes": 22201
+  },
+  "audio/taxon-equus-przewalskii_de_fact2.m4a": {
+   "sha256": "3e6cc42f05f7c579fc00b06ada5b1fc25537c1a1613444b263575e022b19c8af",
+   "bytes": 22487
+  },
+  "audio/snowy-owl_es_fact4.m4a": {
+   "sha256": "18c9b81a260838f04d5a5498574e6b9ace020343e8ffb8956f71f73e1a6eccda",
+   "bytes": 22581
+  },
+  "audio/taxon-emys-orbicularis_es_fact3.m4a": {
+   "sha256": "1b57a19477fd841d782da438c84e75e07cadc7a13ed56555a2d89388f79c606e",
+   "bytes": 23627
+  },
+  "audio/taxon-arctictis-binturong_de_fact2.m4a": {
+   "sha256": "1a015a4648e471a36bd815ebe448bb34e33c2736d68d1a2a07b7470ab78d6942",
+   "bytes": 25922
+  },
+  "audio/giant-anteater_es_fact2.m4a": {
+   "sha256": "8568f4f0963fe0960733cffdce7caaee53b80dd1291b210b58b0ddb09d297985",
+   "bytes": 37960
+  },
+  "audio/black-and-rufous-elephant-shrew_es_fact5.m4a": {
+   "sha256": "6fdc12248ebe8cb292cff47929fe55d9247105e27a995d2ee54c0cdbda5cd01a",
+   "bytes": 47465
+  },
+  "audio/alpaca_es_fact4.m4a": {
+   "sha256": "2fb9426c26bda8449c2bdabff53f9a1abe152687d17d8e04db0ef1e6258aeb92",
+   "bytes": 29399
+  },
+  "audio/asian-small-clawed-otter_es_fact5.m4a": {
+   "sha256": "90944e714faadd7a92acf42b9c99ad5886ddbe2f9b56f92db48091840b92c887",
+   "bytes": 43771
+  },
+  "audio/taxon-ciconia-ciconia_de_fact3.m4a": {
+   "sha256": "c0b5fd36e29dd58672728171e25d7da6d34ee34aa6c42c38a6cc2f2fbfb3ad86",
+   "bytes": 25413
+  },
+  "audio/taxon-gallicolumba-crinigera_de_fact1.m4a": {
+   "sha256": "d58261a23f0636d416e9a27f068a2bab9fec87134b51b2eb3c15aad44d5e2b9f",
+   "bytes": 23546
+  },
+  "audio/taxon-gallicolumba-crinigera_de_fact5.m4a": {
+   "sha256": "bd10cce0e01a8e7106cb79aa77aafcc246f2a8f981d13027d08bef32523e0310",
+   "bytes": 22742
+  },
+  "audio/blue-crowned-hanging-parrot_de_fact3.m4a": {
+   "sha256": "d5cba06aae010dd694274821a20ea02c5fc8e55e3eb21aa48b08adf742efa26d",
+   "bytes": 38540
+  },
+  "audio/victoria-crowned-pigeon_en_fact2.m4a": {
+   "sha256": "80c1f4548f6ea433f9b406c6148c459f68c954ebf33577b12a7564f2fed93981",
+   "bytes": 44093
+  },
+  "audio/meerkat_es_fact4.m4a": {
+   "sha256": "821a93ab8d30694de5d8377e92f177057584817dcfc7884dd08dbb659882a05b",
+   "bytes": 19271
+  },
+  "audio/taxon-micromys-minutus_de_fact2.m4a": {
+   "sha256": "bb3dda17f664016f7a704cea9d021ab193868c9bca0c1d2f9546452939d5529e",
+   "bytes": 21678
+  },
+  "audio/taxon-ara-ararauna_es_fact2.m4a": {
+   "sha256": "226d8a7b1dc7aa652ad47de67daee741010f7053405e8c782d3827a0f09b2c46",
+   "bytes": 22061
+  },
+  "audio/scarlet-ibis_es_fact2.m4a": {
+   "sha256": "5f1f1f828cedcd54025b113fe0d5dedba091fccd200e038d6c9b404eec45b030",
+   "bytes": 36480
+  },
+  "audio/black-and-rufous-elephant-shrew_es_fact1.m4a": {
+   "sha256": "240387e170ecf6954036d69612a73362654822323186ceda87b47fa8d138b50d",
+   "bytes": 48387
+  },
+  "audio/taxon-panthera-leo_en_fact1.m4a": {
+   "sha256": "a72236179320a8f3595000eb757f3c71881b99cdb2c7cddd4b9ca9a683c5f436",
+   "bytes": 26485
+  },
+  "audio/amur-tiger_de.m4a": {
+   "sha256": "35e6a03654733ee6c18dd75c45b44a18f268132f208d65997b8db0b178e6d859",
+   "bytes": 266435
+  },
+  "audio/great-argus_en_fact5.m4a": {
+   "sha256": "c4e6c2c8b97462da1246a6604c35fae91514e391e75405eea657a9bcde2f7b1f",
+   "bytes": 21596
+  },
+  "audio/sumatran-orangutan_de_fact5.m4a": {
+   "sha256": "500c95b4ea555a09cb07e9dbd37b051edbc8cfcd5c1b04b09d3bee00a3d8376a",
+   "bytes": 35463
+  },
+  "audio/taxon-rhinoceros-unicornis_de_fact1.m4a": {
+   "sha256": "e1b761ca25a4c8e2519dc03a5fa1f55202c095c11fcdce7be2a9df6d49709f0a",
+   "bytes": 30824
+  },
+  "audio/linnaeus-two-toed-sloth_en_fact4.m4a": {
+   "sha256": "19f6027ecdd060111dc4c424f99b9799cc7ccc6871aa778fae354269f30d5c23",
+   "bytes": 39231
+  },
+  "audio/southern-three-banded-armadillo_es_fact4.m4a": {
+   "sha256": "816c09c566ff3564dddc14160a23f12343d7b3430d538e842a3dcfa166075556",
+   "bytes": 35405
+  },
+  "audio/northern-bald-ibis_es_fact1.m4a": {
+   "sha256": "1f6b31fc6989a671861873e3a39e7334e5fde98d96c300549fc47f8c42ddfc3e",
+   "bytes": 21973
+  },
+  "audio/capybara_de_fact1.m4a": {
+   "sha256": "96ed69b6f6ecaeee712f032c06f45dad5b10e5bb5985816c579f94b6dbe00a83",
+   "bytes": 29556
+  },
+  "audio/amur-tiger_de_fact1.m4a": {
+   "sha256": "fb29afc8be118b7bc83eb757724e317000b91c9d1f4045482975f5f203aee60f",
+   "bytes": 37426
+  },
+  "audio/kirks-dik-dik_es_fact2.m4a": {
+   "sha256": "40e997328deedc7c8918473df1ec2ae1477fe0a1573dcebcb633019ee0ca4fc6",
+   "bytes": 29564
+  },
+  "audio/giraffe_es_fact5.m4a": {
+   "sha256": "ba331f7b6cf26369ac51e508c4b0d34486b8239696e6b5caa35fca12590dc00b",
+   "bytes": 37266
+  },
+  "audio/taxon-anthropoides-paradisea_de_fact4.m4a": {
+   "sha256": "b037a95d6129db93d9d80f13cdf7e5e6e89813c70a6a206cead7cbb0b97bf8d0",
+   "bytes": 19674
+  },
+  "audio/giraffe_es_fact4.m4a": {
+   "sha256": "ce9dfb4dc432c14fbf07d23e180fa013a51cddd2c465f750c4a6780d50b7eff0",
+   "bytes": 36210
+  },
+  "audio/great-white-pelican_en_fact4.m4a": {
+   "sha256": "4a53543593f3b45647e21acd4fd12356dce71bb3f223f3a0ec17ddf047cea6d9",
+   "bytes": 11836
+  },
+  "audio/taxon-garrulax-bicolor_de_fact1.m4a": {
+   "sha256": "ae9fe7eb46d676158476fb83b63ec06c9c2a5c510db781bf30e8226695fe019c",
+   "bytes": 23240
+  },
+  "audio/linnaeus-two-toed-sloth_en_fact5.m4a": {
+   "sha256": "4750fb44706622a1d4dc531f1f256d91cc49a3f3878a5e71e32a9f68eeb447f5",
+   "bytes": 33906
+  },
+  "audio/javan-mouse-deer_de_fact4.m4a": {
+   "sha256": "0f4c0838ffa9e77678f51cb5a27160b77147df133b728ca980ab60de2029475d",
+   "bytes": 44646
+  },
+  "audio/western-honey-bee_es_fact3.m4a": {
+   "sha256": "71dac6c020ddd309f70f6e0581ff78583428277e910d181a9e9cbc77ad76bf16",
+   "bytes": 50752
+  },
+  "audio/sumatran-orangutan_de_fact4.m4a": {
+   "sha256": "1ba3963950c2ca1b3671e2e59965c47bd81572a8b8cda098720609ef07d6b0f9",
+   "bytes": 45345
+  },
+  "audio/great-argus_en_fact4.m4a": {
+   "sha256": "aca9c90b93cafdf8ed161fa01b2a41c81a131ae4e3f2ffb7beb50cb22b88ba2c",
+   "bytes": 23467
+  },
+  "audio/alpaca_es_fact1.m4a": {
+   "sha256": "8f04859a7f5f1dbf6e47b11df0b44184d62a02d5badd583dafc3443f7e14e4a8",
+   "bytes": 59898
+  },
+  "audio/scarlet-ibis_es_fact3.m4a": {
+   "sha256": "26f9c1586aa332b03c2ac7b56b2551b8c3286048bb8ce9ab1769326335738fba",
+   "bytes": 42761
+  },
+  "audio/taxon-ara-ararauna_es_fact3.m4a": {
+   "sha256": "ff05f2483ebd9c706b7a7ba34fdf7c723350a8c39fe13a3b4ca5ccc79e884f0c",
+   "bytes": 18649
+  },
+  "audio/taxon-micromys-minutus_de_fact3.m4a": {
+   "sha256": "e1e94d9ebe83d6521df9cc08dab9f53569a98b8d3d026343ad5b2927ad31fff4",
+   "bytes": 21778
+  },
+  "audio/meerkat_es_fact5.m4a": {
+   "sha256": "acb4d4aa005e2680dbd45d7f4d7aef1012fe38615b6cd28550e7014750b90dc4",
+   "bytes": 37419
+  },
+  "audio/mhorr-gazelle_de_fact1.m4a": {
+   "sha256": "94d43218657015b486b5577b40f694c5b38f45607c27159f5caf3cc1fa7111ff",
+   "bytes": 48529
+  },
+  "audio/taxon-gallicolumba-crinigera_de_fact4.m4a": {
+   "sha256": "da2630a2e55acffc4cddeedd2f5fa5a658bb5eb739108d15da09650f41ec3382",
+   "bytes": 24983
+  },
+  "audio/taxon-rhinoceros-unicornis_es.m4a": {
+   "sha256": "704df7c3a95574d341e30219d1b7b81b36975577107db48d01bea3262443afbb",
+   "bytes": 267268
+  },
+  "audio/victoria-crowned-pigeon_en_fact1.m4a": {
+   "sha256": "01c3a8633d2d417a319f49f654577f2d378b4e0b891c320987570518bede73c3",
+   "bytes": 27619
+  },
+  "audio/asian-small-clawed-otter_es_fact2.m4a": {
+   "sha256": "881f7080f68bbacef36d7df7c8ee1e7ab3162d3777a7aaa57d45fb9f43587e3e",
+   "bytes": 44412
+  },
+  "audio/taxon-ara-ararauna_es_fact1.m4a": {
+   "sha256": "40366bf1a4d5d8c3a6677f6ea773b7da411c5b3ef22d117c8fd60e168905e954",
+   "bytes": 22800
+  },
+  "audio/taxon-emys-orbicularis_es_fact4.m4a": {
+   "sha256": "f89026bb4a8031b0f8e3df6201a6efedb6340f41c58c758d0091712a1942d289",
+   "bytes": 34992
+  },
+  "audio/taxon-micromys-minutus_de_fact1.m4a": {
+   "sha256": "138b248c7f8b58d2cd4a4565dd5f54c564735bc2af93bce986f14576e86c3918",
+   "bytes": 27108
+  },
+  "audio/alpaca_es_fact3.m4a": {
+   "sha256": "1c1533e2436b8b526084c177edeedebdc74483380cc2417cfa3b3c4c02c754f4",
+   "bytes": 27993
+  },
+  "audio/giant-anteater_es_fact5.m4a": {
+   "sha256": "5983a34dba41562a3b626d259e6e605783df6a50448e3282d661e2c07dce6ce3",
+   "bytes": 38368
+  },
+  "audio/scarlet-ibis_es_fact1.m4a": {
+   "sha256": "c6bc9e859b25058fb48defa266d3a0efa059e030f528cb5eb6a5567bd8d6551f",
+   "bytes": 26147
+  },
+  "audio/taxon-panthera-leo_en_fact2.m4a": {
+   "sha256": "71af1fa6f1cec0d3298f0fbe93b59e6a027b04a541d7714e49531ad4b1fa83fd",
+   "bytes": 26423
+  },
+  "audio/taxon-equus-przewalskii_de_fact5.m4a": {
+   "sha256": "5cb5a7f5189a61efcf2abf2535fd29d694706614a7bfb9b2dd514a9e1e5ac41a",
+   "bytes": 17801
+  },
+  "audio/patagonian-mara_en_fact2.m4a": {
+   "sha256": "41b549578f7cedb46d390955015ce1ceb68a4938ced1e444cf59e8b85a96b6cd",
+   "bytes": 33432
+  },
+  "audio/vicuna_de_fact2.m4a": {
+   "sha256": "103cfdc3c02941a0469a1c60f2b23f0f6b7f52bf62317375b4e04de9f8720162",
+   "bytes": 51696
+  },
+  "audio/taxon-rhinoceros-unicornis_de_fact2.m4a": {
+   "sha256": "93a0552360adf17116013ddea70d79e6f6aad196c862e6593ea2617c52eb871c",
+   "bytes": 26169
+  },
+  "audio/capybara_de_fact2.m4a": {
+   "sha256": "3c897141ace13a70589009a46d8015b0667a88c4d32b9b565a5e17314b928c02",
+   "bytes": 42089
+  },
+  "audio/taxon-chrysocyon-brachyurus_es_fact5.m4a": {
+   "sha256": "5e69fcbdd22a8a29ef0f90c04994042611ea6d45194020d6ee47e3df55f16682",
+   "bytes": 30757
+  },
+  "audio/amur-tiger_de_fact2.m4a": {
+   "sha256": "8a396c554cce2c9720ce9a933bfeed1558f1281f6430fc3295e58c5379215e6e",
+   "bytes": 37537
+  },
+  "audio/kirks-dik-dik_es_fact1.m4a": {
+   "sha256": "bae916f81739f7f402028d4fae538f2421052007c16c24e4bbc6f752c06b40e1",
+   "bytes": 35683
+  },
+  "audio/taxon-caloenas-nicobarica_es_fact2.m4a": {
+   "sha256": "377cf97d94fa3de67d7df2f80f8a45bf54a44049b8907722d09bdbbb6d38e75e",
+   "bytes": 28150
+  },
+  "audio/taxon-chrysocyon-brachyurus_es_fact4.m4a": {
+   "sha256": "b98aeb7b6f4569c2aebbdaa2e1fc7551962247f6e7249ed68d163cb1a2322d82",
+   "bytes": 28211
+  },
+  "audio/bactrian-camel_de_fact2.m4a": {
+   "sha256": "d87de19e9bc80102a41616841e448d2686d240ac75dd76839968135580df6a56",
+   "bytes": 49767
+  },
+  "audio/capybara_de_fact3.m4a": {
+   "sha256": "b21ac36b734d2a98e1f1dd9dcf9f3da6a891bb3499fc898ddc5f638af3063d14",
+   "bytes": 35526
+  },
+  "audio/northern-bald-ibis_es_fact3.m4a": {
+   "sha256": "ffb4827259472d4a2d17f102b2dbf2fb5d43c60c6355e8e4ea52e9f3c63747d1",
+   "bytes": 22393
+  },
+  "audio/taxon-phoenicopterus-roseus_de_fact4.m4a": {
+   "sha256": "bb3162e86bcc3763ec2497527c4dfe118bcad6b93c26cbf95e6771c713bbf02d",
+   "bytes": 36464
+  },
+  "audio/taxon-ursus-maritimus_de_fact4.m4a": {
+   "sha256": "c105948e9ca59c61df98b9d13866e7812a50277d0989e17534adfceda4c0d410",
+   "bytes": 25684
+  },
+  "audio/taxon-rhinoceros-unicornis_de_fact3.m4a": {
+   "sha256": "eaca9b93cdf1daaf3a322ff9e022ca2f5824cdbf8af6a5681b87c08199f6f879",
+   "bytes": 20032
+  },
+  "audio/vicuna_de_fact3.m4a": {
+   "sha256": "6cfd3ab09c6658773c1a3c7ed271c086aade3438843bdd49a092f451ed6964e2",
+   "bytes": 51526
+  },
+  "audio/taxon-panthera-leo_en_fact3.m4a": {
+   "sha256": "31e1f05f1ec951ebffd9034fd370c1cf85fcb428e3e7c2fc277d4c2ca0ec14ca",
+   "bytes": 24404
+  },
+  "audio/giant-anteater_es_fact4.m4a": {
+   "sha256": "99cc7ad611ec3eace0c5f18bfefadf59d3e1d9cc759f581e8aeb888f3cbb56aa",
+   "bytes": 31565
+  },
+  "audio/alpaca_es_fact2.m4a": {
+   "sha256": "b5c2e6bd8a1f41cfa30f72d8c9c00c893330b1277d1af6c0bda06e29cb055077",
+   "bytes": 32724
+  },
+  "audio/taxon-ciconia-ciconia_de_fact5.m4a": {
+   "sha256": "24c9579ad3fe832d5a0346d0693c31fd0b984a8492245652a707cd292209aa11",
+   "bytes": 29067
+  },
+  "audio/blue-crowned-hanging-parrot_de_fact1.m4a": {
+   "sha256": "debf2714c10217e319b3ee265a6099acf016ea0138925b2447ffb3bc93d5fe0f",
+   "bytes": 35795
+  },
+  "audio/edwards-pheasant_en_fact3.m4a": {
+   "sha256": "9e42e6da90cf410da5e0f8a55c9d2fe8adee6eb87b1f365738ecf69f85a933d1",
+   "bytes": 38741
+  },
+  "audio/taxon-micromys-minutus_es_fact2.m4a": {
+   "sha256": "b46162052d0c55bf728661c6b6af1ed65b264982a5534d76da45bd69e8eadca3",
+   "bytes": 20452
+  },
+  "audio/taxon-ara-ararauna_de_fact2.m4a": {
+   "sha256": "ce3b20df61772a6752df438aff24e9cf0835df633a1b3997e540b66836ec2daf",
+   "bytes": 16362
+  },
+  "audio/scarlet-ibis_de_fact2.m4a": {
+   "sha256": "77b8bc80ffc58753362e05e3ace579ef42e50e67249b9f3983c6cc23f77987f4",
+   "bytes": 36949
+  },
+  "audio/taxon-dromaius-novaehollandiae_en_fact5.m4a": {
+   "sha256": "9bb56eedda5b572a1be4e80fc59d6ec77572d143e74d60725f21e3d2531a2a85",
+   "bytes": 19969
+  },
+  "audio/black-and-rufous-elephant-shrew_de_fact1.m4a": {
+   "sha256": "31f63298f9026b0221818da6dbeefcedc31e3292678604e84fa2f0bf55fb69b7",
+   "bytes": 51383
+  },
+  "audio/meerkat_de_fact4.m4a": {
+   "sha256": "dcd99f2f2b231710a43214292057ec1a59acc20cf9098145756928e53856f035",
+   "bytes": 18524
+  },
+  "audio/blue-crowned-hanging-parrot_es_fact3.m4a": {
+   "sha256": "ecdb5d68c51b1e1207e0c7a4b7bb7f3ea15b280d2dc210794419f49c70aa04f4",
+   "bytes": 32296
+  },
+  "audio/taxon-gallicolumba-crinigera_es_fact5.m4a": {
+   "sha256": "c77ad546b4324a4dcc9366e87b7b935063b481307240fd9e2de2ee6a5e6811cb",
+   "bytes": 26267
+  },
+  "audio/northern-bald-ibis_de_fact1.m4a": {
+   "sha256": "53f03c62825de6707a514ab33a78a173d075815111ff3fb1e7fbc7212ac5e04b",
+   "bytes": 17014
+  },
+  "audio/kirks-dik-dik_es.m4a": {
+   "sha256": "f23c43952e6e851c6ec11da773b486e5a468daae8c363b275d395cc882f2d451",
+   "bytes": 266411
+  },
+  "audio/capybara_es_fact1.m4a": {
+   "sha256": "6a9c54bb785cd5b1a1379efad66a1ed82e3bd83d007fc74a5464acd070c8bef6",
+   "bytes": 35780
+  },
+  "audio/taxon-anthropoides-paradisea_es_fact4.m4a": {
+   "sha256": "aa6714ef96cf709c40ec298f2373dd3471af6002e35915271c2cbe6826a71bed",
+   "bytes": 18411
+  },
+  "audio/giraffe_de_fact5.m4a": {
+   "sha256": "979bd3bba14f358a3ab678ef8c892f40c2228e7b1b52a543dd9865dc0acf95db",
+   "bytes": 35495
+  },
+  "audio/kirks-dik-dik_de_fact2.m4a": {
+   "sha256": "88d478947dc50181ae3145bd0a192a418505427b49e34ce06b7ccb5b7c90ad9a",
+   "bytes": 29657
+  },
+  "audio/amur-tiger_es_fact1.m4a": {
+   "sha256": "aa4a34c9903d03fc497a5c499f9a190b1772caca7ca7303fd00c2d08f119ffc4",
+   "bytes": 33651
+  },
+  "audio/leafcutter-ant_en_fact3.m4a": {
+   "sha256": "22cc68717750f090f2d026058dbce5cddb5e660c2426111223ea363510e693cf",
+   "bytes": 31061
+  },
+  "audio/taxon-rhinoceros-unicornis_es_fact1.m4a": {
+   "sha256": "81ae123274feafcdf53ebae27aaa0e5bd644a3ac45e634c5715c6f10cc92b99d",
+   "bytes": 26674
+  },
+  "audio/southern-three-banded-armadillo_de_fact4.m4a": {
+   "sha256": "2d5eb22daff6e4fdbfb962ad37b8e64f5eb39f6156ff76620893e24f21871811",
+   "bytes": 37102
+  },
+  "audio/sumatran-orangutan_es_fact5.m4a": {
+   "sha256": "7a13e6fa7e42e88750f8e758d0872d57ce93a0ed19c4d4986676b5ec1e604588",
+   "bytes": 40057
+  },
+  "audio/javan-mouse-deer_es_fact4.m4a": {
+   "sha256": "31c1b189953722a122439793196aeccaf65560e8f13cd4e4d563ecd92371b7fb",
+   "bytes": 53691
+  },
+  "audio/western-honey-bee_de_fact3.m4a": {
+   "sha256": "772c69a2e14b06fe30bb98d5fcaf838965d7728c5141e9c16169a4c80c6d8d4f",
+   "bytes": 45675
+  },
+  "audio/sumatran-orangutan_es_fact4.m4a": {
+   "sha256": "e7a43bbe77812e49b44c971047ab3cf425f926197c34cc1bcfb48b60b7af1dec",
+   "bytes": 42418
+  },
+  "audio/taxon-garrulax-bicolor_es_fact1.m4a": {
+   "sha256": "b3a43a7c9d2d34f336a5c865c39550b19db36444f63f61d7a9cd6e4a6b1dbe76",
+   "bytes": 24357
+  },
+  "audio/leafcutter-ant_en_fact2.m4a": {
+   "sha256": "e5500b4d0f8b02d7cf60b7df86df6fcf84c5fa7672f5b44a14d04ff5aff5fc23",
+   "bytes": 44439
+  },
+  "audio/giraffe_de_fact4.m4a": {
+   "sha256": "d1b3c24721a5c564314bd65d75b1eb6676b4b41e1152d9cfc50059f898260726",
+   "bytes": 33712
+  },
+  "audio/taxon-gallicolumba-crinigera_es_fact4.m4a": {
+   "sha256": "eb7e094b9002527324c10e99381ffb651e0d56bf2ab5a830710823262fef17fc",
+   "bytes": 24508
+  },
+  "audio/meerkat_de_fact5.m4a": {
+   "sha256": "3aca2c13b4d5e7e964276b85a167f17dfcb58713bf447a7e0c1e572d44231c8c",
+   "bytes": 35236
+  },
+  "audio/mhorr-gazelle_es_fact1.m4a": {
+   "sha256": "d1686b66812c792eab6e0f13d2d7dfd0a8ebfba8ea81e756ee54f4243994ebb7",
+   "bytes": 48245
+  },
+  "audio/radiated-tortoise_en_fact5.m4a": {
+   "sha256": "75eea7fe13948a43e58800db5e1ece26082c549171d8950b31c5b8f4d45ed8a5",
+   "bytes": 16473
+  },
+  "audio/raccoon_en_fact5.m4a": {
+   "sha256": "9fc7efc9564726af1bbc7cbc5a95b0e54c601fed40e724f0fa14300da3c643d5",
+   "bytes": 23806
+  },
+  "audio/alpaca_de_fact1.m4a": {
+   "sha256": "8c8bfb96649a2c2d0f2dab6e62f6c2b5a06eb6cb82efeb284aef5fbd1d7662b8",
+   "bytes": 52018
+  },
+  "audio/taxon-dromaius-novaehollandiae_en_fact4.m4a": {
+   "sha256": "94c82bae4f9c1231d121ecc2c5168fd1144dfccaff1b186969d9fa0434f4f3fa",
+   "bytes": 22960
+  },
+  "audio/scarlet-ibis_de_fact3.m4a": {
+   "sha256": "de246b44998a6a0e687f77a6512c37b1c274d518ab01eee4fbb5221f1f9d69e3",
+   "bytes": 44473
+  },
+  "audio/taxon-ara-ararauna_de_fact3.m4a": {
+   "sha256": "ae0646d9f0c4f4f57c5008bba27a2a5fc4d38ad2fb6214217db74cf7caa3de6a",
+   "bytes": 18023
+  },
+  "audio/taxon-micromys-minutus_es_fact3.m4a": {
+   "sha256": "da734323c911c5140dd72216b087d5b4fed5c60008b0d0eafb9add3b13f589c9",
+   "bytes": 24675
+  },
+  "audio/taxon-ara-ararauna_de_fact1.m4a": {
+   "sha256": "5d261cb7a3aeada9b6c9b6f2f4b9571319393bdca68ff739c98f48987ba09d7e",
+   "bytes": 23104
+  },
+  "audio/taxon-emys-orbicularis_de_fact4.m4a": {
+   "sha256": "e0e942e86ebcb48211269aee68da12033afa48abed1a7ab15c4b4c7abe716171",
+   "bytes": 32901
+  },
+  "audio/taxon-micromys-minutus_es_fact1.m4a": {
+   "sha256": "1f5d4c43a0b4dc8b72c072014de1e103f7c8bb62c34c48a08c9c8fe9079ada32",
+   "bytes": 24913
+  },
+  "audio/giant-anteater_de_fact5.m4a": {
+   "sha256": "d5ecfb6ea73de37a906afbb63f156b8cace55332172b9cecec793a0c1c932208",
+   "bytes": 44574
+  },
+  "audio/alpaca_de_fact3.m4a": {
+   "sha256": "f33e244fd4372cd68c52d06d59c130f2c332138cb19f7d56f9d3d22d0f5b4e72",
+   "bytes": 29451
+  },
+  "audio/scarlet-ibis_de_fact1.m4a": {
+   "sha256": "167e26f3bb8ba50d6535510113261b507a002402deeccf503ea21b441a492924",
+   "bytes": 27346
+  },
+  "audio/asian-small-clawed-otter_de_fact2.m4a": {
+   "sha256": "55481d7db312eb728875683b5f4e7e235f818a0ae6d16e3a986e51c036b39175",
+   "bytes": 46951
+  },
+  "audio/capybara_es_fact2.m4a": {
+   "sha256": "18e2739edc5ba10066f896027b11327d1f81d2cce2e02358a333e5d5f9dd8d13",
+   "bytes": 45099
+  },
+  "audio/taxon-chrysocyon-brachyurus_de_fact5.m4a": {
+   "sha256": "0c132405a7a91bd400b88d70acc92f9e0ebdfa3c647d87f1139f8ddecda01e9a",
+   "bytes": 30882
+  },
+  "audio/red-river-hog_en_fact4.m4a": {
+   "sha256": "548561e98048369501d99b1c817a75beaade49b9f0dfdb6e54f52101aa9dd522",
+   "bytes": 31396
+  },
+  "audio/kirks-dik-dik_de_fact1.m4a": {
+   "sha256": "51f0cac40a3d0ba05a2477b2dcb8c79b5f7101bd0476f311d6fe94e75830e055",
+   "bytes": 35241
+  },
+  "audio/amur-tiger_es_fact2.m4a": {
+   "sha256": "a4608a031d1d10770b8c3d276ff6cfd4f33561abf0a81864d935c66fe5bfb377",
+   "bytes": 39043
+  },
+  "audio/taxon-rhinoceros-unicornis_es_fact2.m4a": {
+   "sha256": "b7026decf47cff0ed3403a909d0cd666d22da3153ca6cc4cfbff898e334df81a",
+   "bytes": 33323
+  },
+  "audio/vicuna_es_fact2.m4a": {
+   "sha256": "a2c519c94aadf164ff8021f82e47718d65aac8d668495ae3bfe884036f475c73",
+   "bytes": 55786
+  },
+  "audio/black-stork_en_fact5.m4a": {
+   "sha256": "d60f915471f9516b8c5ec58954fcb5df218bfb5f61ef72290d6db438f2cdaa2b",
+   "bytes": 19996
+  },
+  "audio/bali-myna_en_fact3.m4a": {
+   "sha256": "6c0fa1b8362e51c2420e3df23f0c17f1f35f23fe3a8c3aa1ff006de9f9da0d16",
+   "bytes": 47136
+  },
+  "audio/taxon-equus-przewalskii_es_fact5.m4a": {
+   "sha256": "48fb0b2b4e09ecea8304cbd9eefd4ec7573427c9c5d40347a3ea96ec5276e258",
+   "bytes": 20860
+  },
+  "audio/black-stork_en_fact4.m4a": {
+   "sha256": "246228969ce34d26899b1133ff62df2637804f43b3725f940444310a333525e5",
+   "bytes": 22190
+  },
+  "audio/vicuna_es_fact3.m4a": {
+   "sha256": "96ef478548f0b3f7b34f4b01015b2e7c332725ace2213ed4ce4aac03048f49b4",
+   "bytes": 44121
+  },
+  "audio/taxon-phoenicopterus-roseus_es_fact4.m4a": {
+   "sha256": "aa59ab97cc546cc23210c11a8a70709f23d19e377ee173ec4b07d790fc084de2",
+   "bytes": 37194
+  },
+  "audio/red-capped-mangabey_en_fact3.m4a": {
+   "sha256": "605c33c1669bdb7a679cc84e13c266484259ee76e56f265be33322cabce66035",
+   "bytes": 41303
+  },
+  "audio/western-lowland-gorilla_en_fact2.m4a": {
+   "sha256": "8a9a42c6bd041a2b8d56437f6f767b6a90e1b709f565aa867d709d80bc411639",
+   "bytes": 44468
+  },
+  "audio/taxon-ursus-maritimus_es_fact4.m4a": {
+   "sha256": "48669a830c02bc3c54a50a5b3649cf381e9256e7f29f47abd1ca8f8b2b4d24bd",
+   "bytes": 26957
+  },
+  "audio/taxon-rhinoceros-unicornis_es_fact3.m4a": {
+   "sha256": "aff06ca52c7a77a88cc03079254c64b056facfb94574f4807dd0f12612e14bff",
+   "bytes": 23200
+  },
+  "audio/red-river-hog_en_fact5.m4a": {
+   "sha256": "821bf5f44268169e8d99dd3422f7dfa628db1e8768558d12085c5769f88889c1",
+   "bytes": 28263
+  },
+  "audio/taxon-chrysocyon-brachyurus_de_fact4.m4a": {
+   "sha256": "1bb0210283434665b3724fa797599699d38e3a51d34577322594336223660440",
+   "bytes": 24360
+  },
+  "audio/taxon-caloenas-nicobarica_de_fact2.m4a": {
+   "sha256": "68f2973afd8a1320b43ef883835086fcd89de73c92a66a543611390ad7539478",
+   "bytes": 25840
+  },
+  "audio/leafcutter-ant_en_fact1.m4a": {
+   "sha256": "88bfe90da08869c143481415322f89edd20fa34f92bcefa1a9c3c93fda96b237",
+   "bytes": 37100
+  },
+  "audio/bactrian-camel_es_fact2.m4a": {
+   "sha256": "b5b84a23edcfc712d9024a0f4fd6a780f58ca029619511e01d8e71e7698fe3a9",
+   "bytes": 62064
+  },
+  "audio/capybara_es_fact3.m4a": {
+   "sha256": "673795717b0a82e27a1b989edddc27fe275ef2c74c09b07a976b4b710c7d73d3",
+   "bytes": 36198
+  },
+  "audio/northern-bald-ibis_de_fact3.m4a": {
+   "sha256": "e33e8fe251b098861970af5a02d0599924096d10203e164bc3533548d7980807",
+   "bytes": 19824
+  },
+  "audio/blue-crowned-hanging-parrot_es_fact1.m4a": {
+   "sha256": "d243dce611936ecbbeda9e06f4c79f99ee4e7e4918fe70ebb2dc0334373ceebe",
+   "bytes": 33447
+  },
+  "audio/taxon-ciconia-ciconia_es_fact5.m4a": {
+   "sha256": "a1b4262cb1ba3eddf689b860fada8745fe4c932c00e491199c208603d8a3b6e5",
+   "bytes": 24385
+  },
+  "audio/alpaca_de_fact2.m4a": {
+   "sha256": "dd4a5b314a7d3bb9a6672995028daaeb4d3fc8da7fb573f754120b6f8f7d97c2",
+   "bytes": 31957
+  },
+  "audio/giant-anteater_de_fact4.m4a": {
+   "sha256": "b960cfac7dd6de3a514a04fdc3578cd3f18eaece6fce757664edb32adee8cd3d",
+   "bytes": 34817
+  },
+  "audio/raccoon_en_fact2.m4a": {
+   "sha256": "0b9498a0a0e4a57c95f796e4e4548452a8a3abfb01bcfbd3dc06774349d4ccea",
+   "bytes": 16498
+  },
+  "audio/taxon-dromaius-novaehollandiae_en_fact3.m4a": {
+   "sha256": "84eb1db41b87e9588302b765198f06f10bba668593ccfcc820b75f53c294aebf",
+   "bytes": 19519
+  },
+  "audio/blackbuck_de_fact2.m4a": {
+   "sha256": "440628d807a4e1a66dcf6c2b27b368ac151960eff5970610a0a10f8e8c3680fe",
+   "bytes": 25441
+  },
+  "audio/red-panda_en_fact2.m4a": {
+   "sha256": "be33dbe1ba161ad73c6fa65d0527fbed089ea0158fbb5408e43e9249b37f6f9e",
+   "bytes": 24100
+  },
+  "audio/blue-crowned-hanging-parrot_es_fact5.m4a": {
+   "sha256": "cef75d794f74e02ae27e8800a168cbe4f59f9fc3b0c3b0f45fab5a2274f399b5",
+   "bytes": 47070
+  },
+  "audio/taxon-gallicolumba-crinigera_es_fact3.m4a": {
+   "sha256": "1296b207d5d8258ae7150e7093d223394e428d76d41f17261c497cfac055b276",
+   "bytes": 23345
+  },
+  "audio/leafcutter-ant_en_fact5.m4a": {
+   "sha256": "a6d87a1964ec2d899e493f94e06004ed267a6ea26f112e27b7176e7dd27dc4cc",
+   "bytes": 31457
+  },
+  "audio/taxon-anthropoides-paradisea_es_fact2.m4a": {
+   "sha256": "534b2e6a1e04449fa9520ba66dd35267ea3a6c863a18103cfcd5527b0bd15327",
+   "bytes": 20851
+  },
+  "audio/giraffe_de_fact3.m4a": {
+   "sha256": "010ff1884c294bce52a879e0132a61ff0fcb707a324b11db08476d2f3110c9ef",
+   "bytes": 30592
+  },
+  "audio/kirks-dik-dik_de_fact4.m4a": {
+   "sha256": "b6805ed92b55e2a944123e4cfaaf1ace0f4b62d7f82774956e7ef9f5dbc63bbf",
+   "bytes": 31779
+  },
+  "audio/red-river-hog_en_fact1.m4a": {
+   "sha256": "b126c866ba74890a78a9e733ab4d6c62b3f13e8624e665021ba4e2800ad27a96",
+   "bytes": 27124
+  },
+  "audio/taxon-geochelone-gigantea_en_fact2.m4a": {
+   "sha256": "9a62ee010ac39dc5245a8f994dd448de616da04902bc7ffd9756f2dc2ef63fbd",
+   "bytes": 32954
+  },
+  "audio/western-honey-bee_de_fact4.m4a": {
+   "sha256": "17cfe2ee3d99eadf18669d381e780e13128a482a934a447c4773f9d139435910",
+   "bytes": 35796
+  },
+  "audio/sumatran-orangutan_es_fact3.m4a": {
+   "sha256": "1809360e2f0acbb087b5441922b85ecc8dd7d0fa67178aa23540bbed1817bfd1",
+   "bytes": 50364
+  },
+  "audio/taxon-bison-bison-athabascae_es_fact2.m4a": {
+   "sha256": "6452d9390decdea08e50701f1abb4d30789274d5e8a2d872fb196c31c9fd77f3",
+   "bytes": 24893
+  },
+  "audio/taxon-equus-przewalskii_es_fact1.m4a": {
+   "sha256": "c800c75d7c849d8c2464f1bb95f324eb5cb0528d8f6e489d8d4aa57865b651d0",
+   "bytes": 23777
+  },
+  "audio/black-stork_en_fact1.m4a": {
+   "sha256": "5cb406100df2b247ec5a644e6b4c01ff3f911f11f4163adf7c35321e197a5b3b",
+   "bytes": 16559
+  },
+  "audio/taxon-geochelone-gigantea_en_fact3.m4a": {
+   "sha256": "c0bbefeb555bc7daf03d0b61523f95673857e0c44a7451127b6dd13777c13a3d",
+   "bytes": 31957
+  },
+  "audio/javan-mouse-deer_es_fact2.m4a": {
+   "sha256": "4300f0fda58d5a48666043d3882b7be1659cf31cb53fb4d2ff36675f54afb241",
+   "bytes": 40703
+  },
+  "audio/taxon-aptenodytes-patagonicus_en_fact3.m4a": {
+   "sha256": "9fd35a7a311f3680783ffb8244ecadd1e4aa447c4488ebfeba809ea63bf950ca",
+   "bytes": 22173
+  },
+  "audio/kirks-dik-dik_de_fact5.m4a": {
+   "sha256": "6bde0492b0f95ef8992faf1a311c90e772aa0a359681782934266c20fd08eca1",
+   "bytes": 24994
+  },
+  "audio/giraffe_de_fact2.m4a": {
+   "sha256": "244ced6551d09381c29dc4a614a4da06b42d6f5dc38fa427c672778dbc74ce89",
+   "bytes": 39350
+  },
+  "audio/taxon-anthropoides-paradisea_es_fact3.m4a": {
+   "sha256": "3dce7f053717e857dc80864623be6955af0e23315c64cfa0aa838e71ea6fc9cd",
+   "bytes": 22062
+  },
+  "audio/taxon-chrysocyon-brachyurus_de_fact1.m4a": {
+   "sha256": "84ccaeb0c4cf8d916c9e01e9603ae5aae87f0ad1baa4f7e81b4837bf5c4db2f9",
+   "bytes": 31564
+  },
+  "audio/taxon-gallicolumba-crinigera_es_fact2.m4a": {
+   "sha256": "3d547c326fa525ef5c0b0ee2a27b558e337a6926385e44a6485efce436cca3e9",
+   "bytes": 23444
+  },
+  "audio/blue-crowned-hanging-parrot_es_fact4.m4a": {
+   "sha256": "e89ccb63f0669f3737125f7f1ea84078ffb52c87473200505e2cc73d18f0bc90",
+   "bytes": 30267
+  },
+  "audio/asian-elephant_en_fact2.m4a": {
+   "sha256": "ff6b7ca51ac618c524a31c154b70c2cdc15a2232e4fccd01d8676b2d29e2f41a",
+   "bytes": 36408
+  },
+  "audio/red-panda_en_fact3.m4a": {
+   "sha256": "79dd8f267ff95a1c49608c0293d4c8413c42e051686d83fc5fb38ba21b1c7dd9",
+   "bytes": 40172
+  },
+  "audio/taxon-aythya-nyroca_es_fact3.m4a": {
+   "sha256": "512e2d4d6abb654a8f264298d647fdfe4241f068e93fa1a21aaac813c86b2c30",
+   "bytes": 18081
+  },
+  "audio/blackbuck_de_fact3.m4a": {
+   "sha256": "a5f5484ae7bf9a581cfaf558eaece2f2fef0c365cf35e643abd1808bd285f3e7",
+   "bytes": 24311
+  },
+  "audio/meerkat_de_fact3.m4a": {
+   "sha256": "dd1ff242d75acf557a0e844642e9ea32ff42215c96a8ec06e704048fb1ac7b6f",
+   "bytes": 36630
+  },
+  "audio/taxon-arctictis-binturong_es_fact1.m4a": {
+   "sha256": "6f6d4bad7174874f2c3a833373275b8cd4d89f2937d3ba3ad96f80d5f9fc0260",
+   "bytes": 23650
+  },
+  "audio/taxon-ara-ararauna_de_fact5.m4a": {
+   "sha256": "db7917a632ec6c6f959fa7c02e7f63d262cef33aebca9f2e0a2bec5506323743",
+   "bytes": 20391
+  },
+  "audio/scarlet-ibis_de_fact5.m4a": {
+   "sha256": "67b7c28aec2354c67aebf5623481c5ea6e0af916b04bc4a18b2aa48a421c9cfe",
+   "bytes": 32555
+  },
+  "audio/giant-anteater_de_fact1.m4a": {
+   "sha256": "00b96adbfd65d1ab49b5f65c724bf7ce3fa14454a7307d34e4aa250403958c80",
+   "bytes": 41227
+  },
+  "audio/giant-anteater_de_fact3.m4a": {
+   "sha256": "173cf2596697e1a37027310fdd353b2db670ef9e961c2056fb6802c545b5d8ae",
+   "bytes": 44025
+  },
+  "audio/alpaca_de_fact5.m4a": {
+   "sha256": "7b0ccd1f795a19a7f1f3e7522dceb0dd0926e2cab56e6bab0fc0e8ea4ae0cf3c",
+   "bytes": 41702
+  },
+  "audio/raccoon_en_fact1.m4a": {
+   "sha256": "2e04b6989b7e074d6c82e8462f400364780d5f2fc97e89100a514b07ae55c5f2",
+   "bytes": 28100
+  },
+  "audio/taxon-arctictis-binturong_es_fact3.m4a": {
+   "sha256": "a0c319fc24e123d7eff836c77d44bb7274d3feaa11cbd13f4cd755b827d4560f",
+   "bytes": 25732
+  },
+  "audio/meerkat_de_fact1.m4a": {
+   "sha256": "7cfc8081014392f267b04e78dec83bd3c1630da3fc30bfcea7aa046a5d4d77e0",
+   "bytes": 43068
+  },
+  "audio/asian-small-clawed-otter_de_fact4.m4a": {
+   "sha256": "4f79933d44a0a59b6b0436b93b405886d3a02ad57da5588f47b4bf6b6bbc508a",
+   "bytes": 50611
+  },
+  "audio/blackbuck_de_fact1.m4a": {
+   "sha256": "2345d10feb4e1285f173c8d3c23c949914ab7d86d0291447367ed49b632c6b0a",
+   "bytes": 35000
+  },
+  "audio/radiated-tortoise_en_fact1.m4a": {
+   "sha256": "cadb6256718f0168ab743451b5566cb4930f141801234aa9c8036db58f5850ea",
+   "bytes": 23038
+  },
+  "audio/mhorr-gazelle_es_fact5.m4a": {
+   "sha256": "553f961816b184b4a84baa3f4f13aec6840891858396dfb20e77d7e4b073d776",
+   "bytes": 49282
+  },
+  "audio/red-panda_en_fact1.m4a": {
+   "sha256": "20c974ec8eb739245b1db8279091127d1a0c54c740cf204c1ff058f85748e26c",
+   "bytes": 30676
+  },
+  "audio/kirks-dik-dik_de.m4a": {
+   "sha256": "e8354feb64472140ce4358573b13effbf2aaa561ebd2f173da6b3a117fe4f1ba",
+   "bytes": 249649
+  },
+  "audio/red-river-hog_en_fact2.m4a": {
+   "sha256": "a5dcd6abaf31f7bdb6dcbefead64d0d0568cc5738fe7157d13f472df7d06ee90",
+   "bytes": 26707
+  },
+  "audio/taxon-erethizon-dorsatum_en_fact2.m4a": {
+   "sha256": "8a01b040fb91c552ba88937d6d87c5f64440c526a28224ecc3e99a5ab505bea9",
+   "bytes": 17121
+  },
+  "audio/taxon-aptenodytes-patagonicus_en_fact1.m4a": {
+   "sha256": "b4388427afbe5b01639cc0fe9ebcb9b66ebe4f21adaf44b29ba484f757894737",
+   "bytes": 21495
+  },
+  "audio/capybara_es_fact4.m4a": {
+   "sha256": "8583cef12dfbd5c64dbfbc891807cef9dead3768ac8d4d05e550c2e56d38f8dc",
+   "bytes": 36378
+  },
+  "audio/northern-bald-ibis_de_fact4.m4a": {
+   "sha256": "1b01a01015468291fca793d77732e75b10bac3b2f430e5dd650e0280a8356559",
+   "bytes": 23166
+  },
+  "audio/taxon-phoenicopterus-roseus_es_fact3.m4a": {
+   "sha256": "245b0f3d11440df04ced27fcd0db7571266ac44745170d4292219453fdd719e7",
+   "bytes": 32129
+  },
+  "audio/taxon-ursus-maritimus_es_fact3.m4a": {
+   "sha256": "c845350ebc279fb3312f49025ff175d3e945e0ff8f7066ad4f2f6f6b29647284",
+   "bytes": 25854
+  },
+  "audio/western-lowland-gorilla_en_fact5.m4a": {
+   "sha256": "882b693f027a89342e463dbe0a2fb74ca88184d882d7d5c87bbeab5d7359bac4",
+   "bytes": 35556
+  },
+  "audio/taxon-rhinoceros-unicornis_es_fact4.m4a": {
+   "sha256": "d0d9e5583b465d51b774899f9046ed7693dcc56f744625db8e4e99c95fa68362",
+   "bytes": 23687
+  },
+  "audio/black-stork_en_fact3.m4a": {
+   "sha256": "f7e4636d71e176937317c9f2c4e8656fc0a47472c2f2feab9e817d5df72a65f6",
+   "bytes": 19492
+  },
+  "audio/vicuna_es_fact4.m4a": {
+   "sha256": "ed9bd04a922468e0786d49f4a618100338a1a77451770ce1e112f9358b7ef014",
+   "bytes": 59492
+  },
+  "audio/snowy-owl_de_fact5.m4a": {
+   "sha256": "3933702a7b11965e48575556edd5e4bace4b69ed341e8f0de0cabd503bcb815a",
+   "bytes": 51059
+  },
+  "audio/taxon-equus-przewalskii_es_fact3.m4a": {
+   "sha256": "3573055fda27f4375c20527f264348e29be47980b0a58f06107ddea6057e00d9",
+   "bytes": 22241
+  },
+  "audio/taxon-bison-bison-athabascae_es_fact1.m4a": {
+   "sha256": "9590ea66e0282234b8fd57ba06c412a2a1bd701e41be9629fbcf25d15af9cbc9",
+   "bytes": 27532
+  },
+  "audio/taxon-equus-przewalskii_es_fact2.m4a": {
+   "sha256": "6213f3bbe28c534a55df9580fe0dc694a45e4f7d4d0fc86baed55968ffc35858",
+   "bytes": 21572
+  },
+  "audio/snowy-owl_de_fact4.m4a": {
+   "sha256": "779bced274ebdf8f3daecc97c2b55ca90be29003ebd0cfa794bf5b61455a5c3a",
+   "bytes": 26896
+  },
+  "audio/sumatran-orangutan_es_fact1.m4a": {
+   "sha256": "ba4cd0164dfc42085a7967989aeb58b828a547c956ab53f92888c6f2626e8b8b",
+   "bytes": 39664
+  },
+  "audio/western-lowland-gorilla_en_fact4.m4a": {
+   "sha256": "01f887683bc56cab355384fa71daf40f28ad69b7cd86dc89b6fc6df591cd3b67",
+   "bytes": 58217
+  },
+  "audio/taxon-rhinoceros-unicornis_es_fact5.m4a": {
+   "sha256": "18ffaea4620233bd81fae63f72d746c3b3951571964357bdbbf8c2816ae0c156",
+   "bytes": 28730
+  },
+  "audio/red-capped-mangabey_en_fact5.m4a": {
+   "sha256": "31bdca1e5f8491303f2e5c5f9810e190a55231c286537a5aec0c99c18657fba6",
+   "bytes": 36461
+  },
+  "audio/taxon-phoenicopterus-roseus_es_fact2.m4a": {
+   "sha256": "5ea88c637d26473bc71cb36750f55cab0822b466349daeadd707c793a12e72f0",
+   "bytes": 38774
+  },
+  "audio/taxon-chrysocyon-brachyurus_de_fact2.m4a": {
+   "sha256": "9791630d2b8b2be1c89812b6f58091dcc15f29701121c13bc1ebc300f0e1e05f",
+   "bytes": 29888
+  },
+  "audio/taxon-erethizon-dorsatum_en_fact3.m4a": {
+   "sha256": "c2eec089efa4b5c73c5acba874e12fbb35c0cae32107baa5aaa46b3b0524b830",
+   "bytes": 15884
+  },
+  "audio/red-river-hog_en_fact3.m4a": {
+   "sha256": "89206d860c9e971c48a2a5ecd49c31e1fa98f7709edeee575ca94341a5a45cec",
+   "bytes": 24729
+  },
+  "audio/giraffe_de_fact1.m4a": {
+   "sha256": "376966a2fb6eeccc2ef5180b09f99e8745668c4057f4f286a13185a47bf0bc1b",
+   "bytes": 30473
+  },
+  "audio/taxon-gallicolumba-crinigera_es_fact1.m4a": {
+   "sha256": "95d2ca47ebdf0e759daaa8d09a6d79360347cdaa6d72a33dee0a9c6d733cf09a",
+   "bytes": 24266
+  },
+  "audio/taxon-emys-orbicularis_es.m4a": {
+   "sha256": "fb8ee3a94aad37feb11212e509a7aa8624ef67c9de71a42676a821bd954a0724",
+   "bytes": 277834
+  },
+  "audio/asian-small-clawed-otter_de_fact5.m4a": {
+   "sha256": "cd6ff20b7d32b9d65428bbff9af3c029328fe2d81f546c9ea977051944350bef",
+   "bytes": 33546
+  },
+  "audio/taxon-ciconia-ciconia_es_fact3.m4a": {
+   "sha256": "cd4a16a5b73111003411f9c8f9f860f3d709449883c3da3f20304540abddeb58",
+   "bytes": 30770
+  },
+  "audio/taxon-emys-orbicularis_de_fact3.m4a": {
+   "sha256": "cbfa3d8d3a97d923789c422e33fe8b1638512a9a0a89b27efab26a93542aede3",
+   "bytes": 20052
+  },
+  "audio/taxon-arctictis-binturong_es_fact2.m4a": {
+   "sha256": "b4f4864fe302d8f163cf86ead3c7df700126b171141917759235f896f205bba9",
+   "bytes": 25256
+  },
+  "audio/black-and-rufous-elephant-shrew_de_fact5.m4a": {
+   "sha256": "c06e8d823b170314645ec01ca0250b1eb17592a72605f74d45c2c0246682684d",
+   "bytes": 47906
+  },
+  "audio/giant-anteater_de_fact2.m4a": {
+   "sha256": "c4b2615d428f210b64c5e4bdb8839adb5a1b24774c9f88b4dd7e537eccc7533b",
+   "bytes": 42013
+  },
+  "audio/taxon-dromaius-novaehollandiae_en_fact1.m4a": {
+   "sha256": "8142119383a3d616c7bd6cc0aff4ae69de2372d568144fd05f0792b4c5f1ff51",
+   "bytes": 23676
+  }
+ },
+ "counts": {
+  "enclosures": 67,
+  "species": 175,
+  "speciesReferenced": 97,
+  "paths": 200,
+  "features": 185,
+  "viewpoints": 224,
+  "images": 174,
+  "animalLocations": 0,
+  "catalogueEntries": 175,
+  "audio": 528
+ },
+ "attribution": [
+  "Map data © OpenStreetMap contributors, ODbL 1.0 — https://www.openstreetmap.org/copyright",
+  "Animal presence cross-checked against the public Hellabrunn A–Z on 2026-11-05. This is a public catalogue selection, not a complete live stock or availability feed.",
+  "2025 annual stock reports are historical research evidence, not a current display list. Current construction and temporary visibility notices take precedence.",
+  "Independent Your Zoo guide. Not an official app or partnership of Münchener Tierpark Hellabrunn AG.",
+  "Original trilingual narrations; exact-taxon text and permitted audio reused where verified from the Frankfurt and Cologne collections.",
+  "Images from Wikimedia Commons; individual author, source and licence shown on each profile.",
+  "Fonts: Epilogue and Plus Jakarta Sans, SIL Open Font License 1.1"
+ ],
+ "updatedAt": "2026-11-08T10:47:58Z",
+ "website": "https://www.hellabrunn.de/",
+ "ticketShop": "https://hellabrunn.ticketfritz.de/"
+}
