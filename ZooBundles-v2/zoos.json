@@ -7,7 +7,7 @@
     "en": "Berlin Zoo",
     "es": "Zoo de Berlín"
    },
-   "version": 2,
+   "version": 3,
    "city": "Berlin"
   },
   {
@@ -17,7 +17,7 @@
     "en": "Tierpark Berlin",
     "es": "Tierpark Berlin"
    },
-   "version": 2,
+   "version": 3,
    "city": "Berlin"
   },
   {
@@ -27,7 +27,7 @@
     "en": "Leipzig Zoo",
     "es": "Zoo de Leipzig"
    },
-   "version": 2,
+   "version": 3,
    "city": "Leipzig"
   },
   {
@@ -37,7 +37,7 @@
     "en": "Hellabrunn Zoo",
     "es": "Zoo Hellabrunn de Múnich"
    },
-   "version": 2,
+   "version": 3,
    "city": "München"
   },
   {
@@ -47,7 +47,7 @@
     "en": "Hagenbeck Zoo",
     "es": "Zoo Hagenbeck"
    },
-   "version": 2,
+   "version": 3,
    "city": "Hamburg"
   },
   {
@@ -57,7 +57,7 @@
     "en": "Wilhelma",
     "es": "Wilhelma"
    },
-   "version": 2,
+   "version": 3,
    "city": "Stuttgart"
   },
   {
@@ -67,7 +67,7 @@
     "en": "Erlebnis-Zoo Hannover",
     "es": "Erlebnis-Zoo Hannover"
    },
-   "version": 2,
+   "version": 3,
    "city": "Hannover"
   },
   {
@@ -77,7 +77,7 @@
     "en": "Cologne Zoo",
     "es": "Zoo de Colonia"
    },
-   "version": 2,
+   "version": 3,
    "city": "Köln"
   },
   {
@@ -87,7 +87,7 @@
     "en": "ZOOM Erlebniswelt",
     "es": "ZOOM Erlebniswelt"
    },
-   "version": 2,
+   "version": 3,
    "city": "Gelsenkirchen"
   },
   {
@@ -97,7 +97,7 @@
     "en": "Tiergarten Nürnberg",
     "es": "Tiergarten Nürnberg"
    },
-   "version": 2,
+   "version": 3,
    "city": "Nürnberg"
   },
   {
@@ -107,7 +107,7 @@
     "en": "Zoo Rostock",
     "es": "Zoo Rostock"
    },
-   "version": 2,
+   "version": 3,
    "city": "Rostock"
   },
   {
@@ -117,7 +117,7 @@
     "en": "Allwetterzoo Münster",
     "es": "Allwetterzoo Münster"
    },
-   "version": 2,
+   "version": 3,
    "city": "Münster"
   },
   {
@@ -137,7 +137,7 @@
     "en": "Zoo Duisburg",
     "es": "Zoo Duisburg"
    },
-   "version": 2,
+   "version": 3,
    "city": "Duisburg"
   },
   {
@@ -147,7 +147,7 @@
     "en": "Zoo Osnabrück",
     "es": "Zoo Osnabrück"
    },
-   "version": 2,
+   "version": 3,
    "city": "Osnabrück"
   },
   {
@@ -157,7 +157,7 @@
     "en": "Weltvogelpark Walsrode",
     "es": "Weltvogelpark Walsrode"
    },
-   "version": 2,
+   "version": 3,
    "city": "Walsrode"
   },
   {
@@ -167,7 +167,7 @@
     "en": "Karlsruhe Zoo",
     "es": "Zoo de Karlsruhe"
    },
-   "version": 2,
+   "version": 3,
    "city": "Karlsruhe"
   },
   {
@@ -177,7 +177,7 @@
     "en": "Green Zoo Wuppertal",
     "es": "Zoo Verde de Wuppertal"
    },
-   "version": 2,
+   "version": 3,
    "city": "Wuppertal"
   },
   {
@@ -187,7 +187,7 @@
     "en": "Wildparadies Tripsdrill",
     "es": "Wildparadies Tripsdrill"
    },
-   "version": 2,
+   "version": 3,
    "city": "Cleebronn"
   },
   {
@@ -197,7 +197,7 @@
     "en": "Zoo Augsburg",
     "es": "Zoo Augsburg"
    },
-   "version": 2,
+   "version": 3,
    "city": "Augsburg"
   }
  ]

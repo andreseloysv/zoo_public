@@ -1,6 +1,6 @@
 {
  "id": "osnabrueck",
- "version": 2,
+ "version": 3,
  "name": {
   "de": "Zoo Osnabrück",
   "en": "Zoo Osnabrück",
@@ -356,25 +356,69 @@
    "sha256": "881f7080f68bbacef36d7df7c8ee1e7ab3162d3777a7aaa57d45fb9f43587e3e",
    "bytes": 44412
   },
+  "audio/grosser-soldatenara_es.m4a": {
+   "sha256": "ca0041f77da0207c622f6924593c0256051376fe7b84b37eaa24bb735befac5e",
+   "bytes": 239469
+  },
+  "audio/warzenschwein_es_fact5.m4a": {
+   "sha256": "495bd51c3a3e323496822c13f0e834e931ab036b1dbfd69d4e938557aa701373",
+   "bytes": 43204
+  },
+  "audio/rentier_en_fact5.m4a": {
+   "sha256": "0e95d438174df09658f21c5a508c528e5087394630ea59228004f852d7082f84",
+   "bytes": 27755
+  },
   "audio/paletten-doktorfisch_de_fact1.m4a": {
    "sha256": "f4096bfa1077b249fddea928d05e72bac42da75ab36cff7c3aa2ccffd362e339",
    "bytes": 16097
+  },
+  "audio/praeriehund_en.m4a": {
+   "sha256": "dd2e21819335610ce35d6f8d68143f25a95f6756efd6fad093d0179bb74345d1",
+   "bytes": 238635
   },
   "audio/pinselohrschwein_es_fact5.m4a": {
    "sha256": "b959b79d515fa2c2c5076a31814ec2a2346ffda310fa1b438fe594fb211ebbdf",
    "bytes": 38480
   },
+  "audio/sumatra-tiger_en_fact5.m4a": {
+   "sha256": "66e62469b71ef75a56fef15c2beefc0db889c6b11059fd59a62d6bcc1246d84f",
+   "bytes": 36072
+  },
+  "audio/warzenschwein_en.m4a": {
+   "sha256": "e526ce5cc40488ea23946ab6b9326eb087e6289c997a9b5998198369147183c1",
+   "bytes": 199013
+  },
   "audio/roter-panda-kleiner-panda_es_fact3.m4a": {
    "sha256": "a56d3995c54ce94a84e036fbadc8ccf6284fcc2114166fb6520f18413faa7a7b",
    "bytes": 40841
+  },
+  "audio/skunk_en_fact2.m4a": {
+   "sha256": "a510b28b48017055429b63d98bb56414a62330ff277bffe1765801b87ebc0efa",
+   "bytes": 18031
+  },
+  "audio/luchs_es_fact5.m4a": {
+   "sha256": "75123155ad149d175a66cb49411f5f6eced62152538b85833b676c304551d63d",
+   "bytes": 36970
+  },
+  "audio/schweinsaffe_es_fact5.m4a": {
+   "sha256": "e4c693bd25aa2897b806bf5487b784115e192fecf477e70134b1b80aaaaf1bf0",
+   "bytes": 41562
   },
   "audio/waschbaer_es_fact2.m4a": {
    "sha256": "db10e9d8ac9c806e8fb18e033d002883ec9f2d1c4b9ad9a83b03aa566e7f252a",
    "bytes": 22469
   },
+  "audio/pinguin-humboldt-pinguin_de_fact1.m4a": {
+   "sha256": "239c9666a6a30441c8aa84cd01b05df950b069570babe720256e7d8afe4508e0",
+   "bytes": 35867
+  },
   "audio/blattschneiderameise_de_fact1.m4a": {
    "sha256": "39bc092d5ff89c64e7719d8a9c5fba0c00804a795d4e6b1b45a3a4b54e4b7fbd",
    "bytes": 37513
+  },
+  "audio/kalifornischer-seeloewe_de_fact1.m4a": {
+   "sha256": "81243b26cea22d19fc6beadbc2320a61457d92292783dd0cb9de161f218a18ff",
+   "bytes": 43144
   },
   "audio/roter-panda-kleiner-panda_es.m4a": {
    "sha256": "96490a722e888300940ee138ff4624c0fed3ee26387493da3572e7f99873d55b",
@@ -384,33 +428,101 @@
    "sha256": "18e2739edc5ba10066f896027b11327d1f81d2cce2e02358a333e5d5f9dd8d13",
    "bytes": 45099
   },
+  "audio/asiatischer-elefant_de_fact1.m4a": {
+   "sha256": "f7f93b5289f66401bc2ba9223f5848a80e88722a009dd6457c35855b75b277f1",
+   "bytes": 49409
+  },
+  "audio/klippschliefer_es_fact4.m4a": {
+   "sha256": "06ece7ca742444e73a787aa536eca3274af234eb594f466c03a0f3652488fc1b",
+   "bytes": 35200
+  },
+  "audio/erdmaennchen_de_fact2.m4a": {
+   "sha256": "57e79451bfc2a1b0278f7b1cdf91486ce72583c5d0c3b476517d609ff8b15fee",
+   "bytes": 49692
+  },
+  "audio/asiatischer-loewe_en.m4a": {
+   "sha256": "7d611b32e1846c6222c134848e1d766a55826c0a10f6ddb502def6cc33319bf4",
+   "bytes": 234552
+  },
+  "audio/vikunja_de_fact5.m4a": {
+   "sha256": "0d946b83088f2912af0c9088eeb652e84c60e2029ceb84e62d4029411534aa7a",
+   "bytes": 37000
+  },
+  "audio/brillenkaiman_en_fact3.m4a": {
+   "sha256": "c9a80bc07779c0613cbaf9788b9f2abc243378309059c791ce190ad29a17ae96",
+   "bytes": 37818
+  },
   "audio/paradieskranich_de_fact3.m4a": {
    "sha256": "16276e69897fedfc4efc0762e433c023493077eaf1b4cf35cdb05a42a8fa48b3",
    "bytes": 21679
+  },
+  "audio/grosser-kudu_en_fact2.m4a": {
+   "sha256": "2573e0a6847a65df763b19c96a7ecfe32d6290cd60d1681b009328629a59d063",
+   "bytes": 33630
   },
   "audio/kirk-dikdik_en.m4a": {
    "sha256": "8bdeeaa86efcca72786d2c922ffdc1e5c28ca2f598b6f310032f1a931a491066",
    "bytes": 225667
   },
+  "audio/schimpanse_de_fact5.m4a": {
+   "sha256": "0ec494bdb0e005cba2d161c56401bc099397304423423be46df42f5af929fa24",
+   "bytes": 26229
+  },
   "audio/bison_de_fact2.m4a": {
    "sha256": "a20d9905e5642eb256ee4c77c16ab0c40c2ff752e296b4d2cfea33b7c3991942",
    "bytes": 21776
+  },
+  "audio/nashorn_de_fact2.m4a": {
+   "sha256": "773ce590b8d8503ba586bc0ea8ffee426780e10956335151950018b3f3e1734e",
+   "bytes": 45029
+  },
+  "audio/waldrapp_es.m4a": {
+   "sha256": "e0eb1b5f70ed8ee7a98ceb148be116709e2b4d32c857b9d481f5001ab6a3f586",
+   "bytes": 263847
   },
   "audio/seychellen-riesenschildkroete_es_fact3.m4a": {
    "sha256": "5e35d8780dc40d9e710f5231e0aea9f9c2285f07f776033a73d12a4c99c9bf15",
    "bytes": 31432
   },
+  "audio/seychellen-riesenschildkroete_es_fact2.m4a": {
+   "sha256": "95c1e2fd9c0f8c0cc86b54d90d49dc64719c6284784893ea726213a122110f5f",
+   "bytes": 34457
+  },
+  "audio/nashorn_de_fact3.m4a": {
+   "sha256": "9850f95bb127bbf5a2575a3c7a70257454d84015cc6d7998a263688432ac0396",
+   "bytes": 47007
+  },
+  "audio/schimpanse_de_fact4.m4a": {
+   "sha256": "5d36a91ea39fa86f1b3ba46cc3f85c3b1f53f89abb8bfc72a398762d924d2edd",
+   "bytes": 40625
+  },
+  "audio/trampeltier_en_fact1.m4a": {
+   "sha256": "f72fac04501a0ce5832936f080c63c926862e24eac7a20610868f216e685634e",
+   "bytes": 24986
+  },
   "audio/paradieskranich_de_fact2.m4a": {
    "sha256": "0503a0c52439fe877a79294ae7ce0476db97c2bb41acb70e07dce0ea1b17e29c",
    "bytes": 21642
+  },
+  "audio/brillenkaiman_en_fact2.m4a": {
+   "sha256": "035198994417330998ee999b5c626438e89ad3c0280be1249a53853569490a29",
+   "bytes": 36807
   },
   "audio/vikunja_de_fact4.m4a": {
    "sha256": "1e7f8b431501455c09315b4f65ebe39e903e83777ba017767ea63937f400896a",
    "bytes": 58974
   },
+  "audio/grosser-kudu_en_fact3.m4a": {
+   "sha256": "22e26f9455d1623665b81fd9cc7c573bd856b49b7f35b066555304a203215692",
+   "bytes": 26142
+  },
   "audio/erdmaennchen_de_fact3.m4a": {
    "sha256": "dd1ff242d75acf557a0e844642e9ea32ff42215c96a8ec06e704048fb1ac7b6f",
    "bytes": 36630
+  },
+  "audio/klippschliefer_es_fact5.m4a": {
+   "sha256": "a7b1257e26610e8d3dcce4c1200b411f63552d6ed4bbcc2e713412ad649ece42",
+   "bytes": 18670
   },
   "audio/kubaflamingo_en.m4a": {
    "sha256": "530d8b4048061d051f6d99fecde6da7615dfff1875caec82251dba7efc181c6c",
@@ -420,6 +532,30 @@
    "sha256": "673795717b0a82e27a1b989edddc27fe275ef2c74c09b07a976b4b710c7d73d3",
    "bytes": 36198
   },
+  "audio/silberfuchs_es_fact1.m4a": {
+   "sha256": "6be958a2ed054e44d64480b9ea96e523fbcf2b3933f70a22eaa59a72008dae65",
+   "bytes": 64812
+  },
+  "audio/flachlandtapir_en.m4a": {
+   "sha256": "29def65deb555c29845dbfc31ab45e1369612610fcf41a6c3bbab952044e2ea3",
+   "bytes": 218792
+  },
+  "audio/waschbaer_es_fact3.m4a": {
+   "sha256": "776da7b4345aa523798bb372a1c8425d4a83836dbc96c63e7b31483d40b29c6a",
+   "bytes": 65459
+  },
+  "audio/schweinsaffe_es_fact4.m4a": {
+   "sha256": "bffae43b117fd555c4fd9ded54c16df78061747a4c1e14ef15e54763151ea4d5",
+   "bytes": 52106
+  },
+  "audio/luchs_es_fact4.m4a": {
+   "sha256": "9987896045529743ff1ad5eb282e36477f9834837183ca241731b324a987e037",
+   "bytes": 26149
+  },
+  "audio/skunk_en_fact3.m4a": {
+   "sha256": "f91aaef45e0496f929effc62d95ade684ca849d79f8dc32fec7f3c36bb175bf6",
+   "bytes": 15221
+  },
   "audio/roter-panda-kleiner-panda_es_fact2.m4a": {
    "sha256": "c8bc7261332cb88af66e2b0c8a6545b13e061246ec780669442b0be4ba0049f1",
    "bytes": 34210
@@ -428,17 +564,49 @@
    "sha256": "eb1f6207450346b2a62d532e9699e249cec2f2aa35879cafacab0795d0b50c1d",
    "bytes": 27775
   },
+  "audio/sumatra-tiger_en_fact4.m4a": {
+   "sha256": "5898189a5bfff36d685cc89c581df5dce33916b7513c9eff3764dfdce5d508df",
+   "bytes": 35167
+  },
   "audio/pinselohrschwein_es_fact4.m4a": {
    "sha256": "9fd27860dcda0a8d03f9ab19f83449c9cb36d6ab9ede3939dd874a4443760ad1",
    "bytes": 48495
+  },
+  "audio/rentier_en_fact4.m4a": {
+   "sha256": "e2fdda59e82743deddf67989b506b6fe66c98ff920d6f2a4c5f897c26bc34f7d",
+   "bytes": 27427
+  },
+  "audio/blattschneiderameise_de.m4a": {
+   "sha256": "808859ab009ee31878e98d62247e0e11c5ce809c9d0a506e780d53df3580a322",
+   "bytes": 290829
+  },
+  "audio/warzenschwein_es_fact4.m4a": {
+   "sha256": "b921a3b39e11aba4b60a908ebfcf336271570a6b75a81ff858d3bcffc6f4af60",
+   "bytes": 45264
   },
   "audio/kirk-dikdik_de_fact1.m4a": {
    "sha256": "51f0cac40a3d0ba05a2477b2dcb8c79b5f7101bd0476f311d6fe94e75830e055",
    "bytes": 35241
   },
+  "audio/otter-asiatischer-zwergotter_es_fact3.m4a": {
+   "sha256": "ffaf106ebc2c893114debdceec9a11271009136f259197d52b0f46a62ce2cc02",
+   "bytes": 37271
+  },
+  "audio/otter-asiatischer-zwergotter_es_fact1.m4a": {
+   "sha256": "25ccb9523d8a2dd610c4d4bb2e02ab2de64fa8ed65fba8be008376519c1573ea",
+   "bytes": 38200
+  },
+  "audio/schimpanse_de.m4a": {
+   "sha256": "2c80f6a913811ff140e631c23dc95c30cfb6bea438193c564aec45c239d9da41",
+   "bytes": 276173
+  },
   "audio/paletten-doktorfisch_de_fact2.m4a": {
    "sha256": "c9a24326e0141e3da326dc2fd6c6c9ddf19fd08b5c1dbbee9173080346509e39",
    "bytes": 28981
+  },
+  "audio/querzahnmolch-andersons-querzahnmolch_es.m4a": {
+   "sha256": "a6afc14bb124e7b10f40ca663194d01e65ff7154ca98c43df745593be77e3d8e",
+   "bytes": 265272
   },
   "audio/rosapelikan_en_fact3.m4a": {
    "sha256": "a7dc460577f7f290c59aedd697d75725d31fd1d357e9573eb6143612da9961a2",
@@ -448,13 +616,33 @@
    "sha256": "56024d4c8316a46c907054e21f3965fa1fc194b92f2df48aa87dbb478e851a77",
    "bytes": 30144
   },
+  "audio/skunk_en_fact1.m4a": {
+   "sha256": "6869a3d663360af4b3be82b14e167ba3d1b63918fd6588ce4639a0d6f576b923",
+   "bytes": 21635
+  },
+  "audio/pinguin-humboldt-pinguin_de_fact2.m4a": {
+   "sha256": "a2be2beb2567056b3ef8b209623510db847084919932c493d417f8876e6a4369",
+   "bytes": 47533
+  },
   "audio/waschbaer_es_fact1.m4a": {
    "sha256": "263bde715d023b8483f0f3aaa2e87e9c60587f9c17cc610dba5d92a54e165e71",
    "bytes": 32787
   },
+  "audio/tuepfelhyaene_de_fact4.m4a": {
+   "sha256": "370a45b2422448b6d667e7061ec08fb246a22c6d10b65f8e270bac2a6d732664",
+   "bytes": 31477
+  },
+  "audio/kalifornischer-seeloewe_de_fact2.m4a": {
+   "sha256": "8fdeedbd5850e5132965dd6a6017bb7947d8b11e5eba9b93aaa1af18db2b8bf8",
+   "bytes": 29389
+  },
   "audio/blattschneiderameise_de_fact2.m4a": {
    "sha256": "daf8b3f438f2ef8c97834e6408b492f02a41b191f063e22ab1ed6e4a408bb41c",
    "bytes": 36571
+  },
+  "audio/silberfuchs_es_fact3.m4a": {
+   "sha256": "cda98a1ee39feee790817bae1b77b1829ad965d431bf110e54ddbbf826596408",
+   "bytes": 62124
   },
   "audio/capybara-wasserschwein_es_fact1.m4a": {
    "sha256": "6a9c54bb785cd5b1a1379efad66a1ed82e3bd83d007fc74a5464acd070c8bef6",
@@ -472,29 +660,93 @@
    "sha256": "7cfc8081014392f267b04e78dec83bd3c1630da3fc30bfcea7aa046a5d4d77e0",
    "bytes": 43068
   },
+  "audio/kalifornischer-seeloewe_en.m4a": {
+   "sha256": "a9719e4ee9c7bc94c2672973364292f7b10ad5ce32563980e1f3f04617f0c0d9",
+   "bytes": 255255
+  },
   "audio/asiatischer-elefant_de_fact2.m4a": {
    "sha256": "dcfe3efc93cc722850d7d6e4502002fe4d77b95802708b2ce713b47de0030ee5",
    "bytes": 39471
+  },
+  "audio/trampeltier_en_fact3.m4a": {
+   "sha256": "3b13dc998529d763fe42ce987542f6b3e254d6054c9d8800310726d87cb51e82",
+   "bytes": 37426
   },
   "audio/bison_de_fact1.m4a": {
    "sha256": "b507ecf3ba8bc874ea684c2a1d103c68435935e9419dc6bd53803cb0e7d8d05c",
    "bytes": 24165
   },
+  "audio/grosser-kudu_en_fact1.m4a": {
+   "sha256": "ec733cb25c701ca8e465d62afcb9a23d769c95df35838276d63a84a5d24889a0",
+   "bytes": 37839
+  },
   "audio/lachender-hans_de_fact5.m4a": {
    "sha256": "bc77eff97bd16c1a8dd9def5e1d031421884012276defa57d219fde02de8b3f7",
    "bytes": 19703
+  },
+  "audio/nashorn_de_fact1.m4a": {
+   "sha256": "a057292af8474d5b07daaf64f6b58b8a857353f672839e9ab9f6872bea0e4252",
+   "bytes": 74463
+  },
+  "audio/seychellen-riesenschildkroete_es_fact1.m4a": {
+   "sha256": "7ff8ad5d8b9261e075d3a5ea6aac6ea66951217b302924315034e2f4a6a00857",
+   "bytes": 40942
   },
   "audio/lachender-hans_de_fact4.m4a": {
    "sha256": "ae2fb8c851aced8ded12e160ab94d363c75cdf7456442390e5f63541b56ccb2d",
    "bytes": 19089
   },
+  "audio/brillenkaiman_en_fact1.m4a": {
+   "sha256": "afa94e6fdde16a687c6728edbb42802c7066eed353b19997d043a33a1604aa7a",
+   "bytes": 36858
+  },
+  "audio/paradieskranich_de_fact1.m4a": {
+   "sha256": "05746e39754e985712eefd1eaa2d843269bfbb2c886f9a3fbb35a10f5fa678de",
+   "bytes": 48198
+  },
   "audio/trampeltier_en_fact2.m4a": {
    "sha256": "fac8dbab221b742ce65f3e7bc9adbf9900f3dbed465a0d1c8638fba7a404136c",
    "bytes": 46265
   },
+  "audio/asiatischer-elefant_de_fact3.m4a": {
+   "sha256": "4eb47d8100c2d272ed0037ae9fe4b2c751d830f83bdcb7e0251c579746ecd967",
+   "bytes": 52092
+  },
+  "audio/zebramanguste_en.m4a": {
+   "sha256": "8ce03e0f110c0054edf85cbfd4ac1ebc97ea6a3a8ad2ac96e7e81e4ff0805142",
+   "bytes": 242787
+  },
+  "audio/faerberfrosch_en.m4a": {
+   "sha256": "0fca02cc33f544947ed4ecbbf632b7bb93a19c9e9bde5b22ab7de3460bb1fa99",
+   "bytes": 305795
+  },
+  "audio/rentier_en.m4a": {
+   "sha256": "794afd5da37316b3d8a71435f33492acdae198b53cc561e3779c784d1f8060f0",
+   "bytes": 233998
+  },
+  "audio/chileflamingo_de_fact5.m4a": {
+   "sha256": "1799a4496acfc5f44f8b286bd0f1dabae1d682bf714d5b2cbb20fa4b3b849f3c",
+   "bytes": 39027
+  },
+  "audio/silberfuchs_es_fact2.m4a": {
+   "sha256": "1fd231dac9b2d9d8e779817339907bb90d731ec61c743db6d579bea0ba6d0b50",
+   "bytes": 48093
+  },
+  "audio/faultier_en.m4a": {
+   "sha256": "9ba5c532c27359d2bbbc7854178d456888d69f3f2e180e33b4100bad67c3db9c",
+   "bytes": 247889
+  },
+  "audio/kalifornischer-seeloewe_de_fact3.m4a": {
+   "sha256": "651444a1b0168493f6526ebd28ca3e9e09e20fc88b379f170b0ae1557a4dfa5a",
+   "bytes": 41045
+  },
   "audio/blattschneiderameise_de_fact3.m4a": {
    "sha256": "6634ee4487dac0c60aaf7f965c4a236ecbbbb92547e5dc1db9a1c4dc78354c89",
    "bytes": 41266
+  },
+  "audio/tuepfelhyaene_de_fact5.m4a": {
+   "sha256": "542cb8d1d0ceea715901e913b64a98c0b578e2ee17763afc888865fc1420286e",
+   "bytes": 30162
   },
   "audio/pinguin-humboldt-pinguin_de_fact3.m4a": {
    "sha256": "00cefd8a063b124ba05a11a066ff42fbeb13855e35bad13e5d8167b41ad16192",
@@ -520,9 +772,33 @@
    "sha256": "88d478947dc50181ae3145bd0a192a418505427b49e34ce06b7ccb5b7c90ad9a",
    "bytes": 29657
   },
+  "audio/warzenschwein_es_fact3.m4a": {
+   "sha256": "5409c21ef3103669acb9aa368017d0d15c65e65c10c933814c6004646dcb9881",
+   "bytes": 35341
+  },
   "audio/otter-asiatischer-zwergotter_es_fact4.m4a": {
    "sha256": "228934a8efdd127508a85e8333c0d20cd91eb5ff9d84c95178d96a01c365156e",
    "bytes": 61214
+  },
+  "audio/schimpanse_es.m4a": {
+   "sha256": "6548a82940cdb36e2d00f8d01aae40be38e40df6ef326483b04755de74de8d3d",
+   "bytes": 264996
+  },
+  "audio/rentier_en_fact3.m4a": {
+   "sha256": "327148ad582b1a50f0a1e227c64d307cc9aa6a7e6575a3d35a39ad903c53ff9b",
+   "bytes": 30203
+  },
+  "audio/querzahnmolch-andersons-querzahnmolch_de.m4a": {
+   "sha256": "baf8c91ab2ad0cc4027fcc012f85f24d892d2763c5c9414a03ef6be130d783bd",
+   "bytes": 254856
+  },
+  "audio/skunk_en_fact4.m4a": {
+   "sha256": "c0347883febe2b96fa7b67475cf1443b867412a0567436a1d7560756134f876f",
+   "bytes": 22347
+  },
+  "audio/roter-panda-kleiner-panda_es_fact5.m4a": {
+   "sha256": "72e21997a40633c66dcc9628fd9850015aed1586c79af6ebd3043cdf5df149bc",
+   "bytes": 52424
   },
   "audio/pinselohrschwein_es_fact3.m4a": {
    "sha256": "5bd2026b4aa837ee150417e849b1fa4e8836e68eb9855b0702ae8f28fcb36a38",
@@ -532,13 +808,37 @@
    "sha256": "d7922651cd2c18c3503bd52759ed86b8050b706da786bf0af20e9e933b5f2d0e",
    "bytes": 23268
   },
+  "audio/sumatra-tiger_en_fact3.m4a": {
+   "sha256": "d993d59485d1db80899119af0f3fa1259955af1a09c076bf34d8c67e83e6a945",
+   "bytes": 38216
+  },
+  "audio/schweinsaffe_es_fact3.m4a": {
+   "sha256": "0dc43878dc5a10a27c62d04ea009ba76b3f2bf376fe901a00a4c691f56ce41c0",
+   "bytes": 47440
+  },
+  "audio/luchs_es_fact3.m4a": {
+   "sha256": "a54193ba97d3c05a12f2383c20e1349f8e35417232aaa985b7a87dbf485cc217",
+   "bytes": 33126
+  },
+  "audio/tuepfelhyaene_de_fact1.m4a": {
+   "sha256": "9e07fe46366b29376ce1ddc05e3aebcc131a0c465db5f29c4fc70d781504d961",
+   "bytes": 30938
+  },
   "audio/nandu_es_fact1.m4a": {
    "sha256": "1e054b344bb8f1087ba226a7016a88495b1d46b63e50d3c00f27f37d65972349",
    "bytes": 33300
   },
+  "audio/waschbaer_es_fact4.m4a": {
+   "sha256": "e818c023a7f1bfb5720bfcda1dffafac12f76c85dc1a7c6d6ea748b33f33f4c6",
+   "bytes": 42861
+  },
   "audio/capybara-wasserschwein_es_fact4.m4a": {
    "sha256": "8583cef12dfbd5c64dbfbc891807cef9dead3768ac8d4d05e550c2e56d38f8dc",
    "bytes": 36378
+  },
+  "audio/chileflamingo_de_fact1.m4a": {
+   "sha256": "61c35b6bec1712b43d58b40089d8d78a76f4b01364fae910e8d3c119f64bad6e",
+   "bytes": 24183
   },
   "audio/nandu_es.m4a": {
    "sha256": "f2411a3990b50fafc9bdf95e2e83eb697040c67d5c8796fc4ed4616047618191",
@@ -548,9 +848,37 @@
    "sha256": "dcd99f2f2b231710a43214292057ec1a59acc20cf9098145756928e53856f035",
    "bytes": 18524
   },
+  "audio/klippschliefer_es_fact2.m4a": {
+   "sha256": "559721630f22488cc1baf0e24808aeedb371a02782d7e769d97fc235753d7a06",
+   "bytes": 37153
+  },
+  "audio/seychellen-riesenschildkroete_es_fact5.m4a": {
+   "sha256": "756e80fe6a577f021d54e1819c95fd7e95047faf0064e2bf3cb701c3bc10ab21",
+   "bytes": 31768
+  },
+  "audio/nashorn_de_fact4.m4a": {
+   "sha256": "1d28116fc8d3b85cd763ab5bc6e69eb484234f0f6f55e363d4d3a97c74401576",
+   "bytes": 53049
+  },
+  "audio/schimpanse_de_fact3.m4a": {
+   "sha256": "8729a2490cbd408525cc6403cb5297af0dcf82bf256a8c005cf889331fa7e010",
+   "bytes": 37413
+  },
+  "audio/paradieskranich_de_fact5.m4a": {
+   "sha256": "a621397f46352664569db8810806149f77781c36a945c2171a80c24b4d6eea8b",
+   "bytes": 54483
+  },
+  "audio/brillenkaiman_en_fact5.m4a": {
+   "sha256": "6c566e2bf836f37c14afac045d8bbd8e016605e1a40b5a7626c02b4bb82b30a2",
+   "bytes": 33390
+  },
   "audio/vikunja_de_fact3.m4a": {
    "sha256": "6cfd3ab09c6658773c1a3c7ed271c086aade3438843bdd49a092f451ed6964e2",
    "bytes": 51526
+  },
+  "audio/grosser-kudu_en_fact4.m4a": {
+   "sha256": "f2c5f6de5105a58a9dcd41558286036db3fb9cb74c0ba3f73bf5cd97f6ca9395",
+   "bytes": 24185
   },
   "audio/lachender-hans_de_fact1.m4a": {
    "sha256": "9689bbf8924bc4f1c431beef13dc5de5d0deb6550b497fe1a5ff754c65964796",
@@ -560,33 +888,125 @@
    "sha256": "103cfdc3c02941a0469a1c60f2b23f0f6b7f52bf62317375b4e04de9f8720162",
    "bytes": 51696
   },
+  "audio/brillenkaiman_en_fact4.m4a": {
+   "sha256": "a75cbc154ed98ce18c0a7a38e6a379d9f02a82c9ccc9a8ed2693db57e79758bf",
+   "bytes": 21301
+  },
   "audio/paradieskranich_de_fact4.m4a": {
    "sha256": "b037a95d6129db93d9d80f13cdf7e5e6e89813c70a6a206cead7cbb0b97bf8d0",
    "bytes": 19674
+  },
+  "audio/grosser-kudu_en_fact5.m4a": {
+   "sha256": "6a48b54211166ebcd89e11ca481f93eb14d0bb98da472bc318a9250cf933e95a",
+   "bytes": 28067
+  },
+  "audio/giraffe_en.m4a": {
+   "sha256": "f851f4b98b5e21962406b1b09d213d9ffb0f9e263476ae490ab921826206d349",
+   "bytes": 230556
+  },
+  "audio/schimpanse_de_fact2.m4a": {
+   "sha256": "07f888bc29435e5db335bf820b61b997fab220110157425ae619647a22628f1c",
+   "bytes": 35184
+  },
+  "audio/murmeltier_de.m4a": {
+   "sha256": "e27a5296d646c6921fb4fa558ff4075bd9a15515fadd75988e81bf90edd8a6e3",
+   "bytes": 242539
+  },
+  "audio/nashorn_de_fact5.m4a": {
+   "sha256": "000dfb36964b20392776ae409ce29e31bb2447b0d37a16e9c5d807d3524c6896",
+   "bytes": 61428
+  },
+  "audio/seychellen-riesenschildkroete_es_fact4.m4a": {
+   "sha256": "4f8e985302cb31652cabdbd374aac693a8d8e21d10436b4bb971c41b24002a1e",
+   "bytes": 32471
+  },
+  "audio/klippschliefer_es_fact3.m4a": {
+   "sha256": "7f9a4b0ed318d8583a63caebe20f8d033e0de72dfec15ea1207dd58e1a28046a",
+   "bytes": 34593
   },
   "audio/erdmaennchen_de_fact5.m4a": {
    "sha256": "3aca2c13b4d5e7e964276b85a167f17dfcb58713bf447a7e0c1e572d44231c8c",
    "bytes": 35236
   },
+  "audio/capybara-wasserschwein_es_fact5.m4a": {
+   "sha256": "3fa9b35e1fe45cb40cdc20135afc42854170351ed9ce070792d12ff1b4dd10d3",
+   "bytes": 41425
+  },
   "audio/waschbaer_es_fact5.m4a": {
    "sha256": "a21c1a5df91691e98091a37da80e8de818cff1c9bd8d9a402f34f044d39aabf4",
    "bytes": 29041
+  },
+  "audio/lachender-hans_en.m4a": {
+   "sha256": "a98051796867e2ac9a917a37980a44c1088a5b3884c558e11b1636bc582f7ef9",
+   "bytes": 205065
+  },
+  "audio/luchs_es_fact2.m4a": {
+   "sha256": "f94693e4864ff307db3e477b8a37f582542b8691bb3f3ce41b066c27576569e8",
+   "bytes": 27882
+  },
+  "audio/schweinsaffe_es_fact2.m4a": {
+   "sha256": "7128a792b11bc98c33786f70e588b05a871c9450812abc2758093cf557c61c64",
+   "bytes": 27156
+  },
+  "audio/sumatra-tiger_en_fact2.m4a": {
+   "sha256": "708c7076366e6f9b2db46eebd15004b3b4ffcb4e8a66ee42c0652de00fe22a24",
+   "bytes": 61512
   },
   "audio/pinselohrschwein_es_fact2.m4a": {
    "sha256": "18659f7bf97e579811e4842789bb960964b01791e3ce21db3d907e8327040346",
    "bytes": 43415
   },
+  "audio/roter-panda-kleiner-panda_es_fact4.m4a": {
+   "sha256": "88b21da521a1fea37e1c31cc55b01aac62a0a52918dda9b35dc5ed15a8af801b",
+   "bytes": 36446
+  },
+  "audio/skunk_en_fact5.m4a": {
+   "sha256": "5263789138943dc5464b10d388162e37da305faee27c6ee758ac1452eedcbe08",
+   "bytes": 20868
+  },
+  "audio/pinselohrschwein_en.m4a": {
+   "sha256": "9b464cb9b8d2bce01568fcc51be008b3f899a084a13dd21e87b8cf69696c4a08",
+   "bytes": 232186
+  },
+  "audio/rentier_en_fact2.m4a": {
+   "sha256": "9a941f2fe56b2fe5f2f95d3ec753ce1f15a8474c717dd9f7981372c939d2a7fb",
+   "bytes": 24068
+  },
   "audio/otter-asiatischer-zwergotter_es_fact5.m4a": {
    "sha256": "90944e714faadd7a92acf42b9c99ad5886ddbe2f9b56f92db48091840b92c887",
    "bytes": 43771
+  },
+  "audio/warzenschwein_es_fact2.m4a": {
+   "sha256": "8adc7f83efa79c143926b057d4e7730acd044765eec06ccfd92f0788c818fb71",
+   "bytes": 40816
   },
   "audio/kirk-dikdik_de_fact5.m4a": {
    "sha256": "6bde0492b0f95ef8992faf1a311c90e772aa0a359681782934266c20fd08eca1",
    "bytes": 24994
   },
+  "audio/grosser-soldatenara_de.m4a": {
+   "sha256": "f5f179a5e8dbe1e4498b50f1f7dd2b0a3742dd2a9edb4be8d5e7107259f0450b",
+   "bytes": 230166
+  },
+  "audio/luchs_en.m4a": {
+   "sha256": "e0457353d51c9cb63b2f30c322cbf3d5e8631b4eeed5ce7178b1b5ae0f2549f7",
+   "bytes": 248085
+  },
+  "audio/zebra-chapman-zebra_en.m4a": {
+   "sha256": "c33dde78446e895d6d26aa409b06a38050812e04744ab71dac8d8d556c0c09e1",
+   "bytes": 243879
+  },
+  "audio/capybara-wasserschwein_en.m4a": {
+   "sha256": "bc5a3560f940f8422dd58ca547db510edd903fd5608e91c00916ac5001ab34b2",
+   "bytes": 259789
+  },
   "audio/flachlandtapir_en_fact2.m4a": {
    "sha256": "f3bf1e6a72fd70bf195c08fb6404009529df130a344b255ec08309c51408ac4d",
    "bytes": 25645
+  },
+  "audio/rosapelikan_en_fact5.m4a": {
+   "sha256": "ff8d6efd0cb20c41dcac9886cc78081600499bea5c69de808d2b28f51de10d6f",
+   "bytes": 39641
   },
   "audio/baumstachler_en_fact3.m4a": {
    "sha256": "c2eec089efa4b5c73c5acba874e12fbb35c0cae32107baa5aaa46b3b0524b830",
@@ -596,29 +1016,121 @@
    "sha256": "79bb1b45c90e3e17391c71d1c703ab7a55ac4381c1958ef265de21291adf8a86",
    "bytes": 34876
   },
+  "audio/tuepfelhyaene_de_fact2.m4a": {
+   "sha256": "a0903bb96411835b2883c9af4d846990c97e5d67834a0c1483cca94a7664905a",
+   "bytes": 19848
+  },
+  "audio/pinguin-humboldt-pinguin_de_fact4.m4a": {
+   "sha256": "597fcff546314adb64dbd479c4e372a208837f880db644373ce1d4cc2ca4f262",
+   "bytes": 36043
+  },
+  "audio/chileflamingo_en.m4a": {
+   "sha256": "f5854389cd68a583ef1bae3651e8e7a10b255e4d10aa1d8965805f26ed87c846",
+   "bytes": 261683
+  },
   "audio/chileflamingo_de_fact2.m4a": {
    "sha256": "9382776d7ced870296054e5b6279671583031fcd7b57eb75759e58f18d64cca1",
    "bytes": 30489
+  },
+  "audio/strauss_de.m4a": {
+   "sha256": "73ce487674fb3bf7eab938c4fa79775ea79396c3c38516430881b8234d7b99d6",
+   "bytes": 273144
+  },
+  "audio/silberfuchs_es_fact5.m4a": {
+   "sha256": "6ebaf58267ed4dd862e7b0d0ffbc79954079bd47c116d302e3a56499afdca969",
+   "bytes": 49177
+  },
+  "audio/kalifornischer-seeloewe_de_fact4.m4a": {
+   "sha256": "0c884d06b200607f55f858152892a7f8b9012947d0c529677e4422ad587cd20c",
+   "bytes": 44725
   },
   "audio/roter-panda-kleiner-panda_de.m4a": {
    "sha256": "605b535f0c6f1c9c3f39d8175a3e6ab2ee839c7b9fa131df9d50bb2bd9511dd6",
    "bytes": 263167
   },
+  "audio/klippschliefer_es_fact1.m4a": {
+   "sha256": "c5646b12fdbba4f58b6622de2b2f4f4d520b850f0d32ca91a55908fa3cf00489",
+   "bytes": 34173
+  },
+  "audio/asiatischer-elefant_de_fact4.m4a": {
+   "sha256": "927079f1967d01e26b212c7ae3072f5335768284160dbc0b8b0ed7d543fb2c91",
+   "bytes": 38293
+  },
   "audio/lachender-hans_de_fact3.m4a": {
    "sha256": "da524fc09c0c71dcd41c081a49b47cde6eee61346b7af1cb2264ffb04029bf68",
    "bytes": 19363
+  },
+  "audio/trampeltier_en_fact5.m4a": {
+   "sha256": "42ca72c2dce8004b73cbac6d96ab16a15e9c177f5d8b2cdfb641ca38b7d1d49b",
+   "bytes": 36163
+  },
+  "audio/waldrapp_de.m4a": {
+   "sha256": "2e26c6bb1883628afd37d3a186405196428d30473078ea8a2358e2fd4c460e75",
+   "bytes": 215867
+  },
+  "audio/trampeltier_en_fact4.m4a": {
+   "sha256": "e224790a77b43b85441d6902477b9eefc4d20cec314c3d35f07490a855f1938b",
+   "bytes": 37358
+  },
+  "audio/schimpanse_de_fact1.m4a": {
+   "sha256": "23b477837c11224a7321c983affee1a402c78343d5a05ffa6b000274b313a913",
+   "bytes": 23012
   },
   "audio/lachender-hans_de_fact2.m4a": {
    "sha256": "25b2de02d9a5f20071837e1c40e3a0a9985924031e16345645ec1608e4ecc71e",
    "bytes": 17845
   },
+  "audio/vikunja_de_fact1.m4a": {
+   "sha256": "1b82a431eed82d30063ab403ea61ad0b54b3dc483c48143f63fc2c87031d70d3",
+   "bytes": 36918
+  },
+  "audio/asiatischer-elefant_de_fact5.m4a": {
+   "sha256": "67f125e2b111382e644f3641fbae9b91836c3fabde3a4cb64f022414c2c5757e",
+   "bytes": 40121
+  },
+  "audio/maehnenwolf_en.m4a": {
+   "sha256": "3ec5a97a33450b6b29174f741fb704d6c6e0949a2b6c336eae1efbaf39968741",
+   "bytes": 244650
+  },
+  "audio/kalifornischer-seeloewe_de_fact5.m4a": {
+   "sha256": "3eddf0b67092de301bd730db9a9a0da770b62ad18f530723b716a039ab2a3bf1",
+   "bytes": 47499
+  },
   "audio/blattschneiderameise_de_fact5.m4a": {
    "sha256": "d7b5900f34089de79d40f0cf4a2d5c128b874c3b704b79e08b943d15d351c397",
    "bytes": 33494
   },
+  "audio/silberfuchs_es_fact4.m4a": {
+   "sha256": "8880d0c2a4ac175d92e96141b49d335e367ee98da20476ff3a06661d932fa021",
+   "bytes": 54145
+  },
+  "audio/chileflamingo_de_fact3.m4a": {
+   "sha256": "b42193b063ac1a97c7c1eb746ad18e09ffc496b2ea924fddb8e7c07f52b91cca",
+   "bytes": 25847
+  },
+  "audio/schweinsaffe_en.m4a": {
+   "sha256": "8c303ae104dc72e79f3ee395ce2cc6a779959bf0eeb37eeb64476d9379ce52d9",
+   "bytes": 235828
+  },
+  "audio/pinguin-humboldt-pinguin_de_fact5.m4a": {
+   "sha256": "fdf9562ba3395c27d370c2bd787ba30d6165e55c3a10698954b0cea0cc29f840",
+   "bytes": 49151
+  },
   "audio/nandu_es_fact3.m4a": {
    "sha256": "dd82d0198c06b456c0b9e0452cbfcb93702e0f08324dc9dce6fcee9b0fbc7f04",
    "bytes": 38536
+  },
+  "audio/tuepfelhyaene_de_fact3.m4a": {
+   "sha256": "8ffc13b083b1ab9b5732d556208269406a0e1cbd9f2f1e0113f5b137e18bca84",
+   "bytes": 37096
+  },
+  "audio/luchs_es_fact1.m4a": {
+   "sha256": "cad38a28732ad22a965d44c1d944630d03c40d7b4ca10271dfdf084edd53ce67",
+   "bytes": 28283
+  },
+  "audio/schweinsaffe_es_fact1.m4a": {
+   "sha256": "bfddd379e2661f12c33d26d8665c0dc9bc50f20bf90b395b0854dee3f2011a8c",
+   "bytes": 32036
   },
   "audio/baumstachler_en_fact2.m4a": {
    "sha256": "8a01b040fb91c552ba88937d6d87c5f64440c526a28224ecc3e99a5ab505bea9",
@@ -628,6 +1140,10 @@
    "sha256": "4a53543593f3b45647e21acd4fd12356dce71bb3f223f3a0ec17ddf047cea6d9",
    "bytes": 11836
   },
+  "audio/sumatra-tiger_en_fact1.m4a": {
+   "sha256": "bd0d728f99cf9d47a5ed07c859271e733738e9cda426e9029b0fc5059721894c",
+   "bytes": 44450
+  },
   "audio/flachlandtapir_en_fact3.m4a": {
    "sha256": "985e7b21ca247dca19e2c597ddf5ce952440a8c677bd54bb4736c68514e7444f",
    "bytes": 24094
@@ -636,25 +1152,109 @@
    "sha256": "d2192abc7b3632f8c7dc2f1498ed2dd3d8efa4bdf6ffa260e79b6f4865794fd4",
    "bytes": 40689
   },
+  "audio/rentier_en_fact1.m4a": {
+   "sha256": "49903064c1471aa27d2c680cfbca1cfdb578901ecd5baad491d4cd0cd6342bb4",
+   "bytes": 30470
+  },
   "audio/paletten-doktorfisch_de_fact5.m4a": {
    "sha256": "e307de4f54e27935700bf059d471088e48c816ec0d405768e114348216dbfc20",
    "bytes": 19449
+  },
+  "audio/blattschneiderameise_es.m4a": {
+   "sha256": "8bfaeed6ad9fb7c7ec2b6ea65de56b994af3bdfc0e85127d06cc86efa96c72dc",
+   "bytes": 350797
+  },
+  "audio/warzenschwein_es_fact1.m4a": {
+   "sha256": "ba2a2c2e7c9c4c7ab8bead5f98e3e3f426b2a7fc878273f59fab59494a46102d",
+   "bytes": 42962
   },
   "audio/kirk-dikdik_de_fact4.m4a": {
    "sha256": "b6805ed92b55e2a944123e4cfaaf1ace0f4b62d7f82774956e7ef9f5dbc63bbf",
    "bytes": 31779
   },
+  "audio/schweinsaffe_de_fact3.m4a": {
+   "sha256": "a2c0a23d44eaf21c9647f98de4822815e76939db6bb1512347299329c2793857",
+   "bytes": 37293
+  },
+  "audio/zebramanguste_en_fact2.m4a": {
+   "sha256": "d141a2a959f25756d02ccbd2717cf6703e10dabceb4a746b66af9b7e789b345f",
+   "bytes": 44456
+  },
+  "audio/luchs_de_fact3.m4a": {
+   "sha256": "d69cee97a9550f107df88ceca0345a096bfd7e1f047f3a6bac19e0bdec9c8b06",
+   "bytes": 28878
+  },
+  "audio/roter-panda-kleiner-panda_de_fact5.m4a": {
+   "sha256": "5e278a892a80267fbd4f4d170b371eb31159e9b698f0dd532503caefaab8796b",
+   "bytes": 42115
+  },
+  "audio/moenchsgeier_en.m4a": {
+   "sha256": "1eac3fa5ac78efb626791738af7cd23cf86f92a2c27be2f0c50821205be9e313",
+   "bytes": 261773
+  },
   "audio/pinselohrschwein_de_fact3.m4a": {
    "sha256": "1a10de78775fa1cb2215d297bdb6a9aa7362c4755d5e849d491330d40f18a00c",
    "bytes": 23110
+  },
+  "audio/waschbaer_en.m4a": {
+   "sha256": "d26b5ba9f024443a7b2c16016a14485d59b7f6d681185f5b463da62e765fdc51",
+   "bytes": 216019
+  },
+  "audio/vikunja_es.m4a": {
+   "sha256": "9fff5c65d7c03aea06157aab814327ce7f24eede32ac5c6618c5bee96911ccaa",
+   "bytes": 255974
+  },
+  "audio/pinguin-humboldt-pinguin_es.m4a": {
+   "sha256": "5a09ec7826546585e4cf2f449bca5bb75b9b4e119d6ac67cdceed89fc4b23bd8",
+   "bytes": 306615
+  },
+  "audio/schnee-eule_en_fact1.m4a": {
+   "sha256": "d1093ad2f7e21bbb2ff57fcb352d105b009e6968dd22a7ce73a38978244ff3aa",
+   "bytes": 32587
+  },
+  "audio/warzenschwein_de_fact3.m4a": {
+   "sha256": "90918405ea42ceccab2a72707e773859564ac1fe29de22c4e163c9b57527b7a5",
+   "bytes": 30381
   },
   "audio/otter-asiatischer-zwergotter_de_fact4.m4a": {
    "sha256": "4f79933d44a0a59b6b0436b93b405886d3a02ad57da5588f47b4bf6b6bbc508a",
    "bytes": 50611
   },
+  "audio/otter-asiatischer-zwergotter_en.m4a": {
+   "sha256": "42cfa38f9030161cf84dbc8bdd95944742fd6e98a810eac7a6fdec75d8cc384d",
+   "bytes": 270055
+  },
+  "audio/seychellen-riesenschildkroete_de_fact5.m4a": {
+   "sha256": "c235443b26ffb49c84bf1678f8ef1231afc1b03cad31ce90cbe720fce9166f81",
+   "bytes": 32277
+  },
+  "audio/waldrapp_en_fact2.m4a": {
+   "sha256": "e73cc5e4ab8d6610979e898b48b5ea7196eecc724aade34d7ae9dea40d3d7f3f",
+   "bytes": 24869
+  },
+  "audio/nashorn_es_fact4.m4a": {
+   "sha256": "af40cfd7d1d05b615d269757deec7facd88e9479dfcaf94d9226ec640e352c17",
+   "bytes": 46943
+  },
+  "audio/schimpanse_es_fact3.m4a": {
+   "sha256": "bf1ee722c0be69e91013654348c152884130ce8ea7aaf8443c356c46ecee272a",
+   "bytes": 39524
+  },
+  "audio/zebra-chapman-zebra_en_fact2.m4a": {
+   "sha256": "1553d72cc539a3f5bfa133477eaf7c41f5c0bf9d62607a5bc9896f829645ed62",
+   "bytes": 28521
+  },
+  "audio/paradieskranich_es_fact5.m4a": {
+   "sha256": "b3898ea7de6fdc45e9c4284b861241f4ccb5cb413dc536074268d2c68b4c5f72",
+   "bytes": 46961
+  },
   "audio/vikunja_es_fact3.m4a": {
    "sha256": "96ef478548f0b3f7b34f4b01015b2e7c332725ace2213ed4ce4aac03048f49b4",
    "bytes": 44121
+  },
+  "audio/trampeltier_de.m4a": {
+   "sha256": "cdf6bcf80fce0c685eb9528e42d268c21c01dda79634a25523e9e2997da13ae7",
+   "bytes": 257090
   },
   "audio/erdmaennchen_es_fact4.m4a": {
    "sha256": "821a93ab8d30694de5d8377e92f177057584817dcfc7884dd08dbb659882a05b",
@@ -664,25 +1264,101 @@
    "sha256": "3efec56fe9afd6c1f07416df7c986ea01b4081e7394480e69913964d6721f062",
    "bytes": 19122
   },
+  "audio/klippschliefer_de_fact2.m4a": {
+   "sha256": "1479647b230f8a9368c88b33c9b820294fd08e41fadfcb77936207e4f7f9f8e8",
+   "bytes": 31087
+  },
+  "audio/skunk_es.m4a": {
+   "sha256": "9a74cb12a3afc9c2e4f9b6fd020bcdcac037439be26e7f655cbf0884a79b25f6",
+   "bytes": 316982
+  },
+  "audio/wolf-hudson-bay-wolf_en.m4a": {
+   "sha256": "762a8e7e2c0612ffc7e78792f094239b1880978f3dbf3635f5051b42fc66992b",
+   "bytes": 246030
+  },
   "audio/capybara-wasserschwein_de_fact4.m4a": {
    "sha256": "6ab162d6777cd5c2014d52d1ae2c1367b3991751ddad2fc8116db0fc7f0523c2",
    "bytes": 34351
+  },
+  "audio/wolf-hudson-bay-wolf_en_fact4.m4a": {
+   "sha256": "3a29acef5b856fc522239952357104e8b8312afa9c5ab76ac741bff311ce9dc6",
+   "bytes": 37703
+  },
+  "audio/paradieskranich_es.m4a": {
+   "sha256": "b10f998d4ac73256e6a96b6c6c2273d3a03bdbf16b5e1944e47bd9464b05cd02",
+   "bytes": 253286
+  },
+  "audio/mona-meerkatze_de.m4a": {
+   "sha256": "e162cd46032bb6c110bd12e98d4f97e3c2767430b91b1065cecdea40887b20a1",
+   "bytes": 255048
+  },
+  "audio/chileflamingo_es_fact1.m4a": {
+   "sha256": "cda40cbea8023b4012ad1cd908f66451730ec0b7564f925c2c99b2685d3aaf68",
+   "bytes": 29684
+  },
+  "audio/erdmaennchen_es.m4a": {
+   "sha256": "69d8a82801969e4942d45532543f4eb3f03ca2fa5947827af75c53bb4da290b8",
+   "bytes": 222507
+  },
+  "audio/europaeischer-biber_en_fact2.m4a": {
+   "sha256": "15e62369817f8b06f3aba65d5f76ab13201148e7f3a1c53ecbd932d8eb48dae2",
+   "bytes": 27809
+  },
+  "audio/seehund_en_fact1.m4a": {
+   "sha256": "188f81da20039acb9d458d5b123a1e956f871491d6beec9c1195b193288c302d",
+   "bytes": 60270
+  },
+  "audio/tuepfelhyaene_es_fact1.m4a": {
+   "sha256": "3be64f2e938bde11a00f06f6a8d9d4b40409503dba2c3fb9692937624c28c9cc",
+   "bytes": 30455
+  },
+  "audio/totenkopfaffe_en_fact2.m4a": {
+   "sha256": "7bde3009d39f526896aa39b260e01f74d019f1cd97f85d08d3c6af500245dd66",
+   "bytes": 45142
   },
   "audio/nandu_de_fact1.m4a": {
    "sha256": "eacd680e28dffa3673cfd521756371a4585cd90ab6f3dcc48ec0882b28859b8a",
    "bytes": 34562
   },
+  "audio/waschbaer_de_fact4.m4a": {
+   "sha256": "66c12368793de62e962c5d9345795efe33a4a05919e22498b651409979598e51",
+   "bytes": 29647
+  },
   "audio/asiatischer-loewe_en_fact3.m4a": {
    "sha256": "b90ee44271832a82ae7d478ba7d76c9f3caf6cdf766396b06af57138bf2b2eea",
    "bytes": 35893
+  },
+  "audio/asiatischer-loewe_en_fact2.m4a": {
+   "sha256": "302d1681aac3744dcb4c78fdb65dd61541d4541dbb551fa0fc85ed78e84c81bd",
+   "bytes": 48160
   },
   "audio/waschbaer_de_fact5.m4a": {
    "sha256": "613812d15a904c5b6addabaa5a519bfc4e8b91240e5ca3e537e848b99c83c2c6",
    "bytes": 30572
   },
+  "audio/totenkopfaffe_en_fact3.m4a": {
+   "sha256": "a487b2cd219cd54fc0808ff1d5f7ae5b28a83d726b167b11322ee83929d72771",
+   "bytes": 21211
+  },
+  "audio/nacktmull_en.m4a": {
+   "sha256": "4abaa14c310e6643856e8f2727dbdf465a2b963a345949eb5228e0a1e73e600f",
+   "bytes": 238222
+  },
+  "audio/europaeischer-biber_en_fact3.m4a": {
+   "sha256": "69323f19f5509aac36e18726ea8085a804533b6fa0c3c8add5e0d1bc2393840b",
+   "bytes": 21518
+  },
   "audio/capybara-wasserschwein_de_fact5.m4a": {
    "sha256": "0ba8e617572096527220d9c02b27ce37d9d991f70415a82af23a720a9ccac45a",
    "bytes": 43392
+  },
+  "audio/wolf-hudson-bay-wolf_en_fact5.m4a": {
+   "sha256": "4bd610e29f623d163dd27e543ea5436a967c9fd3e9891026e83a22db54a5c629",
+   "bytes": 30518
+  },
+  "audio/klippschliefer_de_fact3.m4a": {
+   "sha256": "5c06c0b87ac6efbc500b82e66878eba1edbaf58095b8d7fe5caa7d6ba3d03a6d",
+   "bytes": 28175
   },
   "audio/erdmaennchen_es_fact5.m4a": {
    "sha256": "acb4d4aa005e2680dbd45d7f4d7aef1012fe38615b6cd28550e7014750b90dc4",
@@ -700,21 +1376,89 @@
    "sha256": "b27ae9dc0682ed53c5efe14cc4e65b9483f76f487a7437f6adf8241469f6cf28",
    "bytes": 23302
   },
+  "audio/schimpanse_es_fact2.m4a": {
+   "sha256": "093b6c92635bca9e3d572cd9bcc885aa76bae01523028afb3be2f4e8b5dd8c1c",
+   "bytes": 34377
+  },
+  "audio/zebra-chapman-zebra_en_fact3.m4a": {
+   "sha256": "d138a1a433385ab1fb2cbc82c4528dac159e71f9a641aa2c43a7220826a1a4c8",
+   "bytes": 36020
+  },
   "audio/waldrapp_en_fact3.m4a": {
    "sha256": "1b3e4a18c1f8618bc5299088916882b3e9bc0bf0c0d815cc78d171b2d2335450",
    "bytes": 19359
+  },
+  "audio/nashorn_es_fact5.m4a": {
+   "sha256": "07931404bc89481a6ba25a940a386991221123004363791d36b2addeab8c0903",
+   "bytes": 65995
+  },
+  "audio/seychellen-riesenschildkroete_de_fact4.m4a": {
+   "sha256": "d490b913fc371f8fe2b95b25920edfde1df3d51bf1f989b6f1fdfd1487ba7895",
+   "bytes": 33499
   },
   "audio/otter-asiatischer-zwergotter_de_fact5.m4a": {
    "sha256": "cd6ff20b7d32b9d65428bbff9af3c029328fe2d81f546c9ea977051944350bef",
    "bytes": 33546
   },
+  "audio/klippschliefer_en.m4a": {
+   "sha256": "ba7c6f512f484989e30d83fbe7d34e36919042f1094e571765e1b401f9329b5a",
+   "bytes": 252581
+  },
+  "audio/warzenschwein_de_fact2.m4a": {
+   "sha256": "901b31037f1e1052a13fb835dbd05690f6ac2442f0083f74aec6b6bc535e95ea",
+   "bytes": 34131
+  },
+  "audio/sumatra-tiger_de.m4a": {
+   "sha256": "7685e0316fa2fa12fc7f2df2680eccf720f4bb2d040b6b5c67207f75af203574",
+   "bytes": 277881
+  },
   "audio/pinselohrschwein_de_fact2.m4a": {
    "sha256": "cef397d2c2f3736689479d81c4bdbb6d8cef71b5a0c9493c4874b39b4e83677a",
    "bytes": 37662
   },
+  "audio/roter-panda-kleiner-panda_de_fact4.m4a": {
+   "sha256": "b3b26e5d0beda362fff09dbcda8bf0afafd30855de0f86983ae2af34be865bc8",
+   "bytes": 33425
+  },
+  "audio/zebramanguste_en_fact3.m4a": {
+   "sha256": "4ee92f4ff410b70ecf31e837401d41b22ab5e7beb72e0cbd9b9a3860eafbe74b",
+   "bytes": 39482
+  },
+  "audio/luchs_de_fact2.m4a": {
+   "sha256": "768d33e22469cc77a8251671aa6904291db497b11abf70001d6c25b344595794",
+   "bytes": 25366
+  },
   "audio/maehnenwolf_en_fact1.m4a": {
    "sha256": "6fa5c1630fb452e05b0205d5d53714c1f843be7ff703285630c536eb65834a30",
    "bytes": 28895
+  },
+  "audio/tuepfelhyaene_en.m4a": {
+   "sha256": "f1c3d715633639702f7817bc57252b1ac45c8b3e01beebc5cf55dd44e4353a9c",
+   "bytes": 207589
+  },
+  "audio/schweinsaffe_de_fact2.m4a": {
+   "sha256": "63422c3ae93a262a5016d45efa41d743c5680ae35597d97db78d34ab2bde7a92",
+   "bytes": 29296
+  },
+  "audio/maehnenwolf_en_fact3.m4a": {
+   "sha256": "29d9eb2a6b9b7b657ce5864d2184fb51d890dbb43fabab24a559c049813f69e6",
+   "bytes": 35569
+  },
+  "audio/zebramanguste_en_fact1.m4a": {
+   "sha256": "3efc6bffed3125cb20f09db3d7dbe8b191bb187357ee65e5ca17de65e7bc1a80",
+   "bytes": 35628
+  },
+  "audio/impala_de.m4a": {
+   "sha256": "55edd91309ddb3a3811a0ca21a2642b8a9e5ec5d076676b701f73fa225d158b8",
+   "bytes": 273330
+  },
+  "audio/schnee-eule_en_fact2.m4a": {
+   "sha256": "53691501faeced399a73e18c153c2206206942da1a683eb9434746ccbeac1708",
+   "bytes": 49511
+  },
+  "audio/seehund_es.m4a": {
+   "sha256": "091da553a3d47928b200ef780bdab2cde2d5a4b3756a495457bbb20f982a78f6",
+   "bytes": 288920
   },
   "audio/kirk-dikdik_es_fact5.m4a": {
    "sha256": "88772350a2d72d980582ecbe3bb86d4725cb06cdcd8f0c451451022e4e4d81c6",
@@ -736,13 +1480,45 @@
    "sha256": "740646bbaf458466306d8a0142307d3f1f4aae01ba48ea8bb4e0e33acd8bc477",
    "bytes": 25923
   },
+  "audio/zebra-chapman-zebra_en_fact1.m4a": {
+   "sha256": "417787ef695a6dee2e6bff0ced4dc9a4326ce528a69ac357e2b96b94bed77ec2",
+   "bytes": 31382
+  },
+  "audio/klippschliefer_de_fact1.m4a": {
+   "sha256": "2b5de9ec1a65b0baaae24cabc3f39f4e2fb49f4e0da30319d08e46d407430e47",
+   "bytes": 26367
+  },
+  "audio/asiatischer-elefant_es.m4a": {
+   "sha256": "f7d2641ef6dbefa4b3a444517b52c4bf083af1d90a4ac1c49de74df47ecaeafb",
+   "bytes": 250180
+  },
+  "audio/asiatischer-elefant_es_fact4.m4a": {
+   "sha256": "68fc6b4a1a49e40a6b00854e42207e925262c0bec474e7852f71c68acec22fd6",
+   "bytes": 35583
+  },
   "audio/kubaflamingo_en_fact2.m4a": {
    "sha256": "273ea4579c713cfcc99070b34db7dcb7ec32205e7dc8f21a3fb57e866f08d939",
    "bytes": 16832
   },
+  "audio/schnee-eule_es.m4a": {
+   "sha256": "6e5a6f3b084c419bacdaa40de85937e1b7bc9cf84c10971a51b1c2a99a60ec33",
+   "bytes": 267529
+  },
   "audio/chileflamingo_es_fact2.m4a": {
    "sha256": "8edf9ad7777a79afa5a67a849380ec8542e74de732663bbb51b6695f1fc1bc25",
    "bytes": 39958
+  },
+  "audio/silberfuchs_de_fact5.m4a": {
+   "sha256": "d87ae2ac4a7c9fb58ef6e56b7ba0354b5e9b0159b9227d587c92e8b72b7566ca",
+   "bytes": 43589
+  },
+  "audio/kalifornischer-seeloewe_es_fact4.m4a": {
+   "sha256": "10d0fb0e86e86740940cdea9b9d30e4687f9d0daeebb1d4979996632c602b894",
+   "bytes": 43668
+  },
+  "audio/europaeischer-biber_en_fact1.m4a": {
+   "sha256": "b44155cd61aa8378b63bc0fa0310d7222d8a2d351b63e2e92bb81d186b62e952",
+   "bytes": 20424
   },
   "audio/nacktmull_en_fact4.m4a": {
    "sha256": "522b4c0def12318327a1f835c73959fc2219fca72a7b63d9ed6dcf9c2746ec99",
@@ -752,13 +1528,45 @@
    "sha256": "0213a39b10414db18d565562aa2d2134b4af7445b95b77e4e26a32a7c3129006",
    "bytes": 38306
   },
+  "audio/tuepfelhyaene_es_fact2.m4a": {
+   "sha256": "2dc7aa616a7fb251c82f14edebf21aef034a78de0b32e909e1003ca7d17e68c7",
+   "bytes": 23700
+  },
+  "audio/totenkopfaffe_en_fact1.m4a": {
+   "sha256": "2c5960f2d12b7cd01f9a465af7c1dd3d1b8b437cbe350bc42cfdd537270bb3f1",
+   "bytes": 28867
+  },
+  "audio/seehund_en_fact2.m4a": {
+   "sha256": "f1df994154a018b5c39969d1cff05fac1f5913022fdf8084def7c621f052935c",
+   "bytes": 39863
+  },
+  "audio/pinguin-humboldt-pinguin_es_fact4.m4a": {
+   "sha256": "4196a108b96db6b50f6a3622979e4b88ef12dd1544d9de348524c715b085bc7e",
+   "bytes": 42682
+  },
+  "audio/pinguin-humboldt-pinguin_es_fact5.m4a": {
+   "sha256": "1e5d412819b6af4e5b76c1fd40ad6e4bb9973707d1c0c4b261322aaca30db239",
+   "bytes": 60777
+  },
   "audio/asiatischer-loewe_en_fact1.m4a": {
    "sha256": "8b2a7ab2051918f88565792135b215640312185637b2f5f944867551a88b2814",
    "bytes": 53448
   },
+  "audio/seehund_en_fact3.m4a": {
+   "sha256": "3e68291aece26c1e4c8d02de7b2da587c3400e52e3a6801adf9c366fdebdb4bb",
+   "bytes": 31267
+  },
   "audio/nandu_de_fact3.m4a": {
    "sha256": "6791630b82da58848058524ee1a6a98605189df2d9aaba3b26453d55eb2a8605",
    "bytes": 37955
+  },
+  "audio/tuepfelhyaene_es_fact3.m4a": {
+   "sha256": "00c96db06686c65077472ec5186c09f7da4efc1341c3d37ac2883da41af659b6",
+   "bytes": 39815
+  },
+  "audio/kalifornischer-seeloewe_es_fact5.m4a": {
+   "sha256": "044977d0d9d65daf8736d23b92dfce268a7036c1eeafa9ab357a1c645de0ff03",
+   "bytes": 53630
   },
   "audio/blattschneiderameise_es_fact5.m4a": {
    "sha256": "dad33a6b839b3041b62678ee43c6967b1ae3016e58922adfdb21bf1f263b094c",
@@ -768,9 +1576,41 @@
    "sha256": "04cd3261ade5f379f4e984800d9b35728cb33ccd72ae21a3ec82534987823415",
    "bytes": 41490
   },
+  "audio/silberfuchs_de_fact4.m4a": {
+   "sha256": "ca03b4591a0763e9490bcbc3ae36b27862861dbaa1052ea187e0475551fc992a",
+   "bytes": 48978
+  },
+  "audio/chileflamingo_es_fact3.m4a": {
+   "sha256": "104ea0970a30871b2644fe1eac474087c9f8af5e2d373d32fba28db61e73fdad",
+   "bytes": 33751
+  },
+  "audio/grosser-kudu_es.m4a": {
+   "sha256": "56c4f494a423ee29830083567012f9c35b1b5bc568493fa8dcf9d42a702b0b43",
+   "bytes": 271217
+  },
   "audio/kubaflamingo_en_fact3.m4a": {
    "sha256": "d5dac029f663c7a028c8450651eff0b9ac01e5ae931584b59ec0a4ad962a0a84",
    "bytes": 20596
+  },
+  "audio/rosapelikan_de.m4a": {
+   "sha256": "85843f61b555f81ae8d8e92ac6ab8ac4840b42888209bb387548ccb67599ea63",
+   "bytes": 241735
+  },
+  "audio/asiatischer-elefant_es_fact5.m4a": {
+   "sha256": "443b8b2d8e9d3a41ed43f87834648aa4a26700b60534cdb3b8997f88cceb2eb1",
+   "bytes": 46232
+  },
+  "audio/schimpanse_es_fact1.m4a": {
+   "sha256": "32dbe23507437e35c355cd98babe7909647ad323e0280b587badab54cd22b808",
+   "bytes": 25061
+  },
+  "audio/brillenkaiman_en.m4a": {
+   "sha256": "54fbab73af374782488abee5e42c21869f4e1eaa2c665c899efbdbb456b43e5d",
+   "bytes": 236703
+  },
+  "audio/vikunja_es_fact1.m4a": {
+   "sha256": "7046e3d21520277912f2917ef0c88712686f4068b92de619dc614841344df1f0",
+   "bytes": 38238
   },
   "audio/lachender-hans_es_fact2.m4a": {
    "sha256": "1a18c33a7fe2e4a366266dc8dca3a578a328e50e19dc7de0bf05f3421c5ce385",
@@ -784,9 +1624,17 @@
    "sha256": "19f6027ecdd060111dc4c424f99b9799cc7ccc6871aa778fae354269f30d5c23",
    "bytes": 39231
   },
+  "audio/warzenschwein_de_fact1.m4a": {
+   "sha256": "cd3ee0246c266816096f5c5b619f38f9f52ac966a3498bcacbd9ae1c2ad3b6b9",
+   "bytes": 43542
+  },
   "audio/kirk-dikdik_es_fact4.m4a": {
    "sha256": "739ccfca959c0651d535561058efe677cc690184a9c329cf742f01a825288fb0",
    "bytes": 35796
+  },
+  "audio/schnee-eule_en_fact3.m4a": {
+   "sha256": "6a2acf54ec46b98fcbc3d4aa7a65da9c481203434d309e54b16eb7a9cda8119d",
+   "bytes": 31703
   },
   "audio/paletten-doktorfisch_es_fact5.m4a": {
    "sha256": "9cd55473e6edba772fb99b8e6efe290981ca88ba8fde735cdfd94e068a4e2c3d",
@@ -796,9 +1644,37 @@
    "sha256": "16d18957d60145f9082e7a5474d5eb2fbe67e755794a685fad95426130ac53da",
    "bytes": 33380
   },
+  "audio/luchs_de_fact1.m4a": {
+   "sha256": "4baa9132e8cb8a23a44b2b30f3a1dbde6cc7b4242cb64f54f4969ac2f1bf39fb",
+   "bytes": 27739
+  },
   "audio/maehnenwolf_en_fact2.m4a": {
    "sha256": "a3aa5159e17f6c732ea8a4cfd482cf1a645bf41c53ed43b14a0682d1684b8cf2",
    "bytes": 32852
+  },
+  "audio/schweinsaffe_de_fact1.m4a": {
+   "sha256": "6036460dec140b4ce0d776413e531c4e8cd95be9e8975598207b27e8446c2b21",
+   "bytes": 30788
+  },
+  "audio/seychellen-riesenschildkroete_es.m4a": {
+   "sha256": "40a7417b70848b2e521f4b9050a394925c697f8a282fbe33a640ad0081abf7e3",
+   "bytes": 234377
+  },
+  "audio/zebramanguste_en_fact4.m4a": {
+   "sha256": "4a04b06e8e66697e249d86d25f88c497e65f5c776e7d8613d287454a81f12d91",
+   "bytes": 28833
+  },
+  "audio/luchs_de_fact5.m4a": {
+   "sha256": "68b2a167a14e179350b8cb1bacfcfb9fc851cad030a3d4ff86cf00f3d936b8d5",
+   "bytes": 39147
+  },
+  "audio/impala_es.m4a": {
+   "sha256": "29d6c66610c0d105d849a6cb265451ae48f651656b042994189e8275c86be3d5",
+   "bytes": 274231
+  },
+  "audio/schweinsaffe_de_fact5.m4a": {
+   "sha256": "43f3e0b7b7a9545fda62c084eb8a344dca0a94a4c762aec9e1b8d74c026cb262",
+   "bytes": 40184
   },
   "audio/pinselohrschwein_de_fact5.m4a": {
    "sha256": "fd666ae7700b0d7ff48977f51c3e867627f8a0ebcec1a43bc7ecd4435ed06b7f",
@@ -808,6 +1684,14 @@
    "sha256": "676e4b1df038117919e40e3b691d9911ee3ad76b85c50db455b504e9764515f3",
    "bytes": 36050
   },
+  "audio/fledermaus-spitzmaus-langzuengler_de.m4a": {
+   "sha256": "0fd2cb469d4c412ee54ddef8c01eddaa44e778f38f855448b5f24156d127d24a",
+   "bytes": 236782
+  },
+  "audio/seehund_de.m4a": {
+   "sha256": "f9e988617b2ca4e9fedbe0acac49848f5d87fe37972f87b6261e2b1ad4ffd665",
+   "bytes": 252729
+  },
   "audio/paletten-doktorfisch_es_fact1.m4a": {
    "sha256": "e684b8e0fefd369358cf12c1a36bff6422d89c9636436066a2f0c2777e1525e4",
    "bytes": 16147
@@ -815,6 +1699,14 @@
   "audio/otter-asiatischer-zwergotter_de_fact2.m4a": {
    "sha256": "55481d7db312eb728875683b5f4e7e235f818a0ae6d16e3a986e51c036b39175",
    "bytes": 46951
+  },
+  "audio/warzenschwein_de_fact5.m4a": {
+   "sha256": "4ca8c373e62e4a38ce1b8ff4018b4e2c8a90a42ca0f3ff8b71170a20484aba98",
+   "bytes": 36440
+  },
+  "audio/vikunja_es_fact5.m4a": {
+   "sha256": "e688f7183caab34934327f7c071dd327d7ab4a9ffa5261868fdf3750bfa5e132",
+   "bytes": 34224
   },
   "audio/paradieskranich_es_fact3.m4a": {
    "sha256": "3dce7f053717e857dc80864623be6955af0e23315c64cfa0aa838e71ea6fc9cd",
@@ -824,9 +1716,21 @@
    "sha256": "6452d9390decdea08e50701f1abb4d30789274d5e8a2d872fb196c31c9fd77f3",
    "bytes": 24893
   },
+  "audio/schimpanse_es_fact5.m4a": {
+   "sha256": "670c81d28942b61d3ca46b7f13819d1c3d00ffa3408a32efb2c968b168e8f524",
+   "bytes": 24129
+  },
+  "audio/zebra-chapman-zebra_en_fact4.m4a": {
+   "sha256": "6cf8f2ba29c5947f467a50efa9d2d809644276faa6261eccbf3154da5c3a7793",
+   "bytes": 28437
+  },
   "audio/waldrapp_en_fact4.m4a": {
    "sha256": "55cfe28e22c68ade92e76db89c7808b76a688fdfb2d19d9a20e4e1417d7185e2",
    "bytes": 21460
+  },
+  "audio/nashorn_es_fact2.m4a": {
+   "sha256": "8f1bea18b4565daf0b053960128a703120438f90e88e6964811f01488155a9f8",
+   "bytes": 41794
   },
   "audio/giraffe_en_fact1.m4a": {
    "sha256": "9a4b864cec8d38a83d14aafaeccb2bd1d0d147e1b324140d48d68ca469c1a405",
@@ -836,6 +1740,30 @@
    "sha256": "420b630dde2e15c2fcbb1713c8f63abb605ad9c6c8ca3e46507e61a86e4c9f16",
    "bytes": 31128
   },
+  "audio/europaeischer-biber_en.m4a": {
+   "sha256": "8db75271e6fbff48979f00b0a326ba58cac1538230992dfbd662f7b86016edfd",
+   "bytes": 229641
+  },
+  "audio/asiatischer-elefant_es_fact1.m4a": {
+   "sha256": "7403cedab62ac6974a95141742dd41994af9e12e0b6f8dad7b89d2da5c3a404c",
+   "bytes": 48668
+  },
+  "audio/klippschliefer_de_fact4.m4a": {
+   "sha256": "f34ae080be1238cd6c4e7b9c472255f841d52e9421ba6c078d33137ecd376191",
+   "bytes": 30114
+  },
+  "audio/erdmaennchen_es_fact2.m4a": {
+   "sha256": "ffe602475dfbd9daa5b6f60275e6299b41397d41420e69ac9e29e47b528a8a97",
+   "bytes": 44390
+  },
+  "audio/schnee-eule_de.m4a": {
+   "sha256": "ee347a6ba896d70363d2cb4bac7b9fe0e273d2f08f60969b6c57e8bf72ab4b75",
+   "bytes": 283295
+  },
+  "audio/asiatischer-elefant_de.m4a": {
+   "sha256": "2f855f104bb728ee37f5d002b0897be2712c4face9ed6237e1684c862cbeaa80",
+   "bytes": 231333
+  },
   "audio/nacktmull_en_fact1.m4a": {
    "sha256": "6e85ccdb03aead9c560a644be3300ef72d129e31d25e2ce389ba0de48bdc3a60",
    "bytes": 48811
@@ -844,25 +1772,81 @@
    "sha256": "d0b5804f19d695c072564f6bedf046ae7fb4c95fd2ce088862c07ba3243482b4",
    "bytes": 46937
   },
+  "audio/kalifornischer-seeloewe_es_fact1.m4a": {
+   "sha256": "3bed6c8349e2d469d3a57d9c4f03fed06a127554afeab1672ed693f3879ff2e4",
+   "bytes": 40542
+  },
+  "audio/europaeischer-biber_en_fact4.m4a": {
+   "sha256": "760b47b8061699e7e1a4049b3537f70ae62f0250d5661ac0f841766e95c0746f",
+   "bytes": 21361
+  },
   "audio/capybara-wasserschwein_de_fact2.m4a": {
    "sha256": "3c897141ace13a70589009a46d8015b0667a88c4d32b9b565a5e17314b928c02",
    "bytes": 42089
+  },
+  "audio/wolf-hudson-bay-wolf_en_fact2.m4a": {
+   "sha256": "a467d396336a3f4b7dccec53979572b1d7ad1292eed057ffccd934e9b55a7e0d",
+   "bytes": 55843
   },
   "audio/waschbaer_de_fact2.m4a": {
    "sha256": "97d4452009d58ba7e294bcf534c53d893a0b9c6199009a77fc91174f66dc9da5",
    "bytes": 21445
   },
+  "audio/asiatischer-loewe_en_fact5.m4a": {
+   "sha256": "3dc947415166c397edc1f4bba5ac7130f63987ba46b0a3ead08d6b45b0c43a97",
+   "bytes": 49707
+  },
+  "audio/pinguin-humboldt-pinguin_es_fact1.m4a": {
+   "sha256": "de5f194bbb3987dc9f8265174aac5d5c6b908ae515c569ad0067a496b250ea43",
+   "bytes": 36920
+  },
+  "audio/totenkopfaffe_en_fact4.m4a": {
+   "sha256": "1c4e7f678807f0d1ace6a0cf31bf611d544f25bae4c1bacf4f288fc9140ae8f1",
+   "bytes": 25504
+  },
+  "audio/totenkopfaffe_en_fact5.m4a": {
+   "sha256": "35955231045d56f84686a46a18fb3f822bd9df873b4bacda6c6bbe6489f471af",
+   "bytes": 25452
+  },
   "audio/asiatischer-loewe_en_fact4.m4a": {
    "sha256": "ed9d2e99ac014e70a9564842a878d24063dbed24c0357d81950719f1545299ae",
    "bytes": 48028
+  },
+  "audio/waschbaer_de_fact3.m4a": {
+   "sha256": "51dc2c0f0bb5c11f239805ea90b3da309fe2eefb570d6ab705536e0d7349d30a",
+   "bytes": 58588
   },
   "audio/capybara-wasserschwein_de_fact3.m4a": {
    "sha256": "b21ac36b734d2a98e1f1dd9dcf9f3da6a891bb3499fc898ddc5f638af3063d14",
    "bytes": 35526
   },
+  "audio/wolf-hudson-bay-wolf_en_fact3.m4a": {
+   "sha256": "7d14b6618472640ea8c770444b9037eee5846aeff0ff92a61967f5c3b3ce8067",
+   "bytes": 36497
+  },
+  "audio/europaeischer-biber_en_fact5.m4a": {
+   "sha256": "3ac78df2b7e61d007368ca69e5899ff5151583a73973596529a6eae0c852d8af",
+   "bytes": 23518
+  },
+  "audio/silberfuchs_de_fact1.m4a": {
+   "sha256": "c9f0c71966022d6ee5841dc971eca0a8ef471936cbfc7eea57cb7baf1e17b46d",
+   "bytes": 55610
+  },
+  "audio/rosapelikan_es.m4a": {
+   "sha256": "e4c1af585d8e13e485b261dbe2bdb697381e2946672838317e4ff0f0404824c3",
+   "bytes": 237484
+  },
+  "audio/grosser-kudu_de.m4a": {
+   "sha256": "f6ff25fc48fad50d6e2a14e6027313c52ea56fbd896dd49be7c3233920ae0ae7",
+   "bytes": 242500
+  },
   "audio/erdmaennchen_es_fact3.m4a": {
    "sha256": "a286174f70627a352f983f13c39ca75c7aa2c477ce28337f0bb28be581a8cec3",
    "bytes": 37084
+  },
+  "audio/klippschliefer_de_fact5.m4a": {
+   "sha256": "ebc5f4072d237cb45e4caee196c0fdf5684d8ee38f6be5c3eed5b560ab429086",
+   "bytes": 23588
   },
   "audio/seychellen-riesenschildkroete_de_fact2.m4a": {
    "sha256": "93093032f9a6ac00ea4f11b1cf09baebe42216c2d6f3c07df24c9c034fbfe524",
@@ -872,6 +1856,22 @@
    "sha256": "c545c9b52450d1ef4d56af5b268a47cb54edc097a2fde3ccf8904ba060f35e27",
    "bytes": 41846
   },
+  "audio/waldrapp_en_fact5.m4a": {
+   "sha256": "5ca56944234c66faaeaa94c5ed1b8863b8d44a252b8c5446c558208781f2ea48",
+   "bytes": 30027
+  },
+  "audio/nashorn_es_fact3.m4a": {
+   "sha256": "4cccb8424d12390715fa4538a8f40b4a38373369ea0199d19b4307947270084f",
+   "bytes": 48082
+  },
+  "audio/schimpanse_es_fact4.m4a": {
+   "sha256": "f0d10c766325807c7d0b1c78dd807d8ac28e6b572602c14161a6d1a07de54600",
+   "bytes": 46687
+  },
+  "audio/zebra-chapman-zebra_en_fact5.m4a": {
+   "sha256": "9cbd69f02589538f4c541b9aed5106fd8dc1fb370e29b614373372ba5caef548",
+   "bytes": 31620
+  },
   "audio/paradieskranich_es_fact2.m4a": {
    "sha256": "534b2e6a1e04449fa9520ba66dd35267ea3a6c863a18103cfcd5527b0bd15327",
    "bytes": 20851
@@ -880,9 +1880,21 @@
    "sha256": "ed9bd04a922468e0786d49f4a618100338a1a77451770ce1e112f9358b7ef014",
    "bytes": 59492
   },
+  "audio/warzenschwein_de_fact4.m4a": {
+   "sha256": "2f8efe53ec882c9de13627f118bf98b9c7271abe3982c60ae61d7923181fc1af",
+   "bytes": 36604
+  },
   "audio/kirk-dikdik_es_fact1.m4a": {
    "sha256": "bae916f81739f7f402028d4fae538f2421052007c16c24e4bbc6f752c06b40e1",
    "bytes": 35683
+  },
+  "audio/otter-asiatischer-zwergotter_de_fact3.m4a": {
+   "sha256": "691e755fdc5fac05d278a823714bfd9d6570b474450fd2edfd981cc0e85eb77f",
+   "bytes": 31376
+  },
+  "audio/drill_en.m4a": {
+   "sha256": "9a8007849f30790e112f649312a5f224401264f34920e06997bac60fb5c9d257",
+   "bytes": 220627
   },
   "audio/roter-panda-kleiner-panda_de_fact2.m4a": {
    "sha256": "d5711476d3ce8b1763a6909e7c6e9dbea13c2847f460b0c169f9b13f5723fa55",
@@ -892,29 +1904,73 @@
    "sha256": "6c6957bfb7c3f410d97313ae84545c29bed31ba39997fdf6661fd09949411459",
    "bytes": 39182
   },
+  "audio/schweinsaffe_de_fact4.m4a": {
+   "sha256": "c72cafbb404fd378b7a2520c0f23b2ff3959b0d9b6928a4a826748fc9700f0f2",
+   "bytes": 42236
+  },
+  "audio/zebramanguste_en_fact5.m4a": {
+   "sha256": "3fa888945002fb74adf18632ad80729d6ce56ad5b94cdf3c0b0c820a4ff0cc53",
+   "bytes": 42124
+  },
+  "audio/luchs_de_fact4.m4a": {
+   "sha256": "662406904861a3826f5b960833643da0c6e28a60c0decf00201af0541c6efba6",
+   "bytes": 23487
+  },
+  "audio/seychellen-riesenschildkroete_de.m4a": {
+   "sha256": "d512ff6b27b6eb175331fe7aeeda1c7a03fc4a2658de3671bf9c2c9657057bb8",
+   "bytes": 234987
+  },
   "audio/maehnenwolf_en_fact5.m4a": {
    "sha256": "5a1269aba9ef31808dd2dbe31e94498e24747eca22f995a37ed702e34eafd975",
    "bytes": 25679
+  },
+  "audio/riesengraumull_en.m4a": {
+   "sha256": "8d2666b13fe13e886e55eb1df20f0d26df6dc8e878ec839554ec469f22196203",
+   "bytes": 209887
   },
   "audio/schnee-eule_en_fact4.m4a": {
    "sha256": "1fb16e8eba4344bfc2106383740c10e6b136ebce514ae0628629858f373a0635",
    "bytes": 25607
   },
+  "audio/vikunja_de.m4a": {
+   "sha256": "97267bc66c71a0ea2b83267d530277171c0bc245e0c26417d2feea439dd156e8",
+   "bytes": 266951
+  },
   "audio/paletten-doktorfisch_es_fact2.m4a": {
    "sha256": "06f632d174d22249f2e33e57795bf5df4f5a7d01db3aef9adbbc2dc71cb0a45e",
    "bytes": 25553
+  },
+  "audio/pinguin-humboldt-pinguin_de.m4a": {
+   "sha256": "0eff6a1f4031376f054e7a5d303b8fc531807647726e407be908f898bdd2534b",
+   "bytes": 266718
+  },
+  "audio/otter-asiatischer-zwergotter_de_fact1.m4a": {
+   "sha256": "319b394cb96fb43c384e43d0305eb33f071943df010d6e22593ac063c2c1f3d0",
+   "bytes": 29612
   },
   "audio/bison_es_fact1.m4a": {
    "sha256": "9590ea66e0282234b8fd57ba06c412a2a1bd701e41be9629fbcf25d15af9cbc9",
    "bytes": 27532
   },
+  "audio/rotbueffel_de.m4a": {
+   "sha256": "38c07992591471c7d9c5450b4c5980c2c4337763c7da42099fdec0f9c7ce119c",
+   "bytes": 212082
+  },
   "audio/lachender-hans_es_fact5.m4a": {
    "sha256": "5ded1a7d147dcec49f68c8e0900654b61ec9f2ab7e4eb910ae9ec26aa4da3b9f",
    "bytes": 23267
   },
+  "audio/trampeltier_es.m4a": {
+   "sha256": "302c2f8dae34338cdd1da566f943c559c38e650f3ab11a32c9143a257fd2ae5b",
+   "bytes": 292839
+  },
   "audio/giraffe_en_fact2.m4a": {
    "sha256": "06fbb19cccd15c493b45baf5f49018fac02a541a5bc8a113682f41497cab781e",
    "bytes": 39523
+  },
+  "audio/nashorn_es_fact1.m4a": {
+   "sha256": "54a5b4d5d29e601239ce7a0b1ec6d03aafb3b7105162cc6efed125aac27fb077",
+   "bytes": 61591
   },
   "audio/faultier_en_fact3.m4a": {
    "sha256": "0ed56bc8304f45bb4eb1e43267c512e314242c7f9ea4384d5155f5bea7016907",
@@ -932,6 +1988,18 @@
    "sha256": "2e42d6041c479f49d453476865089cf66c8a8161f517792aa646426c1d472fed",
    "bytes": 14270
   },
+  "audio/skunk_de.m4a": {
+   "sha256": "5ccc4cbaf31fe60cd35c6e3129dc959cc57bc9268a0e568261dc7528d753c038",
+   "bytes": 331251
+  },
+  "audio/kalifornischer-seeloewe_es_fact2.m4a": {
+   "sha256": "30c67544b94b2db9ddb64c55797b29546439592f49caa5893ca0014907363f58",
+   "bytes": 34444
+  },
+  "audio/paradieskranich_de.m4a": {
+   "sha256": "588bf060561dca2e77f2c1bdca4da626a6c08adbb486e9cfd947a82b8b1bb0f9",
+   "bytes": 267665
+  },
   "audio/nacktmull_en_fact2.m4a": {
    "sha256": "d92f5f799da8859d98069073542f755a2d91afc5d5fa77002ef694909f92e95e",
    "bytes": 33503
@@ -939,6 +2007,18 @@
   "audio/blattschneiderameise_es_fact2.m4a": {
    "sha256": "4e62fddd366868aa411428a29ba0bb4dab6b1e8e30df087edc0c943aa12628fb",
    "bytes": 42288
+  },
+  "audio/mona-meerkatze_es.m4a": {
+   "sha256": "d6b69e8d6511e97cbe998c131dd892a80c9ed0feedc11057ec18a85353cd755c",
+   "bytes": 275560
+  },
+  "audio/silberfuchs_de_fact3.m4a": {
+   "sha256": "e5b69b87721bd326e50c69821e38a49fa44c91bbcfad68ab745da8cacf4d8f80",
+   "bytes": 62841
+  },
+  "audio/wolf-hudson-bay-wolf_en_fact1.m4a": {
+   "sha256": "9ac499a5131aec5842a9e0d40ab2092dfd407f9477a8ff7bd9ba31a2d5807a4f",
+   "bytes": 40755
   },
   "audio/capybara-wasserschwein_de_fact1.m4a": {
    "sha256": "96ed69b6f6ecaeee712f032c06f45dad5b10e5bb5985816c579f94b6dbe00a83",
@@ -948,13 +2028,61 @@
    "sha256": "2c7eb415dbc942eb8a3244ab644302043cbe71af0db6b20be1b1234773ceae18",
    "bytes": 35011
   },
+  "audio/nashorn_en.m4a": {
+   "sha256": "321ffcea708f673417b96fc279861b0f377852172eb50e0cb325850f46ee74a7",
+   "bytes": 230733
+  },
+  "audio/erdmaennchen_de.m4a": {
+   "sha256": "808f430781b83073dad5dcd808c1f520e36f7d5d2cf057b3dc683bf4331cc650",
+   "bytes": 240240
+  },
+  "audio/pinguin-humboldt-pinguin_es_fact2.m4a": {
+   "sha256": "eb7e57008403fea69112b9914e959a501a082c07c7fb0273197388d9a5fbb8fa",
+   "bytes": 49367
+  },
   "audio/waschbaer_de_fact1.m4a": {
    "sha256": "911013b5baed2e4f36ffc1d3677d250af07eca2a9a868c25c7d02836fefcba61",
    "bytes": 37377
   },
+  "audio/seehund_en_fact4.m4a": {
+   "sha256": "683fb651e2761959d1815b6cb46d1fe12481c8425402c242468cf7694e8b2a71",
+   "bytes": 28187
+  },
+  "audio/tuepfelhyaene_es_fact4.m4a": {
+   "sha256": "bb24e4f187d2ad85b8a250c1da6bf3a657d3b0e1caf82c97486dd73cd3d04d5b",
+   "bytes": 36543
+  },
+  "audio/tuepfelhyaene_es_fact5.m4a": {
+   "sha256": "5bee7d1797e0c47a0b309ef2908c5e247b2dcd1c09c5c1c410990c5abc900044",
+   "bytes": 29397
+  },
+  "audio/seehund_en_fact5.m4a": {
+   "sha256": "2462bc5a72ed0e2eb229f0b1dfa230a006b0e4b1918e7546b231d85efe1539e7",
+   "bytes": 53738
+  },
   "audio/pinguin-humboldt-pinguin_es_fact3.m4a": {
    "sha256": "df73e99530c1232424543b22d26950124634809c2511380668adc8206943fb9e",
    "bytes": 26157
+  },
+  "audio/paletten-doktorfisch_en.m4a": {
+   "sha256": "e663e4aec4bf4cc8c43f8f554c0d322637d7a52d3ca7a837ea6dd277bbca4d53",
+   "bytes": 206256
+  },
+  "audio/silberfuchs_en.m4a": {
+   "sha256": "d69e87b65d1112dfbc0b193392f4d54489983903944f6b151565dbb5f6c4e658",
+   "bytes": 202348
+  },
+  "audio/chileflamingo_es_fact5.m4a": {
+   "sha256": "52b5bca1ad2d4d62ecc4f13b1124ed84571cae8d3e98d802dd2b30a5fc66003e",
+   "bytes": 46019
+  },
+  "audio/silberfuchs_de_fact2.m4a": {
+   "sha256": "9e2875485c74a526d10e583f6e877fcd672aefc0419741c02cfbe51d9117e978",
+   "bytes": 41056
+  },
+  "audio/kalifornischer-seeloewe_es_fact3.m4a": {
+   "sha256": "e8bc2984c4ca2b786ea18324a2ae829b4347b96d3b24a1c0b0cd4244929208de",
+   "bytes": 43101
   },
   "audio/blattschneiderameise_es_fact3.m4a": {
    "sha256": "d382f9c4f14bd17b6606d9ca0cd7346c37c46789d2f5aeecd319d83ffc81bf90",
@@ -964,13 +2092,33 @@
    "sha256": "c82ea647745599a9abd5082d0f9e7b5d850f08bb91248906bc7c72dd488b9c28",
    "bytes": 37543
   },
+  "audio/totenkopfaffe_en.m4a": {
+   "sha256": "2351e209b6f221badce3bd35f1c8054ba9bdbc0c53d3bb12bffcac588862fe2a",
+   "bytes": 243071
+  },
   "audio/kubaflamingo_en_fact5.m4a": {
    "sha256": "9086e5b1e0f3490a713a627e7d8c9ffde9be3a51b32066278fe3e019bf4ae71a",
    "bytes": 25235
   },
+  "audio/asiatischer-elefant_es_fact3.m4a": {
+   "sha256": "c727f18b1cf2e23c693db4594c79ade02c0d0c65b88851b952bc5f9ff26802bb",
+   "bytes": 53724
+  },
+  "audio/faultier_en_fact2.m4a": {
+   "sha256": "bc2b4c75d9ede8ffbe45174fbe88b974d9ae9fb469462ed1baf54b7a0dc08c37",
+   "bytes": 31921
+  },
+  "audio/seychellen-riesenschildkroete_de_fact1.m4a": {
+   "sha256": "b7ba353e2d06d5e98308fef437df0c3a56210fce7e4d4263712672c66be6d651",
+   "bytes": 41525
+  },
   "audio/giraffe_en_fact3.m4a": {
    "sha256": "40accb4655b92d1322c954e4d172bb263c7bb1dd8de6ae3ae2184cd2d87a9d76",
    "bytes": 28582
+  },
+  "audio/paradieskranich_es_fact1.m4a": {
+   "sha256": "ab673cc582f26cd8242acacf7533ef777d69815ee3543bb7522206e3260e95d4",
+   "bytes": 43832
   },
   "audio/lachender-hans_es_fact4.m4a": {
    "sha256": "12b8ff8be84e4c55c1a27728f26b5766f46e3357f1b7e495a211916f9c12335a",
@@ -983,6 +2131,10 @@
   "audio/paletten-doktorfisch_es_fact3.m4a": {
    "sha256": "e1da3e94c459077c628ac9bd2842237abae7ac9129ce9bfb2b929e0e8ba37053",
    "bytes": 22783
+  },
+  "audio/sumatra-tiger_es.m4a": {
+   "sha256": "7799948a5738a73502f0f3bf4fddcb34797d792e1097e96de76245650aa2d860",
+   "bytes": 271032
   },
   "audio/schnee-eule_en_fact5.m4a": {
    "sha256": "0ba284fe7ac7aee37430edb2f7f67d3d09ff089a2a54a45145e40c70cd3b2d2d",
@@ -1008,9 +2160,17 @@
    "sha256": "022b703f7ce9dc861bed1c36d3680e1997007a3f07248e01a1c0c4111b84b271",
    "bytes": 50015
   },
+  "audio/fledermaus-spitzmaus-langzuengler_en.m4a": {
+   "sha256": "3cb834aa603ac928c7bed353c71fe69c4c10354e53fa6d87e55a22664609861b",
+   "bytes": 275996
+  },
   "audio/flachlandtapir_de_fact5.m4a": {
    "sha256": "39f14d84fe2011d320ca0934fbcb87f7145992f152f383cf10ff6fb4318c7c3a",
    "bytes": 32774
+  },
+  "audio/seehund_en.m4a": {
+   "sha256": "1a338585ebda8b6382772b7d4352288df4d9dd669d247f713429d4d18b4ae611",
+   "bytes": 279173
   },
   "audio/rosapelikan_de_fact2.m4a": {
    "sha256": "8eeb2a477c7612cb0075512a67331945ddaa7027d9317a82dc25018719a8fa90",
@@ -1020,9 +2180,29 @@
    "sha256": "b98aeb7b6f4569c2aebbdaa2e1fc7551962247f6e7249ed68d163cb1a2322d82",
    "bytes": 28211
   },
+  "audio/tuepfelhyaene_en_fact5.m4a": {
+   "sha256": "14b4bb715149efdc483f0be29a632cec8a129fe6aed97807267ba696de833df0",
+   "bytes": 29304
+  },
+  "audio/seehund_es_fact5.m4a": {
+   "sha256": "a4efa1f9a714b2afaf1ba9e630d9afb9375da800d23ed4f3f6b869b501960532",
+   "bytes": 53612
+  },
+  "audio/europaeischer-biber_de.m4a": {
+   "sha256": "cf96ea7004d4aa2f0e896d25bbd7b8da02a59fb535b25497b8a6d017364ab9ef",
+   "bytes": 244079
+  },
   "audio/pinguin-humboldt-pinguin_en_fact3.m4a": {
    "sha256": "8a80a44376f7aa832617c65cdf90c7491d2b2919eb3481885d53fea937ca324c",
    "bytes": 25110
+  },
+  "audio/chileflamingo_en_fact5.m4a": {
+   "sha256": "55c12ea6f33d691785131c63795247a7c47f8572d4c1cd29667674fe2a2d93a6",
+   "bytes": 36189
+  },
+  "audio/asiatischer-elefant_en.m4a": {
+   "sha256": "bdc04183cf76bce0bfd4b57cc0eccfe8a0718a273fda99776572ed7099d92688",
+   "bytes": 228655
   },
   "audio/blattschneiderameise_en_fact3.m4a": {
    "sha256": "22cc68717750f090f2d026058dbce5cddb5e660c2426111223ea363510e693cf",
@@ -1032,9 +2212,25 @@
    "sha256": "7547e94b2288ca3352f2ec8a5126c4906534a0b2101a8336f8aa3d76a5d4aa79",
    "bytes": 33156
   },
+  "audio/kalifornischer-seeloewe_en_fact3.m4a": {
+   "sha256": "dcc2fa7bee0cbd4916e93d62c93c757e4514c3da92a63935608a9ef2ad484844",
+   "bytes": 39141
+  },
+  "audio/schnee-eule_en.m4a": {
+   "sha256": "42a7f4b41cb6102b57900145a630fee89adc511efd2e38041f089bdb9266908f",
+   "bytes": 252980
+  },
+  "audio/asiatischer-elefant_en_fact3.m4a": {
+   "sha256": "a26984a2bfaf68bbab51cfb984b641dd2eff75fe16949d027faf28ef7f03dee3",
+   "bytes": 44481
+  },
   "audio/kubaflamingo_es_fact5.m4a": {
    "sha256": "3c4edd5f2cdef8b59cde409ac66307df7a5760663de2b268ee4b1b202ecff165",
    "bytes": 26581
+  },
+  "audio/faultier_es_fact2.m4a": {
+   "sha256": "71674aec621c71ea38181c6ed2603953d9e62a67d79ec1ae3647bb80db2eb7f3",
+   "bytes": 36159
   },
   "audio/giraffe_es_fact3.m4a": {
    "sha256": "47820f3a558284391fcc339fd621ec0ebb7f0a984b5ed2406c3488981ca3cd01",
@@ -1044,9 +2240,21 @@
    "sha256": "c013f45a8f8de3401a9e835b742a9e5593e7883782a026d7402b6d5db18d303f",
    "bytes": 19792
   },
+  "audio/paradieskranich_en_fact1.m4a": {
+   "sha256": "9a21f22efe8207696dd654c48a78f16c61d9c5a42f32d4df6f6571f1dd93fc58",
+   "bytes": 50564
+  },
+  "audio/brillenkaiman_de_fact1.m4a": {
+   "sha256": "3b29ce7b93623e4d461cc254f70b71f5693dbdf12db28025d65bac3c75e932cd",
+   "bytes": 38664
+  },
   "audio/trampeltier_de_fact2.m4a": {
    "sha256": "d87de19e9bc80102a41616841e448d2686d240ac75dd76839968135580df6a56",
    "bytes": 49767
+  },
+  "audio/trampeltier_de_fact3.m4a": {
+   "sha256": "74b82ee1a6cd10d9c988c98af590373ed089b2df922d30e7520006611ecc104f",
+   "bytes": 36423
   },
   "audio/bison_en_fact1.m4a": {
    "sha256": "cc690a3560e42778e3717ec9bb882b3796f3c04c1b589c86780dbacd389b8758",
@@ -1056,6 +2264,10 @@
    "sha256": "a71788c9777a1b9f62b5df72f2d4cd82a8663d97e548fe9dde5ff7266b00f689",
    "bytes": 16939
   },
+  "audio/grosser-kudu_de_fact1.m4a": {
+   "sha256": "dbb69c43dc94155bc2ec6ff6ad06bac6b622530fa746e521663114f7a67a3c66",
+   "bytes": 39466
+  },
   "audio/giraffe_es_fact2.m4a": {
    "sha256": "53e80f04e1c6eda7f7efdcd56edbd8ed53b1f30ffd6483c978c83ba2fd44a870",
    "bytes": 44877
@@ -1063,6 +2275,10 @@
   "audio/faultier_es_fact3.m4a": {
    "sha256": "a755664d9a69c15407c35bcd1862cff4e3d3c81e1361d197a464085f6aed2a85",
    "bytes": 23465
+  },
+  "audio/nashorn_en_fact1.m4a": {
+   "sha256": "4aa82c28bc5c16aec6addaa1771469e01ea19b125a5ac6dba15d465ea1a01ea2",
+   "bytes": 52354
   },
   "audio/erdmaennchen_en_fact1.m4a": {
    "sha256": "7fba32b7c9d25f173ea20466bec6909c72648daecd8f153f5a506e541b17fd3c",
@@ -1084,13 +2300,45 @@
    "sha256": "e5500b4d0f8b02d7cf60b7df86df6fcf84c5fa7672f5b44a14d04ff5aff5fc23",
    "bytes": 44439
   },
+  "audio/grosser-kudu_en.m4a": {
+   "sha256": "e4cae8cc21b718d14492f18ae810855fed0458952e007f1a3be56f01211629c0",
+   "bytes": 204428
+  },
+  "audio/kalifornischer-seeloewe_en_fact2.m4a": {
+   "sha256": "ff2894e07f3c412d5ff524168f6320aece22e0d2fbd4af8ad4118e2b320a1249",
+   "bytes": 29675
+  },
+  "audio/wolf-hudson-bay-wolf_es_fact1.m4a": {
+   "sha256": "5fc2e1770a3e80656105db88efb1c8aafdf1acc6636f8d13244921a8d941efb0",
+   "bytes": 48145
+  },
   "audio/chileflamingo_en_fact4.m4a": {
    "sha256": "fe4d86b784405d0d9d95b616bdd579c570b47d44f0bee19eba37127d82242b63",
    "bytes": 27233
   },
+  "audio/brillenkaiman_es.m4a": {
+   "sha256": "d3dba2693c488657bddf3778c06251db60a08c4684335bc391c86f6deb532ff1",
+   "bytes": 231655
+  },
+  "audio/pinguin-humboldt-pinguin_en_fact2.m4a": {
+   "sha256": "b26bca19936422fb3948410661d86ad4ab21f4e06b0901a8ab5fb6ce90e98e80",
+   "bytes": 38770
+  },
+  "audio/seehund_es_fact4.m4a": {
+   "sha256": "db394487fca268e6aa43e5f37bebd4c8e3fd7955df34a459de764a5b29e21e66",
+   "bytes": 34812
+  },
+  "audio/tuepfelhyaene_en_fact4.m4a": {
+   "sha256": "2da782493f20d54740d7ef0c32625fb29b1ccd476c59a8fbdeda3e58aa983bce",
+   "bytes": 29360
+  },
   "audio/maehnenwolf_es_fact5.m4a": {
    "sha256": "5e69fcbdd22a8a29ef0f90c04994042611ea6d45194020d6ee47e3df55f16682",
    "bytes": 30757
+  },
+  "audio/drill_de.m4a": {
+   "sha256": "216372abc1361ec9792a77babbddee387b2b7a25a15fb132f1032e4d1d869691",
+   "bytes": 202775
   },
   "audio/rosapelikan_de_fact3.m4a": {
    "sha256": "42b4664c827709080f9e02b6c899d9648a9574f71e7521049def3dd95bbd6831",
@@ -1100,6 +2348,10 @@
    "sha256": "164d50afc60086ec9fd88bba388d4f8636db570c159c21370b3fb28f476bbc18",
    "bytes": 33168
   },
+  "audio/skunk_de_fact1.m4a": {
+   "sha256": "94a0c9c123fa518e40d80815a928f5da63cbc66a6ac6953cce56345cb9bdbf3d",
+   "bytes": 25045
+  },
   "audio/schnee-eule_es_fact4.m4a": {
    "sha256": "18c9b81a260838f04d5a5498574e6b9ace020343e8ffb8956f71f73e1a6eccda",
    "bytes": 22581
@@ -1108,53 +2360,213 @@
    "sha256": "718a9f06a348f30040098e39b8bf56055ee69d67fb148f2441b13ccf28dd635b",
    "bytes": 23717
   },
+  "audio/seychellen-riesenschildkroete_en.m4a": {
+   "sha256": "e6bed5afb78b8bb1b05a138fac60b9ea8f84c78eb90f9e4bbd6f629060387671",
+   "bytes": 217569
+  },
   "audio/kirk-dikdik_en_fact1.m4a": {
    "sha256": "7e403662c06b717ea36430e1401c6d6fe2025321f9ea55c79b1d48edf1bc11af",
    "bytes": 29206
+  },
+  "audio/riesengraumull_de.m4a": {
+   "sha256": "ce8f837a44bb1bddc5aa6b7e8e7cb6ea6cdccbfad9201b7f4904d67528a8c350",
+   "bytes": 217815
+  },
+  "audio/rentier_de_fact4.m4a": {
+   "sha256": "1b04ece52d20b7899723ec29036cf527c943f61250e9ff0d4275afb55e177c40",
+   "bytes": 31367
+  },
+  "audio/moenchsgeier_es.m4a": {
+   "sha256": "1897e5aa08398f14aaa43c97ad4723cab3cb8a801b359d33e261ef57b7328f8d",
+   "bytes": 321011
+  },
+  "audio/waschbaer_es.m4a": {
+   "sha256": "6d579501d515ac20448e5265bb2915893fc55d36d7a0d3938d62ed985acb8b1f",
+   "bytes": 252032
+  },
+  "audio/vikunja_en.m4a": {
+   "sha256": "c0487f224c956a545f616bb4e41921b702f6cb2b4a6d0895fb0b197596c06145",
+   "bytes": 245804
+  },
+  "audio/skunk_de_fact3.m4a": {
+   "sha256": "33502177253583374a41a9c683f85e54bd22d29070c3faab662d3b9b8fe12894",
+   "bytes": 15952
   },
   "audio/rosapelikan_de_fact1.m4a": {
    "sha256": "cd117cac7ec3cbb725140519043bd9026ce65fb20583065c4969a5b96bdc05f5",
    "bytes": 27499
   },
+  "audio/pinguin-humboldt-pinguin_en.m4a": {
+   "sha256": "6166e40173acf5826494e6fdeecf07aac810e0d3a191ac2f10580cdd34dba9b8",
+   "bytes": 265431
+  },
   "audio/sumatra-tiger_de_fact4.m4a": {
    "sha256": "e7a0b8026dee56148b662e0d43f067201b82a97a7bdf49f8863439f045d97dcc",
    "bytes": 34951
+  },
+  "audio/otter-asiatischer-zwergotter_es.m4a": {
+   "sha256": "2ab3b4090b1ad4ad51ee3b62f226df8aa707da115974571a990544bdb30f1089",
+   "bytes": 331768
+  },
+  "audio/zebramanguste_es_fact5.m4a": {
+   "sha256": "04db5b7a1f56a9bae4d7cfae468cd417946c152e9e04589823ed461e502b1f0f",
+   "bytes": 56514
+  },
+  "audio/rotbueffel_en.m4a": {
+   "sha256": "876627e57d2884743c7ba6e819d33bc385cbf59345b457cafa57ada58f769e77",
+   "bytes": 233007
+  },
+  "audio/totenkopfaffe_es_fact5.m4a": {
+   "sha256": "a546837a944f544028079fbd5973299f1d8ce3d638fdc602504c6ce2f7f06044",
+   "bytes": 29284
   },
   "audio/asiatischer-loewe_es_fact4.m4a": {
    "sha256": "676d6c42fb6967c4103c04396a7ee27615b29f8940a60a2951820e6fcc3fdd5f",
    "bytes": 50648
   },
+  "audio/wolf-hudson-bay-wolf_es_fact3.m4a": {
+   "sha256": "040aa940fba272b82335cb0cb1c18e5184cfc047e3120bfd9177b2494946ccbc",
+   "bytes": 43115
+  },
+  "audio/europaeischer-biber_es_fact5.m4a": {
+   "sha256": "86e76eb2b2c342f914f7ed7b6c5c8abe7b1a2c578e8fc5209465b70464002da7",
+   "bytes": 25430
+  },
+  "audio/skunk_en.m4a": {
+   "sha256": "51ee9a1f493446dc803f26595cb55b5605854bd5d5816289800a58725df36444",
+   "bytes": 262852
+  },
+  "audio/wolf-hudson-bay-wolf_es.m4a": {
+   "sha256": "486c25ea56793be3723a892bf47cf05bdc3c55b283a1d0f71c95e60f4f63b7b8",
+   "bytes": 279484
+  },
+  "audio/paradieskranich_en.m4a": {
+   "sha256": "0ef59a961f79269fb4c6c97aa81e5079f9e3b62d07cebaafa0b3c93393f9e6e4",
+   "bytes": 250187
+  },
+  "audio/nashorn_de.m4a": {
+   "sha256": "7a31f8ffcda56326b5eec94bb3d3b6e88cf861403831b7d5ab07f5c4d21f8591",
+   "bytes": 283702
+  },
+  "audio/erdmaennchen_en.m4a": {
+   "sha256": "a63aa7974e65cfaeea2d83478328d6293d9f1a10256d20a8031818d1dab91c0c",
+   "bytes": 238060
+  },
   "audio/erdmaennchen_en_fact3.m4a": {
    "sha256": "745ea9c4261f42c87e8740242fd71d54a6ccef19a73e8a2fb3f0064400ef5cac",
    "bytes": 35106
+  },
+  "audio/nashorn_en_fact3.m4a": {
+   "sha256": "98d3fcf4d4cb046ee3e6452230b6eee854d8eb386e758cff626e87b37360a780",
+   "bytes": 40402
+  },
+  "audio/waldrapp_es_fact5.m4a": {
+   "sha256": "571a4b0c8a1bcea9c35b34cbbfb243de3c54de7e4bd25b2679b0a5f279c4a2e3",
+   "bytes": 34254
   },
   "audio/faultier_es_fact1.m4a": {
    "sha256": "5dace320827e71c3e511e15800d2e8e577a62fb28e8a62dad62909fc8c23a5ee",
    "bytes": 47404
   },
+  "audio/zebra-chapman-zebra_es_fact5.m4a": {
+   "sha256": "3364f67097f8a5858c8b52124e6755dfae1693b0e05bc3b161187fbd9228b8c7",
+   "bytes": 36839
+  },
+  "audio/trampeltier_de_fact1.m4a": {
+   "sha256": "827598ac098c97b327dce4a17fc5898c0cd63598a07148628229cd5fa896d250",
+   "bytes": 27411
+  },
+  "audio/schimpanse_en_fact4.m4a": {
+   "sha256": "adfbf6fd10b3ea8908966a894d159983f3de0d9cef3c2f6e1136aa09864cc854",
+   "bytes": 39085
+  },
+  "audio/grosser-kudu_de_fact3.m4a": {
+   "sha256": "336fa419331baf4830830c8639a776f826799cd5b9e448164f3876b9cd68986f",
+   "bytes": 26177
+  },
   "audio/vikunja_en_fact4.m4a": {
    "sha256": "a92cffdefda289fe622d454b8b371b56744efd25934e8fe3966a3084aed1e6c4",
    "bytes": 53376
+  },
+  "audio/brillenkaiman_de_fact2.m4a": {
+   "sha256": "dd4a3ba69e8d3f0d40bc79c6c8d8e15b00edb6e943302f016e69da8451fc8314",
+   "bytes": 40996
   },
   "audio/paradieskranich_en_fact2.m4a": {
    "sha256": "517d8a8a457a0fd25771e021e2bd7f1f195de2d7e722f35099cfced92bfaf177",
    "bytes": 19918
   },
+  "audio/grosser-kudu_de_fact2.m4a": {
+   "sha256": "882a9b03cec399f6ec82b80ec6a0e786d43d19b8a7797381931f351d6ea70852",
+   "bytes": 41117
+  },
   "audio/paradieskranich_en_fact3.m4a": {
    "sha256": "0f7a944000b75c7aed5e9ada499e33fb65cab7c74225333bf1248ecd5bc7f46d",
    "bytes": 20052
+  },
+  "audio/brillenkaiman_de_fact3.m4a": {
+   "sha256": "f0c317c144eb2b0e06d4df959b696499072da869bf8e82d196a7bba7164a344f",
+   "bytes": 43808
+  },
+  "audio/vikunja_en_fact5.m4a": {
+   "sha256": "082008f4802e1c258d5db550895b19cd760847ec5b6da088f93cc7babf52c963",
+   "bytes": 33033
+  },
+  "audio/zebra-chapman-zebra_es_fact4.m4a": {
+   "sha256": "19b777f6a5b362d8920e44df38ff4d473645fcce02445202f4a3a27afd1b64b6",
+   "bytes": 33809
+  },
+  "audio/schimpanse_en_fact5.m4a": {
+   "sha256": "e506e7df952a9ce0511b127e0d47a9202db6747c154d8fd0469b591d8916a54e",
+   "bytes": 20642
   },
   "audio/bison_en_fact2.m4a": {
    "sha256": "77d2a7738c40facc2496fd6e76cfac4253311b12fd81c763a232a45e3a4d51b3",
    "bytes": 23092
   },
+  "audio/nashorn_en_fact2.m4a": {
+   "sha256": "1549060c55b747e9c2d5777f9bee974e0006a995c45e9d3bc29b5d7ea0ae994d",
+   "bytes": 39089
+  },
+  "audio/paletten-doktorfisch_de.m4a": {
+   "sha256": "b0bdacccf384a266a3f3b4b17b66fdb4b8eb00cb3a2212c45ee048136020d9d3",
+   "bytes": 233632
+  },
   "audio/waldrapp_es_fact4.m4a": {
    "sha256": "bd646ff16ce4874c5140932cfd3beee6e0aeb7350deb046e262bb7c5ea9e4c0b",
    "bytes": 26024
   },
+  "audio/silberfuchs_de.m4a": {
+   "sha256": "4e35ddd1863947aca0d4088165f90d9f63d4b4196ea0a10597e5c1bc7a32103c",
+   "bytes": 239790
+  },
+  "audio/nacktmull_es.m4a": {
+   "sha256": "3c73af46bcdc718e2d33ebe6110f6a3d3cea07c5d3af7ade0a3ab5ed9bd10ae4",
+   "bytes": 259137
+  },
   "audio/giraffe_es_fact1.m4a": {
    "sha256": "577b3a6f76a2fecab85411abc33213d93b0880f5816215c3e857e475dd20c295",
    "bytes": 35145
+  },
+  "audio/asiatischer-elefant_en_fact1.m4a": {
+   "sha256": "39a6088e90512d5117b7498d186b3e385d987a164502dad30d9db76d1a7a5a3e",
+   "bytes": 46393
+  },
+  "audio/erdmaennchen_en_fact2.m4a": {
+   "sha256": "b17cc530591e20b2726dd5a09cb1e367f7e59cd2f432fb2d3054e09ce7dbd9ca",
+   "bytes": 45456
+  },
+  "audio/totenkopfaffe_de.m4a": {
+   "sha256": "53d3e22ac21177ef2a32e51548284fd3f7c95083b966ebc4045f4acef8d27db5",
+   "bytes": 260970
+  },
+  "audio/europaeischer-biber_es_fact4.m4a": {
+   "sha256": "91f4970a976b5babbd7993d992ec188f29b411f2030570d32fb440a225e54d63",
+   "bytes": 27269
+  },
+  "audio/kalifornischer-seeloewe_en_fact1.m4a": {
+   "sha256": "e6a7163c9be71b62c408ff25aac964ae49821c2cfb8c13f2353b1e6e5b26c3f2",
+   "bytes": 36167
   },
   "audio/nacktmull_es_fact1.m4a": {
    "sha256": "a6d87eb06529ff66d136dafa937facfdc4839c2cc46e786879eccf0efda3c1de",
@@ -1164,21 +2576,69 @@
    "sha256": "88bfe90da08869c143481415322f89edd20fa34f92bcefa1a9c3c93fda96b237",
    "bytes": 37100
   },
+  "audio/wolf-hudson-bay-wolf_es_fact2.m4a": {
+   "sha256": "ec127601732bb81fc5a33291b08531799fc204935eb08eb74392551b53a3c3fb",
+   "bytes": 59501
+  },
+  "audio/pinguin-humboldt-pinguin_en_fact1.m4a": {
+   "sha256": "a95aaa4e20102b913b307dbea8fb057b31f1391d2cfbf34292bd04df8672d384",
+   "bytes": 25726
+  },
+  "audio/asiatischer-loewe_es_fact5.m4a": {
+   "sha256": "ee1d99286f597b21eeac4e50faded36d1f21e01a991ce5d2de5bb17b8b4de300",
+   "bytes": 53280
+  },
+  "audio/totenkopfaffe_es_fact4.m4a": {
+   "sha256": "990239627220811a430340a0395aff120cac23978deccc9c810e3cb81d8b3b83",
+   "bytes": 27429
+  },
+  "audio/zebramanguste_es_fact4.m4a": {
+   "sha256": "5377f0b3fea44742b5aa3803fd3ed3830a5b47e406fc39a757aa61799e7a8c9f",
+   "bytes": 25274
+  },
+  "audio/klippschliefer_es.m4a": {
+   "sha256": "8eda6f549230e1ac233488e1a715282a44afc02dca9157e0a96c9266daac70b9",
+   "bytes": 267164
+  },
   "audio/sumatra-tiger_de_fact5.m4a": {
    "sha256": "d467f316d12818e11e28d9370200c108e5990de3937b4cf47864c99b45fc94c2",
    "bytes": 39960
+  },
+  "audio/skunk_de_fact2.m4a": {
+   "sha256": "b307c03e4feaa2e8a15cf23c3629bd495e8dd1bd2a386ef2f821f862480f2227",
+   "bytes": 21818
+  },
+  "audio/rentier_de_fact5.m4a": {
+   "sha256": "ee47db64cc2a3609f099157973975ef8c16b47f88589724c3953fe8954e71738",
+   "bytes": 33702
   },
   "audio/paletten-doktorfisch_en_fact1.m4a": {
    "sha256": "76699711779f356bd57a96a0bcf6fc49de0d53ec01aa3e66d81310c7afaa5642",
    "bytes": 14693
   },
+  "audio/tuepfelhyaene_es.m4a": {
+   "sha256": "5555df42ee0e6b32c614dcfa19f7dde189ae6d0aa5b64489a019c4dd0d880f7f",
+   "bytes": 233886
+  },
   "audio/kirk-dikdik_en_fact4.m4a": {
    "sha256": "cb6a2410b77aa7fcfae260dda3d14fa73ee645d1a8d37ea430c04021c9bd01a6",
    "bytes": 29888
   },
+  "audio/schnee-eule_es_fact3.m4a": {
+   "sha256": "a9241bfd318297db893aff40d225e376f2410ef5d6dacf375938d579c1e7c7a5",
+   "bytes": 38979
+  },
+  "audio/rentier_de_fact1.m4a": {
+   "sha256": "cff00242cd287bcc85097bb3bbaec0e8b4da16a906b519acae5f10967a24653e",
+   "bytes": 34805
+  },
   "audio/paletten-doktorfisch_en_fact5.m4a": {
    "sha256": "c34f18fa5e6897465fa544f6473f69cdcaeb932ee4f14fa51a4c31ab4c766575",
    "bytes": 17789
+  },
+  "audio/moenchsgeier_de.m4a": {
+   "sha256": "c6728eaf98c5b3c8b2620a6533291ce504b019f88c309c84671e93ff9052e137",
+   "bytes": 259001
   },
   "audio/baumstachler_de_fact2.m4a": {
    "sha256": "4d130567b69fff69d6ffcbffc7be20212327894257d728e42e6226cee1a6327c",
@@ -1187,6 +2647,10 @@
   "audio/rosapelikan_de_fact4.m4a": {
    "sha256": "25d9e01f2a824c5b94a179ce421d6ff40168015bed0023b25f114bf0396aaedf",
    "bytes": 19419
+  },
+  "audio/waschbaer_de.m4a": {
+   "sha256": "8edc936d8481bd9caf9a6ce398330a25d1dbfc69332328772c23d4fd2357018e",
+   "bytes": 238202
   },
   "audio/flachlandtapir_de_fact3.m4a": {
    "sha256": "2f3077b09c2b387a3c8b3b4d3aa98b128f23d31ea11a92ae560b26813fc7403f",
@@ -1200,9 +2664,29 @@
    "sha256": "d5b9f2d87673e80cf4e81bb7668a0acaa78bcac79a6c78a3b7f4d3a6ba2ee451",
    "bytes": 32097
   },
+  "audio/otter-asiatischer-zwergotter_de.m4a": {
+   "sha256": "958a92cef9ceadf93893476e4969e6d5e6c7f6602a4ac5471148770125f6e8aa",
+   "bytes": 271719
+  },
   "audio/asiatischer-loewe_es_fact1.m4a": {
    "sha256": "35718d71162c706ec2710e28aff3a7f7f3cd1e954fad32c865c0068607a163df",
    "bytes": 60845
+  },
+  "audio/pinguin-humboldt-pinguin_en_fact5.m4a": {
+   "sha256": "0afcad30f5842ed2c5e30df890b5733bcb0373503f4048d58451447d9e8a9a77",
+   "bytes": 41900
+  },
+  "audio/trampeltier_en.m4a": {
+   "sha256": "763be5520ac19c48e527720793cd02a3d1d8c4f65f313ca5b83059f9fc7416d3",
+   "bytes": 282736
+  },
+  "audio/seehund_es_fact3.m4a": {
+   "sha256": "8af4a39c9b719adec74368111871ec695b1ec345a3394264d7fb3ae17245c030",
+   "bytes": 43117
+  },
+  "audio/tuepfelhyaene_en_fact3.m4a": {
+   "sha256": "cc48a6cfa0cd724be72b6509d93d077ad330ab9b59a2aafc4085829e233b8643",
+   "bytes": 34489
   },
   "audio/blattschneiderameise_en_fact5.m4a": {
    "sha256": "a6d87a1964ec2d899e493f94e06004ed267a6ea26f112e27b7176e7dd27dc4cc",
@@ -1212,13 +2696,49 @@
    "sha256": "270d48ac8b5cfb1b0201eca7c71fbe35e312e98224aa9454782b28d6482c6ed6",
    "bytes": 47619
   },
+  "audio/kalifornischer-seeloewe_en_fact5.m4a": {
+   "sha256": "64a91847ea800ed0947caa65e0695983f0c5e25861aa1ff640d37167c2600d57",
+   "bytes": 49563
+  },
+  "audio/chileflamingo_en_fact3.m4a": {
+   "sha256": "0895a43f8aa7cabfa352df4a015f2665ab6a273fa8e6451d5e9175d6bb3dd3f9",
+   "bytes": 28713
+  },
+  "audio/mona-meerkatze_en.m4a": {
+   "sha256": "8b39f035f78a0f99c6bb5d630451baacf4c4c94bcf40ba1d99328ec60001e95d",
+   "bytes": 250826
+  },
+  "audio/wolf-hudson-bay-wolf_de.m4a": {
+   "sha256": "c4e24a9f4cf5075903d52565c31cd305527d745e16aa8927e5b8081155daa88e",
+   "bytes": 263196
+  },
+  "audio/asiatischer-elefant_en_fact5.m4a": {
+   "sha256": "3f0b0b576838e1c76a15e81fe661eebaa0f38f921867f9c7b3e753408fd98e89",
+   "bytes": 36959
+  },
   "audio/kubaflamingo_es_fact3.m4a": {
    "sha256": "966f6c70a8e406ea40bca41a891fb12e2bbe03aa1579b4d7243524cc9092b109",
    "bytes": 21600
   },
+  "audio/nashorn_es.m4a": {
+   "sha256": "451faebf1e6dbb563cc8d9f35223235c4d7829cb00b077ef7e7d8c7ccfd3cf08",
+   "bytes": 268692
+  },
+  "audio/schimpanse_en_fact1.m4a": {
+   "sha256": "7184a003298ba2a5531d4288e88a81acbd990bbca0a4f695aa02446ec685e17a",
+   "bytes": 17418
+  },
+  "audio/trampeltier_de_fact4.m4a": {
+   "sha256": "e9c951013e3516b6edf3f3cb4ee3b8accb97578c3a7e31f9eeaa60834d0e37d1",
+   "bytes": 39074
+  },
   "audio/lachender-hans_en_fact2.m4a": {
    "sha256": "fe2876b7f5d93796456f3b23b8419d05fa0488e0ea0dd196b864e61155050e12",
    "bytes": 21441
+  },
+  "audio/vikunja_en_fact1.m4a": {
+   "sha256": "52eee1e1beb97359030389e469cabc5e62210499c0cf88ffc35ff8444c84cd77",
+   "bytes": 39454
   },
   "audio/giraffe_es_fact5.m4a": {
    "sha256": "ba331f7b6cf26369ac51e508c4b0d34486b8239696e6b5caa35fca12590dc00b",
@@ -1240,41 +2760,157 @@
    "sha256": "ce9dfb4dc432c14fbf07d23e180fa013a51cddd2c465f750c4a6780d50b7eff0",
    "bytes": 36210
   },
+  "audio/nacktmull_de.m4a": {
+   "sha256": "0a5c74580408065d62ef0bacd4cab81bfb76257554de1f18879d8932b3546b87",
+   "bytes": 260251
+  },
   "audio/lachender-hans_en_fact3.m4a": {
    "sha256": "8b6b54a305c45f64eae0638dca85d023fcdfe7b31ff8374606e10202bb1db2b7",
    "bytes": 18737
+  },
+  "audio/trampeltier_de_fact5.m4a": {
+   "sha256": "99d8c8d0b485e64996d410b006cdd1e8afbdd959f0c3145ba122098c53275102",
+   "bytes": 35958
+  },
+  "audio/zebra-chapman-zebra_es_fact1.m4a": {
+   "sha256": "d65e12515ad56cb03ea8efa3f659d038358afdc4ecc34ca1af7c462dd53584d8",
+   "bytes": 30564
+  },
+  "audio/silberfuchs_es.m4a": {
+   "sha256": "b994297c91aaa292a951b33e803c85c8d80ba99cf1562e1453dfadf044665b20",
+   "bytes": 218707
   },
   "audio/kubaflamingo_es_fact2.m4a": {
    "sha256": "30db2670030fdaed34d84e0a360aefe999ca385247e4a3f83e504d3e30e146fc",
    "bytes": 25787
   },
+  "audio/asiatischer-elefant_en_fact4.m4a": {
+   "sha256": "981ae150d0b0b26c22dea29c76fa1573c905827b7d92ee775406368b77c0cc78",
+   "bytes": 37721
+  },
   "audio/chileflamingo_en_fact2.m4a": {
    "sha256": "f8b80c9fa4dfd174f7794a5dd979f287822d6ac23ccd543d22441a666c876ba1",
    "bytes": 32390
+  },
+  "audio/totenkopfaffe_es.m4a": {
+   "sha256": "77b040df213335e4b65760f4ef3e62639962cfac32e57390efeb4ae0b4cb7e6a",
+   "bytes": 247967
   },
   "audio/nacktmull_es_fact4.m4a": {
    "sha256": "d42baffebc9f49fbe3f553f002744f09592feab0321ebdbd981500a031df3f6b",
    "bytes": 41573
   },
+  "audio/europaeischer-biber_es_fact1.m4a": {
+   "sha256": "743756554d157d62460086bfcf2547dde2ba29442230071db1b10c1e3265ee48",
+   "bytes": 26371
+  },
+  "audio/kalifornischer-seeloewe_en_fact4.m4a": {
+   "sha256": "2ca776fc1ce40b2e02ab2fb145f45a1301e137f46b6ea13d775a840a75c0ca35",
+   "bytes": 39392
+  },
+  "audio/totenkopfaffe_es_fact1.m4a": {
+   "sha256": "4727fa1d67d3296f34eb90b44e0e71f0b96c0db298e1fe49789a06581ee11f45",
+   "bytes": 31945
+  },
+  "audio/tuepfelhyaene_en_fact2.m4a": {
+   "sha256": "5e0c597ce438bd98ca6727ada8e82de7f03ca19af45ac45d703782832fb85cbd",
+   "bytes": 17843
+  },
+  "audio/seehund_es_fact2.m4a": {
+   "sha256": "aec0caf196004078822ec376c9ad397c8a6bb8da333cc731b5ba580b104e6bcf",
+   "bytes": 44867
+  },
+  "audio/pinguin-humboldt-pinguin_en_fact4.m4a": {
+   "sha256": "a4040388f749a039f108d02c5957e556794881d10b0d4da15c5e41c10f81acae",
+   "bytes": 32515
+  },
+  "audio/zebramanguste_es_fact1.m4a": {
+   "sha256": "6a7c8bbf40a1401dd56202a89c12705937336c6c6bcfcb095ff40ada7f7cb240",
+   "bytes": 35335
+  },
+  "audio/maehnenwolf_es_fact3.m4a": {
+   "sha256": "5140e65250d9314f284600ef43d04aec6483d5c5d986d07b2cb74c54a5d86b04",
+   "bytes": 36137
+  },
+  "audio/klippschliefer_de.m4a": {
+   "sha256": "0d24a307196676d6d3b207a0c4d0ff2ddec5d077bcea1dc68781980817803c27",
+   "bytes": 270119
+  },
+  "audio/sumatra-tiger_en.m4a": {
+   "sha256": "454ee3f3a803c20f44ff36d3a25b952c4207a34e2269ef9204534b62a904f7dd",
+   "bytes": 281242
+  },
   "audio/flachlandtapir_de_fact2.m4a": {
    "sha256": "fba9fea67658bbd8047488be8a28f332ae09a2cad9f28b9e0984090136caa6ed",
    "bytes": 29038
+  },
+  "audio/rosapelikan_de_fact5.m4a": {
+   "sha256": "0e3a7d53e14b1c37de3cb71604cf949029753886c35171afd7056848afe24940",
+   "bytes": 41596
+  },
+  "audio/schnee-eule_es_fact2.m4a": {
+   "sha256": "ee2446d27144c7537ef3abc1e812faa5a7c9f84e0b0ff39737cf99da0310f7d8",
+   "bytes": 55022
   },
   "audio/kirk-dikdik_en_fact5.m4a": {
    "sha256": "11dd409ead4bf1d724378d146d834fd30ed656e41cc9889b6a31993bce551107",
    "bytes": 21476
   },
+  "audio/tuepfelhyaene_de.m4a": {
+   "sha256": "72a9412c0933074d9b5d8d376431d9073e13d8f34f57a39053d1f0030bbf6f99",
+   "bytes": 262087
+  },
+  "audio/impala_en.m4a": {
+   "sha256": "276dca48c971d349006aea379516f73f6a4f76e3ee396fe00de5e493e2b99b9a",
+   "bytes": 239212
+  },
+  "audio/rentier_de_fact2.m4a": {
+   "sha256": "1b940eafd34fd8224b5593ca7103002c85396030148a8d103e1687445749f1fc",
+   "bytes": 27649
+  },
   "audio/sumatra-tiger_de_fact2.m4a": {
    "sha256": "c05754e4e4ac324f617476384729f25aa7a63ca83085bdeb15be3b21eb2b75b7",
    "bytes": 52175
+  },
+  "audio/skunk_de_fact5.m4a": {
+   "sha256": "dfc351ac84ffb98a8acc742579549f27d598916d2667c59856fc73097041d5fd",
+   "bytes": 26381
   },
   "audio/maehnenwolf_es_fact1.m4a": {
    "sha256": "64f34f872a63059d0a47171e74f55d415112fcf4b5fce23e89e7bbb1888bfabb",
    "bytes": 32949
   },
+  "audio/zebramanguste_es_fact3.m4a": {
+   "sha256": "fc378b3184953486dbe819f1d9f0e21c6ab669c19fd1eef4907e6f21f63bdd69",
+   "bytes": 39911
+  },
+  "audio/asiatischer-loewe_es_fact2.m4a": {
+   "sha256": "f9162babeec49432a1c6c3178ef1ad518ef8d14fdb6bbe70571dfc25952986cd",
+   "bytes": 61820
+  },
+  "audio/totenkopfaffe_es_fact3.m4a": {
+   "sha256": "e81d69a7f2e8149308c07eb800314a7b7948ce35ebf0cee0b2053f0d49170542",
+   "bytes": 22563
+  },
+  "audio/europaeischer-biber_es.m4a": {
+   "sha256": "5a5f9351276829eb75598e7d0d7a05e74bebf1f0bba5a44a5deb99f7dc8ad077",
+   "bytes": 255403
+  },
+  "audio/europaeischer-biber_es_fact3.m4a": {
+   "sha256": "1985731b3749f015ce2039ddd756714666e4edb25f25ca34f0c39ac034aac591",
+   "bytes": 23439
+  },
+  "audio/wolf-hudson-bay-wolf_es_fact5.m4a": {
+   "sha256": "1bd79777307cbd53135f8be0f0973db496cb10a6ac8a215a633f000a8e7679c5",
+   "bytes": 39758
+  },
   "audio/erdmaennchen_en_fact5.m4a": {
    "sha256": "d16905eced28651b6b835c9c6ea3ae583095536a920cb23e6c42c71aef6b58cc",
    "bytes": 36803
+  },
+  "audio/grosser-kudu_de_fact5.m4a": {
+   "sha256": "3b67f9845cff31d90c542f365744b5b9aba0ee77ff3473d7a32f13b1aafd9e20",
+   "bytes": 32032
   },
   "audio/lachender-hans_en_fact1.m4a": {
    "sha256": "836ccf7edd5d0ef217da347ad9cba0749751784efafa2f4bd4b0d3e7346bf9ee",
@@ -1284,17 +2920,61 @@
    "sha256": "be9f8775f3f76dc104b10820df21e18a6facd4beca91ed452c519491014488c8",
    "bytes": 16065
   },
+  "audio/brillenkaiman_de_fact4.m4a": {
+   "sha256": "23b120fb81f0528b6f32a9ae2efb472ab1bccef04afd9dad4f308610645db62a",
+   "bytes": 21369
+  },
   "audio/vikunja_en_fact2.m4a": {
    "sha256": "0943970ce485adcef8b36f5be56a4bb2d085d2f792c4c4d6030758e4253c0fe8",
    "bytes": 51866
+  },
+  "audio/zebra-chapman-zebra_es_fact3.m4a": {
+   "sha256": "71cc81f672d7a77b3f591a13e219f55ad3cdb91fe87a2ea65ce3b71d700261c9",
+   "bytes": 33639
+  },
+  "audio/schimpanse_en_fact2.m4a": {
+   "sha256": "209103a247b716e95f8f43d2d57c0bdc6769156636d13fa3adc14671a0fe0702",
+   "bytes": 29269
+  },
+  "audio/nashorn_en_fact5.m4a": {
+   "sha256": "4607e52dfbc1e12d43d80614299908df45f305a9a22383ac2ece144e193062c9",
+   "bytes": 53951
   },
   "audio/waldrapp_es_fact3.m4a": {
    "sha256": "ffb4827259472d4a2d17f102b2dbf2fb5d43c60c6355e8e4ea52e9f3c63747d1",
    "bytes": 22393
   },
+  "audio/nashorn_en_fact4.m4a": {
+   "sha256": "b8ff97f2908142d014a0eb7131a0c02a5bb1270b71f5a60340ab326aae200793",
+   "bytes": 43676
+  },
+  "audio/waldrapp_es_fact2.m4a": {
+   "sha256": "ff9838b3be0e2afa0c8899e95f246e3cf0e7bd52d51526dca507d07c110349e7",
+   "bytes": 33671
+  },
+  "audio/zebra-chapman-zebra_es_fact2.m4a": {
+   "sha256": "434af660efcb38a6f06ada47609cffe384c63baf7ff1be3692ba33536901de20",
+   "bytes": 27366
+  },
+  "audio/schimpanse_en_fact3.m4a": {
+   "sha256": "510df91604c376f6dc39a2193de640210b6077ceda387f345e105884e1e5c1f8",
+   "bytes": 32303
+  },
+  "audio/grosser-kudu_de_fact4.m4a": {
+   "sha256": "00253b907a8e38be0ac5ef85ae29bfc357d4ca103e19c5e773b79493306134db",
+   "bytes": 29575
+  },
   "audio/vikunja_en_fact3.m4a": {
    "sha256": "b0803ca03dc9247e84666a9673876dfa67692bc326fd29422ef49e79e5e177a2",
    "bytes": 39854
+  },
+  "audio/brillenkaiman_de_fact5.m4a": {
+   "sha256": "57f3d52ea73c6077d06256a9d85e1170e89644791ce382c8bf7140530ec5a580",
+   "bytes": 31839
+  },
+  "audio/paradieskranich_en_fact5.m4a": {
+   "sha256": "1443cb4533cf82a1a708b925d8789bc8b0443f14ce8a41085bc7a3cff623ea71",
+   "bytes": 50280
   },
   "audio/erdmaennchen_en_fact4.m4a": {
    "sha256": "b65e35f1145a5fa35881700e482c8a481f282c569773626d6a6d225f496208bd",
@@ -1304,9 +2984,49 @@
    "sha256": "6db7650a42c677d9d2dfd8649a5b20203ebb99d2caea729b13a8eae03699906e",
    "bytes": 21389
   },
+  "audio/wolf-hudson-bay-wolf_es_fact4.m4a": {
+   "sha256": "44a475166e408feaa9ac933409bbd6239fbe453b18f5889b7f1c611fc43c5354",
+   "bytes": 40251
+  },
+  "audio/rosapelikan_en.m4a": {
+   "sha256": "19a5fd6cd0498b1578a6284404e272e18e2cfdb8d580510fac0cc7fa58be0503",
+   "bytes": 215789
+  },
+  "audio/chileflamingo_en_fact1.m4a": {
+   "sha256": "a0d2a37b1335a8d76688880a9d5d4b3ebf33654b1b1c7050bfa36f0f8eab6ea4",
+   "bytes": 26657
+  },
+  "audio/europaeischer-biber_es_fact2.m4a": {
+   "sha256": "a3dee062e0fc1e3899f0deea476f9b604a4fcb2d491bf588134e3cb7c4cc8513",
+   "bytes": 30092
+  },
+  "audio/seehund_es_fact1.m4a": {
+   "sha256": "6bf57272ad5eb9f3b0a4ded0178b9ed33372f7dd0d3c728c3c93f1ae843b948e",
+   "bytes": 64314
+  },
+  "audio/totenkopfaffe_es_fact2.m4a": {
+   "sha256": "79d18d8e42eade0f9b3a1f2009ab38e359bf8cc2dcae018489742cbbbeda2023",
+   "bytes": 41621
+  },
+  "audio/brillenkaiman_de.m4a": {
+   "sha256": "c6ba8e1f632d33709e2ee2b13216953e79ae215ab8bd50a56f8d3a099adb5b40",
+   "bytes": 241347
+  },
+  "audio/tuepfelhyaene_en_fact1.m4a": {
+   "sha256": "032f1e9979394fc88740ba78a93d0580acd16c591f5a1087d9b49012c90cd46a",
+   "bytes": 28286
+  },
   "audio/asiatischer-loewe_es_fact3.m4a": {
    "sha256": "2fdc6c96c411556dfd1f215f682696ed52068fb5d960a1477ccb0ba2480be56b",
    "bytes": 41506
+  },
+  "audio/zebramanguste_es_fact2.m4a": {
+   "sha256": "b4531856f00078c6f051496f20f1b78ff323e816781c6b09f1fb8c2d0a757ee8",
+   "bytes": 45230
+  },
+  "audio/skunk_de_fact4.m4a": {
+   "sha256": "528d0786508a507863d3ab2b8dbd31feb4c9884627fa7ba96106e6e604826aa5",
+   "bytes": 20602
   },
   "audio/sumatra-tiger_de_fact3.m4a": {
    "sha256": "f6c0b9e4b89618c16383f61624f7423c0ee1b0be999c86e13967bbf58a6819c1",
@@ -1316,9 +3036,25 @@
    "sha256": "35aa2eae407df88a6675acd66bea76e7f7948fa05f0b9959f117f2b0b5c1f4c7",
    "bytes": 28749
   },
+  "audio/rentier_de_fact3.m4a": {
+   "sha256": "1a8bdd9aef7f24a127105e8e71a111c17acfb817870191de4bb2bd193778665b",
+   "bytes": 28945
+  },
+  "audio/schnee-eule_es_fact1.m4a": {
+   "sha256": "b7da6cceb869d01fcf41a6b3c9de77681bcb2cee404fc497f3cdf26359d3ac18",
+   "bytes": 38909
+  },
+  "audio/luchs_en_fact1.m4a": {
+   "sha256": "3473cbcbbe9c74b57e4c3cd16581ac2f207d7e12c4579ebd101cee959999970b",
+   "bytes": 25179
+  },
   "audio/maehnenwolf_de_fact2.m4a": {
    "sha256": "9791630d2b8b2be1c89812b6f58091dcc15f29701121c13bc1ebc300f0e1e05f",
    "bytes": 29888
+  },
+  "audio/schweinsaffe_en_fact1.m4a": {
+   "sha256": "60a6ca4710c55c6f0d8a0278196849edc84455d9fa800b9f0e3618b4eef7fe6c",
+   "bytes": 30020
   },
   "audio/rosapelikan_es_fact4.m4a": {
    "sha256": "f7fe852ea7b9e9f73160943aa04d7cbd94af23662803583fea266034b151f514",
@@ -1340,6 +3076,26 @@
    "sha256": "fac2a0e47906487e8ec3899ae90dc5c2c6b5724e99382277104fe25e8d152d4e",
    "bytes": 27268
   },
+  "audio/querzahnmolch-andersons-querzahnmolch_en.m4a": {
+   "sha256": "06bee5c63c40345953870a5e0f9835661300e3764fc05aa001f900d2122bed79",
+   "bytes": 234463
+  },
+  "audio/schnee-eule_de_fact3.m4a": {
+   "sha256": "4cd27f93eded43683beb85d55d618317d8b2b62d852775f21f065bedb9164530",
+   "bytes": 38797
+  },
+  "audio/rentier_es_fact1.m4a": {
+   "sha256": "f863b5d8f7d9ea3dbccd7316c189a75198e996b57edefeb106b46803b20284a3",
+   "bytes": 32066
+  },
+  "audio/warzenschwein_en_fact1.m4a": {
+   "sha256": "be285cee5b80142625feb7d76bf59ce428a04a25b6fcf1677a26222c8a7f1fc7",
+   "bytes": 36704
+  },
+  "audio/trampeltier_es_fact4.m4a": {
+   "sha256": "36e4cd5ff0c585e38dd81a48265bb8b9cf59798b05355af59abc3cd62fc1b6b0",
+   "bytes": 35643
+  },
   "audio/giraffe_de_fact5.m4a": {
    "sha256": "979bd3bba14f358a3ab678ef8c892f40c2228e7b1b52a543dd9865dc0acf95db",
    "bytes": 35495
@@ -1356,25 +3112,81 @@
    "sha256": "d6ded1ddea2a1056e931382acd62372f86fb2f7cdb50b15cb9da689f435f0267",
    "bytes": 46431
   },
+  "audio/silberfuchs_en_fact4.m4a": {
+   "sha256": "7baa0a2fc97686f746a8b3eabe0d798c8cb9c470e2c2e35455458c6dac27756e",
+   "bytes": 37269
+  },
+  "audio/kalifornischer-seeloewe_es.m4a": {
+   "sha256": "fadd1c7a1ffa941a110cc1980d6c65c055c9e6b8651ca92823dec0a385cff817",
+   "bytes": 255765
+  },
   "audio/asiatischer-loewe_de_fact1.m4a": {
    "sha256": "6f392e2d78b914968fd83d41033f5d4c60279586363ab47e6c21cc62096266c0",
    "bytes": 67105
+  },
+  "audio/seehund_de_fact3.m4a": {
+   "sha256": "72df947aa044c501bf66bb9a023be3c3594fc46e67ce7620047799b14cb5f891",
+   "bytes": 37175
   },
   "audio/nandu_en_fact3.m4a": {
    "sha256": "ad504674ce50af1d68bf8d551f6a4e3b24f3aa787c62568a2b9295970fa2f97c",
    "bytes": 34422
   },
+  "audio/giraffe_de.m4a": {
+   "sha256": "ebdfd276ecfaf28dc48b454a32ba6ac778cd2becc87da19461b51ae05f613440",
+   "bytes": 253222
+  },
+  "audio/totenkopfaffe_de_fact1.m4a": {
+   "sha256": "1436624731d5e09216d0e902961a6b5fb273e4e7d2ae41661bb362f1709345a7",
+   "bytes": 32009
+  },
   "audio/nandu_en_fact2.m4a": {
    "sha256": "e2916015f65b64fb688bbc8b9e71f24df7c85eb3ba629bca6a5d608531cd4b04",
    "bytes": 29655
+  },
+  "audio/seehund_de_fact2.m4a": {
+   "sha256": "41a4f1a42e394a8e99e581e8b70778290909e7e20e556538151119fb7805caaa",
+   "bytes": 36986
+  },
+  "audio/murmeltier_en.m4a": {
+   "sha256": "9b3cd04da262451e28cfb1a7385d7cfec10f40fe73852f70f3306586cf08ca7d",
+   "bytes": 208688
+  },
+  "audio/silberfuchs_en_fact5.m4a": {
+   "sha256": "d9aa8cc77327933e2beca7d09a6cabab3b87d05a4ec8531ee57e346060f98d11",
+   "bytes": 37443
+  },
+  "audio/zebramanguste_es.m4a": {
+   "sha256": "02f5c63394c9a275a5c66964443d32d9acab60abbd7763c2f3f5d0f5a791354b",
+   "bytes": 251422
   },
   "audio/nacktmull_de_fact4.m4a": {
    "sha256": "2d7b86aba9b8376b039bff8914850222f24e69da88c78d4dbd318934870b7a2a",
    "bytes": 37194
   },
+  "audio/faerberfrosch_es.m4a": {
+   "sha256": "68543300a818a9629427b6201ae62a540c6e058b0c76431ab723678e4556b88b",
+   "bytes": 307081
+  },
+  "audio/europaeischer-biber_de_fact1.m4a": {
+   "sha256": "528232bfa5aca99380067937b8fe1eb9ebfd411f7095f45116e2daa7b5ea4684",
+   "bytes": 23908
+  },
+  "audio/rentier_es.m4a": {
+   "sha256": "fc88437d057a18e531315b4bb65e148ed27037a0d17d93702a43a723f2b1b028",
+   "bytes": 263383
+  },
   "audio/kubaflamingo_de_fact2.m4a": {
    "sha256": "bac36ca70c8c7787437df829a44c57a97c0975b0ddef93546ed1d94bb90d743f",
    "bytes": 18852
+  },
+  "audio/klippschliefer_en_fact1.m4a": {
+   "sha256": "d8e6d2424d4229a5cce2ca4ca82e24ebd4dfca85aefd09ed84ec0fff5fa625e4",
+   "bytes": 26567
+  },
+  "audio/faultier_es.m4a": {
+   "sha256": "0da36f3bec9b5a226d88aa815c58e7ff19c4b3bc6683d9113605e5e9bad8fd92",
+   "bytes": 230214
   },
   "audio/waldrapp_de_fact1.m4a": {
    "sha256": "53f03c62825de6707a514ab33a78a173d075815111ff3fb1e7fbc7212ac5e04b",
@@ -1388,6 +3200,26 @@
    "sha256": "d1b3c24721a5c564314bd65d75b1eb6676b4b41e1152d9cfc50059f898260726",
    "bytes": 33712
   },
+  "audio/lachender-hans_de.m4a": {
+   "sha256": "3fc82e7692f6953233db314260c7cee91edd32e85a48d1954caaac0e0e99b539",
+   "bytes": 222991
+  },
+  "audio/trampeltier_es_fact5.m4a": {
+   "sha256": "ca87a12e104b31c6bcab71b4a10aea401ccdbb47bbe830e0cb6c41faee8ac45e",
+   "bytes": 30294
+  },
+  "audio/zebra-chapman-zebra_de_fact1.m4a": {
+   "sha256": "fa2ebbd2c52b74e7c2567a317c31346148b8bc226f39f9c12ba5e44be2f5f4e7",
+   "bytes": 36359
+  },
+  "audio/schnee-eule_de_fact2.m4a": {
+   "sha256": "141d73151d0c66fc675e0ae563499a002310d3f10bace623fcb6a94570f47c60",
+   "bytes": 52878
+  },
+  "audio/pinselohrschwein_de.m4a": {
+   "sha256": "b5ccfbda29f2936687642320ad12ecead1b2263070d7384cd7d9a86b7f977d07",
+   "bytes": 273805
+  },
   "audio/flachlandtapir_es_fact2.m4a": {
    "sha256": "83781a250f38893cc3d4cf7312d4774b70b218e9cc7c41ce837357cfb6f51b12",
    "bytes": 32684
@@ -1396,9 +3228,41 @@
    "sha256": "992080fda022cd4dce47f86e9e63f307d08070bf39710e12e044e5d7ac0459e2",
    "bytes": 20308
   },
+  "audio/rosapelikan_es_fact5.m4a": {
+   "sha256": "461db305c03bec789cc81bd2634f0b6ee59d29e34390d858dcac0c5e32bd6c94",
+   "bytes": 41034
+  },
+  "audio/zebramanguste_de_fact1.m4a": {
+   "sha256": "b80b8ca123f68ef8f13440f979fa19b300ed24ff8fa739fdfb13999682040ca2",
+   "bytes": 42898
+  },
+  "audio/maehnenwolf_de_fact3.m4a": {
+   "sha256": "aebd7d3264c1e0425257b7efbdaa5396172fe4e9d1bd69a72091bf550e03e781",
+   "bytes": 35873
+  },
+  "audio/luchs_en_fact2.m4a": {
+   "sha256": "dae25b92a47f4942b0d908d189b0274090590cf436974666b5671360f2f30347",
+   "bytes": 25844
+  },
   "audio/maehnenwolf_de_fact1.m4a": {
    "sha256": "84ccaeb0c4cf8d916c9e01e9603ae5aae87f0ad1baa4f7e81b4837bf5c4db2f9",
    "bytes": 31564
+  },
+  "audio/zebramanguste_de_fact3.m4a": {
+   "sha256": "0cdccf865e276d787f1c2ed01a8af7dd89658d4f8374504ee2a0b5f096aa21f4",
+   "bytes": 41434
+  },
+  "audio/grosser-soldatenara_en.m4a": {
+   "sha256": "4729ec3a203f9045c7b87991bf247c6e3a61fb82983915da7a4de5585da03361",
+   "bytes": 200263
+  },
+  "audio/schweinsaffe_en_fact2.m4a": {
+   "sha256": "432df9b0ba2168ce7b595bfdb97035847527da5ca08d385af7e6b241fe605e80",
+   "bytes": 26273
+  },
+  "audio/luchs_de.m4a": {
+   "sha256": "e019225cc4adce4937c87c562ee6ef730266c8c72c1e1fbe963f211ba819c0ed",
+   "bytes": 252619
   },
   "audio/pinselohrschwein_en_fact2.m4a": {
    "sha256": "a5dcd6abaf31f7bdb6dcbefead64d0d0568cc5738fe7157d13f472df7d06ee90",
@@ -1408,21 +3272,97 @@
    "sha256": "93acb371977fd7d9918d377b63d48ea9b7b97d3303929e93693defa5a49d18a9",
    "bytes": 53770
   },
+  "audio/capybara-wasserschwein_de.m4a": {
+   "sha256": "f75d6c359a1402906435ff44f70fefe11ce251ecb8d1ae7541c2727a32b98e95",
+   "bytes": 251312
+  },
+  "audio/roter-panda-kleiner-panda_en_fact4.m4a": {
+   "sha256": "19ebfad48c623ff73b6d2d388772a6621560596208a35ccd41eb6ccd20bcaa48",
+   "bytes": 36070
+  },
+  "audio/zebra-chapman-zebra_de.m4a": {
+   "sha256": "f9ba7d09f0a505950d591df6156fd5e43d2e4efd572d4a3a20fed43fe13f7ea8",
+   "bytes": 266178
+  },
+  "audio/skunk_es_fact5.m4a": {
+   "sha256": "bce2af69d3984d8775f6685723b9592228eb0dc806fe50ada68f4d5a9f8994f0",
+   "bytes": 29240
+  },
+  "audio/praeriehund_es.m4a": {
+   "sha256": "d79ff37c292992b23a54e7d60d9b30837863c953d686061432da92eb3b0d6428",
+   "bytes": 271328
+  },
+  "audio/rentier_es_fact2.m4a": {
+   "sha256": "64461e7aa786d041383553863c97c1e201ceaea0d6f47d61bd2bcc40e8f2588f",
+   "bytes": 26957
+  },
+  "audio/warzenschwein_es.m4a": {
+   "sha256": "6edb24cfdaff9b9ec51161d9fc81678ac883c6759dad033a23e59e7f5cd6c302",
+   "bytes": 234568
+  },
   "audio/otter-asiatischer-zwergotter_en_fact5.m4a": {
    "sha256": "663a91f0dd7c36f5ffb5416b0cbb85853380277907893c5e8d65f09c61a93cac",
    "bytes": 31934
+  },
+  "audio/warzenschwein_en_fact2.m4a": {
+   "sha256": "da653e2ecc147d8cc48bdcbc862bcb1c6327fe6bed416a035a65b8ed3ff66729",
+   "bytes": 24404
+  },
+  "audio/grosser-kudu_es_fact5.m4a": {
+   "sha256": "9819aea0f3a77d550a3225ca09a7c1fc37bb3daf86054835b3f06004c0558365",
+   "bytes": 34684
+  },
+  "audio/brillenkaiman_es_fact4.m4a": {
+   "sha256": "ebae66799ba27ef9391be810a023cdffb4430923f9072a862cc57cafef7afc96",
+   "bytes": 25805
+  },
+  "audio/zebra-chapman-zebra_de_fact3.m4a": {
+   "sha256": "988a921d0653621d613ee9a9c5269d0e198f86a6317994ea29975a3dd26bab23",
+   "bytes": 35024
   },
   "audio/waldrapp_de_fact3.m4a": {
    "sha256": "e33e8fe251b098861970af5a02d0599924096d10203e164bc3533548d7980807",
    "bytes": 19824
   },
+  "audio/seychellen-riesenschildkroete_en_fact4.m4a": {
+   "sha256": "24d102cf261d4a9a319e25109137edd44694d1575a2faaad5ec4feb02f41e4ba",
+   "bytes": 28082
+  },
+  "audio/klippschliefer_en_fact3.m4a": {
+   "sha256": "7f8af9fbf7fd285f48ac74def57c0b3c1aebc5db3c8eda8acf9e7ec2d50d06c9",
+   "bytes": 26388
+  },
+  "audio/strauss_en.m4a": {
+   "sha256": "8a5a0659344edbba164d57ea7da7b94502ab1fb314b14444d153b633bd32ea68",
+   "bytes": 271366
+  },
+  "audio/chileflamingo_de.m4a": {
+   "sha256": "63e08d24491d25b7c4a9a3bc2473b85f65936f6057cbc026669580fb0b8717b2",
+   "bytes": 303798
+  },
   "audio/roter-panda-kleiner-panda_en.m4a": {
    "sha256": "ca25504089b055d951f818eeab72c3e8f6cd0e30eaa5c6f97741729e0639ae67",
    "bytes": 239156
   },
+  "audio/europaeischer-biber_de_fact3.m4a": {
+   "sha256": "bd4d8b589786fbad025c489026f1967e7c180bf6c802f35f596c8c79f90843a8",
+   "bytes": 22365
+  },
+  "audio/asiatischer-loewe_es.m4a": {
+   "sha256": "439315678ffaaaedb98d10edbe8165b1a2b9acb2e0200824febe48a3977d222e",
+   "bytes": 252137
+  },
+  "audio/wolf-hudson-bay-wolf_de_fact5.m4a": {
+   "sha256": "3cf33f3d96066a810ded0bae593ab7a3a27b2f9d15d5aba80660322bbafb69a6",
+   "bytes": 34525
+  },
   "audio/capybara-wasserschwein_en_fact5.m4a": {
    "sha256": "fc936b6ddd2ae9fe7b5267bcad0661d71889985194d95e7a3955b02a5267a80d",
    "bytes": 37926
+  },
+  "audio/asiatischer-loewe_de_fact2.m4a": {
+   "sha256": "345a173e6fb8c624464af878bb6d8da837ed2d37f037049bbabaf622d6069eea",
+   "bytes": 54038
   },
   "audio/waschbaer_en_fact5.m4a": {
    "sha256": "9fc7efc9564726af1bbc7cbc5a95b0e54c601fed40e724f0fa14300da3c643d5",
@@ -1432,41 +3372,157 @@
    "sha256": "f23c43952e6e851c6ec11da773b486e5a468daae8c363b275d395cc882f2d451",
    "bytes": 266411
   },
+  "audio/totenkopfaffe_de_fact3.m4a": {
+   "sha256": "e93f60050ff5103ebce745060e709e8f4887af25dc55b33368be1f4f197cc99a",
+   "bytes": 21682
+  },
+  "audio/waldrapp_en.m4a": {
+   "sha256": "007b8414ffa5fa43220d71e13f9e3f6197a3aa782e8bf2db95336f1e9f1d1150",
+   "bytes": 233137
+  },
+  "audio/seehund_de_fact1.m4a": {
+   "sha256": "50c54820ef5d1dd9587b91bfaed5bdc71c4f19bcd4dcf04596e762351980958c",
+   "bytes": 59884
+  },
   "audio/nandu_en_fact1.m4a": {
    "sha256": "3e89f5482e27bee036f554c67bd168bc375475bc750c5e9b9b7201d265c9e409",
    "bytes": 32403
+  },
+  "audio/totenkopfaffe_de_fact2.m4a": {
+   "sha256": "f94bdba607a86e55c7c48007476ced44df097b9a55467145798d76e4d6ff1c7d",
+   "bytes": 45256
+  },
+  "audio/waschbaer_en_fact4.m4a": {
+   "sha256": "7469cfc413d9438cba6dc075078b585c7ab2352c4253aaf80e3d2e12a676f75d",
+   "bytes": 28376
   },
   "audio/asiatischer-loewe_de_fact3.m4a": {
    "sha256": "4c2451978f7b3cae0b9bbfbda9863452f22506e14e33b585d67e211d98d18c9f",
    "bytes": 34939
   },
+  "audio/wolf-hudson-bay-wolf_de_fact4.m4a": {
+   "sha256": "0bfb0b3ba26f70fa9c6a657a003c077e2ef52ee4937d09ffc77010585008d6c9",
+   "bytes": 39798
+  },
   "audio/capybara-wasserschwein_en_fact4.m4a": {
    "sha256": "931fabfaeeb57c27226aff80ea9b2a0c386023c38ea549fbb5c97eb180a37480",
    "bytes": 33879
+  },
+  "audio/europaeischer-biber_de_fact2.m4a": {
+   "sha256": "a8f4eb1b1d50c4544507d8ccb93cdc8ac22b29462bf70000728f6ca3271d8ab3",
+   "bytes": 29508
+  },
+  "audio/maehnenwolf_de.m4a": {
+   "sha256": "f83cb842c7ec10fb29de844e502f80c4d209d48a25fcab7e5be91e985f93a6e6",
+   "bytes": 277676
   },
   "audio/kubaflamingo_es.m4a": {
    "sha256": "8f38e749a8cc4ed8ea1b9841c4c76f06f1e25f62bfb24d23dcc395d39ffc08fa",
    "bytes": 238043
   },
+  "audio/klippschliefer_en_fact2.m4a": {
+   "sha256": "59cfc9e8bdfee3b8aacd4d09508486e6533bd841892fc7e0e37a63469622c9da",
+   "bytes": 22507
+  },
+  "audio/flachlandtapir_es.m4a": {
+   "sha256": "ee258b7f454720d958acb581469946b2fa83bf1736f08e385881b1cb0d52741a",
+   "bytes": 244333
+  },
   "audio/kubaflamingo_de_fact1.m4a": {
    "sha256": "666177cc705413d7256d842d81079c78594317ccb949252c063b0164d434c73e",
    "bytes": 22916
+  },
+  "audio/seychellen-riesenschildkroete_en_fact5.m4a": {
+   "sha256": "3866e2816d749392af762c7de638f5d2582e9a122c119988e4aa8bb7567b827e",
+   "bytes": 26398
+  },
+  "audio/schweinsaffe_de.m4a": {
+   "sha256": "ee71e751d62a43690ef4d83d4d6627cc3afac639d7f8b3fc39418ada797bf2e9",
+   "bytes": 254957
+  },
+  "audio/waldrapp_de_fact2.m4a": {
+   "sha256": "aee19adda5aa6375100fcd8ef9ef836963e86402fcfcb1bcc0b191e76ec752e2",
+   "bytes": 26822
+  },
+  "audio/zebra-chapman-zebra_de_fact2.m4a": {
+   "sha256": "0f1359998a9f30707a7ddc93e685ff095a33063bad9012fece0a2ea13b8651d0",
+   "bytes": 29207
+  },
+  "audio/grosser-kudu_es_fact4.m4a": {
+   "sha256": "e0b2c00e2af5077fc80fb8409894771d5683e4fed0da9c8e868685ee671adfc0",
+   "bytes": 34505
+  },
+  "audio/brillenkaiman_es_fact5.m4a": {
+   "sha256": "0eea99b3ee5179c057ad9ef9ceea522e8f9d02c79cdb6c657e2bd4db920bf793",
+   "bytes": 32251
+  },
+  "audio/warzenschwein_en_fact3.m4a": {
+   "sha256": "4cd76618d5560fdc3772f48adcef90e8fff983ff6d425ff3621980b880df435a",
+   "bytes": 27130
   },
   "audio/otter-asiatischer-zwergotter_en_fact4.m4a": {
    "sha256": "aa1720725ca5b2e2dbf34875bacbfeb82232cb810fb787ac3a03fe6c9bd966f7",
    "bytes": 48607
   },
+  "audio/rentier_es_fact3.m4a": {
+   "sha256": "7f30527c90ad3745e5fb64afc94c6378ec929f1f8d11aeb3f15405c11adbdd0f",
+   "bytes": 28214
+  },
+  "audio/schnee-eule_de_fact1.m4a": {
+   "sha256": "76f927e78bf958cbf737c6ce7817a5b9e3b637b7d81847cdbefc0caf46a67799",
+   "bytes": 40216
+  },
+  "audio/skunk_es_fact4.m4a": {
+   "sha256": "c02f3510cbfd738d39c274acd19a4f42deb3947892f31b7e8aec09e8b31afb0e",
+   "bytes": 24553
+  },
+  "audio/roter-panda-kleiner-panda_en_fact5.m4a": {
+   "sha256": "d17dce4606e592b030fb1bd05c5cc522b08822e20c1343d58c951ed3e5e3a9b7",
+   "bytes": 47218
+  },
   "audio/flachlandtapir_es_fact1.m4a": {
    "sha256": "e327bba7aa76a54d50a4987f828eacf0aac075820e31f22244ca998703bd9707",
    "bytes": 29386
+  },
+  "audio/sumatra-tiger_es_fact3.m4a": {
+   "sha256": "f77319b8be41f329a5f44778f567ec7226f08d28e84294980190984a1bbbb3ac",
+   "bytes": 48702
   },
   "audio/pinselohrschwein_en_fact3.m4a": {
    "sha256": "89206d860c9e971c48a2a5ecd49c31e1fa98f7709edeee575ca94341a5a45cec",
    "bytes": 24729
   },
+  "audio/schweinsaffe_en_fact3.m4a": {
+   "sha256": "e0830b0d12eb054bf765a25a0115fdf78c821b9bab7f004d0787653799fc0f8c",
+   "bytes": 42116
+  },
+  "audio/luchs_en_fact3.m4a": {
+   "sha256": "593c8f0cbe369def863742123b7bb77ad075e501759282ea4f582e3562a91d0b",
+   "bytes": 27789
+  },
+  "audio/zebramanguste_de_fact2.m4a": {
+   "sha256": "50810c8a54255bb5b3d5bfab14aaf49f00aa9a5628c9dbe52e31df1f594b8b8b",
+   "bytes": 37589
+  },
+  "audio/luchs_es.m4a": {
+   "sha256": "35da24f5a6e5aebef16d3c2d1e675c48b6979ed6b01140bc383b6a1b27098465",
+   "bytes": 279567
+  },
   "audio/maehnenwolf_de_fact4.m4a": {
    "sha256": "1bb0210283434665b3724fa797599699d38e3a51d34577322594336223660440",
    "bytes": 24360
+  },
+  "audio/zebra-chapman-zebra_es.m4a": {
+   "sha256": "9c2d5561a8768050ce7403338b3063a13e86a6056ab52ca52af2978a8b4952fd",
+   "bytes": 262816
+  },
+  "audio/capybara-wasserschwein_es.m4a": {
+   "sha256": "949cbf164c1b3b5938a7fed2e18f25eebcdd641dce3c544526cfb2daa3e43448",
+   "bytes": 249259
+  },
+  "audio/praeriehund_de.m4a": {
+   "sha256": "c7d3347dfd710f5fc0340e8c8d513f7cf3266d9cd6f239792b8d34375d51cf8e",
+   "bytes": 271601
   },
   "audio/flachlandtapir_es_fact5.m4a": {
    "sha256": "853330ca67da525bff0e4032ab9523ae5bc84786728bbded8acd72e3bec7dbcd",
@@ -1480,21 +3536,49 @@
    "sha256": "77ab77d142499bb577eee5e213d844621938abab12c46227c5923983424746d4",
    "bytes": 18676
   },
+  "audio/warzenschwein_de.m4a": {
+   "sha256": "d406d7e9a380bd78f5bfc77c53e43299a6366b4943f1a1d38aae22397200790a",
+   "bytes": 218493
+  },
   "audio/schnee-eule_de_fact5.m4a": {
    "sha256": "3933702a7b11965e48575556edd5e4bace4b69ed341e8f0de0cabd503bcb815a",
    "bytes": 51059
+  },
+  "audio/faultier_de_fact2.m4a": {
+   "sha256": "f94bb6fcb49d2eccd8cbb5342d42a2cf94b647df6b24590dce8b00948637aedc",
+   "bytes": 34444
   },
   "audio/giraffe_de_fact3.m4a": {
    "sha256": "010ff1884c294bce52a879e0132a61ff0fcb707a324b11db08476d2f3110c9ef",
    "bytes": 30592
   },
+  "audio/seychellen-riesenschildkroete_en_fact1.m4a": {
+   "sha256": "64820c6730c493b2e06a15c759c6b2fd3c3bd3be8b7195fe05b46648c5377697",
+   "bytes": 43553
+  },
+  "audio/brillenkaiman_es_fact1.m4a": {
+   "sha256": "5d05f9260f8de5f7b2de528860b518b65aa4e78ec07366158bb7bf053d9ca6c6",
+   "bytes": 39754
+  },
   "audio/trampeltier_es_fact2.m4a": {
    "sha256": "b5b84a23edcfc712d9024a0f4fd6a780f58ca029619511e01d8e71e7698fe3a9",
    "bytes": 62064
   },
+  "audio/chileflamingo_es.m4a": {
+   "sha256": "4b57a53d3c764034ad1fd65f6a8688ee529e84f1fc0d3fb064ce8d90518fc594",
+   "bytes": 297894
+  },
   "audio/kubaflamingo_de_fact5.m4a": {
    "sha256": "16355071eb0ae6d3c9882a8e34e8ecdbd3dfe9f56866d6838d315c0442fa718d",
    "bytes": 24529
+  },
+  "audio/silberfuchs_en_fact2.m4a": {
+   "sha256": "e2c448378f87a9d9eec5e4d98974fdcd577fae1a589e5900ed7e692f9e2caea0",
+   "bytes": 39724
+  },
+  "audio/asiatischer-loewe_de.m4a": {
+   "sha256": "0d3b01dafe34934ecec8eedaebc91c58497c6a0cf8f02310c642cac02b7647d8",
+   "bytes": 247409
   },
   "audio/nacktmull_de_fact3.m4a": {
    "sha256": "0888ab30f65582fae380c4a303d3b1bdf6609605fb111df3ef11cd0c7a45773f",
@@ -1504,17 +3588,37 @@
    "sha256": "e8354feb64472140ce4358573b13effbf2aaa561ebd2f173da6b3a117fe4f1ba",
    "bytes": 249649
   },
+  "audio/seehund_de_fact5.m4a": {
+   "sha256": "a42cf7305621555ccc8809317f9a61559b7de88f6fcfcbafac66b64a23d38fb7",
+   "bytes": 48973
+  },
   "audio/waschbaer_en_fact1.m4a": {
    "sha256": "2e04b6989b7e074d6c82e8462f400364780d5f2fc97e89100a514b07ae55c5f2",
    "bytes": 28100
+  },
+  "audio/seehund_de_fact4.m4a": {
+   "sha256": "3b78f165a73923bee2d69753144cecf3943e25f89ca904b5f05bbf90c7132163",
+   "bytes": 32646
   },
   "audio/nacktmull_de_fact2.m4a": {
    "sha256": "1dcddffb8616c188163e4b528e69a70eb02300cf845a50d617d44de83cbccb82",
    "bytes": 29374
   },
+  "audio/silberfuchs_en_fact3.m4a": {
+   "sha256": "bf58941e9330417f6bbdef152f1a147c0e4158057b84fa496f736f98134360a0",
+   "bytes": 75585
+  },
+  "audio/maehnenwolf_es.m4a": {
+   "sha256": "91141f2252beb819b36f2a6c592ff6e931bc9a85a5f4a059a0043aa27238a112",
+   "bytes": 280040
+  },
   "audio/capybara-wasserschwein_en_fact1.m4a": {
    "sha256": "7a68db7dd0a2a2fdf8e0faa196db9da24935a35d9ab0907297074ba47f97fe99",
    "bytes": 33297
+  },
+  "audio/wolf-hudson-bay-wolf_de_fact1.m4a": {
+   "sha256": "aa361131c8fd8e925df8c0ddd57a1e3c1318d2f09bd1b289b3f589632b385dc5",
+   "bytes": 49267
   },
   "audio/kubaflamingo_de.m4a": {
    "sha256": "9d32327818efbb734be263a8ae545203502619b3cf103bb3c72108499a27041f",
@@ -1524,6 +3628,22 @@
    "sha256": "c2a0196a7a799ff63e2ced50e332f0a9d4d09dd991911e307a0457f72c456888",
    "bytes": 17946
   },
+  "audio/flachlandtapir_de.m4a": {
+   "sha256": "eba60ca2c6fb445a34ba4785962a6d4c82ffb8a9bd96776308e005e56c8beec3",
+   "bytes": 222513
+  },
+  "audio/trampeltier_es_fact3.m4a": {
+   "sha256": "1d34b13b54009841ffca41fc2310b46eeff2169a57a6eb755d6aaa2bedf09fec",
+   "bytes": 34291
+  },
+  "audio/schweinsaffe_es.m4a": {
+   "sha256": "d0777e05e2417a88f5fd7ccd65bc7080984dc3b9558289b2fd0797f4780688b9",
+   "bytes": 266841
+  },
+  "audio/grosser-kudu_es_fact1.m4a": {
+   "sha256": "efd61cbda155149f334be54e87ea784d33caa67118b686caf90a4203edf20e58",
+   "bytes": 43611
+  },
   "audio/giraffe_de_fact2.m4a": {
    "sha256": "244ced6551d09381c29dc4a614a4da06b42d6f5dc38fa427c672778dbc74ce89",
    "bytes": 39350
@@ -1531,6 +3651,10 @@
   "audio/faultier_de_fact3.m4a": {
    "sha256": "6cc7994cb70fe9e5286fed5ddbced389e56276c12b3bec36aa0e6a1c0d8af841",
    "bytes": 24525
+  },
+  "audio/otter-asiatischer-zwergotter_en_fact1.m4a": {
+   "sha256": "75ec02083443668f079dd405be0b8881696df5c6ee44d7d20832d8f195c35f3f",
+   "bytes": 34661
   },
   "audio/schnee-eule_de_fact4.m4a": {
    "sha256": "779bced274ebdf8f3daecc97c2b55ca90be29003ebd0cfa794bf5b61455a5c3a",
@@ -1544,9 +3668,37 @@
    "sha256": "2015c9c66e35fccb5346ab01f683bbee9ec54b3d02ca540fdc7e29e6dfd0c378",
    "bytes": 33055
   },
+  "audio/skunk_es_fact1.m4a": {
+   "sha256": "964ed16ff7ab64f28c482274925a4a90dca38164a3be60851364fafdf67783e8",
+   "bytes": 23848
+  },
+  "audio/blattschneiderameise_en.m4a": {
+   "sha256": "66d5ef760a10dbe0c94cc4e786b5c9e3494106ee10fb3008be21b5c027ac5abd",
+   "bytes": 265389
+  },
   "audio/maehnenwolf_de_fact5.m4a": {
    "sha256": "0c132405a7a91bd400b88d70acc92f9e0ebdfa3c647d87f1139f8ddecda01e9a",
    "bytes": 30882
+  },
+  "audio/schweinsaffe_en_fact4.m4a": {
+   "sha256": "c62ac9129389a5317951be1b15e211a5ee160f69e28854757e823e10d6d3dbfd",
+   "bytes": 56628
+  },
+  "audio/schimpanse_en.m4a": {
+   "sha256": "3f417ec2d7a31245b4a101d0f68d4de73c8f76dbbcb76c1a7551151ac84783f1",
+   "bytes": 241554
+  },
+  "audio/luchs_en_fact4.m4a": {
+   "sha256": "af987360c4ce2dcf702df72a812d6c84627a67b0d22984610f0910f3c26aea03",
+   "bytes": 22498
+  },
+  "audio/zebramanguste_de_fact5.m4a": {
+   "sha256": "189465a0b74220bd85d1c1ea4416611fc165c828a722dd224b84d8557fbbfc31",
+   "bytes": 46880
+  },
+  "audio/skunk_es_fact3.m4a": {
+   "sha256": "b47332c14f2a04142df935dc0ce2ecdf2f5bdd86835ebc99ad4939fa8e89a28f",
+   "bytes": 18957
   },
   "audio/rosapelikan_es_fact1.m4a": {
    "sha256": "6ffa27f175a01982c23ef8575ca595db72889f0a5fbcd9622acca10a7476b080",
@@ -1564,6 +3716,18 @@
    "sha256": "3240388cd2530bc64ac48f2417fd9792980aee3ea340fec01c4880931e340005",
    "bytes": 30115
   },
+  "audio/rentier_es_fact4.m4a": {
+   "sha256": "685df05cba1b328b3ac96a83263e8caa5d7c62dd5cbcffd1411ccbe9eb801438",
+   "bytes": 30066
+  },
+  "audio/warzenschwein_en_fact4.m4a": {
+   "sha256": "c6bc8258f34d404f78ec1bb58e46e9d5816fc21dde97a5e3d0410c41cb5d7d8b",
+   "bytes": 35658
+  },
+  "audio/otter-asiatischer-zwergotter_en_fact3.m4a": {
+   "sha256": "b4c792c031c5dfeef6b4bbaf48dfbe1f49ab2dc58e0cb9fa73afbc8d4fc6ad02",
+   "bytes": 31650
+  },
   "audio/seychellen-riesenschildkroete_en_fact2.m4a": {
    "sha256": "9a62ee010ac39dc5245a8f994dd448de616da04902bc7ffd9756f2dc2ef63fbd",
    "bytes": 32954
@@ -1572,29 +3736,133 @@
    "sha256": "27e53a729be181fc1e6be990d3d36b41bd68bf128be6a80e11aa6c9a6a3c7fb2",
    "bytes": 41076
   },
+  "audio/waldrapp_de_fact5.m4a": {
+   "sha256": "a83ace254f88194061202a5e9d73c50a3d531ebd236122c5541434d8b7d53bab",
+   "bytes": 36579
+  },
+  "audio/zebra-chapman-zebra_de_fact5.m4a": {
+   "sha256": "751ed4f679dac46974e6803469ccd10fd065852debe298c87718ff8693577bf3",
+   "bytes": 31432
+  },
+  "audio/trampeltier_es_fact1.m4a": {
+   "sha256": "9196e7ca9d967150e4b9a854359f8369649604591ffd6f180c23cc51a615ede9",
+   "bytes": 29319
+  },
+  "audio/grosser-kudu_es_fact3.m4a": {
+   "sha256": "87419b8f26929a13544a93f7c9b6b41aca8bb03c834399b838c39bf72cfb97f2",
+   "bytes": 35989
+  },
+  "audio/brillenkaiman_es_fact2.m4a": {
+   "sha256": "92532b2f800d16cc8697b1761f8bb64ece844fa44796fe3fe24444a34221576a",
+   "bytes": 42111
+  },
   "audio/nandu_en.m4a": {
    "sha256": "e02d303781cb78079979457472b8734c40b35ebcdcc731a5abb0a25679916143",
    "bytes": 235488
+  },
+  "audio/klippschliefer_en_fact5.m4a": {
+   "sha256": "fdff1fd95ba16c83b31751b9b21a27b9fade091f73b880607c7c3170914a508c",
+   "bytes": 16987
+  },
+  "audio/wolf-hudson-bay-wolf_de_fact3.m4a": {
+   "sha256": "096ce4e3f8c554e42119ad8b749fcc4b576bfa6bb5c72b92839b274497a32ecb",
+   "bytes": 35013
   },
   "audio/capybara-wasserschwein_en_fact3.m4a": {
    "sha256": "92f15ddc8958495fa321cf6bae3abac30e5ff0c00f7f296cbb52f9b9ae0847ae",
    "bytes": 29162
   },
+  "audio/kalifornischer-seeloewe_de.m4a": {
+   "sha256": "0d94d01eb925ac64dcd7229fb08420cf8adda621f067dabe25e4eea439155e45",
+   "bytes": 260767
+  },
+  "audio/europaeischer-biber_de_fact5.m4a": {
+   "sha256": "b970a8221f4f2e66b87a97ec2b7f522702880f1b0607cf5b688df3c517f6c97e",
+   "bytes": 25700
+  },
+  "audio/silberfuchs_en_fact1.m4a": {
+   "sha256": "25ca1fb66ebb3beb3ce888bf603dfe03e081046e9b3392d4fe1519cf1ee7872d",
+   "bytes": 59013
+  },
+  "audio/totenkopfaffe_de_fact5.m4a": {
+   "sha256": "ed637cf4bd68db7ccc7bd13c4ac6e4b8346d985165268e4587e400fcc05e1f14",
+   "bytes": 27464
+  },
   "audio/asiatischer-loewe_de_fact4.m4a": {
    "sha256": "e6a02bcdb76068a46a141d00ead4d43c3ef6afb848dd14df60d08947ba4649fe",
    "bytes": 50283
+  },
+  "audio/waschbaer_en_fact3.m4a": {
+   "sha256": "3d77012099af010d054258b900705ea39edfaedc49e638865ac74898a9565f3a",
+   "bytes": 59233
   },
   "audio/waschbaer_en_fact2.m4a": {
    "sha256": "0b9498a0a0e4a57c95f796e4e4548452a8a3abfb01bcfbd3dc06774349d4ccea",
    "bytes": 16498
   },
+  "audio/asiatischer-loewe_de_fact5.m4a": {
+   "sha256": "0a3014523b04205da2c687297a604c6b4b7ac000c9f4e45488cf86175c62fe0d",
+   "bytes": 56628
+  },
+  "audio/giraffe_es.m4a": {
+   "sha256": "68fb27436efcf7e50c1b489d6ceaa01ff1812e054d114b407488c7f4015c8b9c",
+   "bytes": 262673
+  },
+  "audio/totenkopfaffe_de_fact4.m4a": {
+   "sha256": "cf10390c7ab89a2eadd9a965f85c52b36f727013177dc314fd97a135c22c4016",
+   "bytes": 27841
+  },
+  "audio/europaeischer-biber_de_fact4.m4a": {
+   "sha256": "e12c3c2969757ec918529d6c142ae131f8938a825c467e49397c8a2a3a42c1ab",
+   "bytes": 27480
+  },
   "audio/nacktmull_de_fact1.m4a": {
    "sha256": "db9acf06eeaf576e361af9ece9cdd193e253d75eaebcef55e18e8ced2fa1948c",
    "bytes": 46489
   },
+  "audio/faerberfrosch_de.m4a": {
+   "sha256": "0fee3b747db4beffb7bac8e86ae5ac9c2404ddfa7cbff65566ef6c60185194cf",
+   "bytes": 297558
+  },
+  "audio/wolf-hudson-bay-wolf_de_fact2.m4a": {
+   "sha256": "0e1abf6a1493901608078013c610fc2ea7e65bd1be13a8fdfd393ee7e1f25e65",
+   "bytes": 57506
+  },
   "audio/capybara-wasserschwein_en_fact2.m4a": {
    "sha256": "5680da874fb8e3fffd38389ead872dd0a9e570d69308721e0bdd0175e2822717",
    "bytes": 46672
+  },
+  "audio/zebramanguste_de.m4a": {
+   "sha256": "5db6f66601f78c4fa4aefe3507ebb3ce7cfaf0bbfce05da86a78e9adf6805252",
+   "bytes": 258819
+  },
+  "audio/klippschliefer_en_fact4.m4a": {
+   "sha256": "5b12ebd8c87c5149011a7ac82896c9b65ce500b6c5c3920f9c9020d62a19b968",
+   "bytes": 28762
+  },
+  "audio/rentier_de.m4a": {
+   "sha256": "992676f2e9189a6e5b1a9ea65e0fda0c8a21655d7135ee1a762f937d0565fd64",
+   "bytes": 248011
+  },
+  "audio/faultier_de.m4a": {
+   "sha256": "50f552c8cca5bedaea6e541895f3213af4817f34dd64fcb92c1ce5de6107cce8",
+   "bytes": 254976
+  },
+  "audio/grosser-kudu_es_fact2.m4a": {
+   "sha256": "0e93b5e2f16c7f812b5fdb768b5ae4c728e637e830b7a8f26a112aaa82625937",
+   "bytes": 51453
+  },
+  "audio/lachender-hans_es.m4a": {
+   "sha256": "77778fe96a96d2f78498a1e6ad30303a04a3a62139b9a292fe0a4f0c1c7f0cf6",
+   "bytes": 225289
+  },
+  "audio/brillenkaiman_es_fact3.m4a": {
+   "sha256": "13de3a7a797326f29cc548643a2696b7699f290912abd7914f5de3bc22f528d8",
+   "bytes": 40931
+  },
+  "audio/zebra-chapman-zebra_de_fact4.m4a": {
+   "sha256": "afc66569ffaa6bf20ed039de02cbcc40709ee69ae140178b1a9c7bc124d64435",
+   "bytes": 30239
   },
   "audio/waldrapp_de_fact4.m4a": {
    "sha256": "1b01a01015468291fca793d77732e75b10bac3b2f430e5dd650e0280a8356559",
@@ -1612,6 +3880,14 @@
    "sha256": "339a926c6c244c405f55081c683af20f8747c44af4069a03d7c523a1e5a954eb",
    "bytes": 37728
   },
+  "audio/warzenschwein_en_fact5.m4a": {
+   "sha256": "6408d7b1559f716002a933c0a05843d859a0c895380c97a08726f402600fe03e",
+   "bytes": 33742
+  },
+  "audio/rentier_es_fact5.m4a": {
+   "sha256": "69d0a50f388c9b23b88de93553404f53b9edbd1f13213cfe1832dcc7b9cb01dc",
+   "bytes": 35611
+  },
   "audio/sumatra-tiger_es_fact5.m4a": {
    "sha256": "fd78c96d2e5d33204951c72c31430c511f34a70565adcb146db7e8741a9d7e64",
    "bytes": 35103
@@ -1620,9 +3896,29 @@
    "sha256": "821bf5f44268169e8d99dd3422f7dfa628db1e8768558d12085c5769f88889c1",
    "bytes": 28263
   },
+  "audio/pinselohrschwein_es.m4a": {
+   "sha256": "a118451ad3b84c21c54ac1dede877f453e3b24dc2c46009bb94f37dffabaa530",
+   "bytes": 267023
+  },
   "audio/roter-panda-kleiner-panda_en_fact3.m4a": {
    "sha256": "79dd8f267ff95a1c49608c0293d4c8413c42e051686d83fc5fb38ba21b1c7dd9",
    "bytes": 40172
+  },
+  "audio/skunk_es_fact2.m4a": {
+   "sha256": "2872df3698ff6c21405471f95b1934f6c34132ae814de02d7b2cc348a2107209",
+   "bytes": 22388
+  },
+  "audio/luchs_en_fact5.m4a": {
+   "sha256": "bd6ae965551681a6e23087d98f63420482497da4c2fcdc7e3d17626375046c0d",
+   "bytes": 33448
+  },
+  "audio/zebramanguste_de_fact4.m4a": {
+   "sha256": "ec7e5202c62e7be2c3f280d46b14f74675451f07627ff27e3a343cfdaadc2dce",
+   "bytes": 27690
+  },
+  "audio/schweinsaffe_en_fact5.m4a": {
+   "sha256": "05f525e47e0b4a1ba1d9338eedf0723e568ca63abc26f3f4005ee5b777f59ec8",
+   "bytes": 38297
   }
  },
  "counts": {
@@ -1635,7 +3931,7 @@
   "images": 78,
   "animalLocations": 4,
   "catalogueEntries": 91,
-  "audio": 318
+  "audio": 892
  },
  "attribution": [
   "Map data © OpenStreetMap contributors, ODbL 1.0 — https://www.openstreetmap.org/copyright",
@@ -1644,7 +3940,7 @@
   "Biological research, scripts, licensed species images and recordings are linked once through the central taxon library.",
   "OSM animal features can be stale. Exact official-name or official-link matches are documented; unmatched OSM labels are retained as unconfirmed map features with no species assignment. Automatic guide remains disabled pending content and location review."
  ],
- "updatedAt": "2026-11-08T10:47:59Z",
+ "updatedAt": "2026-11-08T15:26:52Z",
  "website": "https://www.zoo-osnabrueck.de/",
  "ticketShop": "https://shop.zoo-osnabrueck.de/"
 }

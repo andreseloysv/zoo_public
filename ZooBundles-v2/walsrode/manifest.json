@@ -1,6 +1,6 @@
 {
  "id": "walsrode",
- "version": 2,
+ "version": 3,
  "name": {
   "de": "Weltvogelpark Walsrode",
   "en": "Weltvogelpark Walsrode",
@@ -372,9 +372,21 @@
    "sha256": "d779b2edf119b5b67319f3d78c6ee9c7135ce376fd65cca94b8e2a7d82c19a8c",
    "bytes": 106953
   },
+  "audio/grosser-soldatenara_es.m4a": {
+   "sha256": "ca0041f77da0207c622f6924593c0256051376fe7b84b37eaa24bb735befac5e",
+   "bytes": 239469
+  },
+  "audio/mandschurenkranich_es_fact5.m4a": {
+   "sha256": "058eaa2442b641c48ed90040a058346acde90fdd17f9d52b6e8b57e07c3ca89e",
+   "bytes": 17989
+  },
   "audio/saebelschnaebler_de_fact4.m4a": {
    "sha256": "8892e51e6cd974e789c63baa0fb99f4c225db37c95c913449f4d6ff806d994cd",
    "bytes": 46945
+  },
+  "audio/bartgeier_de_fact1.m4a": {
+   "sha256": "4c57fb1335adcdaba0e0b660be2dd6a40b2887b5cacc223ee037992a7429e71a",
+   "bytes": 38939
   },
   "audio/grauer-kronenkranich_en_fact2.m4a": {
    "sha256": "08030f37fcc5fba629bef33f192bc053ebd3b85c779e44238fe08bfc852dd9d7",
@@ -388,13 +400,29 @@
    "sha256": "56ebb86604a9c055786268ea4ee56e88528060babf28b452ee6753cc9403298b",
    "bytes": 26162
   },
+  "audio/humboldtpinguin_en_fact1.m4a": {
+   "sha256": "a95aaa4e20102b913b307dbea8fb057b31f1391d2cfbf34292bd04df8672d384",
+   "bytes": 25726
+  },
+  "audio/weisskopfseeadler_de_fact1.m4a": {
+   "sha256": "d7428e21ea87382358e672a401b4d4f79bd0d1ce635a0835fa0350e2f872fabd",
+   "bytes": 32744
+  },
   "audio/roter-sichler_en_fact5.m4a": {
    "sha256": "9ca8a99fab6e64b963339a0e349fe1238e30aeeea8ae2f6bca73343891065dae",
    "bytes": 24833
   },
+  "audio/rosaloeffler_de_fact3.m4a": {
+   "sha256": "d4e6b53893930e400f0d0756660c4ce8c77e682f835f883573c7ee1af43a1759",
+   "bytes": 45332
+  },
   "audio/helmhornvogel_de_fact3.m4a": {
    "sha256": "23ce5a0a0dd25e117b0ddcb39b8f51e8f8491fe4d06c47b71573306ffedfc71c",
    "bytes": 25577
+  },
+  "audio/gruenfluegelara_en.m4a": {
+   "sha256": "fc0ab22ae74ffe8e4e338450e17755cad76c54c8ba8bfa769c417cc3eecda603",
+   "bytes": 193188
   },
   "audio/blauracke_en_fact5.m4a": {
    "sha256": "2679b1fd6fa56dcd9eefc5363698c8eb87fd665da0cec50c0958ac633b7954c7",
@@ -404,9 +432,21 @@
    "sha256": "d91627e90cf595e204acc751ba9df058dff877d337c97f012f9c787199d33207",
    "bytes": 14422
   },
+  "audio/waldrapp_es.m4a": {
+   "sha256": "e0eb1b5f70ed8ee7a98ceb148be116709e2b4d32c857b9d481f5001ab6a3f586",
+   "bytes": 263847
+  },
+  "audio/opalracke_en.m4a": {
+   "sha256": "55cf9a28600313fac6e36a8f0f2c86411527a1f9351661b91c9e59d4d4127936",
+   "bytes": 241431
+  },
   "audio/blauracke_en_fact4.m4a": {
    "sha256": "0c99b1f510a81ea45d385d8a949c68907aae4b3ebc40335258b2ef395e047f24",
    "bytes": 34049
+  },
+  "audio/zweifinger-faultier_es.m4a": {
+   "sha256": "0da36f3bec9b5a226d88aa815c58e7ff19c4b3bc6683d9113605e5e9bad8fd92",
+   "bytes": 230214
   },
   "audio/maehnentaube_de_fact2.m4a": {
    "sha256": "68f2973afd8a1320b43ef883835086fcd89de73c92a66a543611390ad7539478",
@@ -420,6 +460,22 @@
    "sha256": "7d01fb22fdf87558b829bd59f3db64743a1c18e0a611135c2c4ad1ce8d352277",
    "bytes": 25052
   },
+  "audio/roter-sichler_en_fact4.m4a": {
+   "sha256": "abaedabf4387dd339cb507399fe263408a975752aa2c4608f04a22e0427b1f43",
+   "bytes": 27010
+  },
+  "audio/rosaloeffler_de_fact2.m4a": {
+   "sha256": "e42f54f51d4e4562e9694db8d70e8f15f7e3e20d15a5bfbe9d634d5136f2e124",
+   "bytes": 28381
+  },
+  "audio/gaensegeier_es.m4a": {
+   "sha256": "089ba20075dff4c1f445d185b47f8642492695ec0986ef6956121e8e91079c96",
+   "bytes": 255268
+  },
+  "audio/gruenfluegelara_es_fact2.m4a": {
+   "sha256": "d5e66a6dae7a2d645d97e65fae7b2b46194d5ae558f93c08e8f9431ad78da01b",
+   "bytes": 45228
+  },
   "audio/sonnenralle_es_fact4.m4a": {
    "sha256": "f1c274bf14b17a5d75f793cc81f6b425885c4eb847ffc7c31ed6260d7187db85",
    "bytes": 16726
@@ -431,6 +487,14 @@
   "audio/mandschurenkranich_es_fact4.m4a": {
    "sha256": "ebc89b1afbfeda108d44ab9166170c42389571fede743efdde8cecd20081a3fe",
    "bytes": 16791
+  },
+  "audio/rosaloeffler_de.m4a": {
+   "sha256": "c0b59753b3f56d25d6680849072ae337c6a5246477c9ad6026680ee731f177d0",
+   "bytes": 253956
+  },
+  "audio/bartgeier_de_fact2.m4a": {
+   "sha256": "7065b0c870023feccfd3e123c5a537c977685616752eb7b4822ec1c8fda77da6",
+   "bytes": 35404
   },
   "audio/hammerkopf_es_fact4.m4a": {
    "sha256": "88ab07bf3fa7c98d2ec3ab1adb7177ff48359272354a14b456ce3a44686668c5",
@@ -444,13 +508,33 @@
    "sha256": "75ec7aca85a8c2b60a66372b022582da9f3c9f0ddd3bf78db4bbf76d23267366",
    "bytes": 26487
   },
+  "audio/weisshaubenturako_es_fact4.m4a": {
+   "sha256": "30c9bcf6aa12ed37b483af08d050460c3718e53c65c759dfe5c845fdfa24ebbc",
+   "bytes": 48260
+  },
+  "audio/humboldtpinguin_en_fact2.m4a": {
+   "sha256": "b26bca19936422fb3948410661d86ad4ab21f4e06b0901a8ab5fb6ce90e98e80",
+   "bytes": 38770
+  },
   "audio/hyazinthara_es_fact5.m4a": {
    "sha256": "3355aff36025d4d0cd03adb848e830971f49cfcbdaf2b4d3094233bc285a2a40",
    "bytes": 36485
   },
+  "audio/weisskopfseeadler_de_fact2.m4a": {
+   "sha256": "234e132c8ec32d11eed5cb7620a6363909df3fc2b6ceba00084863e51af1b3e5",
+   "bytes": 33778
+  },
   "audio/inkaseeschwalbe_es_fact3.m4a": {
    "sha256": "25af252179d660d3b548dc0c997d37e9dff70a34e1981263af84ec7632b79ee3",
    "bytes": 21730
+  },
+  "audio/gelbbrust-erdtaube_en.m4a": {
+   "sha256": "ba7bd16ae09144fa1ca48f357cb24cdb5075308dab88ed548dce91bb6e306d00",
+   "bytes": 209352
+  },
+  "audio/maehnentaube_de.m4a": {
+   "sha256": "9c5c7de28d3725795e06047bf111f44ec43cfdb333fc5a159a45234ad54780bc",
+   "bytes": 265445
   },
   "audio/zweifinger-faultier_es_fact5.m4a": {
    "sha256": "6f866a4d3a6d9c46091067b98e8b87bf64994ebb9d516a23295abdb83e1931f0",
@@ -476,9 +560,21 @@
    "sha256": "8320a1c39329025a2a1fa2fcbbc2809979c2887f67cda2044aebee03b6120040",
    "bytes": 31472
   },
+  "audio/inkaseeschwalbe_es_fact2.m4a": {
+   "sha256": "72f83d15ab1e8153c029634a4babb7051156998f17c51c2327db1cf386dab36c",
+   "bytes": 28451
+  },
+  "audio/weisskopfseeadler_de_fact3.m4a": {
+   "sha256": "980f75a42aef94aa0c5b5c535f08b345ed73f4382c49d50b1bf26bc925000f27",
+   "bytes": 33517
+  },
   "audio/hyazinthara_es_fact4.m4a": {
    "sha256": "8b9789da896e4d71a7ee2bcf7a30ec46a0fd148715795ffefc41a324c912ab26",
    "bytes": 35647
+  },
+  "audio/mohrenweber-fuchsweber_de.m4a": {
+   "sha256": "8478817d560a1abae650e608ad59ad0f8cb46b266843bf3fb5369e75ebc3f5b5",
+   "bytes": 277531
   },
   "audio/humboldtpinguin_en_fact3.m4a": {
    "sha256": "8a80a44376f7aa832617c65cdf90c7491d2b2919eb3481885d53fea937ca324c",
@@ -488,9 +584,25 @@
    "sha256": "0809d476afca9fbe700a0a18b29040b8d1810844479ccfc3cb15ea8c4c3eb25e",
    "bytes": 39752
   },
+  "audio/weisshaubenturako_es_fact5.m4a": {
+   "sha256": "a41ecb1e093da2cb45293a5d702e705e6a4595dd0061fc6fafde2637ff5050d7",
+   "bytes": 27267
+  },
+  "audio/gruenfluegelara_es_fact1.m4a": {
+   "sha256": "48cff5a855e4239b9d143b4ba32b8413afdad5d48825c9dff0abcece968ea62c",
+   "bytes": 38186
+  },
   "audio/grauruecken-trompetervogel_es_fact2.m4a": {
    "sha256": "df3528d98b8c06ead8f6ea33103d2e092b732896695b6a9955da46b9a9efb1c2",
    "bytes": 38173
+  },
+  "audio/bartgeier_de_fact3.m4a": {
+   "sha256": "7e763a2551aa4bc06c4472f00936bc1927d15df52a6febc6465d3586fd582dea",
+   "bytes": 24718
+  },
+  "audio/sonnensittich_en.m4a": {
+   "sha256": "dcd23209f8ad042f405a7611041844e1f77db126fefd11f00c25904a02ce4a57",
+   "bytes": 208259
   },
   "audio/palmkakadu_de_fact5.m4a": {
    "sha256": "4f9ce962ec46d1bdca44aef5f422a52b520dff14fb4c74d2189f6d0f57c31e64",
@@ -508,13 +620,41 @@
    "sha256": "3045a391bdaa86100e1326a1e917fc56778a2ed98afb2a42285f0d242051ad37",
    "bytes": 21625
   },
+  "audio/gruenfluegelara_es_fact5.m4a": {
+   "sha256": "a14151f927a9edb2346cd81538d9220add928d276c2783bb27aeb2f2b2b0ae70",
+   "bytes": 38426
+  },
+  "audio/weisshaubenturako_es_fact1.m4a": {
+   "sha256": "0317172104849da37471f820f1f139384190a9a10c20e0dd82100a0d9bf53a2e",
+   "bytes": 53270
+  },
   "audio/sonnenralle_es_fact3.m4a": {
    "sha256": "25d18f68feb90eca2e49c2786fccd496e12278868d6236f9bcd8ae7f1f4da9be",
    "bytes": 24480
   },
+  "audio/maguaristorch_en.m4a": {
+   "sha256": "e3311cba5e73f31ce87d969787c7b99a5a60a8e339affa0656f5403260f81561",
+   "bytes": 259522
+  },
+  "audio/weisskopfseeadler_en.m4a": {
+   "sha256": "a7da92167a7fdabc845edee23828b0eb83d8ced4c5eba88d5c4ea60256951a60",
+   "bytes": 191303
+  },
+  "audio/stelzenlaeufer_de.m4a": {
+   "sha256": "24bb55978e303c726a2bf11713b8035ffb17332966640b50b880890fbbefb9f1",
+   "bytes": 254292
+  },
   "audio/roter-sichler_en_fact3.m4a": {
    "sha256": "4df80cd9b7c658f3392abfc4660c18cd4b85a809cb1314aed487f45f9222e35e",
    "bytes": 43112
+  },
+  "audio/rosaloeffler_de_fact5.m4a": {
+   "sha256": "46900c36b38790fad80cb221ed8404915fd90fb6a08b0291ac93304f688aeb4f",
+   "bytes": 32136
+  },
+  "audio/maehnentaube_es.m4a": {
+   "sha256": "dae78b6090ce7a0032c424ab75bd73bf663628f743e3bf2ceb301ca89e167194",
+   "bytes": 291580
   },
   "audio/blauracke_en_fact3.m4a": {
    "sha256": "23acce24c2b2f480234f47381dbe89f1c6ca924a742a2199c5129699a7905c27",
@@ -540,9 +680,21 @@
    "sha256": "bed4242e4f40eb1f6caef756ef5ca6b48961dc0846fd6cade4992add4882f202",
    "bytes": 17300
   },
+  "audio/rosaloeffler_de_fact4.m4a": {
+   "sha256": "cc6a602a540a3443547fd4acd7b434f61c1d32385512fc00e577c579417bc107",
+   "bytes": 16771
+  },
+  "audio/hyazinthara_es_fact1.m4a": {
+   "sha256": "42ddbeb3c5c2d856cd59305776c71b3121738c78352f0f69ffca65bb7b317883",
+   "bytes": 26288
+  },
   "audio/sonnenralle_es_fact2.m4a": {
    "sha256": "68cabd6c76fc79b1869c7478ea1599971a5e1151619896eec67753084d1b7dae",
    "bytes": 25130
+  },
+  "audio/gruenfluegelara_es_fact4.m4a": {
+   "sha256": "701b1536b7ee81e88fe3c6a17345f4b2e6fd33aa95ed9489125ae8cd08714374",
+   "bytes": 28556
   },
   "audio/mandschurenkranich_es_fact2.m4a": {
    "sha256": "e791ad7bfaf0647805de33981c3ffbe5b2b7cada3affb7aa5036be431999d0fe",
@@ -556,17 +708,45 @@
    "sha256": "07c228512778263a7c0b06c35ab9639c7b46694a33f13e7f589d8ee3bef63044",
    "bytes": 43623
   },
+  "audio/grosser-soldatenara_de.m4a": {
+   "sha256": "f5f179a5e8dbe1e4498b50f1f7dd2b0a3742dd2a9edb4be8d5e7107259f0450b",
+   "bytes": 230166
+  },
   "audio/hammerkopf_es_fact2.m4a": {
    "sha256": "0335b1b94d8121b56b385170abf8bd84d21b3d942ac7fb062ca1be6b78b2f5cf",
    "bytes": 43306
+  },
+  "audio/bartgeier_de_fact4.m4a": {
+   "sha256": "38822e07542b2550a802bbcac419084c5641276d598080326c73f9d8d0581231",
+   "bytes": 23914
   },
   "audio/saebelschnaebler_de_fact1.m4a": {
    "sha256": "35b3aaab0fdbccca37a63db05a8096dce2c9489f5579950f5007182afcc3173d",
    "bytes": 49934
   },
+  "audio/weisshaubenturako_es_fact2.m4a": {
+   "sha256": "57bd3149d82b4791db0e74b5c45098ebe98f36e8331442fd99afc13c65555e3f",
+   "bytes": 63829
+  },
   "audio/gebirgsara_en_fact2.m4a": {
    "sha256": "449187dcebc7bec804d068e86ed648bfe4f6a970c601c0bb669cdc3f9909d69f",
    "bytes": 24647
+  },
+  "audio/hyazinthara_es_fact3.m4a": {
+   "sha256": "2eab52fa1dad54b264c99dd364b332f9854b2329eb8a05a7b8118b743a4f4d57",
+   "bytes": 48212
+  },
+  "audio/humboldtpinguin_en_fact4.m4a": {
+   "sha256": "a4040388f749a039f108d02c5957e556794881d10b0d4da15c5e41c10f81acae",
+   "bytes": 32515
+  },
+  "audio/schneekranich_en.m4a": {
+   "sha256": "fc4217922a16e40b97f4b8031081d4e2be98045d14f9a56e07bfd68583e7dc9d",
+   "bytes": 229286
+  },
+  "audio/weisskopfseeadler_de_fact4.m4a": {
+   "sha256": "967a27f49e3df4e53257771846ed45e3efa6bc78580d877154347164a30ef4f0",
+   "bytes": 33824
   },
   "audio/inkaseeschwalbe_es_fact5.m4a": {
    "sha256": "476994c42e12c2f866d814a69ea97582a03f30bcbf1ae40ed6cf996f0d83a7ef",
@@ -576,13 +756,41 @@
    "sha256": "a755664d9a69c15407c35bcd1862cff4e3d3c81e1361d197a464085f6aed2a85",
    "bytes": 23465
   },
+  "audio/waldrapp_de.m4a": {
+   "sha256": "2e26c6bb1883628afd37d3a186405196428d30473078ea8a2358e2fd4c460e75",
+   "bytes": 215867
+  },
+  "audio/zweifinger-faultier_de.m4a": {
+   "sha256": "50f552c8cca5bedaea6e541895f3213af4817f34dd64fcb92c1ce5de6107cce8",
+   "bytes": 254976
+  },
   "audio/blauracke_en_fact1.m4a": {
    "sha256": "d2c09e5af3e78e8abe8441ec78a14532dbbc5787300e03b35378eeb6a2582430",
    "bytes": 47943
   },
+  "audio/zweifinger-faultier_es_fact2.m4a": {
+   "sha256": "71674aec621c71ea38181c6ed2603953d9e62a67d79ec1ae3647bb80db2eb7f3",
+   "bytes": 36159
+  },
+  "audio/inkaseeschwalbe_es_fact4.m4a": {
+   "sha256": "f5e6b2d6024d79238d4732cca1a43459d13b8e88b84d59ea6e798759d59d7e2c",
+   "bytes": 27694
+  },
   "audio/roter-sichler_en_fact1.m4a": {
    "sha256": "d940d0f23d56cb22edce4e06c53b11c94ad6c46218c7a49a35bbf53cae4d7078",
    "bytes": 28944
+  },
+  "audio/weisskopfseeadler_de_fact5.m4a": {
+   "sha256": "f5a19c606198353a67bca924b220bed448bf796fec9a6b71e14e95ba0f8d833d",
+   "bytes": 29639
+  },
+  "audio/gaensegeier_de.m4a": {
+   "sha256": "03111da886cc5b800f5f02b677ed8038e781ea8d8870b15318432ad59125869e",
+   "bytes": 244263
+  },
+  "audio/humboldtpinguin_en_fact5.m4a": {
+   "sha256": "0afcad30f5842ed2c5e30df890b5733bcb0373503f4048d58451447d9e8a9a77",
+   "bytes": 41900
   },
   "audio/hyazinthara_es_fact2.m4a": {
    "sha256": "0b8795a243d093e074ddb716a6889f6c0a96a3101d9281405943c564b51085c7",
@@ -592,6 +800,14 @@
    "sha256": "a68dd366fc10268e7b8081095523363e224e853d176373117d7c1ca8814800eb",
    "bytes": 23201
   },
+  "audio/weisshaubenturako_es_fact3.m4a": {
+   "sha256": "bdce7bd987261e1c4f5d3331616f3934c8650cb21df89532250954a707f7ee77",
+   "bytes": 37372
+  },
+  "audio/bartgeier_de_fact5.m4a": {
+   "sha256": "9014214d8235ca6d3874cf3e7561f155da0cd5dd90899a38aef56f7dfe22f1e1",
+   "bytes": 45589
+  },
   "audio/mandschurenkranich_es_fact1.m4a": {
    "sha256": "8745683ccf4cb003826963c63c53c190160d647d207ec7261ca88b9e9ec6c3a8",
    "bytes": 19027
@@ -600,9 +816,33 @@
    "sha256": "749d8dae81897c064c318b760906748b1090af565d23add13e975a75246659af",
    "bytes": 35581
   },
+  "audio/rosaloeffler_es.m4a": {
+   "sha256": "14d41de2116e17c5cc09463700dc44c09efb73061471be4bcf3161b53d048c7f",
+   "bytes": 265527
+  },
+  "audio/brauner-sichler_en.m4a": {
+   "sha256": "3c192e1de12ee94a2cf865a62b562337e378bedeb161b0ec069f5684185af506",
+   "bytes": 236008
+  },
+  "audio/gruenfluegelara_de_fact5.m4a": {
+   "sha256": "86c5678332673c82494b7a17b317b5255746a09eb459474da5128ddbca5339ae",
+   "bytes": 33248
+  },
+  "audio/gruenarassari_en_fact1.m4a": {
+   "sha256": "6a7b773818ce14ab5966eedabf9f16bbaee0637cc39c8dfb00451fc74ffb655c",
+   "bytes": 17284
+  },
   "audio/sonnenralle_de_fact3.m4a": {
    "sha256": "c458f51b4f7e331dbf79df35a3949fc35105f546ef976239a58363d7fa30d03a",
    "bytes": 22074
+  },
+  "audio/weisshaubenturako_de_fact1.m4a": {
+   "sha256": "af24225c07f20e2d275946a423a971c331705d5a12fed31c405dda70048b7301",
+   "bytes": 53501
+  },
+  "audio/hyazinthara_de.m4a": {
+   "sha256": "1a4f8d26562960edafd0a23694fad5443be1012a773530696c190f991bd27cc7",
+   "bytes": 260852
   },
   "audio/palmkakadu_es_fact5.m4a": {
    "sha256": "a23c4088f72268b8723895744c9bcaf5a45edc44446a05e22af1fc313919dc2b",
@@ -612,25 +852,73 @@
    "sha256": "78f9a53dac59d18902a26b5eb2a337777a121ee560b268a22f652f190377f155",
    "bytes": 32538
   },
+  "audio/schnee-eule_en_fact1.m4a": {
+   "sha256": "d1093ad2f7e21bbb2ff57fcb352d105b009e6968dd22a7ce73a38978244ff3aa",
+   "bytes": 32587
+  },
   "audio/mandschurenkranich_de_fact3.m4a": {
    "sha256": "a4c671de7962afe202152db899cad5298868c647d248b09a8ac6941b0e49d108",
    "bytes": 22116
+  },
+  "audio/waldrapp_en_fact2.m4a": {
+   "sha256": "e73cc5e4ab8d6610979e898b48b5ea7196eecc724aade34d7ae9dea40d3d7f3f",
+   "bytes": 24869
+  },
+  "audio/bartgeier_es.m4a": {
+   "sha256": "951f1a48d4f36084860773085cd4987a9f570ac5c187da1d8bfea0c4e67a2a5d",
+   "bytes": 234522
+  },
+  "audio/gaensegeier_en_fact4.m4a": {
+   "sha256": "dc889c02a34fb06742891977bee57aab54cbf63f9e3c1f596fd13f71a924f9f9",
+   "bytes": 22597
+  },
+  "audio/rosaloeffler_es_fact5.m4a": {
+   "sha256": "aa4331d1dfc8c211c552b3edea667b5d065590469eb8e8a287d7ea75d9e824c3",
+   "bytes": 31235
   },
   "audio/bartlett-dolchstichtaube_en_fact1.m4a": {
    "sha256": "738735b9de37de8cd213825d2b4ab806e2d6d2875a03d006a4672fc72b563747",
    "bytes": 23986
   },
+  "audio/hyazinthara_de_fact1.m4a": {
+   "sha256": "0ced787825c6286c352e21653f1e38ef5e62d90d6f024fea453f44d1420fa568",
+   "bytes": 25894
+  },
+  "audio/rosaloeffler_es_fact4.m4a": {
+   "sha256": "4f1b7be5b8b633fe7add1fde55e4a777ecde4e8a214eb33921646e40fc87da21",
+   "bytes": 21190
+  },
   "audio/helmhornvogel_es_fact4.m4a": {
    "sha256": "6c7f1f80d7001a19490cb413d4aa3f2d0ca522c7e26b33b9bfc89ca923a98d39",
    "bytes": 21651
+  },
+  "audio/gaensegeier_en_fact5.m4a": {
+   "sha256": "651cfecfd1d9de0dc5bcaf7c48665e08b83137e29c411147d8f872c76e789dc4",
+   "bytes": 23757
+  },
+  "audio/balistar_en.m4a": {
+   "sha256": "db01a6dbc66b8624222a7e98a9d0bb477ea77eb2e05dd037701b79ef2493134e",
+   "bytes": 237599
   },
   "audio/zweifinger-faultier_de_fact1.m4a": {
    "sha256": "27e53a729be181fc1e6be990d3d36b41bd68bf128be6a80e11aa6c9a6a3c7fb2",
    "bytes": 41076
   },
+  "audio/schamadrossel_es.m4a": {
+   "sha256": "416ff0f529d90e0e925d2d90af8148a6780feb6583a478a5ee0828cb49bfe7c0",
+   "bytes": 283272
+  },
+  "audio/fruehlingsgruentaube_en.m4a": {
+   "sha256": "9683d4152260f9bf89f6871fc6e347527e621c105255f4f7b0aca77c338fb87e",
+   "bytes": 263569
+  },
   "audio/waldrapp_en_fact3.m4a": {
    "sha256": "1b3e4a18c1f8618bc5299088916882b3e9bc0bf0c0d815cc78d171b2d2335450",
    "bytes": 19359
+  },
+  "audio/humboldtpinguin_es.m4a": {
+   "sha256": "5a09ec7826546585e4cf2f449bca5bb75b9b4e119d6ac67cdceed89fc4b23bd8",
+   "bytes": 306615
   },
   "audio/mandschurenkranich_de_fact2.m4a": {
    "sha256": "d85c4f3949302b7943e7774f568dc12cc8e4323f0ee2bce9205f8b3c4d3a0165",
@@ -640,17 +928,49 @@
    "sha256": "55433b5fd315b86cb01007d0e0186a014811d6fae102188720e39e0703ddbcee",
    "bytes": 37146
   },
+  "audio/roter-sichler_es.m4a": {
+   "sha256": "3171bd827610c9bccd54f017bd7e4cc2d8432d037484e21303e039841c0b4df6",
+   "bytes": 242526
+  },
   "audio/sonnenralle_de_fact2.m4a": {
    "sha256": "a88fa74faa0db2dc1983587ac1a7b2c86f5368d6162215372e65ff3d63974fcf",
    "bytes": 22948
+  },
+  "audio/gruenfluegelara_de_fact4.m4a": {
+   "sha256": "79fe1339e6059d97c45abd0c496caed42f46998a3dcacf33746237053bd59181",
+   "bytes": 38615
   },
   "audio/schneekranich_en_fact4.m4a": {
    "sha256": "fe4396465c3146f9ecfefc916c613e722945db99e937c9a1ffc847ad9bdaf240",
    "bytes": 30570
   },
+  "audio/goldkopfquetzal-trogon_en.m4a": {
+   "sha256": "dad52171cf718b85d14b766ce0859145596587b2bc2017587613d2d604ff374b",
+   "bytes": 213200
+  },
+  "audio/bartkauz_en_fact4.m4a": {
+   "sha256": "a8e969cd87c4251564b93e20a52acdae51a24fb05e2fda8ceb02e88a04541417",
+   "bytes": 24377
+  },
+  "audio/weisshaubenturako_de_fact2.m4a": {
+   "sha256": "3b585bcb286881fcd936f0ab1f192c289423d84c4cca2370ed05703fa83ec671",
+   "bytes": 71776
+  },
+  "audio/gruenarassari_en_fact2.m4a": {
+   "sha256": "147230f4e365b8440d5d75c177642bc67ae3fcdad00aebceb22f6091e81a0903",
+   "bytes": 15623
+  },
   "audio/hammerkopf_de_fact2.m4a": {
    "sha256": "7cd8d5e566f6d7fca0c7f71e5e07ac04b02421d422000733a47be4f2285c35cf",
    "bytes": 29571
+  },
+  "audio/schnee-eule_en_fact2.m4a": {
+   "sha256": "53691501faeced399a73e18c153c2206206942da1a683eb9434746ccbeac1708",
+   "bytes": 49511
+  },
+  "audio/bartgeier_es_fact4.m4a": {
+   "sha256": "75dd57d40813d95a01c0d8da9541aed143eb77802ff8c101b0bfb0919d1d62d7",
+   "bytes": 48019
   },
   "audio/saebelschnaebler_es_fact1.m4a": {
    "sha256": "50d80981a293804ab93650fe1eb815b2d94fafa81edd2bdbff8cc53d7ead6b3c",
@@ -664,21 +984,45 @@
    "sha256": "f7cb720a461fa762a4fbfe5689edcc2ea2fab40f19d0f4b72fc334f6e9105739",
    "bytes": 24382
   },
+  "audio/mandschurenkranich_en.m4a": {
+   "sha256": "40738cd0c0d90de522c64bef118d584ba9d9d8b3d47c09a4a9603e572cb7b0d9",
+   "bytes": 234636
+  },
   "audio/zweifinger-faultier_de_fact3.m4a": {
    "sha256": "6cc7994cb70fe9e5286fed5ddbced389e56276c12b3bec36aa0e6a1c0d8af841",
    "bytes": 24525
+  },
+  "audio/schnee-eule_es.m4a": {
+   "sha256": "6e5a6f3b084c419bacdaa40de85937e1b7bc9cf84c10971a51b1c2a99a60ec33",
+   "bytes": 267529
+  },
+  "audio/inkaseeschwalbe_en.m4a": {
+   "sha256": "2e6081bf32e1a017880ca33b1fa6917a5b3fcb340b55c9215c7beb5a4928b122",
+   "bytes": 180783
   },
   "audio/inkaseeschwalbe_de_fact5.m4a": {
    "sha256": "bcb2915bd043ab668bf760896238b437148fefd57d63050bd2563d0c54153f42",
    "bytes": 16430
   },
+  "audio/weisskopfseeadler_es_fact4.m4a": {
+   "sha256": "4161a4a13b0a906d336119d1faee3606419061b739130932d2ae66b4646f56a8",
+   "bytes": 36400
+  },
   "audio/bartlett-dolchstichtaube_en_fact2.m4a": {
    "sha256": "7d0b7801265789d2745049b617ed07e840900a88452c7ea253d3d9f5fed61a59",
    "bytes": 25549
   },
+  "audio/hyazinthara_de_fact3.m4a": {
+   "sha256": "3320cfec98fbe2bd2d0f1c6465d8d91901ac08c9834833654c9de902c889edc3",
+   "bytes": 39882
+  },
   "audio/hammerkopf_de.m4a": {
    "sha256": "9d79d72f7ab410f93729a574fa3aecf4de83662227baccbf4182ded0df6d4af5",
    "bytes": 226447
+  },
+  "audio/faecherpapagei_es.m4a": {
+   "sha256": "d4dc9a30d737534ca2da4b88bfd165001e1bda426e8f4e9a2ae58c67aacae2fe",
+   "bytes": 275430
   },
   "audio/hyazinthara_de_fact2.m4a": {
    "sha256": "8e8637506c74f6a62ed2f7420d05cf791501de54dfd578e927a082c3bea3ccf8",
@@ -688,6 +1032,30 @@
    "sha256": "5eba4dcb6f5847041c392aea07ae0701164954c5533dd760f0266cafebffdf77",
    "bytes": 23550
   },
+  "audio/weisskopfseeadler_es_fact5.m4a": {
+   "sha256": "4d866c034ed8fa5b4d095da9f2bff2b51d8eef1ec84483d883b619fffc0240c1",
+   "bytes": 28286
+  },
+  "audio/inkaseeschwalbe_de_fact4.m4a": {
+   "sha256": "5ae17b4ffe64e76e5f8d142d24c53573b46d13ffa5c62c1bd8c0a76d10b7365a",
+   "bytes": 22698
+  },
+  "audio/weisshaubenturako_de.m4a": {
+   "sha256": "c1514b32e474ef4f987ee6058719c5da1a85ef66a54f2a3c8da89351cacde0ce",
+   "bytes": 251422
+  },
+  "audio/zweifinger-faultier_de_fact2.m4a": {
+   "sha256": "f94bb6fcb49d2eccd8cbb5342d42a2cf94b647df6b24590dce8b00948637aedc",
+   "bytes": 34444
+  },
+  "audio/grauer-kronenkranich_de.m4a": {
+   "sha256": "37282e4f678b7797ebf44d1271bbe6209d99b104f17b4dc092b7d53c7b0ef861",
+   "bytes": 239168
+  },
+  "audio/bartgeier_es_fact5.m4a": {
+   "sha256": "da308b26d2e53c75f4ac618774cbc8f8701ca290bb502b87520fdf342003f134",
+   "bytes": 47979
+  },
   "audio/mandschurenkranich_de_fact1.m4a": {
    "sha256": "e23214cd3a7cea4e1aaffb6facb4e2a0a8c1d59f7ae35d85c5b1f47110d845a7",
    "bytes": 24268
@@ -696,9 +1064,29 @@
    "sha256": "eb9541165ad0153c03ff594bba80b3e42501e9dc6de2d669b72853b8b1f2b496",
    "bytes": 35530
   },
+  "audio/schnee-eule_en_fact3.m4a": {
+   "sha256": "6a2acf54ec46b98fcbc3d4aa7a65da9c481203434d309e54b16eb7a9cda8119d",
+   "bytes": 31703
+  },
+  "audio/gruenarassari_en_fact3.m4a": {
+   "sha256": "2689bb8eb8ad35f9023c100904832285a38dcb37c91b775eefef9f0fa36697d1",
+   "bytes": 20302
+  },
+  "audio/weisshaubenturako_de_fact3.m4a": {
+   "sha256": "3604db9117d6507e25696cdbc52575536e8197fcb4cfc89c7ad97ecd897b1864",
+   "bytes": 35734
+  },
   "audio/sonnenralle_de_fact1.m4a": {
    "sha256": "e5022023e10e7f9d4ae7bee334cc5a0635cace8edd7013caa606a322cbd7fab7",
    "bytes": 21240
+  },
+  "audio/bartkauz_en_fact5.m4a": {
+   "sha256": "fbc104b75ba2edcce818e73fe3cf103b3d1cda64ed49e125224f89e807c3894b",
+   "bytes": 34395
+  },
+  "audio/bartkauz_en_fact1.m4a": {
+   "sha256": "3df6ae0d7aff9582e7cb26664c06c49cff0e9598dee172be3bc84f08269930e7",
+   "bytes": 28786
   },
   "audio/schneekranich_en_fact3.m4a": {
    "sha256": "8d9b79de129fba645da3e3f5e483a6387087cccb0af54a41194bc6f1c2180773",
@@ -712,25 +1100,57 @@
    "sha256": "df504437068ffd445ad2ce3024b2929407b69fd2049edbcc802d4601b6d16889",
    "bytes": 32030
   },
+  "audio/mandschurenkranich_de_fact5.m4a": {
+   "sha256": "7c9ab450ffcab21d8d2e00a09d9f701873134bc9a94b76f43ebd917ae0941e62",
+   "bytes": 13843
+  },
   "audio/saebelschnaebler_es_fact4.m4a": {
    "sha256": "51d0b04fd75926da6ed61aa053279fd35e1aae0d99934e8abaed55bf8f75972e",
    "bytes": 40420
+  },
+  "audio/bartgeier_es_fact1.m4a": {
+   "sha256": "b8d124eb898c5aaaf626ea277eee629447426797ab2dbfb81b22172cfb83efbb",
+   "bytes": 41351
   },
   "audio/waldrapp_en_fact4.m4a": {
    "sha256": "55cfe28e22c68ade92e76db89c7808b76a688fdfb2d19d9a20e4e1417d7185e2",
    "bytes": 21460
   },
+  "audio/gaensegeier_en_fact2.m4a": {
+   "sha256": "964d4fb53f109a4ef766f5cfff91391d83f2e7616cb9a2777671bcf506f3ad72",
+   "bytes": 18462
+  },
+  "audio/schnee-eule_de.m4a": {
+   "sha256": "ee347a6ba896d70363d2cb4bac7b9fe0e273d2f08f60969b6c57e8bf72ab4b75",
+   "bytes": 283295
+  },
   "audio/gaukler_en_fact2.m4a": {
    "sha256": "f5b2c65af48376e99fc713ffeaf1154c6176f49c3005c3a7c3dffa614ba8df26",
    "bytes": 37907
+  },
+  "audio/kronenkiebitz_en.m4a": {
+   "sha256": "ea7f6daf86977d0bb5629282a674eeb9b8c61a5ae3796ed036d6bef2acf84edc",
+   "bytes": 246474
+  },
+  "audio/weisskopfseeadler_es_fact1.m4a": {
+   "sha256": "d573ce763d1b3ce86da794eec45ead0ae2f2914cfc3acb660b45d572502ec2c1",
+   "bytes": 30293
   },
   "audio/helmhornvogel_es_fact3.m4a": {
    "sha256": "bf7dc96977864aaa02439f1d5f9b44ddcdbcf8dd01e8194b7c197e70a3794748",
    "bytes": 32449
   },
+  "audio/rosaloeffler_es_fact3.m4a": {
+   "sha256": "6d76fb62923cc63e1f018de45b7808e3dc5bed98fb6c5e7ebdc2b237f17d4614",
+   "bytes": 42186
+  },
   "audio/hammerkopf_es.m4a": {
    "sha256": "ccde59796dea569df5edc6ab05a9359280b2f2d03d79a28c3eafae3e682c20a4",
    "bytes": 263876
+  },
+  "audio/faecherpapagei_de.m4a": {
+   "sha256": "d78b81d82ecab1c395d90c3b59bbc7662cdc14742be8624343cf6c0b7809dfc2",
+   "bytes": 269908
   },
   "audio/faechertaube_es_fact1.m4a": {
    "sha256": "36042ac3432bc23c553264f57adda51df5200fa2726dcf6983027461644b27eb",
@@ -740,17 +1160,45 @@
    "sha256": "e6bf24821c0b8fe4e89b6984b6063201ec2f330e4dd7e5fa86e2d7cc12b8f3c4",
    "bytes": 21051
   },
+  "audio/rosaloeffler_es_fact2.m4a": {
+   "sha256": "d50584c6cc4aca1ef13b4506d9f310c044c6e36a079a473b16c718bbb2814f8c",
+   "bytes": 27797
+  },
   "audio/gaukler_en_fact3.m4a": {
    "sha256": "0cbed20c4f9d497931047af001cf88b5ad2a6fa8dc0ca12799af63b44f89fe7d",
    "bytes": 30030
+  },
+  "audio/weisshaubenturako_es.m4a": {
+   "sha256": "23731aef4f512efe5033c78bbb28bc4f54a1910d98a3e4283e72dc817b23e589",
+   "bytes": 244537
   },
   "audio/maehnentaube_es_fact2.m4a": {
    "sha256": "377cf97d94fa3de67d7df2f80f8a45bf54a44049b8907722d09bdbbb6d38e75e",
    "bytes": 28150
   },
+  "audio/gaensegeier_en_fact3.m4a": {
+   "sha256": "7d81e22a94071f3fb7f5fb6185df4b7282909a0efc39780ea47e2820dc577350",
+   "bytes": 32281
+  },
   "audio/grauer-kronenkranich_es.m4a": {
    "sha256": "0e5bdaf714caedcb782f79dbda66a37f43293e63ba332aa7c0f6f793f7d4b63a",
    "bytes": 242528
+  },
+  "audio/waldrapp_en_fact5.m4a": {
+   "sha256": "5ca56944234c66faaeaa94c5ed1b8863b8d44a252b8c5446c558208781f2ea48",
+   "bytes": 30027
+  },
+  "audio/weissnacken-fasantaube_en.m4a": {
+   "sha256": "6edad84588d8db1c2d98940d295f71101199fc0dc662063c8fc60d33b06fab80",
+   "bytes": 232310
+  },
+  "audio/bartlett-dolchstichtaube_en.m4a": {
+   "sha256": "62097bf708f01cf4584b90473b050183383903b7c64cb7edf771464f77a07442",
+   "bytes": 229728
+  },
+  "audio/gruenarassari_en.m4a": {
+   "sha256": "39a3e1ed2385fe61d2e96c4580346ee974c208302efa5ab347e785173df1d5f1",
+   "bytes": 259970
   },
   "audio/saebelschnaebler_es_fact5.m4a": {
    "sha256": "2cc2ed6562b2dd05e6fde544088c4c2d164d081f36c12bd07f4db56a3a3e534f",
@@ -760,9 +1208,37 @@
    "sha256": "64eecdde422fcd15b185876f9a7f8ae3fa85b58bb311ea080fb7124f67d51995",
    "bytes": 19288
   },
+  "audio/gruenfluegelara_de_fact2.m4a": {
+   "sha256": "d09b145f6216b055d01b3cd9dc3dd84e1842b5f90f56e0e040d10262c1d43fef",
+   "bytes": 44282
+  },
   "audio/sonnenralle_de_fact4.m4a": {
    "sha256": "dff658fd5c2d8c3c2f42608d242a2d81286b1adf5ad7b77e66fa8bd24e477bfb",
    "bytes": 18051
+  },
+  "audio/bartkauz_en_fact2.m4a": {
+   "sha256": "f3b424a5d4a22294cd2f2bc1fcfbc230b05c40ea562e6b379998743953d82db2",
+   "bytes": 39202
+  },
+  "audio/bartkauz_en.m4a": {
+   "sha256": "3905d04e5dacd28bb7e55bceee841824a39648f2672a57ff1f80144e9c3d7871",
+   "bytes": 239420
+  },
+  "audio/gruenarassari_en_fact4.m4a": {
+   "sha256": "b0fa648b68c1611dd24821ee39ab4d91436b6ac17ee4697f37057cd98f1f897a",
+   "bytes": 20876
+  },
+  "audio/weisshaubenturako_de_fact4.m4a": {
+   "sha256": "2972c370e87ba5b307961fc0f7e5aaf716d3380be4213daee43c5495d86ada0d",
+   "bytes": 36065
+  },
+  "audio/hyazinthara_es.m4a": {
+   "sha256": "e74223677a7ea9264a2ac491d7018f0343d80b87444e20735e3ba0d15df4e8b1",
+   "bytes": 263055
+  },
+  "audio/bartgeier_es_fact2.m4a": {
+   "sha256": "a7271f705bdee33cf6b6e566a564b1ebd59ff3ab77e6dc4eae4d9db734939f11",
+   "bytes": 37749
   },
   "audio/hammerkopf_de_fact4.m4a": {
    "sha256": "fc3f0774f1dacb9b4d82b681211dfa2d1def2d02e3bbed85ef676c0c62d1ee4b",
@@ -776,6 +1252,22 @@
    "sha256": "747dded7aeb3114839c09c1d1139fec274f379249aa832ee403535181ab79e61",
    "bytes": 27387
   },
+  "audio/riesentukan_de.m4a": {
+   "sha256": "bbc386bad4cfce58554cd7ca4668ae9e5100ba2fe0a7e824c5b8915e23b00dfb",
+   "bytes": 236962
+  },
+  "audio/saebelschnaebler_de.m4a": {
+   "sha256": "9f3ba1ce6d04f6bc3a914e22269f25e9c5c3395b3a05b0d7ed7baaa06f8e6321",
+   "bytes": 257612
+  },
+  "audio/bartgeier_de.m4a": {
+   "sha256": "9668d68ea529e35ddc786662cd87caf00889bfd171e45c5e0b7861da19431fc7",
+   "bytes": 218821
+  },
+  "audio/gaensegeier_en_fact1.m4a": {
+   "sha256": "b0b527d17c7293d214db0dd1afb9c83f5d5e4c6b4a27c3972749cbe7aa6765d2",
+   "bytes": 20217
+  },
   "audio/zweifinger-faultier_de_fact5.m4a": {
    "sha256": "e74356fe2865d63b6a11011d8bc64db7106f89108d3010847c9f9f055f294682",
    "bytes": 30309
@@ -783,6 +1275,14 @@
   "audio/inkaseeschwalbe_de_fact3.m4a": {
    "sha256": "346f456bc0674e3f7c5aabc2da57a227606208bc3b0859bc4a7d60b1e26d70c4",
    "bytes": 20014
+  },
+  "audio/weisskopfseeadler_es_fact2.m4a": {
+   "sha256": "71b281a4366900340d1cd947f79e680408e1b1c834b4a3cf191a7d033e1a7b3d",
+   "bytes": 40752
+  },
+  "audio/sonnenralle_de.m4a": {
+   "sha256": "82325daa02b1101a999422251713c2e34f8c3822d39847697582cf675dd28e86",
+   "bytes": 227519
   },
   "audio/bartlett-dolchstichtaube_en_fact4.m4a": {
    "sha256": "1362136857c03d883c47f6daf8e1366f263293b82c00ae16c36511292125bd08",
@@ -800,6 +1300,14 @@
    "sha256": "379af337e7ec5d2a980b319fa8a43a416d03697919a66b7a10ee03ec70f8c4c2",
    "bytes": 23122
   },
+  "audio/gelbbrust-fruchttaube_de.m4a": {
+   "sha256": "7dfcaaad384de01225229dc089328fe10758e01b26d2cfbe166158feaf2afaf3",
+   "bytes": 237070
+  },
+  "audio/blauer-morphofalter_en.m4a": {
+   "sha256": "5bb35fa2e887947b8daae245342ed1b730ec68deb7bc657cfcb896f2fa7c82df",
+   "bytes": 207539
+  },
   "audio/faechertaube_es_fact2.m4a": {
    "sha256": "a1ee7d05956f1c35ba25f26da672e4a00ff0e153f507283a8a83e57a0b77ca2f",
    "bytes": 51539
@@ -812,9 +1320,25 @@
    "sha256": "9198e66f378a24034f115288d3b6a9104959a6beb6921aa1cc139936656aaebb",
    "bytes": 23601
   },
+  "audio/weisskopfseeadler_es_fact3.m4a": {
+   "sha256": "5fe3c1bde3f604d5643a3ac0904fbabc192986f109e994c33da1d8a6f4320e04",
+   "bytes": 41031
+  },
+  "audio/inkaseeschwalbe_de_fact2.m4a": {
+   "sha256": "6509072cecfeeb9f24ade3d4ad46f80ab9fa2f804c15ccf3ce7eecea85b2c5d1",
+   "bytes": 33411
+  },
   "audio/zweifinger-faultier_de_fact4.m4a": {
    "sha256": "ee06a6ee0b871d504fe7eba700063f3b28e3a2cc087644bba3b52aef9ea531c5",
    "bytes": 39230
+  },
+  "audio/schamadrossel_de.m4a": {
+   "sha256": "d43b3599947d2b0113748d0f03b9cc932c188906bc6fa12f190842685b415e86",
+   "bytes": 276238
+  },
+  "audio/humboldtpinguin_de.m4a": {
+   "sha256": "0eff6a1f4031376f054e7a5d303b8fc531807647726e407be908f898bdd2534b",
+   "bytes": 266718
   },
   "audio/grauruecken-trompetervogel_de_fact2.m4a": {
    "sha256": "721a5ac59cdcc2b08bc139f7c97871454a0f09ed89dd1e422640c156f7e866a8",
@@ -824,17 +1348,53 @@
    "sha256": "0ba284fe7ac7aee37430edb2f7f67d3d09ff089a2a54a45145e40c70cd3b2d2d",
    "bytes": 47998
   },
+  "audio/bartgeier_es_fact3.m4a": {
+   "sha256": "5ed21211d9a7e7e05197ee2ae6cda667fdf2798d0d37ff82534464b6c6215e76",
+   "bytes": 28003
+  },
+  "audio/weisshaubenturako_de_fact5.m4a": {
+   "sha256": "aab010b778770df86dee368959667a79d52ecd3c343375c491e5716ee16b49ce",
+   "bytes": 29002
+  },
+  "audio/gruenarassari_en_fact5.m4a": {
+   "sha256": "e9b91b4305e3dd33b3e2fdf0b46cd6a1cfd87dc40318cf2fde37bf5140d5dc49",
+   "bytes": 26379
+  },
+  "audio/gruenfluegelara_de_fact1.m4a": {
+   "sha256": "c9599d6e7f9b47dc0336a2b338bd61727b58ae720e859543afabc3c9af7da1d9",
+   "bytes": 41460
+  },
+  "audio/roter-sichler_de.m4a": {
+   "sha256": "b96d021f910a6a69029a9d1da643b9e96b07a8e0857b7bf060856f2c6d898a07",
+   "bytes": 270617
+  },
   "audio/balistar_es_fact3.m4a": {
    "sha256": "fb343f4482a12ab4f488929af589b12c028ed17927d90790d3c36c8d00e72ca3",
    "bytes": 40515
+  },
+  "audio/bartkauz_en_fact3.m4a": {
+   "sha256": "7a0e26e60809859ef9c05bdb5cac22ea6e1c338c2164ac9d7b697fb54ec11968",
+   "bytes": 26887
   },
   "audio/schnee-eule_es_fact5.m4a": {
    "sha256": "022b703f7ce9dc861bed1c36d3680e1997007a3f07248e01a1c0c4111b84b271",
    "bytes": 50015
   },
+  "audio/bartgeier_en_fact3.m4a": {
+   "sha256": "fd4296b1e3c72c0cb21c938dac3b760f55044511d55f3baf5b2c99c30a9cbc8e",
+   "bytes": 21443
+  },
+  "audio/gruenarassari_es_fact5.m4a": {
+   "sha256": "6ecd85ea1a1b382c296d0574d05a05232f946d7b388dea20f6c5e7cc35146b8f",
+   "bytes": 26381
+  },
   "audio/balistar_en_fact3.m4a": {
    "sha256": "6c0fa1b8362e51c2420e3df23f0c17f1f35f23fe3a8c3aa1ff006de9f9da0d16",
    "bytes": 47136
+  },
+  "audio/bartkauz_es_fact3.m4a": {
+   "sha256": "62be26172b3cc67c5ec2ef438d3fab1c2ba1746e4952a374b3ee49a2157521ec",
+   "bytes": 35903
   },
   "audio/bartlett-dolchstichtaube_es_fact5.m4a": {
    "sha256": "c77ad546b4324a4dcc9366e87b7b935063b481307240fd9e2de2ee6a5e6811cb",
@@ -844,25 +1404,85 @@
    "sha256": "00cefd8a063b124ba05a11a066ff42fbeb13855e35bad13e5d8167b41ad16192",
    "bytes": 27613
   },
+  "audio/mandschurenkranich_es.m4a": {
+   "sha256": "7a88a42eb5692fa01cbb1a0af0c364c4edf33abc9f5d29672e3053c06311d6a8",
+   "bytes": 244032
+  },
   "audio/faechertaube_en_fact2.m4a": {
    "sha256": "80c1f4548f6ea433f9b406c6148c459f68c954ebf33577b12a7564f2fed93981",
    "bytes": 44093
+  },
+  "audio/kronenkiebitz_de.m4a": {
+   "sha256": "f8959df146e723eb6469434a74beb295abb80e819cc4d67496a4c080697761f9",
+   "bytes": 282894
+  },
+  "audio/weisskopfseeadler_en_fact3.m4a": {
+   "sha256": "ea191549905bd72a55eb0964d76e6c845f903186bf9eb9c08d5d91cfb024cc9f",
+   "bytes": 29146
   },
   "audio/helmhornvogel_en_fact1.m4a": {
    "sha256": "1aa02974cd716f9a0b7e3ceabaa83f1c4b3b724965753afe1e427ba223cea2cf",
    "bytes": 22478
   },
+  "audio/schnee-eule_en.m4a": {
+   "sha256": "42a7f4b41cb6102b57900145a630fee89adc511efd2e38041f089bdb9266908f",
+   "bytes": 252980
+  },
   "audio/rosaloeffler_en_fact1.m4a": {
    "sha256": "ad96b5d8068f77108017460697fb689458f0d30e44be8c97e0956eb1d0d36790",
    "bytes": 33580
+  },
+  "audio/inkaseeschwalbe_es.m4a": {
+   "sha256": "548c200ddedf25e98906dac2a44f072f84ce3dbc636786e350087ac0a6b2b33f",
+   "bytes": 218461
   },
   "audio/purpur-brasiltangare_de_fact1.m4a": {
    "sha256": "bc9a56235b980b5822f9067d26f03b03fee71f06cf25aa2400456e9fc554faf8",
    "bytes": 20099
   },
+  "audio/faecherpapagei_en.m4a": {
+   "sha256": "baf43741ae0fbeda58c66403dd4c2341d6f1c22af17f1bac41352b400771b724",
+   "bytes": 239068
+  },
+  "audio/gaensegeier_es_fact1.m4a": {
+   "sha256": "f40ec939a2a3918d755dc8ba2e4659104be6a4f3e545956d1428b1f89e5ab511",
+   "bytes": 24493
+  },
+  "audio/weisskopfseeadler_en_fact2.m4a": {
+   "sha256": "3474207906a84deb3aa8ba1a355315c711c35af5b162d7350df123e7220ba450",
+   "bytes": 32886
+  },
+  "audio/humboldtpinguin_de_fact2.m4a": {
+   "sha256": "a2be2beb2567056b3ef8b209623510db847084919932c493d417f8876e6a4369",
+   "bytes": 47533
+  },
+  "audio/weissnacken-fasantaube_de.m4a": {
+   "sha256": "dd095c59c0bec27c09fa8e317c6b3245182f0e8b1737a6ed7328156b0c6864cb",
+   "bytes": 276604
+  },
   "audio/bartlett-dolchstichtaube_es_fact4.m4a": {
    "sha256": "eb7e094b9002527324c10e99381ffb651e0d56bf2ab5a830710823262fef17fc",
    "bytes": 24508
+  },
+  "audio/bartkauz_es_fact2.m4a": {
+   "sha256": "dc9d2fe98443f46035100f659f4d486ea155fa41b0da5559c2ef65c3ab15d052",
+   "bytes": 38167
+  },
+  "audio/bartlett-dolchstichtaube_de.m4a": {
+   "sha256": "a8904b0e410356e41c416c78e2689cbf66c9ecc2f364cb4ebc57e1a6309a1608",
+   "bytes": 249509
+  },
+  "audio/gruenarassari_de.m4a": {
+   "sha256": "60b506737d65cc7a5b76426a6fa2f43111eb5e4c25c60b90aa47f830977a6ce3",
+   "bytes": 269246
+  },
+  "audio/gruenarassari_es_fact4.m4a": {
+   "sha256": "61532632c8ae482b20a302b7ef2c49adbf1c6168ef26148348eace35fdde4f8a",
+   "bytes": 21852
+  },
+  "audio/bartgeier_en_fact2.m4a": {
+   "sha256": "955eaf22da8b254047a5013b74886db2903b84fdd8c5854bcdb4a48063442655",
+   "bytes": 30943
   },
   "audio/schnee-eule_es_fact4.m4a": {
    "sha256": "18c9b81a260838f04d5a5498574e6b9ace020343e8ffb8956f71f73e1a6eccda",
@@ -872,13 +1492,41 @@
    "sha256": "bd82d82bd27d56c24821ae6bef29b272c16533e446601e13216e0f9be00fe87f",
    "bytes": 28077
   },
+  "audio/bartkauz_de.m4a": {
+   "sha256": "d6df50facb84abd3de0c94c0857a2735f0ca2104d7a779eb50ca2c790335c078",
+   "bytes": 237076
+  },
   "audio/saebelschnaebler_en_fact5.m4a": {
    "sha256": "df155e65017cd634245cfae33491f334a57d1fdd7992ee597b98072251954197",
    "bytes": 25526
   },
+  "audio/riesentukan_en.m4a": {
+   "sha256": "5d904f427779da8208b15fbdef4fb9f349b61b9da68636322a6f4846697c66ee",
+   "bytes": 248214
+  },
+  "audio/saebelschnaebler_en.m4a": {
+   "sha256": "7249e0f7d084f2455d8a5685f409052142dcd9ae6d558b0fb07aa388d5519977",
+   "bytes": 245221
+  },
+  "audio/bartgeier_en.m4a": {
+   "sha256": "88208a0335e62d8de3b0c087d24483795fa31bca230b19fae142200b239e38db",
+   "bytes": 204284
+  },
   "audio/faechertaube_en_fact1.m4a": {
    "sha256": "01c3a8633d2d417a319f49f654577f2d378b4e0b891c320987570518bede73c3",
    "bytes": 27619
+  },
+  "audio/rosaloeffler_en_fact2.m4a": {
+   "sha256": "292972b39e2e8fa4501d404151e2baab25fae164dbdf0ec1f36b433e046e4789",
+   "bytes": 25505
+  },
+  "audio/roter-sichler_de_fact4.m4a": {
+   "sha256": "2f4f3d86840d237da7715a4e28b27378811b2b96e8bdbdfced3d2aef317189a5",
+   "bytes": 27908
+  },
+  "audio/sonnenralle_en.m4a": {
+   "sha256": "aee66d5f7c67e822a4ce9876101c41b301504c0028f83df5815bd25ca387b92e",
+   "bytes": 226690
   },
   "audio/gaukler_es_fact3.m4a": {
    "sha256": "b40d9bd598f67888f6bf29ed50dd5176eaf0c235a97e43c1672d55a342a4a072",
@@ -892,6 +1540,18 @@
    "sha256": "4b176d7b3d90872dc12ed393a1ec4992d86f9b880c6c42f5d3255cadff00fc7b",
    "bytes": 22712
   },
+  "audio/gaensegeier_es_fact3.m4a": {
+   "sha256": "10c7158987ec105aa0ae25cddfce3f9c3d11d6721111acc7b18bee7a0c950fff",
+   "bytes": 35520
+  },
+  "audio/waldrapp_es_fact5.m4a": {
+   "sha256": "571a4b0c8a1bcea9c35b34cbbfb243de3c54de7e4bd25b2679b0a5f279c4a2e3",
+   "bytes": 34254
+  },
+  "audio/gelbbrust-fruchttaube_en.m4a": {
+   "sha256": "e93934dd9f0b391353170dd29e18e9afcb25c3e2867f000aad1c02598db41846",
+   "bytes": 231913
+  },
   "audio/purpur-brasiltangare_de_fact3.m4a": {
    "sha256": "38bb30e64a7e9116786098bb1556b3a04309871b662b3b74204036151c6716c6",
    "bytes": 14665
@@ -899,6 +1559,14 @@
   "audio/waldrapp_es_fact4.m4a": {
    "sha256": "bd646ff16ce4874c5140932cfd3beee6e0aeb7350deb046e262bb7c5ea9e4c0b",
    "bytes": 26024
+  },
+  "audio/blauer-morphofalter_de.m4a": {
+   "sha256": "a5690ce99ebc2d9195449d376d0f8483f8f02be48a75df22f1037fa54ed73c88",
+   "bytes": 221849
+  },
+  "audio/gaensegeier_es_fact2.m4a": {
+   "sha256": "a7946a783dc1a3b7a0b2ea573b7c71cd734df9c3d1ef8fe501610dde8b53e2aa",
+   "bytes": 18969
   },
   "audio/blauracke_de_fact5.m4a": {
    "sha256": "13b0a31d0d0ce1dab7944f54dbb981427dc5b97c96fa1fd9716f87c263503109",
@@ -908,17 +1576,45 @@
    "sha256": "da24fdf0c9788952b268a09bd3d3f3a2665ee095c60e2d3e1373c7d0e1313b34",
    "bytes": 57694
   },
+  "audio/rosaloeffler_en_fact3.m4a": {
+   "sha256": "7dc78bb22243663af27b9b74fd79c1b62882a39ec6cd3d300654879cb68583d4",
+   "bytes": 40473
+  },
   "audio/helmhornvogel_en_fact3.m4a": {
    "sha256": "551b2806b8d59aed92640b7e422fc3bc7328711433be12501c99477c726a2f5a",
    "bytes": 25383
+  },
+  "audio/weisskopfseeadler_en_fact1.m4a": {
+   "sha256": "d8a2c6d4053418776d804a14c93dd19816a26b67d14478203b4d9c65f1674933",
+   "bytes": 26074
   },
   "audio/roter-sichler_de_fact5.m4a": {
    "sha256": "67b7c28aec2354c67aebf5623481c5ea6e0af916b04bc4a18b2aa48a421c9cfe",
    "bytes": 32555
   },
+  "audio/schamadrossel_en.m4a": {
+   "sha256": "3ce7b4925081f8e7170bc68e2148ab43992b50199d837d1f5aa382ab29c4713c",
+   "bytes": 254360
+  },
+  "audio/humboldtpinguin_de_fact1.m4a": {
+   "sha256": "239c9666a6a30441c8aa84cd01b05df950b069570babe720256e7d8afe4508e0",
+   "bytes": 35867
+  },
+  "audio/bartkauz_es_fact1.m4a": {
+   "sha256": "086f1e2ac0fc26efd1c40cf76300d321b70a94e33f004a72410d624d029d704e",
+   "bytes": 37493
+  },
   "audio/schneekranich_es_fact3.m4a": {
    "sha256": "66cca1888447ababf8a07e12c10c68c177737a7981f129034880617538ad2f58",
    "bytes": 35647
+  },
+  "audio/humboldtpinguin_en.m4a": {
+   "sha256": "6166e40173acf5826494e6fdeecf07aac810e0d3a191ac2f10580cdd34dba9b8",
+   "bytes": 265431
+  },
+  "audio/bartgeier_en_fact1.m4a": {
+   "sha256": "136b25e7de8820668cfcbf34ff8b12818cd20d857162e3c7ee3c156b275da08c",
+   "bytes": 34619
   },
   "audio/saebelschnaebler_en_fact4.m4a": {
    "sha256": "f5ca2c843fc4fc2cd81eaaa8646a38f7431c72420364031df42492494ca74f41",
@@ -928,6 +1624,42 @@
    "sha256": "acc0f3287e4a5308d1f2af34a83eb639aa385f8f9739e4b63b2e931a36aaef6e",
    "bytes": 46582
   },
+  "audio/roter-sichler_en.m4a": {
+   "sha256": "a1df87f413aee70addbfe80c997e18fdf6759500e375e9e6fdf871eb3ac97831",
+   "bytes": 239974
+  },
+  "audio/brauner-sichler_de.m4a": {
+   "sha256": "fb0c6c6afccc64c4a2cecb685a8c0fc9f5683dae7e6de23ea7d22cacbdb90e6d",
+   "bytes": 249174
+  },
+  "audio/bartgeier_en_fact5.m4a": {
+   "sha256": "b96034192bb68e5084a85a1f8ec74bffb30cfa9233a7b824feb87e92a4ac68d8",
+   "bytes": 36076
+  },
+  "audio/schnee-eule_es_fact3.m4a": {
+   "sha256": "a9241bfd318297db893aff40d225e376f2410ef5d6dacf375938d579c1e7c7a5",
+   "bytes": 38979
+  },
+  "audio/bartkauz_es.m4a": {
+   "sha256": "cde01ff6b46eccb9fb6c971b069b3edf7fd6171de7a6b6b129d57b76acbad42f",
+   "bytes": 270122
+  },
+  "audio/hyazinthara_en.m4a": {
+   "sha256": "e96595f3a020a05c7d5c9ed0e92edb9698a419cbae7630875545405970b2069b",
+   "bytes": 226907
+  },
+  "audio/gruenarassari_es_fact3.m4a": {
+   "sha256": "bf2a8c3d6a0e9f3bd6807fc81d2015944719b67e649cf632602df758421dbdd1",
+   "bytes": 22512
+  },
+  "audio/bartkauz_es_fact5.m4a": {
+   "sha256": "35cc3443888fcfc3a2c0141ee4bfa8275008b1a3ecaed107fc1b0a9b7985b728",
+   "bytes": 38058
+  },
+  "audio/humboldtpinguin_de_fact5.m4a": {
+   "sha256": "fdf9562ba3395c27d370c2bd787ba30d6165e55c3a10698954b0cea0cc29f840",
+   "bytes": 49151
+  },
   "audio/bartlett-dolchstichtaube_es_fact3.m4a": {
    "sha256": "1296b207d5d8258ae7150e7093d223394e428d76d41f17261c497cfac055b276",
    "bytes": 23345
@@ -935,6 +1667,10 @@
   "audio/roter-sichler_de_fact1.m4a": {
    "sha256": "167e26f3bb8ba50d6535510113261b507a002402deeccf503ea21b441a492924",
    "bytes": 27346
+  },
+  "audio/weisskopfseeadler_en_fact5.m4a": {
+   "sha256": "ffbfe77023a325197ccf8e4b8943a361e8f6b810c11aa51b67d97de80aa36169",
+   "bytes": 26216
   },
   "audio/blauracke_de_fact1.m4a": {
    "sha256": "28090f3606259cda16a43041bd96593b1cbdaf2d3b63b949104abe7b1c22e761",
@@ -948,17 +1684,53 @@
    "sha256": "b3a43a7c9d2d34f336a5c865c39550b19db36444f63f61d7a9cd6e4a6b1dbe76",
    "bytes": 24357
   },
+  "audio/weisskopfseeadler_en_fact4.m4a": {
+   "sha256": "028bad906226b80750d1724c13899d3d5a5d58d2843488c9cad71c92743f9976",
+   "bytes": 25940
+  },
+  "audio/balistar_de.m4a": {
+   "sha256": "c46be14a17e4ba8eba15f6001dc6224a967fef9110e307773935a13cde1beb95",
+   "bytes": 238572
+  },
   "audio/bartlett-dolchstichtaube_es_fact2.m4a": {
    "sha256": "3d547c326fa525ef5c0b0ee2a27b558e337a6926385e44a6485efce436cca3e9",
    "bytes": 23444
+  },
+  "audio/fruehlingsgruentaube_de.m4a": {
+   "sha256": "1d2d83a6c36ac85a32d23a7eaa5a3ac51f90df2bd61ee9c4c9f8e08fa88dc9b5",
+   "bytes": 245112
+  },
+  "audio/humboldtpinguin_de_fact4.m4a": {
+   "sha256": "597fcff546314adb64dbd479c4e372a208837f880db644373ce1d4cc2ca4f262",
+   "bytes": 36043
+  },
+  "audio/bartkauz_es_fact4.m4a": {
+   "sha256": "7aa9dcaf9040c6e9bc66aa7f53c44b93a2a2c5e2e2147f01e0e050aca51c26c2",
+   "bytes": 27081
+  },
+  "audio/gruenarassari_es_fact2.m4a": {
+   "sha256": "e08bdfcd3c65d8a58c2fd572fb44ff39fb02d60286226990a5f264241e7b1b08",
+   "bytes": 18450
   },
   "audio/gebirgsara_de_fact2.m4a": {
    "sha256": "e32a98ca6522128751d04303373c739848e1c421e4316709f06f3396bb02a40d",
    "bytes": 20706
   },
+  "audio/schnee-eule_es_fact2.m4a": {
+   "sha256": "ee2446d27144c7537ef3abc1e812faa5a7c9f84e0b0ff39737cf99da0310f7d8",
+   "bytes": 55022
+  },
   "audio/saebelschnaebler_en_fact1.m4a": {
    "sha256": "f46407f5d663dbe3472d6ded82351b3db34dc3b26252ba23e69778c4caa47395",
    "bytes": 45690
+  },
+  "audio/bartgeier_en_fact4.m4a": {
+   "sha256": "994be01a0b9fa8843e99c903a47f0663f613404801041e746ae4b6da9435a30f",
+   "bytes": 21753
+  },
+  "audio/goldkopfquetzal-trogon_de.m4a": {
+   "sha256": "d8648611a958b4b65dc7ec15a45e30cd24271c7163cbabda2d981bf0409c53c2",
+   "bytes": 240759
   },
   "audio/saebelschnaebler_en_fact3.m4a": {
    "sha256": "8d4d93e6143023eb30143a890e48de8405c83e93b296cd90fa83ca42ab2de9d6",
@@ -972,13 +1744,29 @@
    "sha256": "1d80fc3a519f6ccd267500c0ff07c1e354c7b9af4873e011079a9218d9cba9d0",
    "bytes": 34042
   },
+  "audio/mandschurenkranich_de.m4a": {
+   "sha256": "38c94c0faf495710a5f58c173869cf138f2d6fac7cfc3b519901d2dbb99beab9",
+   "bytes": 246161
+  },
   "audio/helmhornvogel_en_fact4.m4a": {
    "sha256": "96a31d36b7e0684820a719b842c6d0d581bb467918909bc8f78281496d4ccac2",
    "bytes": 18971
   },
+  "audio/rosaloeffler_en_fact4.m4a": {
+   "sha256": "793dbf1cf97458384c6e2819225f42914e3cd204877fadef8f5303d760039449",
+   "bytes": 18353
+  },
   "audio/roter-sichler_de_fact2.m4a": {
    "sha256": "77b8bc80ffc58753362e05e3ace579ef42e50e67249b9f3983c6cc23f77987f4",
    "bytes": 36949
+  },
+  "audio/gaensegeier_es_fact5.m4a": {
+   "sha256": "74dc70d97dffeb73c10f675bbd3b783a766cffd72ef91f16ef398f25280de62d",
+   "bytes": 27279
+  },
+  "audio/inkaseeschwalbe_de.m4a": {
+   "sha256": "48ec0a29e2d045055611ca962d88edb817ce9244b4af7f2d5ce87d62f3b19274",
+   "bytes": 191106
   },
   "audio/blauracke_de_fact2.m4a": {
    "sha256": "5ab20878eb33733ae3fbed2d8f03389b5277e6827d41919a8cda30aebb87ddc8",
@@ -987,6 +1775,10 @@
   "audio/waldrapp_es_fact3.m4a": {
    "sha256": "ffb4827259472d4a2d17f102b2dbf2fb5d43c60c6355e8e4ea52e9f3c63747d1",
    "bytes": 22393
+  },
+  "audio/waldrapp_es_fact2.m4a": {
+   "sha256": "ff9838b3be0e2afa0c8899e95f246e3cf0e7bd52d51526dca507d07c110349e7",
+   "bytes": 33671
   },
   "audio/hammerkopf_en.m4a": {
    "sha256": "22edb4a969349c40942f954f209daef7245a20f6461b0f98fb8914578c45081f",
@@ -1000,6 +1792,18 @@
    "sha256": "b897def7210e00ca26cb7fa6b9010d9aa843a2e59141730014dad2790d11a1be",
    "bytes": 33369
   },
+  "audio/gaensegeier_es_fact4.m4a": {
+   "sha256": "60b757ceb3ed0c835656f910e463f1a7dc57d243acf97e213bf9b0d499dc8de7",
+   "bytes": 26926
+  },
+  "audio/weisshaubenturako_en.m4a": {
+   "sha256": "6efcdf68958bd479272d9c088ff75b2a02faa1f66e74c2ed5cfc836d3d22b33a",
+   "bytes": 215697
+  },
+  "audio/rosaloeffler_en_fact5.m4a": {
+   "sha256": "b08fdbcb0dbdcf3e96f11c57fcf9da406d461fa8f9bf459ad404860d71bd34cf",
+   "bytes": 29831
+  },
   "audio/roter-sichler_de_fact3.m4a": {
    "sha256": "de246b44998a6a0e687f77a6512c37b1c274d518ab01eee4fbb5221f1f9d69e3",
    "bytes": 44473
@@ -1011,6 +1815,14 @@
   "audio/bartlett-dolchstichtaube_es_fact1.m4a": {
    "sha256": "95d2ca47ebdf0e759daaa8d09a6d79360347cdaa6d72a33dee0a9c6d733cf09a",
    "bytes": 24266
+  },
+  "audio/gruenarassari_es.m4a": {
+   "sha256": "56f8a629c3dd0ed7022f54486411aa28ca1f47dcdf3832234a62f1834ed0932a",
+   "bytes": 281424
+  },
+  "audio/gruenarassari_es_fact1.m4a": {
+   "sha256": "8dc06b76d712db62f142437d13f2dccbbf53035292bb47431be4092d7d174327",
+   "bytes": 24717
   },
   "audio/grauer-kronenkranich_de_fact4.m4a": {
    "sha256": "225a6aa065f58cc61d5a5a81facbde6cb9cdd29082abe6e984c8c98d8cd02b36",
@@ -1024,9 +1836,33 @@
    "sha256": "ed39f3daf25052d2512416852767c65bc9d3aa7fa9cf5a580525c51907c839a2",
    "bytes": 33322
   },
+  "audio/schnee-eule_es_fact1.m4a": {
+   "sha256": "b7da6cceb869d01fcf41a6b3c9de77681bcb2cee404fc497f3cdf26359d3ac18",
+   "bytes": 38909
+  },
+  "audio/bartkauz_de_fact5.m4a": {
+   "sha256": "0c0cb61792bfffeda53b600931c6cecff8beb819b9920d0ae46b33a1ad8357e3",
+   "bytes": 40672
+  },
+  "audio/sonnensittich_de.m4a": {
+   "sha256": "d8f09873f543917b83f465e4d6901df42520bd1351c9e385dba06b58df51f08c",
+   "bytes": 236222
+  },
+  "audio/gruenarassari_de_fact3.m4a": {
+   "sha256": "05bebe489bf2debc3083bb2620fe21924c24790233ca7a8808f51c854a3dfdff",
+   "bytes": 21872
+  },
   "audio/sonnenralle_en_fact1.m4a": {
    "sha256": "90e87fdfc63e59b25c9a1fa456a10365380b9876a55044eef6bf6d74a6494699",
    "bytes": 17961
+  },
+  "audio/weisshaubenturako_en_fact3.m4a": {
+   "sha256": "35c6ec991aa667073de9e1ab99371b98269c29ea8bacad533c37fd9edd2e33a1",
+   "bytes": 35440
+  },
+  "audio/schnee-eule_de_fact3.m4a": {
+   "sha256": "4cd27f93eded43683beb85d55d618317d8b2b62d852775f21f065bedb9164530",
+   "bytes": 38797
   },
   "audio/hammerkopf_en_fact3.m4a": {
    "sha256": "546e673b7ba42dbd745be545cc091655107971ace88f5b7fe82db142d84eab87",
@@ -1036,13 +1872,37 @@
    "sha256": "2adf3a3e7bb8f55a356e3ef8fcfecf202fa2f0e3eaac79004e1eec508fefa5ea",
    "bytes": 19210
   },
+  "audio/maguaristorch_de.m4a": {
+   "sha256": "8bace412f1c0065dd17baaf00ec216476c7e0685c6fd01ba61873a6fe620589c",
+   "bytes": 254763
+  },
+  "audio/weisskopfseeadler_de.m4a": {
+   "sha256": "92c5b7becab495f9fe141f63d76958e029ee348c3cee6266b0bdcde687bdce3d",
+   "bytes": 236008
+  },
+  "audio/stelzenlaeufer_en.m4a": {
+   "sha256": "be9558466d73b60952370bcce28ff5ce91c2a62a413358f59c9a00c3316109da",
+   "bytes": 244245
+  },
+  "audio/zweifinger-faultier_en_fact2.m4a": {
+   "sha256": "bc2b4c75d9ede8ffbe45174fbe88b974d9ae9fb469462ed1baf54b7a0dc08c37",
+   "bytes": 31921
+  },
   "audio/blauracke_es_fact1.m4a": {
    "sha256": "2abe4a2f83983b4ee92ab9f0eefab42d7617a0db81ddd4d541cce6728b03f611",
    "bytes": 55372
   },
+  "audio/inkaseeschwalbe_en_fact4.m4a": {
+   "sha256": "498e448a917f206ae62ab3121ab46e3a687ccec84445a99f954edab1bd0f1708",
+   "bytes": 22988
+  },
   "audio/roter-sichler_es_fact1.m4a": {
    "sha256": "c6bc9e859b25058fb48defa266d3a0efa059e030f528cb5eb6a5567bd8d6551f",
    "bytes": 26147
+  },
+  "audio/humboldtpinguin_es_fact5.m4a": {
+   "sha256": "1e5d412819b6af4e5b76c1fd40ad6e4bb9973707d1c0c4b261322aaca30db239",
+   "bytes": 60777
   },
   "audio/hyazinthara_en_fact2.m4a": {
    "sha256": "afc4935e084e4642e355e678a9093414faa8837543a2976725d123e95f77e3ae",
@@ -1055,6 +1915,14 @@
   "audio/bartlett-dolchstichtaube_de_fact2.m4a": {
    "sha256": "40a6ce9870114e03a57835e129d38f1c1ce63b36769bda4e334a7dd7b15513b5",
    "bytes": 25341
+  },
+  "audio/hyazinthara_en_fact3.m4a": {
+   "sha256": "78f784b94ad964f97b98f464bab586ec248e6bbe0d5e9d89888f088188e8eea5",
+   "bytes": 45982
+  },
+  "audio/humboldtpinguin_es_fact4.m4a": {
+   "sha256": "4196a108b96db6b50f6a3622979e4b88ef12dd1544d9de348524c715b085bc7e",
+   "bytes": 42682
   },
   "audio/inkaseeschwalbe_en_fact5.m4a": {
    "sha256": "69d41594c5e6c8db45c759c3166a37b22b51785bad0834d9c3ab38002b4cc108",
@@ -1072,13 +1940,33 @@
    "sha256": "ae9fe7eb46d676158476fb83b63ec06c9c2a5c510db781bf30e8226695fe019c",
    "bytes": 23240
   },
+  "audio/schnee-eule_de_fact2.m4a": {
+   "sha256": "141d73151d0c66fc675e0ae563499a002310d3f10bace623fcb6a94570f47c60",
+   "bytes": 52878
+  },
   "audio/hammerkopf_en_fact2.m4a": {
    "sha256": "07854a93075825fd135408282272426c1d903704a086f0fb78d109f85b131b02",
    "bytes": 33289
   },
+  "audio/weisshaubenturako_en_fact2.m4a": {
+   "sha256": "7dd56bb64355d88718bc671058b3afb62c8d385125c3dbde3b587e2f42e3a47b",
+   "bytes": 54948
+  },
+  "audio/gruenarassari_de_fact2.m4a": {
+   "sha256": "259ca0343f54495e673554622559f553d1dc8e0f38cb969abe9be3a159d461d1",
+   "bytes": 18866
+  },
   "audio/gebirgsara_es_fact2.m4a": {
    "sha256": "cf7d5574511ce2a2738cb1977c8a7d6296bb52349fb73d5ff8dc340f9f919898",
    "bytes": 21772
+  },
+  "audio/bartkauz_de_fact4.m4a": {
+   "sha256": "a7391ccc00d9ba1afc8788432b9a489b23eef155d8527059a7ea677c34d1616d",
+   "bytes": 25392
+  },
+  "audio/grosser-soldatenara_en.m4a": {
+   "sha256": "4729ec3a203f9045c7b87991bf247c6e3a61fb82983915da7a4de5585da03361",
+   "bytes": 200263
   },
   "audio/schneekranich_de_fact4.m4a": {
    "sha256": "e44be5d02b52c5948ffc68d1c90cc11afe81025b79437f938df9f5103215fa14",
@@ -1087,6 +1975,10 @@
   "audio/sonnenralle_en_fact2.m4a": {
    "sha256": "35b2583f1f7178cfb1c95d650a66848e2fecb0797818ac2f567b9b06735c90fa",
    "bytes": 25541
+  },
+  "audio/gruenfluegelara_en_fact4.m4a": {
+   "sha256": "bfcb58f0dd513e22f7c7b661cac78cca5404755a9260d8323bc42d4416eebf55",
+   "bytes": 29482
   },
   "audio/mandschurenkranich_en_fact2.m4a": {
    "sha256": "227f992f020c03ffd5f2b530b6679f065631c588e097d510ff276e8c00497da1",
@@ -1100,6 +1992,14 @@
    "sha256": "e33e8fe251b098861970af5a02d0599924096d10203e164bc3533548d7980807",
    "bytes": 19824
   },
+  "audio/schneekranich_de.m4a": {
+   "sha256": "dd97408772d7732a2cc0d40d5e98cdb73b8e25181533e988a0f9d6392110e755",
+   "bytes": 242174
+  },
+  "audio/gaensegeier_de_fact5.m4a": {
+   "sha256": "88068ef533d47251bf4e2b22c69c08d44932f17a559bb0fe317ecc6c08949e29",
+   "bytes": 26513
+  },
   "audio/zweifinger-faultier_en_fact1.m4a": {
    "sha256": "c545c9b52450d1ef4d56af5b268a47cb54edc097a2fde3ccf8904ba060f35e27",
    "bytes": 41846
@@ -1108,13 +2008,33 @@
    "sha256": "a8a7db46a7400222767312623375d5e0bdbaf8d9784f6bd67ef772fd818c63b9",
    "bytes": 42930
   },
+  "audio/gruenfluegelara_es.m4a": {
+   "sha256": "abffcab90f89c54d5831996d3e3460c28c738fa778fdb3481eafc8a7a234f211",
+   "bytes": 234516
+  },
   "audio/roter-sichler_es_fact2.m4a": {
    "sha256": "5f1f1f828cedcd54025b113fe0d5dedba091fccd200e038d6c9b404eec45b030",
    "bytes": 36480
   },
+  "audio/hyazinthara_en_fact1.m4a": {
+   "sha256": "de317e1d4e4e74b44dca03959f7b7bf79481561cfa89446b8de229446e32ec30",
+   "bytes": 25534
+  },
+  "audio/waldrapp_en.m4a": {
+   "sha256": "007b8414ffa5fa43220d71e13f9e3f6197a3aa782e8bf2db95336f1e9f1d1150",
+   "bytes": 233137
+  },
   "audio/bartlett-dolchstichtaube_de_fact1.m4a": {
    "sha256": "d58261a23f0636d416e9a27f068a2bab9fec87134b51b2eb3c15aad44d5e2b9f",
    "bytes": 23546
+  },
+  "audio/opalracke_es.m4a": {
+   "sha256": "ac7c25db8c0d3e3e2f58ba39e0bb9a16aa9e523fb4499640c8205539da8a4f3b",
+   "bytes": 262313
+  },
+  "audio/zweifinger-faultier_en.m4a": {
+   "sha256": "9ba5c532c27359d2bbbc7854178d456888d69f3f2e180e33b4100bad67c3db9c",
+   "bytes": 247889
   },
   "audio/roter-sichler_es_fact3.m4a": {
    "sha256": "26f9c1586aa332b03c2ac7b56b2551b8c3286048bb8ce9ab1769326335738fba",
@@ -1123,6 +2043,18 @@
   "audio/blauracke_es_fact3.m4a": {
    "sha256": "e2cc631658b49611ca55a2ce25d4c90a33c3b0b1f9b54d29dd10b7c1e392095a",
    "bytes": 31750
+  },
+  "audio/gaensegeier_de_fact4.m4a": {
+   "sha256": "ed843b946890814479332420b5d3cc1214b7dcad10ca0ca09027cc1833835b2e",
+   "bytes": 25666
+  },
+  "audio/gaensegeier_en.m4a": {
+   "sha256": "5e20e918c237c9ef48d7830f1699e98c3f09df8fa5d8a83c1953b735dda0f3c9",
+   "bytes": 233202
+  },
+  "audio/waldrapp_de_fact2.m4a": {
+   "sha256": "aee19adda5aa6375100fcd8ef9ef836963e86402fcfcb1bcc0b191e76ec752e2",
+   "bytes": 26822
   },
   "audio/purpur-brasiltangare_es_fact5.m4a": {
    "sha256": "de819120ed2958e3908507c66e4278a3daf23c88a522a1071d42e17426fd05d0",
@@ -1136,9 +2068,41 @@
    "sha256": "983fcca227688905c1434cc91ef50bebe0e38c752581f1574d579a67d18dd110",
    "bytes": 20175
   },
+  "audio/schnee-eule_de_fact1.m4a": {
+   "sha256": "76f927e78bf958cbf737c6ce7817a5b9e3b637b7d81847cdbefc0caf46a67799",
+   "bytes": 40216
+  },
+  "audio/gruenfluegelara_en_fact5.m4a": {
+   "sha256": "e9653aaa021c38cb84bff668b37c92ebff3af40a64c3c8265b9a58b2d0683d85",
+   "bytes": 31496
+  },
+  "audio/gruenarassari_de_fact1.m4a": {
+   "sha256": "fe9e821a08030e0d9918d42af227e139792b0eeeb2169caeba559c45b31218de",
+   "bytes": 21453
+  },
+  "audio/weisshaubenturako_en_fact1.m4a": {
+   "sha256": "02cfd0461356ea1677e2e176abce3584916cf24a5b52a84dc8c7378f1bcd1517",
+   "bytes": 44671
+  },
   "audio/sonnenralle_en_fact3.m4a": {
    "sha256": "ce8615b13096270ec5cecf595efe410d63678e8c77763ea7250a1435142d7f3e",
    "bytes": 21548
+  },
+  "audio/bartkauz_de_fact3.m4a": {
+   "sha256": "0cebf601b4cfdbb996ed523e3f433bad04e23abfe57c1702f951cf791bd1f408",
+   "bytes": 31972
+  },
+  "audio/weisshaubenturako_en_fact5.m4a": {
+   "sha256": "55fabfb9f5ec7372592f3880f4923d421df0a38828188a4181134a7de063eb84",
+   "bytes": 29018
+  },
+  "audio/gruenarassari_de_fact5.m4a": {
+   "sha256": "cfafc5084a2e33101fa33e0616c8f47c3876356fb1bfe03ce9568ed439474ad4",
+   "bytes": 28930
+  },
+  "audio/gruenfluegelara_en_fact1.m4a": {
+   "sha256": "e5b796d53b8aed6f1b43115cb63858627bd35ede0b4b9618a80109cf5578f673",
+   "bytes": 31680
   },
   "audio/grauruecken-trompetervogel_en_fact2.m4a": {
    "sha256": "8f3d048c19b4c6c6663ef9c09438b50737834ae62d4c10c0a54233185eaa62a6",
@@ -1156,6 +2120,14 @@
    "sha256": "19f6027ecdd060111dc4c424f99b9799cc7ccc6871aa778fae354269f30d5c23",
    "bytes": 39231
   },
+  "audio/gruenfluegelara_de.m4a": {
+   "sha256": "ce2b33deb5d6f8c79802b1ac8995d6df382a1d3d15cce70512bbed36baa55e10",
+   "bytes": 209901
+  },
+  "audio/inkaseeschwalbe_en_fact2.m4a": {
+   "sha256": "067342447786970af6bbab4786af99f7c5fb9e7035dbeaa299d54338449df372",
+   "bytes": 29214
+  },
   "audio/hyazinthara_en_fact4.m4a": {
    "sha256": "fd69663330b1cbc4ba56cf9d8c711b577acdd91b9b0ebfb3f6b9a5579bad2277",
    "bytes": 27565
@@ -1168,6 +2140,14 @@
    "sha256": "df73e99530c1232424543b22d26950124634809c2511380668adc8206943fb9e",
    "bytes": 26157
   },
+  "audio/humboldtpinguin_es_fact2.m4a": {
+   "sha256": "eb7e57008403fea69112b9914e959a501a082c07c7fb0273197388d9a5fbb8fa",
+   "bytes": 49367
+  },
+  "audio/opalracke_de.m4a": {
+   "sha256": "8d5af240bd2d43b05b555fafb0abbe100a0b59c075ba9e2df7c019ad8bce9d27",
+   "bytes": 259757
+  },
   "audio/bartlett-dolchstichtaube_de_fact4.m4a": {
    "sha256": "da2630a2e55acffc4cddeedd2f5fa5a658bb5eb739108d15da09650f41ec3382",
    "bytes": 24983
@@ -1179,6 +2159,10 @@
   "audio/inkaseeschwalbe_en_fact3.m4a": {
    "sha256": "cc111c7730aa5c65a59a893f4834ea52b2dbc871a21ddbde542cb2bc7681634d",
    "bytes": 18425
+  },
+  "audio/gaensegeier_de_fact1.m4a": {
+   "sha256": "f93e4af29a1ca878c64614f81ab491137220d87fdad11aeacae0e1ebe01d652b",
+   "bytes": 23213
   },
   "audio/zweifinger-faultier_en_fact5.m4a": {
    "sha256": "4750fb44706622a1d4dc531f1f256d91cc49a3f3878a5e71e32a9f68eeb447f5",
@@ -1200,13 +2184,49 @@
    "sha256": "9aa0d3bd97d76c9af5f19f7e91a2167fbe873f48bd3d602e874de085f22c8348",
    "bytes": 27584
   },
+  "audio/gruenarassari_de_fact4.m4a": {
+   "sha256": "bbcefaa25e318e149925cc6ef89012595c541f75bb2aa4daaa86a415448fc9b5",
+   "bytes": 20441
+  },
+  "audio/weisshaubenturako_en_fact4.m4a": {
+   "sha256": "f85d67b470d38ea78fc01f3253df74e337c64d593dc0d7c3b05a9f430f010bae",
+   "bytes": 32520
+  },
+  "audio/bartkauz_de_fact2.m4a": {
+   "sha256": "a1bb2ceb1411cbe87f4fd2cbcd37ccd7e6eb0bd5cc6e4bad1dc45dda60fe6f30",
+   "bytes": 39217
+  },
+  "audio/rosaloeffler_en.m4a": {
+   "sha256": "f7ca3875b258289415c31e962605a22432adefa50bfcde8044c1fc88bd516cfc",
+   "bytes": 252877
+  },
+  "audio/sonnensittich_es.m4a": {
+   "sha256": "8f313a8674cce74741a2bcc4931657e9d4296fcc2e884c0fdc85f4bc34a64eb8",
+   "bytes": 227253
+  },
+  "audio/gruenfluegelara_en_fact2.m4a": {
+   "sha256": "2e17689c000e75da0cf620b40b3bd0e569d03b530238c1989b666d2d774ce373",
+   "bytes": 33559
+  },
   "audio/sonnenralle_en_fact4.m4a": {
    "sha256": "fe33b66ac3409f8ffa17466d747533c296759ec8cbdf6f484bec8e7fa417ec0f",
    "bytes": 20941
   },
+  "audio/maguaristorch_es.m4a": {
+   "sha256": "8f71f18821bd8510abeb716873c6ef1f0ceac361a807b423b019599f19048f07",
+   "bytes": 268936
+  },
   "audio/mandschurenkranich_en_fact4.m4a": {
    "sha256": "ea7dd6911c438e0a98b0981b21d93956e5920c576f3ebabb4a324341cb395878",
    "bytes": 17504
+  },
+  "audio/weisskopfseeadler_es.m4a": {
+   "sha256": "97c79548d39ed5fbdb4788f54031018084fe96a29a30ec46ae8bfb46ea74be9e",
+   "bytes": 251376
+  },
+  "audio/waldrapp_de_fact5.m4a": {
+   "sha256": "a83ace254f88194061202a5e9d73c50a3d531ebd236122c5541434d8b7d53bab",
+   "bytes": 36579
   },
   "audio/gaukler_de_fact3.m4a": {
    "sha256": "06d033a6fa8eb14697727d2e033f9c6e7c24d1023cfd61c41abf8cd83bfc4640",
@@ -1216,13 +2236,37 @@
    "sha256": "46830f981638a46900d9cb788f6b84f8d7af389c487df2306164e2425ca0bc37",
    "bytes": 37027
   },
+  "audio/gelbbrust-erdtaube_de.m4a": {
+   "sha256": "05b17d392041ba1b818efe3e1c4af4b381dab118bb0c62819d6642f92cd2fb1b",
+   "bytes": 210050
+  },
+  "audio/gaensegeier_de_fact3.m4a": {
+   "sha256": "d574d4adcfce9ee1a3b0463972d78ccccee1a359e3792a67d8e548aa9ce1af9c",
+   "bytes": 35793
+  },
+  "audio/maehnentaube_en.m4a": {
+   "sha256": "59fd5bf1c7451cd6e1494fe8f09b87da786ed2b602cb8f322477e5b7e854d574",
+   "bytes": 251895
+  },
   "audio/inkaseeschwalbe_en_fact1.m4a": {
    "sha256": "5b68d61610c95f95d104422835e19f7da7223d556cdc359e38b842b40f5f0c5c",
    "bytes": 18529
   },
+  "audio/roter-sichler_es_fact4.m4a": {
+   "sha256": "7a057db478e17eeaf104fe425191fc01bf39b3dbe957fee66f517bd0e80cf8e4",
+   "bytes": 25661
+  },
+  "audio/humboldtpinguin_es_fact1.m4a": {
+   "sha256": "de5f194bbb3987dc9f8265174aac5d5c6b908ae515c569ad0067a496b250ea43",
+   "bytes": 36920
+  },
   "audio/roter-sichler_es_fact5.m4a": {
    "sha256": "26c06057a19ec7e4428efb6a3503780bd984e97361b9c76adf48b85bcdf6a62b",
    "bytes": 28328
+  },
+  "audio/gaensegeier_de_fact2.m4a": {
+   "sha256": "766f246e0e8cb01f68e56f5775408b519ff495c00999db247612e09be9bf2801",
+   "bytes": 20268
   },
   "audio/blauracke_es_fact5.m4a": {
    "sha256": "92b293673673d38d28ec09454783b5d5216d6552ebf29530628360ac81b73bb4",
@@ -1240,6 +2284,14 @@
    "sha256": "1b01a01015468291fca793d77732e75b10bac3b2f430e5dd650e0280a8356559",
    "bytes": 23166
   },
+  "audio/mohrenweber-fuchsweber_en.m4a": {
+   "sha256": "459c38974b325ac928a2a73ff81bba83974f0b3181ba8fdb5f295c3b55b47f8c",
+   "bytes": 252149
+  },
+  "audio/mandschurenkranich_en_fact5.m4a": {
+   "sha256": "adc5f22f090efedda1f64ada00b2994dcd30cf38c5ef93e3306aea65a3754f7f",
+   "bytes": 14214
+  },
   "audio/grauer-kronenkranich_es_fact2.m4a": {
    "sha256": "fc9432786713cfc8772902407b9dff0d3892f1f6f81990ff25c0c40c44bc3d84",
    "bytes": 50720
@@ -1251,6 +2303,10 @@
   "audio/gruenfluegelara_en_fact3.m4a": {
    "sha256": "53b4abdb0cdfa3a3bdf8822def32f58f0cde9797eeb6f20c6fe26f44c9908c3b",
    "bytes": 27705
+  },
+  "audio/bartkauz_de_fact1.m4a": {
+   "sha256": "b3530683f553cb6f475f3a30c49325c971146bcd64048cef50f0a5eedac9b45e",
+   "bytes": 32282
   },
   "audio/schneekranich_de_fact3.m4a": {
    "sha256": "8b0f5d4d0b615c811b715bb4782e913483bba71d1604af76588bb44496f61995",
@@ -1267,7 +2323,7 @@
   "images": 81,
   "animalLocations": 0,
   "catalogueEntries": 105,
-  "audio": 221
+  "audio": 485
  },
  "attribution": [
   "Map data © OpenStreetMap contributors, ODbL 1.0 — https://www.openstreetmap.org/copyright",
@@ -1276,7 +2332,7 @@
   "Biological research, scripts, licensed species images and recordings are linked once through the central taxon library.",
   "OSM animal features can be stale. Exact official-name or official-link matches are documented; unmatched OSM labels are retained as unconfirmed map features with no species assignment. Automatic guide remains disabled pending content and location review."
  ],
- "updatedAt": "2026-11-08T10:47:59Z",
+ "updatedAt": "2026-11-08T15:26:51Z",
  "website": "https://www.weltvogelpark.de/",
  "ticketShop": "https://weltvogelpark.ticketfritz.de/"
 }
