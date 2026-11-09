@@ -1,6 +1,6 @@
 {
  "id": "wuppertal",
- "version": 3,
+ "version": 4,
  "name": {
   "de": "Der Grüne Zoo Wuppertal",
   "en": "Green Zoo Wuppertal",
@@ -29,8 +29,8 @@
    "bytes": 60517
   },
   "species.json": {
-   "sha256": "1dceaa69e6d37c55e763930246d3ec17b24b3965f5d4ff854f6267b62ec2aef7",
-   "bytes": 367198
+   "sha256": "45bd2aa94659179987dcc534cc151c98eba1358993187ae2734bdb38413b4ebb",
+   "bytes": 366167
   },
   "paths.geojson": {
    "sha256": "1d06db44d40bca28bf83d3b18809cd380427e5eccb50f5ad0686317d80634426",
@@ -195,6 +195,10 @@
   "images/taxon-otocyon-megalotis.jpg": {
    "sha256": "6bc1397619044af8c015dae9b0b6643c85f2167ccdf77f1e4609ece3efa1396f",
    "bytes": 132853
+  },
+  "images/taxon-babyrousa-celebensis.jpg": {
+   "sha256": "71850577cd6929af50338469cad93e8fc6ef949dfbeeeaaad681b794003b94a6",
+   "bytes": 518412
   },
   "images/taxon-dolichotis-salinicola.jpg": {
    "sha256": "00842074420e5ca3e85d084cf54c2e9bc36529469965ff5b14854bbfcffebc9c",
@@ -416,10 +420,6 @@
    "sha256": "1e191e7015dcb10794784645ddb682f3d1cd8334f8ada4be5351fbba1404f000",
    "bytes": 248838
   },
-  "audio/hirscheber_es_fact1.m4a": {
-   "sha256": "09848534c451b1565faf8aea7157f2602c4202a59b46368b2e4fddcf0dba6952",
-   "bytes": 27837
-  },
   "audio/meerschweinchen_en_fact5.m4a": {
    "sha256": "5b7af87f1b19254df0532ee3e89fd136bb869da6c4611f32657780c0164f9c29",
    "bytes": 37455
@@ -493,8 +493,8 @@
    "bytes": 29429
   },
   "audio/hirscheber_es_fact3.m4a": {
-   "sha256": "966651d6e7c06efaf452bce9c4975a9a0e77ef5ce08e59ece206abc59e38995f",
-   "bytes": 34506
+   "sha256": "f425e45eb8961481a49289eea652d9141328bdfe1e217bb31836f82af8f281d7",
+   "bytes": 25919
   },
   "audio/takin_es.m4a": {
    "sha256": "842c1b2f464091e17649df8728ec5f686ff2c1e799fe72b2c06428194b6e489b",
@@ -583,10 +583,6 @@
   "audio/hyazinth-ara_de_fact4.m4a": {
    "sha256": "d7927d46672c04b05ea4e7373dedd9321f64871260ebfbfef26ccdf21440764e",
    "bytes": 36873
-  },
-  "audio/hirscheber_es_fact2.m4a": {
-   "sha256": "65f3e0af77b9a704551e4ee4be66d9a950064f9b97d63b898685998e16f33a03",
-   "bytes": 22543
   },
   "audio/flamingo_en.m4a": {
    "sha256": "f5854389cd68a583ef1bae3651e8e7a10b255e4d10aa1d8965805f26ed87c846",
@@ -868,10 +864,6 @@
    "sha256": "3320cfec98fbe2bd2d0f1c6465d8d91901ac08c9834833654c9de902c889edc3",
    "bytes": 39882
   },
-  "audio/hirscheber_es_fact5.m4a": {
-   "sha256": "9417a40101b245645c84d9a4a7b468881c8856d5561523270f1ef31935321615",
-   "bytes": 27643
-  },
   "audio/flamingo_de_fact1.m4a": {
    "sha256": "61c35b6bec1712b43d58b40089d8d78a76f4b01364fae910e8d3c119f64bad6e",
    "bytes": 24183
@@ -943,10 +935,6 @@
   "audio/braunbaer_es.m4a": {
    "sha256": "64b24af79efb54aec38107110c82ec2fa3cce9e16837e61ea92502a74e599b7f",
    "bytes": 232670
-  },
-  "audio/hirscheber_es_fact4.m4a": {
-   "sha256": "a6d8c553dd815c22ade6cb025c9f250ccdbd9086ffea5abe0c27ccaa203cf547",
-   "bytes": 42680
   },
   "audio/hyazinth-ara_de_fact2.m4a": {
    "sha256": "8e8637506c74f6a62ed2f7420d05cf791501de54dfd578e927a082c3bea3ccf8",
@@ -1129,8 +1117,8 @@
    "bytes": 26288
   },
   "audio/hirscheber_es.m4a": {
-   "sha256": "ba44e029f4c5ae4f1a62994090e1a8e773c9bf2d4bf3d05fdbf5e226b1bda9c4",
-   "bytes": 273213
+   "sha256": "5c1a0f803fd6816198afe1e2c29255c6cde20549e44d6f9200be75bcffd314b5",
+   "bytes": 268780
   },
   "audio/schrecklicher-baumsteiger_es_fact5.m4a": {
    "sha256": "94f6ef505ef9ed1e8b02942802085b94bc3b665a8f682dbe0eee0250a9236e44",
@@ -1308,17 +1296,9 @@
    "sha256": "2eab52fa1dad54b264c99dd364b332f9854b2329eb8a05a7b8118b743a4f4d57",
    "bytes": 48212
   },
-  "audio/hirscheber_de_fact5.m4a": {
-   "sha256": "2d41f022b6b3da8b8ce485516077d8b252f2cafdd547f34974f501a756214e1b",
-   "bytes": 28042
-  },
   "audio/flamingo_es_fact1.m4a": {
    "sha256": "cda40cbea8023b4012ad1cd908f66451730ec0b7564f925c2c99b2685d3aaf68",
    "bytes": 29684
-  },
-  "audio/hirscheber_de_fact4.m4a": {
-   "sha256": "bbd4b39810432a1ef458ee2faebe198679e15ba5ba05c8059ffacad845913c78",
-   "bytes": 42097
   },
   "audio/schrecklicher-baumsteiger_en.m4a": {
    "sha256": "c0b9fe6eaab4e3aa4afaad91a0c0f84c5c2b949304870de51f03b15ff6f6733c",
@@ -1520,10 +1500,6 @@
    "sha256": "2c7eb415dbc942eb8a3244ab644302043cbe71af0db6b20be1b1234773ceae18",
    "bytes": 35011
   },
-  "audio/hirscheber_de_fact1.m4a": {
-   "sha256": "7d07a1edadffd3ac24cf117b84a5b6f6e0c1ea0ea4cff0e5954ffa0f824cf132",
-   "bytes": 32112
-  },
   "audio/flamingo_es_fact5.m4a": {
    "sha256": "52b5bca1ad2d4d62ecc4f13b1124ed84571cae8d3e98d802dd2b30a5fc66003e",
    "bytes": 46019
@@ -1709,8 +1685,8 @@
    "bytes": 240240
   },
   "audio/hirscheber_de_fact3.m4a": {
-   "sha256": "1591c5ac97a0c16f82f130280b10b258000a06c3c8f7940e7204172beb54301b",
-   "bytes": 27420
+   "sha256": "0f125eda274e0daa2efabdca0a154aa340889a36c9d1b571a7dddbc089d2935e",
+   "bytes": 18324
   },
   "audio/hyazinth-ara_es_fact5.m4a": {
    "sha256": "3355aff36025d4d0cd03adb848e830971f49cfcbdaf2b4d3094233bc285a2a40",
@@ -1720,17 +1696,13 @@
    "sha256": "8b9789da896e4d71a7ee2bcf7a30ec46a0fd148715795ffefc41a324c912ab26",
    "bytes": 35647
   },
-  "audio/hirscheber_de_fact2.m4a": {
-   "sha256": "6eaf73570a46ccd403fe986ee5ead80015c64f0f0e7ba5845ef93fb0dc38b096",
-   "bytes": 26584
-  },
   "audio/loewenaeffchen_de.m4a": {
    "sha256": "5b787a3e087ad269b4d676ff4b0c785cb1168c1f605baec0ad7d24129aec5961",
    "bytes": 248342
   },
   "audio/hirscheber_de.m4a": {
-   "sha256": "0738e8b6b66aa97ba6154a2df2548fb958332685848aa60c27e2ec07407af011",
-   "bytes": 249710
+   "sha256": "b9ce7cb26d1b4b4fc161d29db5430abf6be9db172d5d5cff2547bffbbed78dda",
+   "bytes": 240409
   },
   "audio/kranich_de_fact1.m4a": {
    "sha256": "e23214cd3a7cea4e1aaffb6facb4e2a0a8c1d59f7ae35d85c5b1f47110d845a7",
@@ -2085,8 +2057,8 @@
    "bytes": 26024
   },
   "audio/hirscheber_en.m4a": {
-   "sha256": "2f5545f36149d66f55524f4430202b6b8e6192666d210d2f659317be48d7f8c3",
-   "bytes": 235203
+   "sha256": "8c7e82b2897a67b8db49e6cad3a4ad8b99e1d61f50c37ed6fb7037c7747743ed",
+   "bytes": 237853
   },
   "audio/tur-steinbock_de_fact1.m4a": {
    "sha256": "07b066893fd4a9b91a6a46737d0f37de28a24faed090f3f274c762157496d527",
@@ -2620,14 +2592,6 @@
    "sha256": "503b6e304d1ba99d1fc1d60c83a071bcec1ef01b2bbb089c6540cdd7f3bebbd8",
    "bytes": 25388
   },
-  "audio/hirscheber_en_fact4.m4a": {
-   "sha256": "7fe6ea9726c34fb5f7cc5d90d5f7a1364f9bded241b09ea4e4eef7fe8deabfe0",
-   "bytes": 34545
-  },
-  "audio/hirscheber_en_fact5.m4a": {
-   "sha256": "d72329364071b25dfb7115eed6e0ad19c76293da19d26b4ad41004925c4345cd",
-   "bytes": 24408
-  },
   "audio/meerschweinchen_es_fact1.m4a": {
    "sha256": "60d078d24acd1db299a43e524775530c17c5affc7dea272df9a19770b6bdd5a3",
    "bytes": 27424
@@ -3028,17 +2992,13 @@
    "sha256": "5ddd4884dade7e5d7a75fc072bf2c58041055746d8f2e12dd25237b0533614c6",
    "bytes": 35981
   },
-  "audio/hirscheber_en_fact2.m4a": {
-   "sha256": "86267d24f097ea2259c2f1b9193f4a6118b7d9a63d367dc6422c709eebb296f0",
-   "bytes": 21165
-  },
   "audio/tur-steinbock_en.m4a": {
    "sha256": "65825b695b9fce7dd4018abd76a9002bfe20ee6ade973efe1318764f405d0433",
    "bytes": 246051
   },
   "audio/hirscheber_en_fact3.m4a": {
-   "sha256": "d5e7231454b4caca1b3812a1d803a270f9413cd1ac58a1ef22d2ad9de108c4f1",
-   "bytes": 24263
+   "sha256": "6d8eb9856566e09aa002ac2b2e2788830eb9bc063a2b688592772e77984f2909",
+   "bytes": 18869
   },
   "audio/orang-utan_en_fact4.m4a": {
    "sha256": "40e61e4a3fac84a1e0b37f4662cd763e583a698f07611310f5714820bda2899b",
@@ -3196,10 +3156,6 @@
    "sha256": "227f992f020c03ffd5f2b530b6679f065631c588e097d510ff276e8c00497da1",
    "bytes": 21038
   },
-  "audio/hirscheber_en_fact1.m4a": {
-   "sha256": "02bcf5778da2edc389a4412e430aed3ccdf92ae291dee27d5ff9a888e50c22bb",
-   "bytes": 28377
-  },
   "audio/meerschweinchen_es_fact5.m4a": {
    "sha256": "9b590d38060108dd33b95657ac871d7efe92b0877a7210aae48dc43d3f48f6b2",
    "bytes": 49079
@@ -3344,10 +3300,10 @@
   "paths": 250,
   "features": 175,
   "viewpoints": 159,
-  "images": 58,
+  "images": 59,
   "animalLocations": 1,
   "catalogueEntries": 76,
-  "audio": 763
+  "audio": 751
  },
  "attribution": [
   "Map data © OpenStreetMap contributors, ODbL 1.0 — https://www.openstreetmap.org/copyright",
@@ -3356,7 +3312,7 @@
   "Biological research, scripts, licensed species images and recordings are linked once through the central taxon library.",
   "OSM animal features can be stale. Exact official-name or official-link matches are documented; unmatched OSM labels are retained as unconfirmed map features with no species assignment. Automatic guide remains disabled pending content and location review."
  ],
- "updatedAt": "2026-11-08T15:26:53Z",
+ "updatedAt": "2026-11-09T07:44:38Z",
  "website": "https://www.wuppertal.de/microsite/zoo/",
  "ticketShop": "https://www.wuppertal.de/microsite/zoo/oeffnungszeiten/inhaltsseiten-oeffnungszeiten/Preise-Zoo-Wuppertal-Naturschutzeuro-Visiodrom.php"
 }

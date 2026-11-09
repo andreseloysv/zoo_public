@@ -1,6 +1,6 @@
 {
  "id": "hannover",
- "version": 3,
+ "version": 4,
  "name": {
   "de": "Erlebnis-Zoo Hannover",
   "en": "Erlebnis-Zoo Hannover",
@@ -29,16 +29,16 @@
    "bytes": 60812
   },
   "species.json": {
-   "sha256": "d7de572ac89585bdee15bab99a0dcf253a71bb3f6e84d52a369a97ff3f65d579",
-   "bytes": 584125
+   "sha256": "34f50558fdca2b94dec7f331d76cdeeffcf14a74270b1cd0b170b0597b870ad0",
+   "bytes": 578684
   },
   "paths.geojson": {
    "sha256": "6470f349afd97571f42a8234592d7ef6d019110531025de86e4c1b7ea72a96a6",
    "bytes": 57432
   },
   "catalogue.json": {
-   "sha256": "86688b05ec42d1ac536fb65d65b2ee8c46689dd428391d2eb33c0fc4dd9f5374",
-   "bytes": 24049
+   "sha256": "3a7c4722e284e313517b00f6c5812b69cf4556c26eab2cc4fd99381acdf24b48",
+   "bytes": 24039
   },
   "animal-locations.json": {
    "sha256": "e1d7b415239b9b76c38c6b557d1fcb85b96199667beac0a56b1862ebdb4dcba0",
@@ -431,10 +431,6 @@
   "audio/binturong_en_fact1.m4a": {
    "sha256": "c7abefaabc894a7c18d4f38514fe6479d2638d7875b6f3ba2e4c7043f4a7baa3",
    "bytes": 29166
-  },
-  "audio/wildtruthuhn_de_fact5.m4a": {
-   "sha256": "d60d9bbc052c5a8204f1b026c81f26aa039f9fe96ca703649044b010773fd689",
-   "bytes": 24092
   },
   "audio/pinselohrschwein_es_fact5.m4a": {
    "sha256": "b959b79d515fa2c2c5076a31814ec2a2346ffda310fa1b438fe594fb211ebbdf",
@@ -888,10 +884,6 @@
    "sha256": "6548a82940cdb36e2d00f8d01aae40be38e40df6ef326483b04755de74de8d3d",
    "bytes": 264996
   },
-  "audio/wildtruthuhn_de_fact3.m4a": {
-   "sha256": "5004d63b639f30f716b74f8e6749bbd3726422295097091616f58bbd48d94a3a",
-   "bytes": 21273
-  },
   "audio/kegelrobbe_es_fact1.m4a": {
    "sha256": "493a4e51c1de6edf16245583b88cb97cc616bd59825c788618ed3f2719f76ab7",
    "bytes": 35202
@@ -1087,10 +1079,6 @@
   "audio/somali-wildesel_es.m4a": {
    "sha256": "93837e0046c736e0fd8a42aec809d8740b7ff01038f21b835db658dc66b1a4d0",
    "bytes": 327052
-  },
-  "audio/wildtruthuhn_de_fact2.m4a": {
-   "sha256": "01f70e41f9f2ace030551e0af76ce0d9e3e64580edaaf0389c40b6f6b722ac53",
-   "bytes": 20688
   },
   "audio/streifenskunk-mephitis-mephitis_en_fact2.m4a": {
    "sha256": "a510b28b48017055429b63d98bb56414a62330ff277bffe1765801b87ebc0efa",
@@ -1316,10 +1304,6 @@
    "sha256": "a468e4b04a7970b1256eb34aa8c307ae33987727a20c296a17383105463eb2ba",
    "bytes": 201670
   },
-  "audio/wildtruthuhn_de_fact1.m4a": {
-   "sha256": "5b5c409c880c6455a692de49bb756988d0eb8a681f0e80727a9ce0170ace0acb",
-   "bytes": 24962
-  },
   "audio/kegelrobbe_es_fact3.m4a": {
    "sha256": "15999af68629dd3af45b364ffce5ccd41dde92595cfe7df3749c5d2420c1a2b9",
    "bytes": 27767
@@ -1355,10 +1339,6 @@
   "audio/spitzmaulnashorn_en_fact4.m4a": {
    "sha256": "4dfab04bbf4307e4fdaa334514ad01e457773d1802b3e08c59e6b4fcd30f5d1a",
    "bytes": 31252
-  },
-  "audio/wildtruthuhn_es_fact3.m4a": {
-   "sha256": "096f3da3f8845f8dc4129d52f4f57842dfaf65988d6acffe00b4a158693f60cc",
-   "bytes": 19295
   },
   "audio/waschbaer_en.m4a": {
    "sha256": "d26b5ba9f024443a7b2c16016a14485d59b7f6d681185f5b463da62e765fdc51",
@@ -1507,10 +1487,6 @@
   "audio/zwergruesseldikdik_de_fact4.m4a": {
    "sha256": "b6805ed92b55e2a944123e4cfaaf1ace0f4b62d7f82774956e7ef9f5dbc63bbf",
    "bytes": 31779
-  },
-  "audio/wildtruthuhn_es_fact2.m4a": {
-   "sha256": "edaa175f47c994dd18888386829e32b1a6eb71fec111cf2d1866fe48cfeb24ee",
-   "bytes": 20705
   },
   "audio/spitzmaulnashorn_en_fact5.m4a": {
    "sha256": "11792a63d04c3434f63babbf07551cf392fd850e5a15fb537ee63c16a9c17422",
@@ -1712,10 +1688,6 @@
    "sha256": "e7b3705b96ecc01627f814410af9c4aa26af1f05f517071553ab2a450e422e5d",
    "bytes": 243200
   },
-  "audio/wildtruthuhn_es_fact1.m4a": {
-   "sha256": "1ae88fb2e064ae72fcd52dcdf5c37ec31884011b8c2e15deba5716c7752e621d",
-   "bytes": 18891
-  },
   "audio/kegelrobbe_de_fact3.m4a": {
    "sha256": "a75795e18ff534d493e236a0da2107ddd50ba5fbd4cdf2463ae162eb4edda1a6",
    "bytes": 27901
@@ -1775,10 +1747,6 @@
   "audio/spitzmaulnashorn_en_fact2.m4a": {
    "sha256": "d0dc9127cd5e6688cfd0c62231a907587cefb6536d30b00772e0333eaba4cc46",
    "bytes": 38577
-  },
-  "audio/wildtruthuhn_es_fact5.m4a": {
-   "sha256": "9df00ffc285e6323a581392aa04f66a3562f53a5b02df90a89591912341f3b95",
-   "bytes": 22360
   },
   "audio/grant-steppenzebra_es.m4a": {
    "sha256": "f3ebe34647c7a547839b367391b950c8ec6de242d95e43b2d305ba3bd6ce7624",
@@ -1931,10 +1899,6 @@
   "audio/schimpanse_es_fact4.m4a": {
    "sha256": "f0d10c766325807c7d0b1c78dd807d8ac28e6b572602c14161a6d1a07de54600",
    "bytes": 46687
-  },
-  "audio/wildtruthuhn_es_fact4.m4a": {
-   "sha256": "c240c689c6bb9c7875fc6e370040d98cc52607a2b466b040fd6345f8b4d833dc",
-   "bytes": 18468
   },
   "audio/spitzmaulnashorn_en_fact3.m4a": {
    "sha256": "9f063baec73a80612b836c0ad788ad5c9ef11f526af992a92fbec92d613031dc",
@@ -2376,10 +2340,6 @@
    "sha256": "3dfc39658a3ddfaaf5ee4815b1138af791b7c1adbd259064500a4e73248dd9ee",
    "bytes": 52445
   },
-  "audio/wildtruthuhn_en_fact4.m4a": {
-   "sha256": "0c44a5cb03a70328eb4ec4ebca4c20e7899b749c65ca351b2ce2270bec269706",
-   "bytes": 18843
-  },
   "audio/rentier_de_fact4.m4a": {
    "sha256": "1b04ece52d20b7899723ec29036cf527c943f61250e9ff0d4275afb55e177c40",
    "bytes": 31367
@@ -2536,10 +2496,6 @@
    "sha256": "22da5933efc09686baec890645d221751ff9905a9d265f9980a8e0b2cfa0796f",
    "bytes": 25237
   },
-  "audio/wildtruthuhn_en_fact5.m4a": {
-   "sha256": "58a793e67ca788d6127dce5f73dbdbaa77dfc4e637396f78af6523692b9d39c6",
-   "bytes": 19707
-  },
   "audio/spitzmaulnashorn_es_fact2.m4a": {
    "sha256": "27abe317522d8e9809474a6c0e7316744354fd6b7135c85b770c25348e021cb5",
    "bytes": 39547
@@ -2563,10 +2519,6 @@
   "audio/rentier_de_fact1.m4a": {
    "sha256": "cff00242cd287bcc85097bb3bbaec0e8b4da16a906b519acae5f10967a24653e",
    "bytes": 34805
-  },
-  "audio/wildtruthuhn_en_fact1.m4a": {
-   "sha256": "4c605f1aa053aa9704f47a17ed18f0c7d7aa4dc45232771099cf220d384bde60",
-   "bytes": 19139
   },
   "audio/rosapelikan_de_fact4.m4a": {
    "sha256": "25d9e01f2a824c5b94a179ce421d6ff40168015bed0023b25f114bf0396aaedf",
@@ -2788,10 +2740,6 @@
    "sha256": "83674d2e55cff30a4ce4862c3cf10e0b7bb58c9799ad46aa74002174f56b22c6",
    "bytes": 34235
   },
-  "audio/wildtruthuhn_en_fact2.m4a": {
-   "sha256": "4580f7ce262275ffec8a30adfa65bed7845bfdf44c090bbbcef354540b6b80f1",
-   "bytes": 20359
-  },
   "audio/springbock_es.m4a": {
    "sha256": "4d7bc29d6db28ce37ac063adad07d8279be11d8c2fcba81164d1536a7e5f7a27",
    "bytes": 243373
@@ -2947,10 +2895,6 @@
   "audio/somali-wildesel_de_fact1.m4a": {
    "sha256": "97355a8239de9e77fb86bf57364c18599cc372b99406c898edaf330abd0d7955",
    "bytes": 29411
-  },
-  "audio/wildtruthuhn_en_fact3.m4a": {
-   "sha256": "73846430f98b1fe143bec6e638f9eaf25013d49b300b0f2a0a155b9591ba90af",
-   "bytes": 16471
   },
   "audio/spitzmaulnashorn_es_fact4.m4a": {
    "sha256": "1baa9027ff48fe89b4c6ddad38d208a6e15bb0a463e7d4d3f02b7eb96b3d4a1d",
@@ -3863,15 +3807,15 @@
  },
  "counts": {
   "enclosures": 39,
-  "species": 94,
+  "species": 93,
   "speciesReferenced": 59,
   "paths": 213,
   "features": 162,
   "viewpoints": 100,
-  "images": 93,
+  "images": 92,
   "animalLocations": 14,
   "catalogueEntries": 127,
-  "audio": 860
+  "audio": 846
  },
  "attribution": [
   "Map data © OpenStreetMap contributors, ODbL 1.0 — https://www.openstreetmap.org/copyright",
@@ -3881,7 +3825,7 @@
   "Images from Wikimedia Commons; individual author, source and licence shown on each profile.",
   "Fonts: Epilogue and Plus Jakarta Sans, SIL Open Font License 1.1"
  ],
- "updatedAt": "2026-11-08T15:26:49Z",
+ "updatedAt": "2026-11-09T07:44:29Z",
  "website": "https://www.zoo-hannover.de/",
  "ticketShop": "https://shop.erlebnis-zoo.de/"
 }

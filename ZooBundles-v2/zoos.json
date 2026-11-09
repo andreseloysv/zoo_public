@@ -37,7 +37,7 @@
     "en": "Hellabrunn Zoo",
     "es": "Zoo Hellabrunn de Múnich"
    },
-   "version": 3,
+   "version": 4,
    "city": "München"
   },
   {
@@ -57,7 +57,7 @@
     "en": "Wilhelma",
     "es": "Wilhelma"
    },
-   "version": 3,
+   "version": 4,
    "city": "Stuttgart"
   },
   {
@@ -67,7 +67,7 @@
     "en": "Erlebnis-Zoo Hannover",
     "es": "Erlebnis-Zoo Hannover"
    },
-   "version": 3,
+   "version": 4,
    "city": "Hannover"
   },
   {
@@ -97,7 +97,7 @@
     "en": "Tiergarten Nürnberg",
     "es": "Tiergarten Nürnberg"
    },
-   "version": 3,
+   "version": 4,
    "city": "Nürnberg"
   },
   {
@@ -147,7 +147,7 @@
     "en": "Zoo Osnabrück",
     "es": "Zoo Osnabrück"
    },
-   "version": 3,
+   "version": 4,
    "city": "Osnabrück"
   },
   {
@@ -177,7 +177,7 @@
     "en": "Green Zoo Wuppertal",
     "es": "Zoo Verde de Wuppertal"
    },
-   "version": 3,
+   "version": 4,
    "city": "Wuppertal"
   },
   {
@@ -187,7 +187,7 @@
     "en": "Wildparadies Tripsdrill",
     "es": "Wildparadies Tripsdrill"
    },
-   "version": 3,
+   "version": 4,
    "city": "Cleebronn"
   },
   {
@@ -197,7 +197,7 @@
     "en": "Zoo Augsburg",
     "es": "Zoo Augsburg"
    },
-   "version": 3,
+   "version": 4,
    "city": "Augsburg"
   }
  ]

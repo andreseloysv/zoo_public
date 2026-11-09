@@ -1,6 +1,6 @@
 {
  "id": "osnabrueck",
- "version": 3,
+ "version": 4,
  "name": {
   "de": "Zoo Osnabrück",
   "en": "Zoo Osnabrück",
@@ -29,16 +29,16 @@
    "bytes": 67091
   },
   "species.json": {
-   "sha256": "88ad572f22a355723cf003a9609155a14a3c00ec71f8d3b4bb28a6158f584067",
-   "bytes": 482060
+   "sha256": "4e0cbc51a4be4b3f4a9f91de34cbd6951c6ced158e7ffdaac6ff6e2d0b4dc06a",
+   "bytes": 469301
   },
   "paths.geojson": {
    "sha256": "62c9d5c8278bb721f1076bf98055c45798c2f9fc553dba2a65bd9a7ff0df9f2e",
    "bytes": 48611
   },
   "catalogue.json": {
-   "sha256": "10b01c601edf4e83932c7692cbea12cd9aaa0d7ab3541e2a402187aa1d2addec",
-   "bytes": 16238
+   "sha256": "aca25150e7763dc73387cb712df7ad215f8cbce0820e7833d5b765c0065c3ba2",
+   "bytes": 16219
   },
   "animal-locations.json": {
    "sha256": "9d997823c57bb39c52bb92697e67aaf6b238461a269bb0234dfe2590472eb24f",
@@ -3923,12 +3923,12 @@
  },
  "counts": {
   "enclosures": 50,
-  "species": 78,
+  "species": 76,
   "speciesReferenced": 67,
   "paths": 167,
   "features": 156,
   "viewpoints": 158,
-  "images": 78,
+  "images": 76,
   "animalLocations": 4,
   "catalogueEntries": 91,
   "audio": 892
@@ -3940,7 +3940,7 @@
   "Biological research, scripts, licensed species images and recordings are linked once through the central taxon library.",
   "OSM animal features can be stale. Exact official-name or official-link matches are documented; unmatched OSM labels are retained as unconfirmed map features with no species assignment. Automatic guide remains disabled pending content and location review."
  ],
- "updatedAt": "2026-11-08T15:26:52Z",
+ "updatedAt": "2026-11-09T07:44:34Z",
  "website": "https://www.zoo-osnabrueck.de/",
  "ticketShop": "https://shop.zoo-osnabrueck.de/"
 }

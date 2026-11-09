@@ -1,6 +1,6 @@
 {
  "id": "augsburg",
- "version": 3,
+ "version": 4,
  "name": {
   "de": "Zoo Augsburg",
   "en": "Zoo Augsburg",
@@ -29,24 +29,24 @@
    "bytes": 85944
   },
   "species.json": {
-   "sha256": "27782e235a31fa54d4c596e6c9a5bb64b5266915574fa590a9110dab9b5e51c9",
-   "bytes": 860712
+   "sha256": "0affcfd76f33adc3936d004acc927f7f21f513c2a01ee7cbdfd52694b165f118",
+   "bytes": 847381
   },
   "paths.geojson": {
    "sha256": "ff027e388cee9dfbffcf55e925e4b97e0f1ab2a4a346e714bf622176fad48cef",
    "bytes": 16141
   },
   "catalogue.json": {
-   "sha256": "341a595f9460add6baa2282e639288d0a6ed17b2a94e7d98493fa10d1fc232df",
-   "bytes": 33980
+   "sha256": "779b47c58e47ef73a6b66b274c9159126cdb97998030a3310fbf0cbe64e506b6",
+   "bytes": 33967
   },
   "animal-locations.json": {
    "sha256": "d801aa1fb7ddcc330a5e3173372ea6af4a3d08ec58074478e85aa5603e926658",
    "bytes": 14
   },
   "enclosures.geojson": {
-   "sha256": "9ce340f140ddfda25ecba2dabe8fbfb13dc1480a272d5bd058e73f69c8853a33",
-   "bytes": 54464
+   "sha256": "53210d04eee9d193bd744385aa8c5f9f492aab54667ce56837b80ef3f79ee775",
+   "bytes": 54494
   },
   "images/taxon-lathamus-discolor.jpg": {
    "sha256": "9ffb8d3e6977d3495edfb898e8a6884147956fe37b3da8a2b89d93472623330d",
@@ -4659,12 +4659,12 @@
  },
  "counts": {
   "enclosures": 61,
-  "species": 139,
+  "species": 137,
   "speciesReferenced": 68,
   "paths": 58,
   "features": 154,
   "viewpoints": 141,
-  "images": 136,
+  "images": 134,
   "animalLocations": 0,
   "catalogueEntries": 190,
   "audio": 1018
@@ -4676,7 +4676,7 @@
   "Biological research, scripts, licensed species images and recordings are linked once through the central taxon library.",
   "OSM animal features can be stale. Exact official-name or official-link matches are documented; unmatched OSM labels are retained as unconfirmed map features with no species assignment. Automatic guide remains disabled pending content and location review."
  ],
- "updatedAt": "2026-11-08T15:26:53Z",
+ "updatedAt": "2026-11-09T07:44:28Z",
  "website": "https://www.zoo-augsburg.de/",
  "ticketShop": "https://tickets.zoo-augsburg.de/"
 }

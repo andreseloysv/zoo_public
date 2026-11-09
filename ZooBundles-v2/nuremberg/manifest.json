@@ -1,6 +1,6 @@
 {
  "id": "nuremberg",
- "version": 3,
+ "version": 4,
  "name": {
   "de": "Tiergarten Nürnberg",
   "en": "Tiergarten Nürnberg",
@@ -29,16 +29,16 @@
    "bytes": 37696
   },
   "species.json": {
-   "sha256": "ef4a95c4c3b41414818256aa1490959321ca13d78ac913c7671b3da180940988",
-   "bytes": 959890
+   "sha256": "8c28ed9b39e965c31c5a1c08741ed8ee68c96edb56156b1f4f8be57c825bc0be",
+   "bytes": 952583
   },
   "paths.geojson": {
    "sha256": "a7051cb71e2b33f528a3a543d57c012abd4a78e39b4ec55548fbddc2c66ea0a9",
    "bytes": 51584
   },
   "catalogue.json": {
-   "sha256": "a0815377de71b122d405766444d633ff9731e0c3846f0de865edeaa85ee7d0e5",
-   "bytes": 59112
+   "sha256": "6fe5c14c100c920e9b2ee10f73ad5a927b9c5ca0e4e21a1a2189dd86a764532e",
+   "bytes": 59109
   },
   "animal-locations.json": {
    "sha256": "d801aa1fb7ddcc330a5e3173372ea6af4a3d08ec58074478e85aa5603e926658",
@@ -427,6 +427,10 @@
   "images/taxon-antilope-cervicapra.jpg": {
    "sha256": "c15a574ebfaec631d5b2ed641233da2d7dfbb5d4862851ff8423136721fb8407",
    "bytes": 320634
+  },
+  "images/taxon-babyrousa-celebensis.jpg": {
+   "sha256": "71850577cd6929af50338469cad93e8fc6ef949dfbeeeaaad681b794003b94a6",
+   "bytes": 518412
   },
   "images/taxon-panthera-uncia.jpg": {
    "sha256": "5c7a04862010bc54bcfd98bed9b6c74d57aa410ef77211918fa849dffeb0cb20",
@@ -824,10 +828,6 @@
    "sha256": "8f04859a7f5f1dbf6e47b11df0b44184d62a02d5badd583dafc3443f7e14e4a8",
    "bytes": 59898
   },
-  "audio/hirscheber_es_fact1.m4a": {
-   "sha256": "09848534c451b1565faf8aea7157f2602c4202a59b46368b2e4fddcf0dba6952",
-   "bytes": 27837
-  },
   "audio/trampeltier-zweihoeckriges-kamel_de_fact5.m4a": {
    "sha256": "99d8c8d0b485e64996d410b006cdd1e8afbdd959f0c3145ba122098c53275102",
    "bytes": 35958
@@ -989,8 +989,8 @@
    "bytes": 33323
   },
   "audio/hirscheber_es_fact3.m4a": {
-   "sha256": "966651d6e7c06efaf452bce9c4975a9a0e77ef5ce08e59ece206abc59e38995f",
-   "bytes": 34506
+   "sha256": "f425e45eb8961481a49289eea652d9141328bdfe1e217bb31836f82af8f281d7",
+   "bytes": 25919
   },
   "audio/hyazinth-ara_de_fact5.m4a": {
    "sha256": "35537bc16132af84d6d3d5bd119cb638c054ef81a6fe9f6b8b618696fd9be0c5",
@@ -1147,10 +1147,6 @@
   "audio/hyazinth-ara_de_fact4.m4a": {
    "sha256": "d7927d46672c04b05ea4e7373dedd9321f64871260ebfbfef26ccdf21440764e",
    "bytes": 36873
-  },
-  "audio/hirscheber_es_fact2.m4a": {
-   "sha256": "65f3e0af77b9a704551e4ee4be66d9a950064f9b97d63b898685998e16f33a03",
-   "bytes": 22543
   },
   "audio/panzernashorn_es_fact3.m4a": {
    "sha256": "aff06ca52c7a77a88cc03079254c64b056facfb94574f4807dd0f12612e14bff",
@@ -1588,10 +1584,6 @@
    "sha256": "827598ac098c97b327dce4a17fc5898c0cd63598a07148628229cd5fa896d250",
    "bytes": 27411
   },
-  "audio/hirscheber_es_fact5.m4a": {
-   "sha256": "9417a40101b245645c84d9a4a7b468881c8856d5561523270f1ef31935321615",
-   "bytes": 27643
-  },
   "audio/panzernashorn_es_fact4.m4a": {
    "sha256": "d0d9e5583b465d51b774899f9046ed7693dcc56f744625db8e4e99c95fa68362",
    "bytes": 23687
@@ -1751,10 +1743,6 @@
   "audio/panzernashorn_es_fact5.m4a": {
    "sha256": "18ffaea4620233bd81fae63f72d746c3b3951571964357bdbbf8c2816ae0c156",
    "bytes": 28730
-  },
-  "audio/hirscheber_es_fact4.m4a": {
-   "sha256": "a6d8c553dd815c22ade6cb025c9f250ccdbd9086ffea5abe0c27ccaa203cf547",
-   "bytes": 42680
   },
   "audio/nagelmanati_es_fact3.m4a": {
    "sha256": "677c878aabb4cd8e17f4a18b3cdd96d8eb24303640173725aa677bb3671055da",
@@ -2045,8 +2033,8 @@
    "bytes": 34291
   },
   "audio/hirscheber_es.m4a": {
-   "sha256": "ba44e029f4c5ae4f1a62994090e1a8e773c9bf2d4bf3d05fdbf5e226b1bda9c4",
-   "bytes": 273213
+   "sha256": "5c1a0f803fd6816198afe1e2c29255c6cde20549e44d6f9200be75bcffd314b5",
+   "bytes": 268780
   },
   "audio/kronenmaki-0_en_fact1.m4a": {
    "sha256": "ac604fe36e76990eabda44f1199522487322c1ba30a23954900382f63078b9eb",
@@ -2220,10 +2208,6 @@
    "sha256": "fa15c9de6e70e9d6c4ed9713d60a9cc7f069922d7c0716d177e8eb4d98b37b5f",
    "bytes": 235227
   },
-  "audio/tayra_en_fact5.m4a": {
-   "sha256": "a2f3a0c77e50d2e0dd09d04543d6d9957fbed44b1d7e212d62fab7bdbda5c620",
-   "bytes": 34171
-  },
   "audio/fischkatze_es_fact5.m4a": {
    "sha256": "409fc3f8e61baa494aed8473b3bbbc0669fec419a500bca7f68f2d0ae0f763ac",
    "bytes": 30947
@@ -2388,17 +2372,9 @@
    "sha256": "6a02e26bfe1c4b3c6a5019b71729eecc5bcf7ca4e3401c094404d2d37059bf3c",
    "bytes": 29541
   },
-  "audio/hirscheber_de_fact5.m4a": {
-   "sha256": "2d41f022b6b3da8b8ce485516077d8b252f2cafdd547f34974f501a756214e1b",
-   "bytes": 28042
-  },
   "audio/asiatischer-loewe_en_fact1.m4a": {
    "sha256": "8b2a7ab2051918f88565792135b215640312185637b2f5f944867551a88b2814",
    "bytes": 53448
-  },
-  "audio/hirscheber_de_fact4.m4a": {
-   "sha256": "bbd4b39810432a1ef458ee2faebe198679e15ba5ba05c8059ffacad845913c78",
-   "bytes": 42097
   },
   "audio/panzernashorn_de_fact5.m4a": {
    "sha256": "32d873b5d371db7473cc4f985778d57f1a561ae38f5adb14795220d256f03d57",
@@ -2559,10 +2535,6 @@
   "audio/schnee-eule_en_fact3.m4a": {
    "sha256": "6a2acf54ec46b98fcbc3d4aa7a65da9c481203434d309e54b16eb7a9cda8119d",
    "bytes": 31703
-  },
-  "audio/tayra_en_fact4.m4a": {
-   "sha256": "6ebc56c6e0e4a6bc84e421d6cffb72016c7b85c359e82ad217b63d65ad1fa5c1",
-   "bytes": 40814
   },
   "audio/netzgiraffe_es_fact3.m4a": {
    "sha256": "47820f3a558284391fcc339fd621ec0ebb7f0a984b5ed2406c3488981ca3cd01",
@@ -2812,10 +2784,6 @@
    "sha256": "e1b761ca25a4c8e2519dc03a5fa1f55202c095c11fcdce7be2a9df6d49709f0a",
    "bytes": 30824
   },
-  "audio/hirscheber_de_fact1.m4a": {
-   "sha256": "7d07a1edadffd3ac24cf117b84a5b6f6e0c1ea0ea4cff0e5954ffa0f824cf132",
-   "bytes": 32112
-  },
   "audio/pantherchamaeleon_en_fact1.m4a": {
    "sha256": "ab1af4454000364dfadb27b0a03bc5405e46828e85f7149755b5e0db5579b838",
    "bytes": 57071
@@ -2899,10 +2867,6 @@
   "audio/paradieskranich_es_fact2.m4a": {
    "sha256": "534b2e6a1e04449fa9520ba66dd35267ea3a6c863a18103cfcd5527b0bd15327",
    "bytes": 20851
-  },
-  "audio/tayra_en_fact1.m4a": {
-   "sha256": "9a4b864cec8d38a83d14aafaeccb2bd1d0d147e1b324140d48d68ca469c1a405",
-   "bytes": 29285
   },
   "audio/gepard_en_fact4.m4a": {
    "sha256": "de608fd725fbae6c4dcbfe48a7cd46f7d909ea795a5bac3b891009bbbbfc79df",
@@ -2995,10 +2959,6 @@
   "audio/hausesel_en_fact3.m4a": {
    "sha256": "bdf8ee3dd6933ce7f6e5706be86c358355c82f514e65b844b350742a254589fa",
    "bytes": 31619
-  },
-  "audio/tayra_en_fact3.m4a": {
-   "sha256": "40accb4655b92d1322c954e4d172bb263c7bb1dd8de6ae3ae2184cd2d87a9d76",
-   "bytes": 28582
   },
   "audio/netzgiraffe_es_fact4.m4a": {
    "sha256": "ce9dfb4dc432c14fbf07d23e180fa013a51cddd2c465f750c4a6780d50b7eff0",
@@ -3141,8 +3101,8 @@
    "bytes": 28187
   },
   "audio/hirscheber_de_fact3.m4a": {
-   "sha256": "1591c5ac97a0c16f82f130280b10b258000a06c3c8f7940e7204172beb54301b",
-   "bytes": 27420
+   "sha256": "0f125eda274e0daa2efabdca0a154aa340889a36c9d1b571a7dddbc089d2935e",
+   "bytes": 18324
   },
   "audio/panzernashorn_de_fact2.m4a": {
    "sha256": "93a0552360adf17116013ddea70d79e6f6aad196c862e6593ea2617c52eb871c",
@@ -3176,10 +3136,6 @@
    "sha256": "eaca9b93cdf1daaf3a322ff9e022ca2f5824cdbf8af6a5681b87c08199f6f879",
    "bytes": 20032
   },
-  "audio/hirscheber_de_fact2.m4a": {
-   "sha256": "6eaf73570a46ccd403fe986ee5ead80015c64f0f0e7ba5845ef93fb0dc38b096",
-   "bytes": 26584
-  },
   "audio/seehund_en_fact5.m4a": {
    "sha256": "2462bc5a72ed0e2eb229f0b1dfa230a006b0e4b1918e7546b231d85efe1539e7",
    "bytes": 53738
@@ -3189,8 +3145,8 @@
    "bytes": 239893
   },
   "audio/hirscheber_de.m4a": {
-   "sha256": "0738e8b6b66aa97ba6154a2df2548fb958332685848aa60c27e2ec07407af011",
-   "bytes": 249710
+   "sha256": "b9ce7cb26d1b4b4fc161d29db5430abf6be9db172d5d5cff2547bffbbed78dda",
+   "bytes": 240409
   },
   "audio/flachlandgorilla_en_fact1.m4a": {
    "sha256": "acb5bdb97474dc75ece5f5955659970e98f0bc0bcd7bfc0589e3de93c451cd80",
@@ -3303,10 +3259,6 @@
   "audio/humboldtpinguin_de.m4a": {
    "sha256": "0eff6a1f4031376f054e7a5d303b8fc531807647726e407be908f898bdd2534b",
    "bytes": 266718
-  },
-  "audio/tayra_en_fact2.m4a": {
-   "sha256": "06fbb19cccd15c493b45baf5f49018fac02a541a5bc8a113682f41497cab781e",
-   "bytes": 39523
   },
   "audio/fischkatze_es_fact2.m4a": {
    "sha256": "a1d2d53e6abdbf9f5dc5e238627896980e853264eea0539c7e7ebdfb50e1c9b7",
@@ -3427,10 +3379,6 @@
   "audio/kleiner-pandabaer_de_fact3.m4a": {
    "sha256": "676e4b1df038117919e40e3b691d9911ee3ad76b85c50db455b504e9764515f3",
    "bytes": 36050
-  },
-  "audio/tayra_es_fact2.m4a": {
-   "sha256": "53e80f04e1c6eda7f7efdcd56edbd8ed53b1f30ffd6483c978c83ba2fd44a870",
-   "bytes": 44877
   },
   "audio/schnee-eule_es_fact5.m4a": {
    "sha256": "022b703f7ce9dc861bed1c36d3680e1997007a3f07248e01a1c0c4111b84b271",
@@ -3764,10 +3712,6 @@
    "sha256": "aa13c2b367acd590dd3ba29e01e5ca39f6deb17594411ccbf35fbc503ea12f2a",
    "bytes": 236778
   },
-  "audio/tayra_es_fact3.m4a": {
-   "sha256": "47820f3a558284391fcc339fd621ec0ebb7f0a984b5ed2406c3488981ca3cd01",
-   "bytes": 25662
-  },
   "audio/kleiner-pandabaer_de_fact2.m4a": {
    "sha256": "d5711476d3ce8b1763a6909e7c6e9dbea13c2847f460b0c169f9b13f5723fa55",
    "bytes": 31516
@@ -3819,10 +3763,6 @@
   "audio/maehnenschaf_de.m4a": {
    "sha256": "92805b036fe08751fb3f54c03b5740615452a84a0323d565af850a805a8a9bcd",
    "bytes": 240967
-  },
-  "audio/tayra_es_fact1.m4a": {
-   "sha256": "577b3a6f76a2fecab85411abc33213d93b0880f5816215c3e857e475dd20c295",
-   "bytes": 35145
   },
   "audio/gepard_es_fact4.m4a": {
    "sha256": "f9e158849468d82f9f57333d2b6399fb79fef234b5e1974bdcbdc3e71c93d7d4",
@@ -4001,8 +3941,8 @@
    "bytes": 254812
   },
   "audio/hirscheber_en.m4a": {
-   "sha256": "2f5545f36149d66f55524f4430202b6b8e6192666d210d2f659317be48d7f8c3",
-   "bytes": 235203
+   "sha256": "8c7e82b2897a67b8db49e6cad3a4ad8b99e1d61f50c37ed6fb7037c7747743ed",
+   "bytes": 237853
   },
   "audio/eurasischer-luchs_es_fact4.m4a": {
    "sha256": "9987896045529743ff1ad5eb282e36477f9834837183ca241731b324a987e037",
@@ -4191,10 +4131,6 @@
   "audio/fischkatze_en_fact4.m4a": {
    "sha256": "44a750c7611e1c537ded477a6393fe1e891d9e33b35c33e22efa9044924d24ee",
    "bytes": 27793
-  },
-  "audio/tayra_es_fact4.m4a": {
-   "sha256": "ce9dfb4dc432c14fbf07d23e180fa013a51cddd2c465f750c4a6780d50b7eff0",
-   "bytes": 36210
   },
   "audio/wisent_de_fact3.m4a": {
    "sha256": "b40771988a77c46c41f5d00a3f082d023432be3a172b89183a2b85d092e332d8",
@@ -4491,10 +4427,6 @@
   "audio/waldrentier_en.m4a": {
    "sha256": "3a257c0094d776d718b589af8e60bae7847cff34b94c070b0e943a9d3193b676",
    "bytes": 249943
-  },
-  "audio/tayra_es_fact5.m4a": {
-   "sha256": "ba331f7b6cf26369ac51e508c4b0d34486b8239696e6b5caa35fca12590dc00b",
-   "bytes": 37266
   },
   "audio/hausesel_es_fact5.m4a": {
    "sha256": "d56604d7ee8a386bc121b7fc05967eb3f6aaa31d1ffa5f6aa34740b8a7b22d63",
@@ -4936,10 +4868,6 @@
    "sha256": "2adf3a3e7bb8f55a356e3ef8fcfecf202fa2f0e3eaac79004e1eec508fefa5ea",
    "bytes": 19210
   },
-  "audio/tayra_de_fact4.m4a": {
-   "sha256": "d1b3c24721a5c564314bd65d75b1eb6676b4b41e1152d9cfc50059f898260726",
-   "bytes": 33712
-  },
   "audio/prinz-alfred-hirsch_es.m4a": {
    "sha256": "7dc14f65f575c753db7cd4a4afe0d9a653cb85c45ba72cd9890a6e090dbe4889",
    "bytes": 253768
@@ -5060,10 +4988,6 @@
    "sha256": "7b91a7b9ba459aced26c280978af1ae1b15385e806236d495f3cf60f081f4054",
    "bytes": 27977
   },
-  "audio/hirscheber_en_fact4.m4a": {
-   "sha256": "7fe6ea9726c34fb5f7cc5d90d5f7a1364f9bded241b09ea4e4eef7fe8deabfe0",
-   "bytes": 34545
-  },
   "audio/mistkaefer-heiliger-pillendreher_en.m4a": {
    "sha256": "753a9113c47378beef7829e2edc2adb9cc7e46fb2ab5185e8ed0c1e1a3d9a1e7",
    "bytes": 244468
@@ -5091,10 +5015,6 @@
   "audio/seehund_de_fact2.m4a": {
    "sha256": "41a4f1a42e394a8e99e581e8b70778290909e7e20e556538151119fb7805caaa",
    "bytes": 36986
-  },
-  "audio/hirscheber_en_fact5.m4a": {
-   "sha256": "d72329364071b25dfb7115eed6e0ad19c76293da19d26b4ad41004925c4345cd",
-   "bytes": 24408
   },
   "audio/panzernashorn_en_fact4.m4a": {
    "sha256": "5d604744724c56e5e61ea3169e42f19dfe262be8d4c6a466e5e602624f208567",
@@ -5207,10 +5127,6 @@
   "audio/kleiner-pandabaer_es_fact4.m4a": {
    "sha256": "88b21da521a1fea37e1c31cc55b01aac62a0a52918dda9b35dc5ed15a8af801b",
    "bytes": 36446
-  },
-  "audio/tayra_de_fact5.m4a": {
-   "sha256": "979bd3bba14f358a3ab678ef8c892f40c2228e7b1b52a543dd9865dc0acf95db",
-   "bytes": 35495
   },
   "audio/schnee-eule_de_fact2.m4a": {
    "sha256": "141d73151d0c66fc675e0ae563499a002310d3f10bace623fcb6a94570f47c60",
@@ -5608,10 +5524,6 @@
    "sha256": "71c1e4cb91ae332c8028bc6b9735e19f27e85e25936d6f4ea299aee902a1bfbd",
    "bytes": 251033
   },
-  "audio/tayra_de_fact2.m4a": {
-   "sha256": "244ced6551d09381c29dc4a614a4da06b42d6f5dc38fa427c672778dbc74ce89",
-   "bytes": 39350
-  },
   "audio/hausesel_de_fact2.m4a": {
    "sha256": "2e77c852d80853019c2fbfcf5ff0c5d73d9dfe0cbe9f5811e3356c60d1d43f97",
    "bytes": 44949
@@ -5732,10 +5644,6 @@
    "sha256": "8b998459c0e3f13e7774ff50e425694c55b311ab2ee7ca4aa3c78475aac78ba2",
    "bytes": 284142
   },
-  "audio/hirscheber_en_fact2.m4a": {
-   "sha256": "86267d24f097ea2259c2f1b9193f4a6118b7d9a63d367dc6422c709eebb296f0",
-   "bytes": 21165
-  },
   "audio/panzernashorn_en_fact3.m4a": {
    "sha256": "16631351962bea197cadf85b2ea3be710b55c1f7239cbfe5e30e607e2fb5cb1d",
    "bytes": 25358
@@ -5769,8 +5677,8 @@
    "bytes": 26441
   },
   "audio/hirscheber_en_fact3.m4a": {
-   "sha256": "d5e7231454b4caca1b3812a1d803a270f9413cd1ac58a1ef22d2ad9de108c4f1",
-   "bytes": 24263
+   "sha256": "6d8eb9856566e09aa002ac2b2e2788830eb9bc063a2b688592772e77984f2909",
+   "bytes": 18869
   },
   "audio/nagelmanati_en_fact4.m4a": {
    "sha256": "71231e199124da42538eb58512df7e5bf49cfb38b9c3257c63224767d4b70576",
@@ -5880,10 +5788,6 @@
    "sha256": "de5f3ad4f044ea80bf0170fff43fe6077918b234203f8982f2c202306827a6ec",
    "bytes": 271598
   },
-  "audio/tayra_de_fact3.m4a": {
-   "sha256": "010ff1884c294bce52a879e0132a61ff0fcb707a324b11db08476d2f3110c9ef",
-   "bytes": 30592
-  },
   "audio/wisent_es_fact4.m4a": {
    "sha256": "e619cd3bcddd28188ba0b03559ef21b585cc5945e4f456be2f99b0ad32bea850",
    "bytes": 44005
@@ -5959,10 +5863,6 @@
   "audio/rosapelikan_es_fact1.m4a": {
    "sha256": "6ffa27f175a01982c23ef8575ca595db72889f0a5fbcd9622acca10a7476b080",
    "bytes": 30323
-  },
-  "audio/tayra_de_fact1.m4a": {
-   "sha256": "376966a2fb6eeccc2ef5180b09f99e8745668c4057f4f286a13185a47bf0bc1b",
-   "bytes": 30473
   },
   "audio/gepard_de_fact4.m4a": {
    "sha256": "2348a4d904a02d9f0f6c1ba4282e501224f1f95bf15f03374be347de5456efea",
@@ -6047,10 +5947,6 @@
   "audio/alpaka_en_fact1.m4a": {
    "sha256": "eff471c4a3ed02d0c11ab71388a5a4e795f8b0a6496919541cc1540ca9c923c7",
    "bytes": 52570
-  },
-  "audio/hirscheber_en_fact1.m4a": {
-   "sha256": "02bcf5778da2edc389a4412e430aed3ccdf92ae291dee27d5ff9a888e50c22bb",
-   "bytes": 28377
   },
   "audio/pantherchamaeleon_de_fact1.m4a": {
    "sha256": "a060aa11c64e41082ad697d8c095bd28be0fa1c615eedd87ae597e656158af6e",
@@ -6207,7 +6103,7 @@
  },
  "counts": {
   "enclosures": 71,
-  "species": 152,
+  "species": 151,
   "speciesReferenced": 88,
   "paths": 180,
   "features": 133,
@@ -6215,7 +6111,7 @@
   "images": 149,
   "animalLocations": 0,
   "catalogueEntries": 292,
-  "audio": 1394
+  "audio": 1367
  },
  "attribution": [
   "Map data © OpenStreetMap contributors, ODbL 1.0 — https://www.openstreetmap.org/copyright",
@@ -6225,7 +6121,7 @@
   "Images from Wikimedia Commons; individual author, source and licence shown on each profile.",
   "Fonts: Epilogue and Plus Jakarta Sans, SIL Open Font License 1.1"
  ],
- "updatedAt": "2026-11-08T15:26:51Z",
+ "updatedAt": "2026-11-09T07:44:33Z",
  "website": "https://tiergarten.nuernberg.de/",
  "ticketShop": "https://tiergarten-nuernberg.ticketfritz.de/"
 }

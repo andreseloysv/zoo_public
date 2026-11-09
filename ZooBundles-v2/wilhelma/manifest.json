@@ -1,6 +1,6 @@
 {
  "id": "wilhelma",
- "version": 3,
+ "version": 4,
  "name": {
   "de": "Wilhelma",
   "en": "Wilhelma",
@@ -29,8 +29,8 @@
    "bytes": 58514
   },
   "species.json": {
-   "sha256": "606a4084484ab41ae36262fe07072e0e46a5a5a6914a0d0d28039407acad8319",
-   "bytes": 989258
+   "sha256": "57fffdb1479535f0750e1d4a9b2fd21aebbde6d409cc1e2aadf1b09ea963fc6e",
+   "bytes": 988227
   },
   "paths.geojson": {
    "sha256": "565314b0180bd98e2185b5d7090cc141f56130409b3a5895f5c637a09111cb08",
@@ -472,6 +472,10 @@
    "sha256": "74c82c88d6dc7030fa65232ab6c66002e798e98dbd0951201c79d58f307b5d30",
    "bytes": 185405
   },
+  "images/taxon-babyrousa-celebensis.jpg": {
+   "sha256": "71850577cd6929af50338469cad93e8fc6ef949dfbeeeaaad681b794003b94a6",
+   "bytes": 518412
+  },
   "images/taxon-panthera-uncia.jpg": {
    "sha256": "5c7a04862010bc54bcfd98bed9b6c74d57aa410ef77211918fa849dffeb0cb20",
    "bytes": 168345
@@ -872,10 +876,6 @@
    "sha256": "089ba20075dff4c1f445d185b47f8642492695ec0986ef6956121e8e91079c96",
    "bytes": 255268
   },
-  "audio/hirscheber_es_fact1.m4a": {
-   "sha256": "09848534c451b1565faf8aea7157f2602c4202a59b46368b2e4fddcf0dba6952",
-   "bytes": 27837
-  },
   "audio/rosaflamingo_de_fact1.m4a": {
    "sha256": "3bd1f1fbed9ab81febbf4ff94fb8ddaea5a6d1879c53c0d92b58cea94d3650e8",
    "bytes": 28024
@@ -1025,8 +1025,8 @@
    "bytes": 33323
   },
   "audio/hirscheber_es_fact3.m4a": {
-   "sha256": "966651d6e7c06efaf452bce9c4975a9a0e77ef5ce08e59ece206abc59e38995f",
-   "bytes": 34506
+   "sha256": "f425e45eb8961481a49289eea652d9141328bdfe1e217bb31836f82af8f281d7",
+   "bytes": 25919
   },
   "audio/waldhund_en.m4a": {
    "sha256": "742ab0d3468ebe901ece1dc6b30a86f05430a8d35b70d3842a73c35c7cac0db8",
@@ -1195,10 +1195,6 @@
   "audio/hyazinthara_es_fact4.m4a": {
    "sha256": "8b9789da896e4d71a7ee2bcf7a30ec46a0fd148715795ffefc41a324c912ab26",
    "bytes": 35647
-  },
-  "audio/hirscheber_es_fact2.m4a": {
-   "sha256": "65f3e0af77b9a704551e4ee4be66d9a950064f9b97d63b898685998e16f33a03",
-   "bytes": 22543
   },
   "audio/panzernashorn_es_fact3.m4a": {
    "sha256": "aff06ca52c7a77a88cc03079254c64b056facfb94574f4807dd0f12612e14bff",
@@ -1684,10 +1680,6 @@
    "sha256": "559fbede05738c4ec4320404b21a5d391b8f73ef49b300c4b10065ce997f5bd8",
    "bytes": 331599
   },
-  "audio/hirscheber_es_fact5.m4a": {
-   "sha256": "9417a40101b245645c84d9a4a7b468881c8856d5561523270f1ef31935321615",
-   "bytes": 27643
-  },
   "audio/panzernashorn_es_fact4.m4a": {
    "sha256": "d0d9e5583b465d51b774899f9046ed7693dcc56f744625db8e4e99c95fa68362",
    "bytes": 23687
@@ -1831,10 +1823,6 @@
   "audio/panzernashorn_es_fact5.m4a": {
    "sha256": "18ffaea4620233bd81fae63f72d746c3b3951571964357bdbbf8c2816ae0c156",
    "bytes": 28730
-  },
-  "audio/hirscheber_es_fact4.m4a": {
-   "sha256": "a6d8c553dd815c22ade6cb025c9f250ccdbd9086ffea5abe0c27ccaa203cf547",
-   "bytes": 42680
   },
   "audio/eurasische-zwergmaus_de_fact2.m4a": {
    "sha256": "bb3dda17f664016f7a704cea9d021ab193868c9bca0c1d2f9546452939d5529e",
@@ -2145,8 +2133,8 @@
    "bytes": 238222
   },
   "audio/hirscheber_es.m4a": {
-   "sha256": "ba44e029f4c5ae4f1a62994090e1a8e773c9bf2d4bf3d05fdbf5e226b1bda9c4",
-   "bytes": 273213
+   "sha256": "5c1a0f803fd6816198afe1e2c29255c6cde20549e44d6f9200be75bcffd314b5",
+   "bytes": 268780
   },
   "audio/grevyzebra_en_fact2.m4a": {
    "sha256": "9b4c1c5eee002f4d98b7e437f48f241b048ee9f10f09a3c3467c3d0691292dc0",
@@ -2472,10 +2460,6 @@
    "sha256": "6a02e26bfe1c4b3c6a5019b71729eecc5bcf7ca4e3401c094404d2d37059bf3c",
    "bytes": 29541
   },
-  "audio/hirscheber_de_fact5.m4a": {
-   "sha256": "2d41f022b6b3da8b8ce485516077d8b252f2cafdd547f34974f501a756214e1b",
-   "bytes": 28042
-  },
   "audio/rosaflamingo_es_fact5.m4a": {
    "sha256": "9edbaf2dd856d2dbf67528a9c48766d1ab945129ab22f8656a0f06231dfcab91",
    "bytes": 26481
@@ -2495,10 +2479,6 @@
   "audio/bongo_es_fact5.m4a": {
    "sha256": "83be71b40d238f5e822626a022d1a6df2df2ce37098f7ab533fa95522400383c",
    "bytes": 59654
-  },
-  "audio/hirscheber_de_fact4.m4a": {
-   "sha256": "bbd4b39810432a1ef458ee2faebe198679e15ba5ba05c8059ffacad845913c78",
-   "bytes": 42097
   },
   "audio/panzernashorn_de_fact5.m4a": {
    "sha256": "32d873b5d371db7473cc4f985778d57f1a561ae38f5adb14795220d256f03d57",
@@ -2832,10 +2812,6 @@
    "sha256": "e1b761ca25a4c8e2519dc03a5fa1f55202c095c11fcdce7be2a9df6d49709f0a",
    "bytes": 30824
   },
-  "audio/hirscheber_de_fact1.m4a": {
-   "sha256": "7d07a1edadffd3ac24cf117b84a5b6f6e0c1ea0ea4cff0e5954ffa0f824cf132",
-   "bytes": 32112
-  },
   "audio/asiatischer-loewe_en_fact4.m4a": {
    "sha256": "ed9d2e99ac014e70a9564842a878d24063dbed24c0357d81950719f1545299ae",
    "bytes": 48028
@@ -3141,8 +3117,8 @@
    "bytes": 45124
   },
   "audio/hirscheber_de_fact3.m4a": {
-   "sha256": "1591c5ac97a0c16f82f130280b10b258000a06c3c8f7940e7204172beb54301b",
-   "bytes": 27420
+   "sha256": "0f125eda274e0daa2efabdca0a154aa340889a36c9d1b571a7dddbc089d2935e",
+   "bytes": 18324
   },
   "audio/panzernashorn_de_fact2.m4a": {
    "sha256": "93a0552360adf17116013ddea70d79e6f6aad196c862e6593ea2617c52eb871c",
@@ -3164,17 +3140,13 @@
    "sha256": "eaca9b93cdf1daaf3a322ff9e022ca2f5824cdbf8af6a5681b87c08199f6f879",
    "bytes": 20032
   },
-  "audio/hirscheber_de_fact2.m4a": {
-   "sha256": "6eaf73570a46ccd403fe986ee5ead80015c64f0f0e7ba5845ef93fb0dc38b096",
-   "bytes": 26584
-  },
   "audio/rosaflamingo_es_fact2.m4a": {
    "sha256": "5ea88c637d26473bc71cb36750f55cab0822b466349daeadd707c793a12e72f0",
    "bytes": 38774
   },
   "audio/hirscheber_de.m4a": {
-   "sha256": "0738e8b6b66aa97ba6154a2df2548fb958332685848aa60c27e2ec07407af011",
-   "bytes": 249710
+   "sha256": "b9ce7cb26d1b4b4fc161d29db5430abf6be9db172d5d5cff2547bffbbed78dda",
+   "bytes": 240409
   },
   "audio/bongo_es_fact3.m4a": {
    "sha256": "d3c71c13978f69b98cc729d8f1e9fb771a1b96d3c4a62020e3cee9fbc1538627",
@@ -3965,8 +3937,8 @@
    "bytes": 26024
   },
   "audio/hirscheber_en.m4a": {
-   "sha256": "2f5545f36149d66f55524f4430202b6b8e6192666d210d2f659317be48d7f8c3",
-   "bytes": 235203
+   "sha256": "8c7e82b2897a67b8db49e6cad3a4ad8b99e1d61f50c37ed6fb7037c7747743ed",
+   "bytes": 237853
   },
   "audio/atlasfalter_en_fact3.m4a": {
    "sha256": "caab9a65e26841c6e70e0bd57deb2862686c9ec0fbfa1220181617b0d6c5d26a",
@@ -4944,10 +4916,6 @@
    "sha256": "7b91a7b9ba459aced26c280978af1ae1b15385e806236d495f3cf60f081f4054",
    "bytes": 27977
   },
-  "audio/hirscheber_en_fact4.m4a": {
-   "sha256": "7fe6ea9726c34fb5f7cc5d90d5f7a1364f9bded241b09ea4e4eef7fe8deabfe0",
-   "bytes": 34545
-  },
   "audio/hyazinthara_en_fact2.m4a": {
    "sha256": "afc4935e084e4642e355e678a9093414faa8837543a2976725d123e95f77e3ae",
    "bytes": 23856
@@ -4963,10 +4931,6 @@
   "audio/hyazinthara_en_fact3.m4a": {
    "sha256": "78f784b94ad964f97b98f464bab586ec248e6bbe0d5e9d89888f088188e8eea5",
    "bytes": 45982
-  },
-  "audio/hirscheber_en_fact5.m4a": {
-   "sha256": "d72329364071b25dfb7115eed6e0ad19c76293da19d26b4ad41004925c4345cd",
-   "bytes": 24408
   },
   "audio/panzernashorn_en_fact4.m4a": {
    "sha256": "5d604744724c56e5e61ea3169e42f19dfe262be8d4c6a466e5e602624f208567",
@@ -5556,10 +5520,6 @@
    "sha256": "fd69663330b1cbc4ba56cf9d8c711b577acdd91b9b0ebfb3f6b9a5579bad2277",
    "bytes": 27565
   },
-  "audio/hirscheber_en_fact2.m4a": {
-   "sha256": "86267d24f097ea2259c2f1b9193f4a6118b7d9a63d367dc6422c709eebb296f0",
-   "bytes": 21165
-  },
   "audio/panzernashorn_en_fact3.m4a": {
    "sha256": "16631351962bea197cadf85b2ea3be710b55c1f7239cbfe5e30e607e2fb5cb1d",
    "bytes": 25358
@@ -5569,8 +5529,8 @@
    "bytes": 26441
   },
   "audio/hirscheber_en_fact3.m4a": {
-   "sha256": "d5e7231454b4caca1b3812a1d803a270f9413cd1ac58a1ef22d2ad9de108c4f1",
-   "bytes": 24263
+   "sha256": "6d8eb9856566e09aa002ac2b2e2788830eb9bc063a2b688592772e77984f2909",
+   "bytes": 18869
   },
   "audio/hyazinthara_en_fact5.m4a": {
    "sha256": "5e78fcf5a7fa0abb7ff7208b21940d3dd86ed5a406baa25d35cf4d2c5f3ac018",
@@ -5844,10 +5804,6 @@
    "sha256": "bc33fc7ec917cef86f6e848575857ea62e3204b3be73976943533fffa8479fab",
    "bytes": 33664
   },
-  "audio/hirscheber_en_fact1.m4a": {
-   "sha256": "02bcf5778da2edc389a4412e430aed3ccdf92ae291dee27d5ff9a888e50c22bb",
-   "bytes": 28377
-  },
   "audio/roter-piranha_de.m4a": {
    "sha256": "ceda3aa1b95caf97e72ddb8dff1357630600b79bddfef59b10c706a804dc903a",
    "bytes": 216354
@@ -5988,10 +5944,10 @@
   "paths": 296,
   "features": 157,
   "viewpoints": 192,
-  "images": 157,
+  "images": 158,
   "animalLocations": 0,
   "catalogueEntries": 211,
-  "audio": 1326
+  "audio": 1314
  },
  "attribution": [
   "Map data © OpenStreetMap contributors, ODbL 1.0 — https://www.openstreetmap.org/copyright",
@@ -6001,7 +5957,7 @@
   "Images from Wikimedia Commons; individual author, source and licence shown on each profile.",
   "Fonts: Epilogue and Plus Jakarta Sans, SIL Open Font License 1.1"
  ],
- "updatedAt": "2026-11-08T15:26:48Z",
+ "updatedAt": "2026-11-09T07:44:37Z",
  "website": "https://www.wilhelma.de/",
  "ticketShop": "https://www.onlineticket.wilhelma.de/de/"
 }

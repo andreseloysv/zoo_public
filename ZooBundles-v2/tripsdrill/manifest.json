@@ -1,6 +1,6 @@
 {
  "id": "tripsdrill",
- "version": 3,
+ "version": 4,
  "name": {
   "de": "Wildparadies Tripsdrill",
   "en": "Wildparadies Tripsdrill",
@@ -29,16 +29,16 @@
    "bytes": 19210
   },
   "species.json": {
-   "sha256": "c31761997ee06920c61533f2f8429680f75a7a0edf6623cbf7701436d2e7aec5",
-   "bytes": 270092
+   "sha256": "9ee28b64946713c416b38c64f2c7385d21b1d656c051a02a0047f25f5cab9a7d",
+   "bytes": 263241
   },
   "paths.geojson": {
    "sha256": "4af1917890ad5d2b98bb1641ecb6b048a00e80e235016cdf6d45640aec73c87d",
    "bytes": 24555
   },
   "catalogue.json": {
-   "sha256": "51569282f5399495cfbd7b6de43a77b9bc79fb2efdad11e20bf6d0d41d57decf",
-   "bytes": 11865
+   "sha256": "e5eea03ef1633ac8c340a5977b245ff8c0044d266e2a98393e9323edde941fd8",
+   "bytes": 11854
   },
   "animal-locations.json": {
    "sha256": "d801aa1fb7ddcc330a5e3173372ea6af4a3d08ec58074478e85aa5603e926658",
@@ -1807,12 +1807,12 @@
  },
  "counts": {
   "enclosures": 28,
-  "species": 43,
+  "species": 42,
   "speciesReferenced": 30,
   "paths": 82,
   "features": 59,
   "viewpoints": 73,
-  "images": 43,
+  "images": 42,
   "animalLocations": 0,
   "catalogueEntries": 58,
   "audio": 398
@@ -1825,7 +1825,7 @@
   "OSM animal features can be stale. Exact official-name or official-link matches are documented; unmatched OSM labels are retained as unconfirmed map features with no species assignment. Automatic guide remains disabled pending content and location review.",
   "This bundle covers Wildparadies Tripsdrill only. The neighbouring Erlebnispark amusement park is not part of the zoo boundary."
  ],
- "updatedAt": "2026-11-08T15:26:52Z",
+ "updatedAt": "2026-11-09T07:44:35Z",
  "website": "https://tripsdrill.de/de/wildparadies/",
  "ticketShop": "https://tripsdrill.de/de/informationen/tickets-gutscheine/tickets"
 }

@@ -1,6 +1,6 @@
 {
  "id": "hellabrunn",
- "version": 3,
+ "version": 4,
  "name": {
   "de": "Tierpark Hellabrunn",
   "en": "Hellabrunn Zoo",
@@ -29,7 +29,7 @@
    "bytes": 85248
   },
   "species.json": {
-   "sha256": "0564f9bf1f2f9faf91e4e39e6eb9e1458573d885ae71c03dab56683fd9cb0932",
+   "sha256": "b1b0104a414452565ba3c79f2b49c459b8fd73e8fa7747d9730e29d59ac60791",
    "bytes": 1043143
   },
   "paths.geojson": {
@@ -45,8 +45,8 @@
    "bytes": 14
   },
   "enclosures.geojson": {
-   "sha256": "d2448a329e944aa969280f133e6b58c02c2d76c32687e5427b73e45e154c91f0",
-   "bytes": 62829
+   "sha256": "e9a4c862a080fd33db9ab4c3ca4cfccd0185c9529fe72912decc3b17b6e72573",
+   "bytes": 62805
   },
   "images/taxon-loriculus-galgulus.jpg": {
    "sha256": "cbce241d860223d29049af541d6634998422964639674a7003a66f9f6c2431ce",
@@ -5904,7 +5904,7 @@
  "counts": {
   "enclosures": 67,
   "species": 175,
-  "speciesReferenced": 97,
+  "speciesReferenced": 96,
   "paths": 200,
   "features": 185,
   "viewpoints": 224,
@@ -5922,7 +5922,7 @@
   "Images from Wikimedia Commons; individual author, source and licence shown on each profile.",
   "Fonts: Epilogue and Plus Jakarta Sans, SIL Open Font License 1.1"
  ],
- "updatedAt": "2026-11-08T15:26:48Z",
+ "updatedAt": "2026-11-09T07:44:31Z",
  "website": "https://www.hellabrunn.de/",
  "ticketShop": "https://hellabrunn.ticketfritz.de/"
 }
