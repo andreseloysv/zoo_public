@@ -199,6 +199,16 @@
    },
    "version": 4,
    "city": "Augsburg"
+  },
+  {
+   "id": "opel-zoo",
+   "name": {
+    "de": "Opel-Zoo",
+    "en": "Opel-Zoo",
+    "es": "Opel-Zoo"
+   },
+   "version": 1,
+   "city": "Kronberg im Taunus"
   }
  ]
 }
